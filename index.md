@@ -44,28 +44,17 @@ If you do not have any of the above prerequisites, you should touch base with me
 ##### Teaching Team
 {:.pb-2}
 
-<div class="row mb-0 mt-0">
-
-  <div class="card border-0" style="max-width: 500px;">
-    <div class="row no-gutters">
-      <div id="imgc" class="col-md-4 text-center">
-        <img src="assets/me.jpg" class="card-img rounded" style="width:100%; ">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">Professor</h5>
-          <p class="card-text" markdown="1">
-            {{ site.data.settings.instructor }} <br/>
-            {{site.data.settings.office}} <br/>
-            {{site.data.settings.email}} <br/>
-            {{ site.data.settings.officehours }}
-          </p>
-          <p class="card-text"><small class="text-muted" markdown="1"></small></p>
-        </div>
-      </div>
-    </div>
+<div class="card" style="width:300px">
+  <img class="card-img-top m-0" src="assets/me.jpg" alt="Card image" style="width:100%">
+  <div class="card-body">
+    <h4 class="card-title">Professor</h4>
+    <p class="card-text" markdown="1">
+      {{ site.data.settings.instructor }} <br/>
+      {{site.data.settings.office}} <br/>
+      {{site.data.settings.email}} <br/>
+      {{ site.data.settings.officehours }}
+    </p>
   </div>
-
 </div>
 
 ## Schedule
