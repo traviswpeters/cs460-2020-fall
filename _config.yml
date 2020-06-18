@@ -1,0 +1,9 @@
+baseurl: /cs460-2020-fall
+livereload: true
+
+mathjax: true
+defaults:
+    - scope:
+        path: "code"
+      values:
+        code: true

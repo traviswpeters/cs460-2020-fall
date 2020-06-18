@@ -1,0 +1,147 @@
+###
+### Website Settings
+### => NOTE: Access variables here with: site.data.settings.XXXXXXXXX
+###
+siteauthor: '[Travis Peters](https://www.traviswpeters.com/)'
+
+# Instructor-specific variables
+school: 'Montana State University'
+instructor: '<i class="fas fa-user-circle"></i> [Travis Peters](https://www.traviswpeters.com/)'
+img: 'assets/me.png'
+office: '<a target="_blank" href="https://www.montana.edu/calendar/locations.php?building=342"><i class="fas fa-map-pin"></i> NAH 253A</a>'
+officephone: '<a target="_blank" href="tel:4069944296‬"><i class="fas fa-phone"></i> 406-994-**4296‬**</a>'
+email: '<i class="fas fa-envelope"></i> [travis.peters1@montana.edu](mailto:travis.peters1@montana.edu?subject=CS 460 Help)'
+
+# Course-specific variables
+title: 'Operating Systems'
+titlenum: 'CS 460'
+term: 'Fall 2020'
+dates: 'Monday, August 17, 2020 - Wednesday, November 25, 2020'
+lectures: '<a target="_blank" href="https://www.montana.edu/calendar/locations.php?building=3"><i class="fas fa-map-pin"></i> Barnard Hall 108</a> | Monday, Wednesday, Friday (8:00 &ndash; 8:50 a.m.)'
+officehours: '<i class="fas fa-clock"></i> TBD and by appointment.'
+textbook: "[Operating Systems: Internals and Design Principles (9th Edition)](https://www.amazon.com/Operating-Systems-Internals-Design-Principles/dp/0134670957), by William Stallings"
+finalexamdate: '<a target="_blank" href="https://www.montana.edu/calendar/locations.php?building=3"><i class="fas fa-map-pin"></i> Barnard Hall 108</a> - TBD'
+
+# --> baseurl set in _config.yml
+homeurl: https://www.traviswpeters.com/
+url: https://www.traviswpeters.com/cs460-2020-fall/
+githuburl: https://github.com/traviswpeters/cs460-2020-fall/
+
+# COURSE LINKS
+questionnaire: '<i class="fas fa-external-link-alt"></i> [Questionnaire](https://forms.gle/bEMav7XE9h5Nuybg7)'
+d2l: '<i class="fas fa-external-link-alt"></i> [D2L](https://ecat.montana.edu/d2l/home/606493)'
+slack: '<i class="fas fa-external-link-alt"></i> [Slack (CSCI 460 - Fall 2020)](https://slack.com)'
+slackjoin: '<i class="fas fa-external-link-alt"></i> [Slack (CSCI 460 - Fall 2020)](https://join.slack.com/)'
+gradescope: '<i class="fas fa-external-link-alt"></i> [Gradescope (code: 9RE7N4)](https://www.gradescope.com/courses/141029)'
+ssc: '<i class="fas fa-external-link-alt"></i> [Student Success Center](https://www.cs.montana.edu/student-success-center.html)'
+
+# locations of things (notes, slides, etc.)
+slides: "files"
+notes: "files"
+reading: "files"
+solutions: "files"
+code: "code"
+
+menu:
+# - {name: 'Syllabus', url: ''}
+- {name: 'Logistics', url: '#logistics'}
+- {name: 'Schedule', url: '#schedule'}
+# - {name: 'Labs', url: 'labs'}
+- {name: 'Resources', url: 'resources'}
+# - {name: 'Exams', url: '#exams'}
+- {name: '<span class="text-success">COVID-19 Info</span>', url: 'covid19'}
+
+exams:
+  files: "files"
+  finalexam:
+    name: 'Final Exam'
+    date: 'XX/XX/2020'
+    url: '#exams'
+    show: False # show on schedule?
+
+####################
+#### OLD WAY... ####
+####################
+homeworks:
+  hw1:
+    url: 'https://ecat.montana.edu/d2l/home/553509'
+    shortname: 'HW1'
+    due: 'Due 09/13'
+    show: True
+  hw2:
+    url: 'https://ecat.montana.edu/d2l/home/553509'
+    shortname: 'HW2'
+    due: 'Due 10/11'
+    show: True
+  hw3:
+    url: 'https://ecat.montana.edu/d2l/home/553509'
+    shortname: 'HW3'
+    due: 'Due 10/18'
+    show: True
+  hw4:
+    url: 'https://ecat.montana.edu/d2l/home/553509'
+    shortname: 'HW4'
+    due: 'Due 10/25'
+    show: True
+  hw5:
+    url: 'https://ecat.montana.edu/d2l/home/553509'
+    shortname: 'HW5'
+    due: 'Due 11/01'
+    show: True
+  hw6:
+    url: 'https://ecat.montana.edu/d2l/home/553509'
+    shortname: 'HW6'
+    due: 'Due 11/08'
+    show: True
+
+assignments:
+  a1:
+    shortname: 'PA1'
+    longname: 'Assignment 1: Concurrency'
+    url: 'a1'
+    due: 'Due 10/16'
+    timedue: '@10pm'
+    duecheckpoint: 'Friday, October 4th, 2019 @10pm'
+    duelong: 'Wednesday, October 16th, 2019 @10pm'
+    show: True # show on schedule?
+  a2:
+    shortname: 'PA2'
+    longname: 'Assignment 2: Scheduling'
+    url: 'a2'
+    due: 'Due 11/11'
+    timedue: '@10pm'
+    duelong: 'Monday, November 11th, 2019 @10pm'
+    show: True # show on schedule?
+  a3:
+    shortname: 'PA3'
+    longname: 'Assignment 3: Peer Project Review'
+    url: 'a3'
+    due: '~~Due 12/07~~ **Due 12/12**{:.text-danger}'
+    timedue: '@10pm'
+    duelong: '~~Saturday, December 7th, 2019 @10pm~~ **Thursday, December 12th, 2019 @10pm**{:.text-danger}'
+    show: True # show on schedule?
+
+project:
+  pages:
+    details: "Project Details"
+    schedule: "Project Teams & Schedule"
+  infolink:   'https://docs.google.com/spreadsheets/d/1uMk0pcho_B2v8_7t_E3S-IpsdUfhjBKsT5XdBcfPOBI/edit?usp=sharing'
+  signuplink: 'https://docs.google.com/spreadsheets/d/1uMk0pcho_B2v8_7t_E3S-IpsdUfhjBKsT5XdBcfPOBI/edit?usp=sharing'
+  attendance: 'https://docs.google.com/spreadsheets/d/1ViB-YF5SGXbf1jsXAIPJ-kK7-b3QskZJt4G-cYMuH9s/edit?usp=sharing'
+  rubric:     'https://docs.google.com/spreadsheets/d/1-i5t_Pu6qY2crSkh_R75qNOcRqQeNVmiTlRtsDGFDd0/edit?usp=sharing'
+  rubricpdf:  'rubric.pdf'
+  due-proposal: 'Friday, November 1st, 2019 @10pm'
+  due-final: '~~Friday, December 6th, 2019 @10pm~~ **Thursday, December 12th, 2019 @10pm**{:.text-danger}'
+
+exams:
+  files: "notes"
+  exam1:
+    name: 'Exam 1'
+    date: '10/07/2019'
+    url: '#exams'
+    show: True # show on schedule?
+  exam1:
+    name: 'Exam 2'
+    date: '11/08/2019'
+    url: '#exams'
+    show: False # show on schedule?
