@@ -1,16 +1,19 @@
 ###
 ### Website Settings
-### => NOTE: Access variables here with: site.data.settings.XXXXXXXXX
+### => NOTE: Access variables here with: {{site.data.settings.XXXXXXXXX}}
 ###
 siteauthor: '[Travis Peters](https://www.traviswpeters.com/)'
 
 # Instructor-specific variables
 school: 'Montana State University'
-instructor: '<i class="fas fa-user-circle"></i> [Travis Peters](https://www.traviswpeters.com/)'
 img: 'assets/me.png'
-office: '<a target="_blank" href="https://www.montana.edu/calendar/locations.php?building=342"><i class="fas fa-map-pin"></i> NAH 253A</a>'
-officephone: '<a target="_blank" href="tel:4069944296‬"><i class="fas fa-phone"></i> 406-994-**4296‬**</a>'
-email: '<i class="fas fa-envelope"></i> [travis.peters1@montana.edu](mailto:travis.peters1@montana.edu?subject=CS 460 Help)'
+
+instructor: '<a target="_blank" href="https://www.traviswpeters.com/">Prof. Travis Peters</a>'
+email: '<a target="_blank" href="mailto:travis.peters1@montana.edu?subject=CS 460 Help">travis.peters1@montana.edu</a>'
+office: '<a target="_blank" href="https://www.montana.edu/calendar/locations.php?building=342">NAH 253A</a>'
+officehours: 'TBD and by appointment.'
+officephone: '<a target="_blank" href="tel:4069944296‬">406-994-4296‬</a>'
+
 
 # Course-specific variables
 title: 'Operating Systems'
@@ -18,7 +21,6 @@ titlenum: 'CS 460'
 term: 'Fall 2020'
 dates: 'Monday, August 17, 2020 - Wednesday, November 25, 2020'
 lectures: '<a target="_blank" href="https://www.montana.edu/calendar/locations.php?building=3"><i class="fas fa-map-pin"></i> Barnard Hall 108</a> | Monday, Wednesday, Friday (8:00 &ndash; 8:50 a.m.)'
-officehours: '<i class="fas fa-clock"></i> TBD and by appointment.'
 textbook: "[Operating Systems: Internals and Design Principles (9th Edition)](https://www.amazon.com/Operating-Systems-Internals-Design-Principles/dp/0134670957), by William Stallings"
 finalexamdate: '<a target="_blank" href="https://www.montana.edu/calendar/locations.php?building=3"><i class="fas fa-map-pin"></i> Barnard Hall 108</a> - TBD'
 
@@ -44,6 +46,7 @@ code: "code"
 
 menu:
 # - {name: 'Syllabus', url: ''}
+- {name: 'About', url: '#about-the-course'}
 - {name: 'Logistics', url: '#logistics'}
 - {name: 'Schedule', url: '#schedule'}
 # - {name: 'Labs', url: 'labs'}

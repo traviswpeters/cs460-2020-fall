@@ -2,34 +2,22 @@
 layout: default
 ---
 
-## About the Course
+<!-- Row 1 -->
+<div class="row">
 
-This course introduces students to the design and implementation of operating systems.
-Students will be exposed to a wide variety of topics, including:
-processes, threads, concurrent programming, scheduling, memory, files, I/O management, and security issues.
-The course will conclude with a series of advanced topics.
+<div class="col-md-3 order-2 mt-3" markdown="1">
+{% include contact.html %}
+</div>
 
-The course emphasizes "learning by doing,"" and requires students to engage in frequent discussions around design and trade-offs,
-as well as programming-intensive activities.
-Throughout most of this course, students will work together in small teams to develop their own operating system.
+<div class="col-md-9 order-1 mt-3" markdown="1">
+{% include about.html %}
+</div>
 
-##### Prerequisites
-
-Prior to taking [this course](http://catalog.montana.edu/search/?P=CSCI%20460), you should have fulfilled the following CSCI prerequisites:
-{:.p-0 .m-0}
-- [CSCI 112 --- C Programming](http://catalog.montana.edu/search/?P=CSCI%20112) **(strongly recommended)**
-- [CSCI 232 --- Data Structures and Algorithms](http://catalog.montana.edu/search/?P=CSCI%20232) **(required)**
-- [CSCI 366 --- Computer Systems](http://catalog.montana.edu/search/?P=CSCI%20366) **(required)**  
-   or [CSCI 361 --- Computer Architecture](http://catalog.montana.edu/search/?P=CSCI%20361) **(required)** *>> now defunct*  
-   or [EELE 371 --- Microprocess HW and SW Systems](http://catalog.montana.edu/search/?P=EELE%20371) **(required)**.
-{:.m-0}
-
-If you do not have any of the above prerequisites, you should touch base with me as soon as possible.
+</div>
 
 ## Logistics
 
 ##### Course Details
-{:.pt-2}
 
 **Lectures:** {{ site.data.settings.lectures }} _>> Course dates: {{ site.data.settings.dates }}_{:.text-muted} <br/>
 **Textbook:** {{ site.data.settings.textbook }} <br/>
@@ -41,6 +29,7 @@ If you do not have any of the above prerequisites, you should touch base with me
 {{site.data.settings.gradescope}} *>> For grading exams, providing exam feedback, etc.*{:.text-muted} <br/>
 {{site.data.settings.ssc}} *>> Get help from TAs and peers*{:.text-muted} <br/>
 
+{%comment%}
 ##### Teaching Team
 {:.pb-2}
 
@@ -56,6 +45,7 @@ If you do not have any of the above prerequisites, you should touch base with me
     </p>
   </div>
 </div>
+{%endcomment%}
 
 ## Schedule
 {:.titletext}
