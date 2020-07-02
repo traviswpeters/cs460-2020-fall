@@ -30,12 +30,12 @@ url: https://www.traviswpeters.com/cs460-2020-fall/
 githuburl: https://github.com/traviswpeters/cs460-2020-fall/
 
 # COURSE LINKS
-questionnaire: '<i class="fas fa-external-link-alt"></i> [Questionnaire](https://forms.gle/bEMav7XE9h5Nuybg7)'
-d2l: '<i class="fas fa-external-link-alt"></i> [D2L](https://ecat.montana.edu/d2l/home/606493)'
-slack: '<i class="fas fa-external-link-alt"></i> [Slack (CSCI 460 - Fall 2020)](https://slack.com)'
-slackjoin: '<i class="fas fa-external-link-alt"></i> [Slack (CSCI 460 - Fall 2020)](https://join.slack.com/)'
-gradescope: '<i class="fas fa-external-link-alt"></i> [Gradescope (code: 9RE7N4)](https://www.gradescope.com/courses/141029)'
-ssc: '<i class="fas fa-external-link-alt"></i> [Student Success Center](https://www.cs.montana.edu/student-success-center.html)'
+# <i class="fas fa-external-link-alt"></i>
+questionnaire: '[Questionnaire](https://forms.gle/bEMav7XE9h5Nuybg7)'
+d2l: '[D2L](https://ecat.montana.edu/d2l/home/606493)'
+slack: '[Slack (CSCI 460 - Fall 2020)](https://join.slack.com/)'
+gradescope: '[Gradescope (code: 9RE7N4)](https://www.gradescope.com/courses/141029)'
+ssc: '[Student Success Center](https://www.cs.montana.edu/student-success-center.html)'
 
 # locations of things (notes, slides, etc.)
 slides: "files"

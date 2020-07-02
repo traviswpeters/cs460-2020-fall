@@ -24,10 +24,10 @@ layout: default
 
 ##### Course Links
 
-{{site.data.settings.d2l}} *>> For submitting assignments, tracking course grades, etc.*{:.text-muted} <br/>
-{{site.data.settings.slackjoin}} *>> For **all** course-related communications*{:.text-muted} <br/>
-{{site.data.settings.gradescope}} *>> For grading exams, providing exam feedback, etc.*{:.text-muted} <br/>
-{{site.data.settings.ssc}} *>> Get help from TAs and peers*{:.text-muted} <br/>
+<i class="fas fa-external-link-alt"></i> {{site.data.settings.d2l}} *>> For submitting assignments, tracking course grades, etc.*{:.text-muted} <br/>
+<i class="fas fa-external-link-alt"></i> {{site.data.settings.slack}} *>> For **all** course-related communications*{:.text-muted} <br/>
+<i class="fas fa-external-link-alt"></i> {{site.data.settings.gradescope}} *>> For grading exams, providing exam feedback, etc.*{:.text-muted} <br/>
+<i class="fas fa-external-link-alt"></i> {{site.data.settings.ssc}} *>> Get help from TAs and peers*{:.text-muted} <br/>
 
 {%comment%}
 ##### Teaching Team
@@ -198,7 +198,7 @@ The grade breakdown is as follows:
 
 ## Submitting Work
 
-Submit assignments in **D2L**.
+Submit assignments in **{{site.data.settings.d2l}}**.
 Assignments are **due @ 11:59pm** on the due date.
 
 You can submit an assignment an unlimited number of times. Graders will only grade your most recent submission.
@@ -239,7 +239,10 @@ We will use [Slack](https://slack.com) for all course communication (except for 
 > On the other hand, students will almost certainly use a new collaboration tool at some point in their careers.
 > Why not introduce one of the most powerful and popular ones while you are still in school? :-)
 
-Please **do** recall the link from above to sign up for our class's slack: {{site.data.settings.slackjoin}}
+New to slack? Here are some helpful links:
+- {{site.data.settings.slack}} _>> join our class's slack workspace_{:.text-muted}
+- [How to use Slack](https://www.youtube.com/results?search_query=how+to+use+slack)
+- [How to format messages in Slack](https://slack.com/help/articles/202288908-Format-your-messages)
 
 Please **do not** send me messages via D2L.
 
@@ -251,8 +254,6 @@ Please do not expect an instant answer if you send me an email or DM in Slack.
 I sometimes go off the grid to focus---something that [a great deal of research suggests](https://www.amazon.com/Flow-Psychology-Experience-Perennial-Classics/dp/0061339202) you do too.
 
 I definitely recommend using an appropriate channel (e.g., _**#labs**_) to discuss amongst your peers.
-
-Don't know how to use slack? [Thank goodness for helpful videos on the Internet](https://www.youtube.com/results?search_query=how+to+use+slack), am I right?
 
 ## Course Expectations
 

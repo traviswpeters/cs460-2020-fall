@@ -22,21 +22,15 @@ The primary reference materials for classes and labs
 - [zyBook - Interactive Operating Systems Textbook](https://learn.zybooks.com/zybook/MONTANACSCI460PetersFall2019)
 - [The Craft of System Security - 1st Edition](https://www.amazon.com/Craft-System-Security-Sean-Smith/dp/0321434838). Sean Smith (2007).
 
-## Tools
-{:.titletext}
-Tools we will use in this class
-{:.subtitletext}
-
-- <i class="fas fa-external-link-alt"></i> [Wireshark](https://www.wireshark.org) <br/>
-- <i class="fas fa-external-link-alt"></i> [VirtualBox](https://www.virtualbox.org) <br/>
-  - [VirtualBox Networking Explained - NAT & Port Forwarding, Bridged, Internal, Host-Only](https://youtu.be/cDF4X7RmV4Q)
-  - [VirtualBox Network Settings: Complete Guide](https://www.nakivo.com/blog/virtualbox-network-setting-guide/)
-
-## Technical References
+## Tools & Technical References
 {:.titletext}
 Great reference materials for labs and programming
 {:.subtitletext}
 
+<!-- - [Wireshark](https://www.wireshark.org) -->
+- [VirtualBox](https://www.virtualbox.org)
+  - [VirtualBox Networking Explained - NAT & Port Forwarding, Bridged, Internal, Host-Only](https://youtu.be/cDF4X7RmV4Q)
+  - [VfirtualBox Network Settings: Complete Guide](https://www.nakivo.com/blog/virtualbox-network-setting-guide/)
 - [Infographic: The Linux Kernel - What Is It, and How Does It Work?](https://www.cyberciti.biz/media/new/cms/2017/04/how-does-linux-kernel-works-explained.png)
 - [Linux `man` pages](http://man7.org/linux/man-pages/dir_all_alphabetic.html)
 - [The C Cheat Sheet](files/the-C-cheat-sheet.pdf)
