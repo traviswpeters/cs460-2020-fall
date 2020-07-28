@@ -285,26 +285,46 @@ Please communicate with me early and often if you have concerns or are experienc
 ##### Expectations for Instructors & TAs
 
 We understand that these are difficult times, but we will do our best to maintain consistent communication with you,
-including updating you on any and all course changes or upcoming assignments, providing timely feedback, and so forth.
+including updating you on any and all course changes or upcoming assignments, and providing timely feedback.
 I will keep the schedule updated with relevant links, videos, readings, and so forth.
 Please bear with us as we are also learning how to conduct our course in this new format.
 We are always open to feedback, so please let us know if there is something you feel we are missing.
+
+## Respect for Diversity & Inclusivity
+{:.titletext}
+Adapted from the University of Iowa and the University of Northern Colorado
+{:.subtitletext}
+
+I support an inclusive learning environment where diversity and individual differences are understood, respected, appreciated, and recognized as a source of strength.
+We expect that students, faculty, administrators and staff at MSU will respect differences and demonstrate diligence in understanding how other peoples' perspectives, behaviors, and worldviews may be different from their own.
+
+It is my intent that students from all diverse backgrounds and perspectives be well-served by this course,
+that students' learning needs be addressed both in and out of class,
+and that the diversity that students bring to this class be viewed as a resource, strength and benefit.
+It is my intent to present materials and activities that are respectful of diversity:
+gender identity, sexual orientation, disability, age, socioeconomic status, ethnicity, race, religion, culture, perspective, and other background characteristics.
+Your suggestions about how to improve the value of diversity in this course are encouraged and appreciated.
+Please let me know ways to improve the effectiveness of the course for you personally or for other students or student groups.
+
+##### Religious Observances
+
+In addition, in scheduling exams and deadlines, I have attempted to avoid conflicts with major religious holidays.
+If, however, I have inadvertently scheduled an exam or major deadline that creates a conflict with your religious observances,
+please let me know as soon as possible so that we can make other arrangements.
+
+## Accommodations for Disabilities
+
+If you are a student with a disability and wish to use your approved accommodations for this course,
+I encourage you to reach out to me and the [Office of Disability Services (ODS)](www.montana.edu/disabilityservices) as soon as possible.
+Please have your Accommodation Notification or Blue Card available for verification of accommodations.
+Accommodations are approved through the Office of Disability Services located in SUB 174.
+For more information, please see: [www.montana.edu/disabilityservices](www.montana.edu/disabilityservices).
+<!-- If you have a need for accommodations on exams, please see information on the [MSU's Testing Services website](http://www.montana.edu/testing/). -->
 
 ## Academic Honesty
 
 Please review [MSU's Code of Conduct, Policies, Regulations, & Reports](http://catalog.montana.edu/code-conduct-policies-regulations-reports/).
 A couple of clarifications and additions:
-- Although you may discuss and design with others, the work you hand in (e.g., code, write-ups) must be entirely your own. (Applied to individual assignments only)
+- Although you may discuss and design with others, the work you hand in (e.g., code, write-ups) must be entirely your own. (Applies to individual assignments only.)
 - Anything you submit that did not originate from you must be accompanied by attribution.
 - Also, please do not share solutions or detailed information about solutions (e.g., specific code) with others.
-
-## Religious Observances
-
-Some students may wish to take part in religious observances that occur during this academic term.
-If you have a religious observance that conflicts with your participation in the course, please meet with me as soon as possible to discuss appropriate accommodations.
-
-## Accommodations & Disabilities
-
-If you have a documented disability (including "invisible" disabilities such as chronic diseases and learning disabilities) for which you are or may be requesting any accommodation(s),
-I encourage you to reach out to me and the [Office of Disability Services (ODS)](http://www.montana.edu/disabilityservices/) as soon as possible.
-If you have a need for accommodations on exams, please see information on the [MSU's Testing Services website](http://www.montana.edu/testing/).
