@@ -194,8 +194,9 @@ I do not curve grades. The score you earn is the score you receive.
 
 The grade breakdown is as follows:
 
-- **Small Programming Assignments & Yalnix Checkpoints:** 30%
-- **Yalnix Project (Final Submission):** 40%
+- **Early Programming Assignments (x2):** 20%
+- **Yalnix Checkpoints (x6):** 20% _>> Low-stakes opportunities for feedback on a large software development project; each checkpoint graded on a 0-5 scale._{:.text-muted}
+- **Yalnix Project (Final Submission):** 30%  _>> 80% Running the Code / 20% Reading the Code_{:.text-muted}
 - **Exams (x2):** 30%
 <!-- - **Participation:** 5% _>> Engage in class/online discussions, ask questions, come to office hours, provide feedback / respond to surveys, etc._{:.text-muted} -->
 
