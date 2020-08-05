@@ -26,7 +26,7 @@ layout: default
 
 <i class="fas fa-external-link-alt"></i> {{site.data.settings.d2l}} *>> For submitting assignments, tracking course grades, etc.*{:.text-muted} <br/>
 <i class="fas fa-external-link-alt"></i> {{site.data.settings.slack}} *>> For **all** course-related communications*{:.text-muted} <br/>
-<i class="fas fa-external-link-alt"></i> {{site.data.settings.gradescope}} *>> For grading exams, providing exam feedback, etc.*{:.text-muted} <br/>
+<i class="fas fa-external-link-alt"></i> {{site.data.settings.gradescope}} *>> For submitting and grading exams, providing exam feedback, etc.*{:.text-muted} <br/>
 <i class="fas fa-external-link-alt"></i> {{site.data.settings.ssc}} *>> Get help from TAs and peers*{:.text-muted} <br/>
 
 {%comment%}
@@ -174,7 +174,7 @@ _More Schedule Details Coming Soon..._
 
 ## Getting help
 
-You are _**always**_ welcome to come to my office hours and/or TA office hours as often as you like.
+You are _**always**_ welcome to come to my (virtual) office hours and/or TA office hours as often as you like.
 To get the most out of office hours, you might like reading [How To Ask Questions The Smart Way, by Eric Steven Raymond](http://www.catb.org/esr/faqs/smart-questions.html).
 Please note  that I won't merely provide answers to assignments.
 I believe in the [Socratic method](https://en.wikipedia.org/wiki/Socratic_method)
@@ -190,16 +190,20 @@ I am always happy to answer questions, but I do not pre-grade assignments.
 
 I do not curve grades. The score you earn is the score you receive.
 
+**Any grade disputes must be resolved within one week of the release of the grade.**
+
 The grade breakdown is as follows:
 
-- **Programming Assignments:** 65% _>> Programming assignments are the emphasis in this course. Start early, try stuff, talk with others... Most importantly, do them!_{:.text-muted}
-- **Exams (x3):** 30% _>> Individual exams with a mixture of problems; e.g., short-answer, reading/writing/explaining code, design questions._{:.text-muted}
-- **Participation:** 5% _>> Engage in class/online discussions, ask questions, come to office hours, provide feedback / respond to surveys, etc._{:.text-muted}
+- **Small Programming Assignments & Yalnix Checkpoints:** 30%
+- **Yalnix Project (Final Submission):** 40%
+- **Exams (x2):** 30%
+<!-- - **Participation:** 5% _>> Engage in class/online discussions, ask questions, come to office hours, provide feedback / respond to surveys, etc._{:.text-muted} -->
 
 ## Submitting Work
 
 Submit assignments in **{{site.data.settings.d2l}}**.
-Assignments are **due @ 11:59pm** on the due date.
+Assignments are **due @ TBD**.
+<!-- Assignments are **due @ 11:59pm** on the due date. -->
 
 You can submit an assignment an unlimited number of times. Graders will only grade your most recent submission.
 
@@ -207,53 +211,65 @@ You can submit an assignment an unlimited number of times. Graders will only gra
 
 This course moves _fast_, and your evaluation is primarily based on completing the lab assignments.
 As such, we take timely submissions seriously.
+
 The penalties for late submissions are as follows:
+{:.p-0 .m-0}
 
 <!-- * &lt;  8 hours: 10% -->
 * &lt; 24 hours: 25%
 * &lt; 48 hours: 50%
 * &ge; 48 hours: no credit.
 
-I do understand, however, that extreme circumstances arise.
-For this reason, you are allowed
- **at most one 'late pass' where your submission can be turned in up to 48 hours late with no penalty** &ndash; no excuse required.
-To use your free late pass, indicate in a comment along with your submission on D2L that you are electing to use your free pass.
-Note that you cannot change this decision later.
+I do understand, however, that extreme circumstances arise (e.g., interviews, illness, family matters).
 
-Please note, the no-penalty late pass **cannot** be used to extend your effective due date beyond 48 hours.
-For example, if an assignment is due at 11:59pm on Sunday, you cannot apply your late pass *and* take additional late penalties on your assignment to extend your due date to 72 or 96 hours beyond the original deadline; whether you use the late pass or not, your (late) submission is due by 11:59pm on Tuesday.
+For this reason, **each student is herby granted two (virtual) "one-day late" coupons** whereby you can turn in an assingment late with no penalty &ndash; no excuse required.
+Each coupon is good for a 1-day (24-hour) extension on one project.
+However, an N-person project requires N coupons for a 1-day extension.
+Plan accordingly.
+You must tell me and the TA that you are using a coupon _before_ the official deadline.
+Also note that you _cannot_ change this decision later.
+
+<!-- For this reason, you are allowed -->
+<!-- **at most one 'late pass' where your submission can be turned in up to 48 hours late with no penalty** &ndash; no excuse required. -->
+<!-- To use your free late pass, indicate in a comment along with your submission on D2L that you are electing to use your free pass. -->
+<!-- Note that you cannot change this decision later. -->
+
+<!-- Please note, the no-penalty late pass **cannot** be used to extend your effective due date beyond 48 hours. -->
+<!-- For example, if an assignment is due at 11:59pm on Sunday, you cannot apply your late pass *and* take additional late penalties on your assignment to extend your due date to 72 or 96 hours beyond the original deadline; whether you use the late pass or not, your (late) submission is due by 11:59pm on Tuesday. -->
 
 <!-- Also note that if you are working on a team assignment, each member must have a late pass.  -->
 <!-- For example, if each member of a team of 3 still has their late pass, that team can submit an assignment up to 48 hours late with no penalty.  -->
 
-**No submissions (late pass or no late pass) will be accepted 48 hours after the original deadline.**
+**No submissions (late pass or no late pass) will be accepted/graded 48 hours after the original deadline.**
 
 <!-- **Note:** this cannot be used to receive full credit on any assignment checkpoints. -->
 
+#### Poor Faith Assignments
+
+We work hard to make the assignments meaningful experiences for you, and to give you good feedback.
+We expect you to make good-faith efforts to do the assignments.
+Assignments that are extremely careless/sloppy---or neglected altogether---will incur an additional grading penalty.
+Do your work---don't try to game the system.
+
 ## Communication
 
-We will use [Slack](https://slack.com) for all course communication (except for sensitive stuff like grades!).
-> **Why?** Two reasons:
-> (1) This has worked great in my past courses that have used Slack, and
-> (2) Most students will not use a proper learning management system (LMS) such as Brightspace/D2L, Blackboard, or Canvas after they receive their diplomas.
-> On the other hand, students will almost certainly use a new collaboration tool at some point in their careers.
-> Why not introduce one of the most powerful and popular ones while you are still in school? :-)
+We will use [**Slack**](https://slack.com) for all course communication (except for sensitive stuff like grades!).
 
 New to slack? Here are some helpful links:
+{:.p-0 .m-0}
 - {{site.data.settings.slack}} _>> join our class's slack workspace_{:.text-muted}
-- [How to use Slack](https://www.youtube.com/results?search_query=how+to+use+slack)
+- [Slack Basics - The Ultimate Slack Introduction](https://www.youtube.com/watch?v=pUZzBoAbAOs)
+<!-- - [How to use Slack](https://www.youtube.com/results?search_query=how+to+use+slack) -->
 - [How to format messages in Slack](https://slack.com/help/articles/202288908-Format-your-messages)
 
-Please **do not** send me messages via D2L.
+Please **do not** use other means of electronic communication (e.g., D2L, e-mail) **unless you absolutely have to**.
 
-Please **do not** use e-mail *unless you absolutely have to*.
-
-I typically won't respond to emails or Slack direct messages (DMs) past 7 p.m.
+I typically won't respond to emails or Slack direct messages (DMs) past 6 p.m. or so.
 Generally speaking, I will not respond on weekends and certainly not immediately.
 Please do not expect an instant answer if you send me an email or DM in Slack.
 I sometimes go off the grid to focus---something that [a great deal of research suggests](https://www.amazon.com/Flow-Psychology-Experience-Perennial-Classics/dp/0061339202) you do too.
 
-I definitely recommend using an appropriate channel (e.g., _**#labs**_) to discuss amongst your peers.
+I definitely recommend using an appropriate channel (e.g., _**#labs**_) to have discussions amongst your peers.
 
 ## Course Expectations
 
@@ -292,7 +308,7 @@ We are always open to feedback, so please let us know if there is something you 
 
 ## Respect for Diversity & Inclusivity
 {:.titletext}
-Adapted from the University of Iowa and the University of Northern Colorado
+Adapted from MSU's Center for Faculty Excellence, the University of Iowa, and the University of Northern Colorado
 {:.subtitletext}
 
 I support an inclusive learning environment where diversity and individual differences are understood, respected, appreciated, and recognized as a source of strength.
@@ -328,3 +344,76 @@ A couple of clarifications and additions:
 - Although you may discuss and design with others, the work you hand in (e.g., code, write-ups) must be entirely your own. (Applies to individual assignments only.)
 - Anything you submit that did not originate from you must be accompanied by attribution.
 - Also, please do not share solutions or detailed information about solutions (e.g., specific code) with others.
+
+## FAQs
+
+This is a collection of general FAQs related to our course. I will update this section as other questions arise.
+
+**What should I know about COVID-19 as it relates to this course?**
+> Please review our page dedicated to information about [COVID-19 and our course]({{ site.baseurl }}/covid19).
+> To align with MSU, this course has [adapted some of the syllabus language prepared by the Center for Faculty Excellence regarding COVID-19](http://www.montana.edu/facultyexcellence/teaching/resources/SyllabusLanguage.html).
+> Specifically, we clarify some of the expecations for our class around wearing masks, health-related absences, and mask-related accomodations.
+
+**How will classes be run?**
+> Our course is currently projected to meet in a hybrid/blended format, which gives us a lot of flexibility.
+> My current plan is to live-stream our classes using Zoom.
+> I will also record classes using TechSmith/Camtasia and upload the recordings as soon as possible following the class session.
+> Sometimes I may choose to post recordings instead of holding live class sessions.
+> I'll make it clear when that is happening.
+
+> Because of new room capacity restrictions that have been put in place due to social distancing requirements, not all students can physically attend class at the same time.
+> If you are not able to attend in-person classes, or it is not a day in which you are designated to attend class in person, you can simply tune in online.
+
+> Due to my own personal and professional health concerns, I will not physically be facilitating classes from within our classroom.
+> Instead, on normal class days, the space will be availbale to students who wish to use it to tune into classes, to have in-person interactions with peers (in a socially-distanced fashion, of course), etc.
+> As the semester progresses, our classroom may also be used in other ways, such as, group meetings, active learning, and so forth.
+
+**How will office hours be run?**
+> Office hours will likely follow a similar format  as class (though they will not be recorded).
+
+**Do I have to (physically) attend class?**
+> Nope! Even though classes will be run (mostly) synchronously, all of the course materials (e.g., slides, links to recordings) will be linked from this website.
+> Furthermore, we will use Slack inside and outside class to facilitate conversations, make announcements, and so forth.
+>  Thus, if you prefer to not attend in-person learning opportunities, or even if you do not return to Bozeman for the semester, you can still (virtually) attend classes and participate in this course.
+
+**What happens if the online stream for class disconnects/drops?**
+> An unfortunate reality is that these technologies may fail us at times.
+> If **my** connection during class is unstable or drops, I'll post the recording later.
+> If **your** connection is unstable or drops, try to rejoin if you can, but don't worry if you can't (you can access the recording later).
+> The worst case scenario would be if our recording fails for some reason.
+> If this occurs I'll try to restart the recording.
+> With the increased burden being put on these technologies, however, I cannot (unfortunately) guarantee that we won't encounter issues along the way.
+> I can, however, promise you this: I will always work with you to troubleshoot issues to the best of my abilities.
+> If you encounter any problems, please let me know as soon as possible.
+
+**Why are we using Zoom instead of WebEx for streaming classes?**
+> Great question!
+> If you know me you've likely heard me rant about Zoom and the wide range of security and privacy concerns I've had in the past.
+> Zoom has been very proactive in addressing many of the issues that have been brought to light (which is awesome!).
+> Apart from my past concerns, Zoom---in my opinion and experience---offers are far superior user experience and video quality.
+> Furthermore, Zoom supports unique features (e.g., breakout rooms), which will allow us to engage in small-group interactions during class (a.k.a. "active learning").
+> (There is a small group of us in the NACOE who are trying Zoom out in our classes, so you'll likely encounter this in other courses as well.)
+
+**Why are we using Slack instead of D2L or Piazza?**
+> A few reasons:
+> (1) This has worked great in my past courses that have used Slack;
+> (2) This is a much nicer way to facilitate online collaboration and teamwork, which is essential in the project for this course; and
+> (3) Most students will not use a proper learning management system (LMS) such as Brightspace/D2L, Blackboard, or Canvas after they receive their diplomas.
+> On the other hand, students will almost certainly use a collaboration tool at some point in their careers.
+> Why not introduce one of the most powerful and popular ones used today while you are still in school? :-)
+
+**Wow, there seems to be a lot of emphasis on programming in this class... Can you elaborate on that?**
+> Yeah... I don't think learning about operating systems is a spectator sport, so programming and design assignments are really the emphasis in this course.
+> We will do a few assignments early on to get used to programming in C, to make sure you have a good handle on some tools, and to drive home a few big concepts in OS.
+> Following this, most of the semester will be spent working in a small team to iteratively develop your own OS ("Yalnix").
+> This progject will have a number of checkpoints (approximately 6).
+> We will evaluate checkpoints throughout the semester; we will also evaluate the final project submission.
+> This means you'll have the opportunity to fix any issues with your Yalnix project based on feedback from checkpoints. (Take advantage of this!)
+> Because you can make changes to your Yalnix implementation along the way based on feedback you receive,
+> we expect the final submission to be much more polished in terms of things like readability, correctness, and robustness.
+> <br/><br/>The difficulty of assignments will vary, but in general I encourage you to start early, try stuff, talk with others, ask questions when something isn't clear... and most importantly, do them!
+
+**What are exams like in Operating Systems (CSCI 460)?**
+> A smaller portion of the final grade is determined by exams.
+I'm currently planning two exams, each worth 15%.
+Exams will be a mixture of problems; e.g., short-answer, reading/writing/explaining code, design questions.

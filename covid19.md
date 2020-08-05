@@ -8,20 +8,14 @@ published: true
 Information regarding our course and MSU's response to COVID-19
 {:.subtitletext}
 
-Our course is currently projected to meet in a hybrid/blended format.
-What this means is that I will be present in classes for days that our course meets.
-A subset of our students will be able to attend in-person classes, and all other students can tune in online via WebEx or Microsoft Teams (TBD).
-If you are unable to attend class in person or online, no worries!
-I will record our in-class sessions and post a link to the recording on our course website later in the day after class ends.
-Office hours will likely follow a similar format (though they are unlikely to be recorded).
+###### COURSE-SPECIFIC INFORMATION
 
-###### Course-Specific Notes
 - Office hours can be attended virtually by visiting my "Personal Room" on [WebEx](https://montana.webex.com/meet/w52k448).
 - Feel free to schedule an alternative meeting time with me or the TA if you can't meet during regular office hours.
-- We will primarily use {{site.data.settings.slackjoin}} for discussions and questions about lectures, assignments, and so forth.  
+- We will primarily use our {{site.data.settings.slack}} workspace for discussions and questions about lectures, assignments, and so forth.  
   _(I may also make email announcements via our course mailing list.)_
 
-###### Some Misc. Helpful Links
+###### MISC. HELPFUL LINKS
 - The [MSU Bookstore has great resources available to faculty and students]({{ site.baseurl }}/covid19/msu_bookstore_covid19.pdf).
 - MSU is maintaining a helpful page for students: [Students: Learn Anywhere](http://ato.montana.edu/learnanywhere/students/index-old.html).
 - The [GSoC Student Success Center](https://www.cs.montana.edu/student-success-center.html) is still operating (virtually).
@@ -32,14 +26,12 @@ Office hours will likely follow a similar format (though they are unlikely to be
 <!-- - When you enter class and sit down at a seat, we recommend that you treat that seat/table as a contaminated. -->
 <!-- - Please plan to bring your sanitation kit to class and wipe down your table before and after class. -->
 
-We recently received guidance that [face coverings on all the campuses of the Montana University System are **_required_**](http://www.montana.edu/facultyexcellence/news/07-24-2020-COVID19guidance.html).
-
-To align with MSU, this course has [adapted syllabus language prepared by the Center for Faculty Excellence regarding COVID-19](http://www.montana.edu/facultyexcellence/teaching/resources/SyllabusLanguage.html):
+<!-- We recently received guidance that [face coverings on all the campuses of the Montana University System are **_required_**](http://www.montana.edu/facultyexcellence/news/07-24-2020-COVID19guidance.html). -->
 
 ###### WEARING MASKS IN CLASSROOMS IS REQUIRED
 Face coverings are required in all indoor spaces and all enclosed or partially enclosed outdoor spaces.
 MSU requires all students to wear face masks or cloth face coverings in classrooms, laboratories and other similar spaces where in-person instruction occurs.
-MSU requires the wearing of masks in physical classrooms to help mitigate the transmission of SARS-CoV-2, which causes COVID-19.  
+MSU requires the wearing of masks in physical classrooms to help mitigate the transmission of SARS-CoV-2, which causes COVID-19.
 The MSU community views the adoption of these practices as a mark of good citizenship and respectful care of fellow classmates, faculty, and staff.
 
 The complete details about [MSU’s mask requirement](https://www.montana.edu/health/coronavirus/planning/roadmap/index.html#appendix-j) can be found at

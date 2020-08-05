@@ -19,10 +19,10 @@ officephone: '<a target="_blank" href="tel:4069944296‬">406-994-4296‬</a>'
 title: 'Operating Systems'
 titlenum: 'CS 460'
 term: 'Fall 2020'
-dates: 'Monday, August 17, 2020 - Wednesday, November 25, 2020'
-lectures: '<a target="_blank" href="https://www.montana.edu/calendar/locations.php?building=3"><i class="fas fa-map-pin"></i> Barnard Hall 108</a> | Monday, Wednesday, Friday (8:00 &ndash; 8:50 a.m.)'
+dates: 'Monday, August 17, 2020 - Wednesday, November 18, 2020'
+lectures: '<a target="_blank" href="https://www.montana.edu/calendar/locations.php?building=3"><i class="fas fa-map-pin"></i> Barnard Hall 108</a>  & Online (Zoom) | Monday, Wednesday, Friday (8:00 &ndash; 8:50 a.m.)'
 textbook: "[Operating Systems: Internals and Design Principles (9th Edition)](https://www.amazon.com/Operating-Systems-Internals-Design-Principles/dp/0134670957), by William Stallings"
-finalexamdate: '<a target="_blank" href="https://www.montana.edu/calendar/locations.php?building=3"><i class="fas fa-map-pin"></i> Barnard Hall 108</a> - TBD'
+finalexamdate: '<a target="_blank" href="https://www.montana.edu/calendar/locations.php?building=3"><i class="fas fa-map-pin"></i> Barnard Hall 108</a> - TBD' #(8:00am - 9:50am) - https://www.montana.edu/registrar/Schedules.html
 
 # --> baseurl set in _config.yml
 homeurl: https://www.traviswpeters.com/
@@ -35,7 +35,7 @@ questionnaire: '[Questionnaire](https://forms.gle/bEMav7XE9h5Nuybg7)'
 d2l: '[D2L](https://ecat.montana.edu/d2l/home/606493)'
 slack: '[Slack (CSCI 460 - Fall 2020)](https://join.slack.com/)'
 gradescope: '[Gradescope (code: 9RE7N4)](https://www.gradescope.com/courses/141029)'
-ssc: '[Student Success Center](https://www.cs.montana.edu/student-success-center.html)'
+ssc: '[CS Student Success Center](https://www.cs.montana.edu/student-success-center.html)'
 
 # locations of things (notes, slides, etc.)
 slides: "files"
@@ -51,8 +51,10 @@ menu:
 - {name: 'Schedule', url: '#schedule'}
 # - {name: 'Labs', url: 'labs'}
 - {name: 'Resources', url: 'resources'}
+- {name: 'Yalnix', url: 'yalnix'}
 # - {name: 'Exams', url: '#exams'}
 - {name: '<span class="text-success">COVID-19 Info</span>', url: 'covid19'}
+- {name: 'FAQs', url: '#faqs'}
 
 exams:
   files: "files"
