@@ -51,7 +51,7 @@ menu:
 - {name: 'Schedule', url: '#schedule'}
 # - {name: 'Labs', url: 'labs'}
 - {name: 'Resources', url: 'resources'}
-- {name: 'Yalnix', url: 'yalnix'}
+# - {name: 'Yalnix', url: 'yalnix'}
 # - {name: 'Exams', url: '#exams'}
 - {name: '<span class="text-success">COVID-19 Info</span>', url: 'covid19'}
 - {name: 'FAQs', url: '#faqs'}

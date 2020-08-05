@@ -349,12 +349,12 @@ A couple of clarifications and additions:
 
 This is a collection of general FAQs related to our course. I will update this section as other questions arise.
 
-**What should I know about COVID-19 as it relates to this course?**
+###### Q: What should I know about COVID-19 as it relates to this course?
 > Please review our page dedicated to information about [COVID-19 and our course]({{ site.baseurl }}/covid19).
 > To align with MSU, this course has [adapted some of the syllabus language prepared by the Center for Faculty Excellence regarding COVID-19](http://www.montana.edu/facultyexcellence/teaching/resources/SyllabusLanguage.html).
 > Specifically, we clarify some of the expecations for our class around wearing masks, health-related absences, and mask-related accomodations.
 
-**How will classes be run?**
+###### Q: How will classes be run?
 > Our course is currently projected to meet in a hybrid/blended format, which gives us a lot of flexibility.
 > My current plan is to live-stream our classes using Zoom.
 > I will also record classes using TechSmith/Camtasia and upload the recordings as soon as possible following the class session.
@@ -368,17 +368,17 @@ This is a collection of general FAQs related to our course. I will update this s
 > Instead, on normal class days, the space will be availbale to students who wish to use it to tune into classes, to have in-person interactions with peers (in a socially-distanced fashion, of course), etc.
 > As the semester progresses, our classroom may also be used in other ways, such as, group meetings, active learning, and so forth.
 
-**How will office hours be run?**
+###### Q: How will office hours be run?
 > Office hours will likely follow a similar format  as class (though they will not be recorded).
 
-**Do I have to (physically) attend class?**
+###### Q: Do I have to (physically) attend class?
 > Nope! Even though classes will be run (mostly) synchronously, all of the course materials (e.g., slides, links to recordings) will be linked from this website.
 > Furthermore, we will use Slack inside and outside class to facilitate conversations, make announcements, and so forth.
 >  Thus, if you prefer to not attend in-person learning opportunities, or even if you do not return to Bozeman for the semester, you can still (virtually) attend classes and participate in this course.
 
-**What happens if the online stream for class disconnects/drops?**
+###### Q: What happens if the online stream for class disconnects/drops?
 > An unfortunate reality is that these technologies may fail us at times.
-> If **my** connection during class is unstable or drops, I'll post the recording later.
+> If **my** connection during class is unstable or drops, I'll try to fix it, but if I can't I will post the recording later.
 > If **your** connection is unstable or drops, try to rejoin if you can, but don't worry if you can't (you can access the recording later).
 > The worst case scenario would be if our recording fails for some reason.
 > If this occurs I'll try to restart the recording.
@@ -386,15 +386,31 @@ This is a collection of general FAQs related to our course. I will update this s
 > I can, however, promise you this: I will always work with you to troubleshoot issues to the best of my abilities.
 > If you encounter any problems, please let me know as soon as possible.
 
-**Why are we using Zoom instead of WebEx for streaming classes?**
-> Great question!
-> If you know me you've likely heard me rant about Zoom and the wide range of security and privacy concerns I've had in the past.
-> Zoom has been very proactive in addressing many of the issues that have been brought to light (which is awesome!).
-> Apart from my past concerns, Zoom---in my opinion and experience---offers are far superior user experience and video quality.
-> Furthermore, Zoom supports unique features (e.g., breakout rooms), which will allow us to engage in small-group interactions during class (a.k.a. "active learning").
-> (There is a small group of us in the NACOE who are trying Zoom out in our classes, so you'll likely encounter this in other courses as well.)
+###### Q: Wow, there seems to be a lot of emphasis on programming in this class... Can you elaborate on that?
+> Yeah... I don't think learning about operating systems is a spectator sport, so programming and design assignments are really the emphasis in this course.
+> We will do a few assignments early on to get used to programming in C, to make sure you have a good handle on some tools, and to drive home a few big concepts in OS.
+> Following this, most of the semester will be spent working in a small team to iteratively develop your own OS ("Yalnix").
+> This project will have a number of checkpoints (approximately 6).
+> We will evaluate checkpoints throughout the semester; we will also evaluate the final project submission.
+> This means you'll have the opportunity to fix any issues with your Yalnix project based on feedback from checkpoints. (Take advantage of this!)
+> Because you can make changes to your Yalnix implementation along the way based on feedback you receive,
+> we expect the final submission to be much more polished in terms of things like readability, correctness, and robustness.
+> <br/><br/>The difficulty of assignments will vary, but in general I encourage you to start early, try stuff, talk with others, ask questions when something isn't clear... and most importantly, do them!
 
-**Why are we using Slack instead of D2L or Piazza?**
+###### Q: What are exams like in Operating Systems (CSCI 460)?
+> A smaller portion of the final grade is determined by exams.
+I'm currently planning two exams, each worth 15%.
+Exams will be a mixture of problems; e.g., short-answer, reading/writing/explaining code, design questions.
+
+###### Q: Why are we using Zoom instead of WebEx or Microsoft Teams for streaming classes?
+> Great question! I've gone back and forth on this but I have ultimately decided on Zoom.
+> This be surprise you. If you know me you've likely heard me rant about Zoom and the wide range of security and privacy concerns I've had in the past.
+> Zoom has been very proactive in addressing many of the issues that have been brought to light (which is awesome!).
+> Apart from my past concerns, Zoom---in my opinion and experience---offers far superior video quality, unique features that enhance engagement, and an overall unmatched user experience.
+> One unique feature specific to Zoom---breakout rooms---will allow us to engage in small-group interactions during class (a.k.a. "active learning").
+> (While MSU officially supports WebEx and Teams, there is a small group of us in the NACOE who are trying Zoom out in our classes, so you'll likely encounter this in other courses as well.)
+
+###### Q: Why are we using Slack instead of D2L or Piazza?
 > A few reasons:
 > (1) This has worked great in my past courses that have used Slack;
 > (2) This is a much nicer way to facilitate online collaboration and teamwork, which is essential in the project for this course; and
@@ -402,18 +418,14 @@ This is a collection of general FAQs related to our course. I will update this s
 > On the other hand, students will almost certainly use a collaboration tool at some point in their careers.
 > Why not introduce one of the most powerful and popular ones used today while you are still in school? :-)
 
-**Wow, there seems to be a lot of emphasis on programming in this class... Can you elaborate on that?**
-> Yeah... I don't think learning about operating systems is a spectator sport, so programming and design assignments are really the emphasis in this course.
-> We will do a few assignments early on to get used to programming in C, to make sure you have a good handle on some tools, and to drive home a few big concepts in OS.
-> Following this, most of the semester will be spent working in a small team to iteratively develop your own OS ("Yalnix").
-> This progject will have a number of checkpoints (approximately 6).
-> We will evaluate checkpoints throughout the semester; we will also evaluate the final project submission.
-> This means you'll have the opportunity to fix any issues with your Yalnix project based on feedback from checkpoints. (Take advantage of this!)
-> Because you can make changes to your Yalnix implementation along the way based on feedback you receive,
-> we expect the final submission to be much more polished in terms of things like readability, correctness, and robustness.
-> <br/><br/>The difficulty of assignments will vary, but in general I encourage you to start early, try stuff, talk with others, ask questions when something isn't clear... and most importantly, do them!
-
-**What are exams like in Operating Systems (CSCI 460)?**
-> A smaller portion of the final grade is determined by exams.
-I'm currently planning two exams, each worth 15%.
-Exams will be a mixture of problems; e.g., short-answer, reading/writing/explaining code, design questions.
+###### Q: Why do we use VirtualBox/Virtual Machines?
+> Most relevant to this course, the support software for yalnix has many dependencies on what gcc and glibc actually do.
+> Using a VirtualBox image means that we no longer have to fix bugs each year to get things to build against the new gcc/glibc---we have tight control over these things.
+> Furthermore, it's the only way to get students set up with the right environment since there is a wide range of variability in the computing resources that students use and have access to (e.g., Windows vs. Mac, access to computing labs).
+> <br/><br/>
+> Philosophically, I prefer VirtualBox because it is free and widely used today.
+> There are other high-quality, paid options for virtualization software (e.g., Parallels) that does the same kind of stuff,
+> but I prefer standardizing around open/free materials where possible as it improves access for our students.
+> In addition, it improves reproducibility for you.
+> Some years from now you will venture off into the world and no longer have nicely configured computer labs, servers, etc. that we/MSU provide you.
+> By empowering you to work in your own reproducible environment, you can have more control over your work and have the ability to run it in the future.
