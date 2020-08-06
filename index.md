@@ -398,6 +398,18 @@ This is a collection of general FAQs related to our course. I will update this s
 > we expect the final submission to be much more polished in terms of things like readability, correctness, and robustness.
 > <br/><br/>The difficulty of assignments will vary, but in general I encourage you to start early, try stuff, talk with others, ask questions when something isn't clear... and most importantly, do them!
 
+###### Q: What programming languages & tools will we use for programming assignments in this class?
+
+> We will program in C.
+- Because, for systems programming and systems education, we need a high-level language that hides as little as possible. (How can you understand how the OS manages address spaces, unless you have a language that makes addresses explicit?)
+- Because most operating systems are written in C or C++. (E.g., look at the Linux and glibc source.)  
+
+> To aid us in building C programs, you will need to be familiar with Makefiles. Makefiles are a nicety when building smaller programs used by one person, but they really are a necessity when developing code that others will compile and run, when working collaboratively, and when developing larger software projects (such as Yalnix).
+
+> You will need to know gdb (a debugger) to help you debug your programs. (Let us know ASAP if you need help beyond the short tutorials we produce/share, and the resources we recommend.)
+
+> You will need to know Git: a popular Distributed Version Control System (DVCS). This is an essential tool for collaborative software development.
+
 ###### Q: What are exams like in Operating Systems (CSCI 460)?
 > A smaller portion of the final grade is determined by exams.
 I'm currently planning two exams, each worth 15%.

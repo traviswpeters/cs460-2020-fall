@@ -53,8 +53,8 @@ menu:
 - {name: 'Resources', url: 'resources'}
 # - {name: 'Yalnix', url: 'yalnix'}
 # - {name: 'Exams', url: '#exams'}
-- {name: '<span class="text-success">COVID-19 Info</span>', url: 'covid19'}
 - {name: 'FAQs', url: '#faqs'}
+- {name: '<span class="text-success">COVID-19 Info</span>', url: 'covid19'}
 
 exams:
   files: "files"
