@@ -38,7 +38,8 @@ Here the instructions:
     <!-- ``` -->
   - NOTE: **do not** move your shared folder once you've attached it to the VM, because VirtualBox looks for an absolute pathname. If you change the path of the folder, VirtualBox won't be able to find it.
 4. Boot your machine.
-   - The accounts are **root/cs58root** and **cs58/cs58yalnix** (format: userid/password).
+   - You should be automatically "dropped into" the default account (**cs58**).
+   - In case you need it the account info is: **cs58/cs58yalnix** (format: userid/password).
    - _The network is shut down by default, for security reasons._
 5. A copy of the relevant yalnix files lives in `/yalnix`.
    - _In the unlikely event that we need to push out updates, you will need to install them manually._
