@@ -144,7 +144,7 @@ _More Schedule Details Coming Soon..._
 <!-- slides -->
 
 <!-- Introductions + Basics -->
-<!-- TODO: COMPSEC BOOTCAMP (1st week...) -->
+<!-- TODO: TECH BOOTCAMP (1st week...) -->
 [slides01]: files/001.pdf
 [slides02]: files/002.pdf
 [slides03]: files/003.pdf
@@ -357,17 +357,18 @@ This is a collection of general FAQs related to our course. I will update this s
 
 ###### Q: How will classes be run?
 > Our course is currently projected to meet in a hybrid/blended format, which gives us a lot of flexibility.
-> My current plan is to live-stream our classes using Zoom.
-> I will also record classes using TechSmith/Camtasia and upload the recordings as soon as possible following the class session.
-> Sometimes I may choose to post recordings instead of holding live class sessions.
+> My current plan is to live-stream most of our classes using Zoom.
+> For live classes, I will also record classes using (e.g., using TechSmith/Camtasia) and upload the recordings as soon as possible following the class session.
+> Sometimes I may choose to post recordings instead of holding live class sessions, or point to other helpful content if it makes sense to do so.
 > I'll make it clear when that is happening.
 
 > Because of new room capacity restrictions that have been put in place due to social distancing requirements, not all students can physically attend class at the same time.
 > If you are not able to attend in-person classes, or it is not a day in which you are designated to attend class in person, you can simply tune in online.
+> I plan to send a survey early in the semester to gauge where students are at.
 
-> Due to my own personal and professional health concerns, I will not physically be facilitating classes from within our classroom.
+> Due to my own personal and professional health concerns, I will **not** be facilitating classes physically from within our classroom.
 > Instead, on normal class days, the space will be availbale to students who wish to use it to tune into classes, to have in-person interactions with peers (in a socially-distanced fashion, of course), etc.
-> As the semester progresses, our classroom may also be used in other ways, such as, group meetings, active learning, and so forth.
+> Throughout the semester, our classroom may also be used in other ways, such as, group meetings, active learning, and so forth.
 
 ###### Q: How will office hours be run?
 > Office hours will likely follow a similar format  as class (though they will not be recorded).
@@ -386,6 +387,15 @@ This is a collection of general FAQs related to our course. I will update this s
 > With the increased burden being put on these technologies, however, I cannot (unfortunately) guarantee that we won't encounter issues along the way.
 > I can, however, promise you this: I will always work with you to troubleshoot issues to the best of my abilities.
 > If you encounter any problems, please let me know as soon as possible.
+
+###### Q: Am I required to buy the textbook? What if I have a different version of the book?
+
+> Our textbook, {{ site.data.settings.textbook }}, is required in the sense that I will often assign readings from the book, and you are expected to understand that material.
+> If you obtain an older version of the book, that may be fine in some cases, but understand that your book may be organized differently, or it may not have text or exercises that I assign.
+> (For instance, new editions often contain new sections that cover new technologies or ideas.)
+> You are welcome to try to identify and work around any differences between our required version and older versions;
+> I'll help you as I'm able to, but can't guarantee that this will always work.
+> The simplest approach is to get the textbook. :-)
 
 ###### Q: Wow, there seems to be a lot of emphasis on programming in this class... Can you elaborate on that?
 > Yeah... I don't think learning about operating systems is a spectator sport, so programming and design assignments are really the emphasis in this course.
@@ -412,8 +422,20 @@ This is a collection of general FAQs related to our course. I will update this s
 
 ###### Q: What are exams like in Operating Systems (CSCI 460)?
 > A smaller portion of the final grade is determined by exams.
-I'm currently planning two exams, each worth 15%.
-Exams will be a mixture of problems; e.g., short-answer, reading/writing/explaining code, design questions.
+> I'm currently planning two exams, each worth 15%.
+> Exams will be a mixture of problems; e.g., short-answer, reading/writing/explaining code, design questions.
+
+> Exams will likely be in a take-home format.
+> You'll have at least 1 day (perhaps more) to take the exam.
+> You'll be able to reference slides from class, your textbook, your brain - stuff like that - but I will ask that you not consult with other students (past, present, or... future?) or other resources outside of what we use in this course.
+> My aim here is to assess **YOU** and **HOW YOU THINK** about what we are learning in operating systems.
+> To that end, I have not intention of asking you not to use your notes or your code (those are yours after all!).
+> Nor do I intend to ask you not to use **legitimate resources** (e.g., our course slides, our textbook).
+> What I do expect is that the work you submit is your work.
+> So please, out of respect for me and others in this course, don't go looking for solutions to problems online.
+> If something isn't clear, ask me or our TA (not the Internet).
+> If you don't know something, that's fine, move past it.
+> Learn from the feedback we give you, and preferrably, follow up with me so we can chat and make sure you've got a good grip on stuff going forward.
 
 ###### Q: Why are we using Zoom instead of WebEx or Microsoft Teams for streaming classes?
 > Great question! I've gone back and forth on this but I have ultimately decided on Zoom.
