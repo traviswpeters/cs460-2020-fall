@@ -15,6 +15,8 @@ layout: default
 
 </div>
 
+> _This website is a living document. Your feedback is always appreciated regarding typos, suggestions for more detailed explanations, additional examples, etc._
+
 ## Logistics
 
 ##### Course Details
@@ -56,12 +58,15 @@ Below is the calendar for this course.
 It is the responsibility of the students to frequently check this web-page for schedule, readings, and assignment changes.
 I will attempt to announce any change to the class, but this web-page should be viewed as authoritative.
 If you have any questions, please contact me.
-_Feedback is always appreciated regarding typos, suggestions for more detailed explanations, additional examples, etc._
 
 <!-- Thanks! https://idratherbewriting.com/documentation-theme-jekyll/mydoc_tables.html -->
+
+_All of the code from class can be found in our GitHub repo:<br/>[**https://github.com/traviswpeters/cs460-code**](https://github.com/traviswpeters/cs460-code)_
+{:.text-center .p-3}
+
 {% comment %}
 
-<table class="table table-hover table-striped table-bordered table-sm">
+<table class="table table-striped table-bordered table-sm">
 <colgroup>
 <col width="10%" />
 <col width="55%" />
@@ -82,28 +87,35 @@ _Feedback is always appreciated regarding typos, suggestions for more detailed e
 
 <tr>
 <td id="week01" markdown="span">**Week 01**<a class="far fa-link" href="#week01"></a></td>
-<td markdown="span" class="note">Introduction & Course Overview</td> <!-- Week Title Here -->
+<td markdown="span" class="note">Introduction & Course Overview
+<br/>[<i class="fas fa-play-circle"></i> Welcome Message](https://montana.techsmithrelay.com/????) <span class="text-muted">(0:00)</span>
+</td> <!-- Week Title Here -->
 <td markdown="span" class="note"></td>
 </tr>
 
 <tr>
-<td markdown="span">XX/XX/2020 (M)</td> <!-- Date Here -->
+<td markdown="span">08/17/2020 (M)</td> <!-- Date Here -->
 <td markdown="span" markdown="1">
-<!-- - [<i class="fas fa-play-circle"></i> Welcome Message](https://montana.techsmithrelay.com/????) <span class="text-muted">(0:00)</span> -->
+- Computer System Overview + Operating System Overview + Course Roadmap <!-- [slides][slides02]{:.slides} -->
 </td> <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
+- Please fill out our [course questionnaire](https://forms.gle/rdDcKkSQsPwpTQDQA).
 </td> <!-- Assignments & Reading Here -->
 </tr>
 
 <tr>
-<td markdown="span">XX/XX/2020 (W)</td> <!-- Date Here -->
-<td markdown="span" markdown="1"></td> <!-- Topics & Lecture Details Here -->
+<td markdown="span">08/19/2020 (W)</td> <!-- Date Here -->
+<td markdown="span" markdown="1">
+- **Tech Bootcamp:** Virtual Machines (VirtualBox + Vagrant), Commandline, C Programming, GDB, Makefiles, Git/GitHub, READMEs/Markdown, ... oh my!
+</td> <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1"></td>  <!-- Assignments & Reading Here -->
 </tr>
 
 <tr>
-<td markdown="span">XX/XX/2020 (F)</td> <!-- Date Here -->
-<td markdown="span" markdown="1"></td> <!-- Topics & Lecture Details Here -->
+<td markdown="span">08/21/2020 (F)</td> <!-- Date Here -->
+<td markdown="span" markdown="1">
+- **Tech Bootcamp _(cont.)_**
+</td> <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1"></td>  <!-- Assignments & Reading Here -->
 </tr>
 
@@ -116,26 +128,62 @@ _Feedback is always appreciated regarding typos, suggestions for more detailed e
 </tr>
 
 <tr>
-<td markdown="span">XX/XX/2020 (M)</td> <!-- Date Here -->
+<td markdown="span">08/24/2020 (M)</td> <!-- Date Here -->
 <td markdown="span" markdown="1"></td> <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1"></td>  <!-- Assignments & Reading Here -->
 </tr>
 
 <tr>
-<td markdown="span">XX/XX/2020 (W)</td> <!-- Date Here -->
+<td markdown="span">08/26/2020 (W)</td> <!-- Date Here -->
 <td markdown="span" markdown="1"></td> <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1"></td>  <!-- Assignments & Reading Here -->
 </tr>
 
 <tr>
-<td markdown="span">XX/XX/2020 (F)</td> <!-- Date Here -->
+<td markdown="span">08/28/2020 (F)</td> <!-- Date Here -->
 <td markdown="span" markdown="1"></td> <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1"></td>  <!-- Assignments & Reading Here -->
 </tr>
+
+<!-- Week 03  -->
+
+<tr>
+<td id="week03" markdown="span">**Week 03**<a class="far fa-link" href="#week03"></a></td>
+<td markdown="span" class="note"></td> <!-- Week Title Here -->
+<td markdown="span"></td>
+</tr>
+
+<!-- Week 04  -->
+
+<tr>
+<td id="week04" markdown="span">**Week 04**<a class="far fa-link" href="#week04"></a></td>
+<td markdown="span" class="note"></td> <!-- Week Title Here -->
+<td markdown="span"></td>
+</tr>
+
+<!-- Week 05  -->
+
+<tr>
+<td id="week05" markdown="span">**Week 05**<a class="far fa-link" href="#week05"></a></td>
+<td markdown="span" class="note"></td> <!-- Week Title Here -->
+<td markdown="span"></td>
+</tr>
+
+<!-- Week 06  -->
+
+<tr>
+<td id="week06" markdown="span">**Week 06**<a class="far fa-link" href="#week06"></a></td>
+<td markdown="span" class="note"></td> <!-- Week Title Here -->
+<td markdown="span"></td>
+</tr>
+
 
 </tbody>
 </table>
 
+{% endcomment %}
+
+{% comment %}
 {% endcomment %}
 
 _More Schedule Details Coming Soon..._
@@ -194,7 +242,7 @@ I do not curve grades. The score you earn is the score you receive.
 
 The grade breakdown is as follows:
 
-- **Early Programming Assignments (x2):** 20%
+- **Early Programming Assignments (x3):** 20%
 - **Yalnix Checkpoints (x6):** 20% _>> Low-stakes opportunities for feedback on a large software development project; each checkpoint graded on a 0-5 scale._{:.text-muted}
 - **Yalnix Project (Final Submission):** 30%  _>> 80% Running the Code / 20% Reading the Code_{:.text-muted}
 - **Exams (x2):** 30%
@@ -369,6 +417,15 @@ This is a collection of general FAQs related to our course. I will update this s
 > Due to my own personal and professional health concerns, I will **not** be facilitating classes physically from within our classroom.
 > Instead, on normal class days, the space will be availbale to students who wish to use it to tune into classes, to have in-person interactions with peers (in a socially-distanced fashion, of course), etc.
 > Throughout the semester, our classroom may also be used in other ways, such as, group meetings, active learning, and so forth.
+
+###### Q: What day can/should I come to class?
+
+> In order to maintain social distancing in class during this unique time, only a portion of students can come to class on any given class day.
+> In an effort to be clear (and unimaginative?), who can/should attend class on a given day is based on last names:
+> <br/>
+> - **Mondays** - students whose last name is between **A-** through **Hal-**.
+> - **Wednesdays** - students whose last name is between **Hat-** through **Mil-**.
+> - **Fridays** - students whose last name is between **Nar-** through **Z-**.
 
 ###### Q: How will office hours be run?
 > Office hours will likely follow a similar format  as class (though they will not be recorded).
