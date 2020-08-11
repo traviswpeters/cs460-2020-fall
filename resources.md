@@ -15,12 +15,13 @@ The primary reference materials for classes and labs
 {:.subtitletext}
 
 ###### Required Textbook(s)
-- {{ site.data.settings.textbook }} <br/>
+- {{ site.data.settings.textbook }}
 
 ###### Optional/Recommended Textbook(s)
 
-- [zyBook - Interactive Operating Systems Textbook](https://learn.zybooks.com/zybook/MONTANACSCI460PetersFall2019)
-- [The Craft of System Security - 1st Edition](https://www.amazon.com/Craft-System-Security-Sean-Smith/dp/0321434838). Sean Smith (2007).
+- [zyBook - Interactive Operating Systems Textbook (v2020)](https://learn.zybooks.com/zybook/MONTANACSCI460PetersFall2020)
+- [Operating System Concepts - 8th Edition](https://www.amazon.com/Operating-Concepts-Silberschatz-Abraham-Hardcover-dp-B011DB56OO/dp/B011DB56OO/ref=mt_other?_encoding=UTF8&me=&qid=). Silberschatz, Galvin, Gagne (2011).
+<!-- - [The Craft of System Security - 1st Edition](https://www.amazon.com/Craft-System-Security-Sean-Smith/dp/0321434838). Sean Smith (2007). -->
 
 ## Tools & Technical References
 {:.titletext}
