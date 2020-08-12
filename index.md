@@ -47,21 +47,13 @@ This is a tentative schedule that is subject to change with minimal notice
 
 Below is the calendar for this course.
 It is the responsibility of the students to frequently check this web-page for schedule, readings, and assignment changes.
-I will attempt to announce any change to the class, but this web-page should be viewed as authoritative.
+I will attempt to announce any change to the class, but this webpage should be viewed as authoritative.
 If you have any questions, please contact me.
 
 <!-- Thanks! https://idratherbewriting.com/documentation-theme-jekyll/mydoc_tables.html -->
 
-_All of the code from class can be found in our GitHub repo:<br/>[**{{site.data.settings.codelink}}**]({{site.data.settings.codelink}})_
-{:.text-center .p-3}
-
 <table class="table table-striped table-bordered table-sm">
-<colgroup>
-<col width="10%" />
-<col width="55%" />
-<col width="35%" />
-</colgroup>
-
+<colgroup><col width="10%" /><col width="55%" /><col width="35%" /></colgroup>
 <thead>
 <tr class="header">
 <th>Date</th>
@@ -71,6 +63,7 @@ _All of the code from class can be found in our GitHub repo:<br/>[**{{site.data.
 </thead>
 
 <tbody>
+
 
 <!-- Week 01  -->
 
@@ -107,6 +100,9 @@ _All of the code from class can be found in our GitHub repo:<br/>[**{{site.data.
 </td> <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1"></td>  <!-- Assignments & Reading Here -->
 </tr>
+
+</tbody>
+</table>
 
 {% comment %}
 
@@ -174,10 +170,11 @@ _All of the code from class can be found in our GitHub repo:<br/>[**{{site.data.
 <td markdown="span"></td>
 </tr>
 
-{% endcomment %}
-
 </tbody>
 </table>
+
+{% endcomment %}
+
 
 _More Schedule Details Coming Soon..._
 {:.alert .alert-primary .text-center}
@@ -491,7 +488,7 @@ This is a collection of general FAQs related to our course. I will update this s
 
 ###### Q: Why are we using Zoom instead of WebEx or Microsoft Teams for streaming classes?
 > Great question! I've gone back and forth on this but I have ultimately decided on Zoom.
-> This be surprise you. If you know me you've likely heard me rant about Zoom and the wide range of security and privacy concerns I've had in the past.
+> This may be a surprise to you. If you know me you've likely heard me rant about Zoom and the wide range of security and privacy concerns I've had in the past.
 > Zoom has been very proactive in addressing many of the issues that have been brought to light (which is awesome!).
 > Apart from my past concerns, Zoom---in my opinion and experience---offers far superior video quality, unique features that enhance engagement, and an overall unmatched user experience.
 > One unique feature specific to Zoom---breakout rooms---will allow us to engage in small-group interactions during class (a.k.a. "active learning").
@@ -510,9 +507,17 @@ This is a collection of general FAQs related to our course. I will update this s
 > Using a VirtualBox image means that we no longer have to fix bugs each year to get things to build against the new gcc/glibc---we have tight control over these things.
 > Furthermore, it's the only way to get students set up with the right environment since there is a wide range of variability in the computing resources that students use and have access to (e.g., Windows vs. Mac, access to computing labs).
 > <br/><br/>
+> It is also worth noting that virtualization technologies, such as virtual machines and containers, are extremely popular in industry.
+> I personally wish I had more opportunities in school to learn about these technologies and practice using them.
+> Furthermore, I've had the opportunity to review exit surveys from our recent CS graduates,
+> and one of the most common "asks" was for our department to teach students more practical skills/tools that would be useful in industry.
+> **I seriously couldn't agree more!**
+> A systems-oriented class such as this is a fantastic place to do these things, so we do! :-)
+> <br/><br/>
+> Now some may say, "yeah yeah yeah but why **VirtualBox**?"
 > Philosophically, I prefer VirtualBox because it is free and widely used today.
-> There are other high-quality, paid options for virtualization software (e.g., Parallels) that does the same kind of stuff,
+> There are other high-quality, paid options for virtualization software (e.g., Parallels) that provide similar features (in some cases, more/better features!),
 > but I prefer standardizing around open/free materials where possible as it improves access for our students.
-> In addition, it improves reproducibility for you.
+> Apart from the free vs. paid topic, I like using a virtualization tool because it improves reproducibility for you.
 > Some years from now you will venture off into the world and no longer have nicely configured computer labs, servers, etc. that we/MSU provide you.
 > By empowering you to work in your own reproducible environment, you can have more control over your work and have the ability to run it in the future.
