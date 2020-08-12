@@ -9,7 +9,11 @@ layout: default
 {% include contact.html %}
 </div>
 
-<div class="col-md-9 order-1 mt-3" markdown="1">
+<div class="col-md-3 order-2 mt-3" markdown="1">
+{% include contactTA.html %}
+</div>
+
+<div class="col-md-6 order-1 mt-3" markdown="1">
 {% include about.html %}
 </div>
 
@@ -19,35 +23,22 @@ layout: default
 
 ## Logistics
 
-##### Course Details
+##### Details
 
-**Lectures:** {{ site.data.settings.lectures }} _>> Course dates: {{ site.data.settings.dates }}_{:.text-muted} <br/>
+**Lectures:**
+<a target="_blank" href="{{site.data.settings.zoomlink}}"><i class="fas fa-globe"></i> Online (Zoom)</a> &
+<a target="_blank" href="https://www.montana.edu/calendar/locations.php?building=3"><i class="fas fa-map-pin"></i> Barnard Hall 108</a> | M/W/F (8:00 &ndash; 8:50 a.m.)
+_>> Course dates: {{ site.data.settings.dates }}_{:.text-muted} <br/>
 **Textbook:** {{ site.data.settings.textbook }} <br/>
 
-##### Course Links
+##### Links
 
+<i class="fas fa-external-link-alt"></i> [Code]({{site.data.settings.codelink}}) *>> All of the code from class (on GitHub)*{:.text-muted} <br/>
+<i class="fas fa-external-link-alt"></i> [Zoom]({{site.data.settings.zoomlink}}) *>> For tuning in and participating in classes virtually*{:.text-muted} <br/>
+<i class="fas fa-external-link-alt"></i> {{site.data.settings.slack}} *>> For all course-related communications*{:.text-muted} <br/>
 <i class="fas fa-external-link-alt"></i> {{site.data.settings.d2l}} *>> For submitting assignments, tracking course grades, etc.*{:.text-muted} <br/>
-<i class="fas fa-external-link-alt"></i> {{site.data.settings.slack}} *>> For **all** course-related communications*{:.text-muted} <br/>
 <i class="fas fa-external-link-alt"></i> {{site.data.settings.gradescope}} *>> For submitting and grading exams, providing exam feedback, etc.*{:.text-muted} <br/>
-<i class="fas fa-external-link-alt"></i> {{site.data.settings.ssc}} *>> Get help from TAs and peers*{:.text-muted} <br/>
-
-{%comment%}
-##### Teaching Team
-{:.pb-2}
-
-<div class="card" style="width:300px">
-  <img class="card-img-top m-0" src="assets/me.jpg" alt="Card image" style="width:100%">
-  <div class="card-body">
-    <h4 class="card-title">Professor</h4>
-    <p class="card-text" markdown="1">
-      {{ site.data.settings.instructor }} <br/>
-      {{site.data.settings.office}} <br/>
-      {{site.data.settings.email}} <br/>
-      {{ site.data.settings.officehours }}
-    </p>
-  </div>
-</div>
-{%endcomment%}
+<i class="fas fa-external-link-alt"></i> [CS Student Success Center]({{site.data.settings.ssclink}}) *>> Get help from TAs and peers*{:.text-muted} <br/>
 
 ## Schedule
 {:.titletext}
@@ -61,10 +52,8 @@ If you have any questions, please contact me.
 
 <!-- Thanks! https://idratherbewriting.com/documentation-theme-jekyll/mydoc_tables.html -->
 
-_All of the code from class can be found in our GitHub repo:<br/>[**https://github.com/traviswpeters/cs460-code**](https://github.com/traviswpeters/cs460-code)_
+_All of the code from class can be found in our GitHub repo:<br/>[**{{site.data.settings.codelink}}**]({{site.data.settings.codelink}})_
 {:.text-center .p-3}
-
-{% comment %}
 
 <table class="table table-striped table-bordered table-sm">
 <colgroup>
@@ -88,25 +77,25 @@ _All of the code from class can be found in our GitHub repo:<br/>[**https://gith
 <tr>
 <td id="week01" markdown="span">**Week 01**<a class="far fa-link" href="#week01"></a></td>
 <td markdown="span" class="note">Introduction & Course Overview
-<br/>[<i class="fas fa-play-circle"></i> Welcome Message](https://montana.techsmithrelay.com/????) <span class="text-muted">(0:00)</span>
+<!-- <br/>[<i class="fas fa-play-circle"></i> Welcome Message](https://montana.techsmithrelay.com/????) <span class="text-muted">(0:00)</span> -->
 </td> <!-- Week Title Here -->
-<td markdown="span" class="note"></td>
+<td markdown="span" markdown="1">
+- Please fill out our [course questionnaire](https://forms.gle/rdDcKkSQsPwpTQDQA)!
+</td>
 </tr>
 
 <tr>
 <td markdown="span">08/17/2020 (M)</td> <!-- Date Here -->
 <td markdown="span" markdown="1">
-- Computer System Overview + Operating System Overview + Course Roadmap <!-- [slides][slides02]{:.slides} -->
+- Course Introduction & Roadmap <!-- [slides][slides01]{:.slides} -->
 </td> <!-- Topics & Lecture Details Here -->
-<td markdown="span" markdown="1">
-- Please fill out our [course questionnaire](https://forms.gle/rdDcKkSQsPwpTQDQA).
-</td> <!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1"></td> <!-- Assignments & Reading Here -->
 </tr>
 
 <tr>
 <td markdown="span">08/19/2020 (W)</td> <!-- Date Here -->
 <td markdown="span" markdown="1">
-- **Tech Bootcamp:** Virtual Machines (VirtualBox + Vagrant), Commandline, C Programming, GDB, Makefiles, Git/GitHub, READMEs/Markdown, ... oh my!
+- Computer System Overview + Operating System Overview <!-- [slides][slides02]{:.slides} -->
 </td> <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1"></td>  <!-- Assignments & Reading Here -->
 </tr>
@@ -114,10 +103,12 @@ _All of the code from class can be found in our GitHub repo:<br/>[**https://gith
 <tr>
 <td markdown="span">08/21/2020 (F)</td> <!-- Date Here -->
 <td markdown="span" markdown="1">
-- **Tech Bootcamp _(cont.)_**
+- **OS Tech Bootcamp Begins...** Virtual Machines (VirtualBox + Vagrant), Commandline, C Programming, GDB, Makefiles, Git/GitHub, READMEs/Markdown, ... _oh my!_
 </td> <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1"></td>  <!-- Assignments & Reading Here -->
 </tr>
+
+{% comment %}
 
 <!-- Week 02  -->
 
@@ -129,19 +120,25 @@ _All of the code from class can be found in our GitHub repo:<br/>[**https://gith
 
 <tr>
 <td markdown="span">08/24/2020 (M)</td> <!-- Date Here -->
-<td markdown="span" markdown="1"></td> <!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+- **Tech Bootcamp _(cont.)_**
+</td> <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1"></td>  <!-- Assignments & Reading Here -->
 </tr>
 
 <tr>
 <td markdown="span">08/26/2020 (W)</td> <!-- Date Here -->
-<td markdown="span" markdown="1"></td> <!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+- **Tech Bootcamp _(cont.)_**
+</td> <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1"></td>  <!-- Assignments & Reading Here -->
 </tr>
 
 <tr>
 <td markdown="span">08/28/2020 (F)</td> <!-- Date Here -->
-<td markdown="span" markdown="1"></td> <!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+- **Tech Bootcamp _(cont.)_**
+</td> <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1"></td>  <!-- Assignments & Reading Here -->
 </tr>
 
@@ -177,14 +174,10 @@ _All of the code from class can be found in our GitHub repo:<br/>[**https://gith
 <td markdown="span"></td>
 </tr>
 
+{% endcomment %}
 
 </tbody>
 </table>
-
-{% endcomment %}
-
-{% comment %}
-{% endcomment %}
 
 _More Schedule Details Coming Soon..._
 {:.alert .alert-primary .text-center}
@@ -302,7 +295,7 @@ Do your work---don't try to game the system.
 
 ## Communication
 
-We will use [**Slack**](https://slack.com) for all course communication (except for sensitive stuff like grades!).
+We will use **{{site.data.settings.slack}}** for all course communication (except for sensitive stuff like grades!).
 
 New to slack? Here are some helpful links:
 {:.p-0 .m-0}
@@ -419,6 +412,8 @@ This is a collection of general FAQs related to our course. I will update this s
 > Throughout the semester, our classroom may also be used in other ways, such as, group meetings, active learning, and so forth.
 
 ###### Q: What day can/should I come to class?
+> First, know that you are **not** required to physically come to class.
+> You can participate in this course completely online.
 
 > In order to maintain social distancing in class during this unique time, only a portion of students can come to class on any given class day.
 > In an effort to be clear (and unimaginative?), who can/should attend class on a given day is based on last names:
@@ -502,7 +497,7 @@ This is a collection of general FAQs related to our course. I will update this s
 > One unique feature specific to Zoom---breakout rooms---will allow us to engage in small-group interactions during class (a.k.a. "active learning").
 > (While MSU officially supports WebEx and Teams, there is a small group of us in the NACOE who are trying Zoom out in our classes, so you'll likely encounter this in other courses as well.)
 
-###### Q: Why are we using Slack instead of D2L or Piazza?
+###### Q: Why are we using Slack for class communication instead of D2L or Piazza?
 > A few reasons:
 > (1) This has worked great in my past courses that have used Slack;
 > (2) This is a much nicer way to facilitate online collaboration and teamwork, which is essential in the project for this course; and

@@ -14,13 +14,16 @@ office: '<a target="_blank" href="https://www.montana.edu/calendar/locations.php
 officehours: 'TBD and by appointment.'
 officephone: '<a target="_blank" href="tel:4069944296‬">406-994-4296‬</a>'
 
+ta: '<a target="_blank" href="https://reesep.github.io">Reese Pearsall</a>'
+taemail: '<a target="_blank" href="mailto:reese.pearsall@student.montana.edu?subject=CS 460 Help">reese.pearsall@student.montana.edu</a>'
+taoffice: '<a target="_blank" href="https://www.montana.edu/calendar/locations.php?building=342">NAH 253</a>'
+taofficehours: 'TBD and by appointment.'
 
 # Course-specific variables
 title: 'Operating Systems'
 titlenum: 'CS 460'
 term: 'Fall 2020'
 dates: 'Monday, August 17, 2020 - Wednesday, November 18, 2020'
-lectures: '<a target="_blank" href="https://www.montana.edu/calendar/locations.php?building=3"><i class="fas fa-map-pin"></i> Barnard Hall 108</a>  & Online (Zoom) | Monday, Wednesday, Friday (8:00 &ndash; 8:50 a.m.)'
 textbook: "[Operating Systems: Internals and Design Principles (9th Edition)](https://www.amazon.com/Operating-Systems-Internals-Design-Principles/dp/0134670957), by William Stallings"
 finalexamdate: '<a target="_blank" href="https://www.montana.edu/calendar/locations.php?building=3"><i class="fas fa-map-pin"></i> Barnard Hall 108</a> - TBD' #(8:00am - 9:50am) - https://www.montana.edu/registrar/Schedules.html
 
@@ -33,16 +36,18 @@ githuburl: https://github.com/traviswpeters/cs460-2020-fall/
 # <i class="fas fa-external-link-alt"></i>
 questionnaire: '[Questionnaire](https://forms.gle/bEMav7XE9h5Nuybg7)'
 d2l: '[D2L](https://ecat.montana.edu/d2l/home/606493)'
-slack: '[Slack (CSCI 460 - Fall 2020)](https://join.slack.com/t/csci460-fa2020/shared_invite/zt-gop7i3kx-8ZwwdQYhyEILOGTSzT_uPA)'
+slack: '[Slack](https://join.slack.com/t/csci460-fa2020/shared_invite/zt-gop7i3kx-8ZwwdQYhyEILOGTSzT_uPA)'
 gradescope: '[Gradescope (code: 9RE7N4)](https://www.gradescope.com/courses/141029)'
-ssc: '[CS Student Success Center](https://www.cs.montana.edu/student-success-center.html)'
+ssclink: 'https://www.cs.montana.edu/student-success-center.html'
+codelink: 'https://github.com/traviswpeters/cs460-code'
+zoomlink: 'https://zoom.us/meeting/register/tJYvc--rrzovGt1ohDQhvOV4DWPKvNptgipJ'
 
 # locations of things (notes, slides, etc.)
 slides: "files"
 notes: "files"
 reading: "files"
 solutions: "files"
-code: "code"
+# code: "code"
 
 menu:
 # - {name: 'Syllabus', url: ''}
@@ -50,103 +55,103 @@ menu:
 - {name: 'Logistics', url: '#logistics'}
 - {name: 'Schedule', url: '#schedule'}
 # - {name: 'Labs', url: 'labs'}
-- {name: 'Resources', url: 'resources'}
 # - {name: 'Yalnix', url: 'yalnix'}
 # - {name: 'Exams', url: '#exams'}
+- {name: 'Resources', url: 'resources'}
 - {name: 'FAQs', url: '#faqs'}
 - {name: '<span class="text-success">COVID-19 Info</span>', url: 'covid19'}
 
-exams:
-  files: "files"
-  finalexam:
-    name: 'Final Exam'
-    date: 'XX/XX/2020'
-    url: '#exams'
-    show: False # show on schedule?
+# exams:
+#   files: "files"
+#   finalexam:
+#     name: 'Final Exam'
+#     date: 'XX/XX/2020'
+#     url: '#exams'
+#     show: False # show on schedule?
 
 ####################
 #### OLD WAY... ####
 ####################
-homeworks:
-  hw1:
-    url: 'https://ecat.montana.edu/d2l/home/553509'
-    shortname: 'HW1'
-    due: 'Due 09/13'
-    show: True
-  hw2:
-    url: 'https://ecat.montana.edu/d2l/home/553509'
-    shortname: 'HW2'
-    due: 'Due 10/11'
-    show: True
-  hw3:
-    url: 'https://ecat.montana.edu/d2l/home/553509'
-    shortname: 'HW3'
-    due: 'Due 10/18'
-    show: True
-  hw4:
-    url: 'https://ecat.montana.edu/d2l/home/553509'
-    shortname: 'HW4'
-    due: 'Due 10/25'
-    show: True
-  hw5:
-    url: 'https://ecat.montana.edu/d2l/home/553509'
-    shortname: 'HW5'
-    due: 'Due 11/01'
-    show: True
-  hw6:
-    url: 'https://ecat.montana.edu/d2l/home/553509'
-    shortname: 'HW6'
-    due: 'Due 11/08'
-    show: True
-
-assignments:
-  a1:
-    shortname: 'PA1'
-    longname: 'Assignment 1: Concurrency'
-    url: 'a1'
-    due: 'Due 10/16'
-    timedue: '@10pm'
-    duecheckpoint: 'Friday, October 4th, 2019 @10pm'
-    duelong: 'Wednesday, October 16th, 2019 @10pm'
-    show: True # show on schedule?
-  a2:
-    shortname: 'PA2'
-    longname: 'Assignment 2: Scheduling'
-    url: 'a2'
-    due: 'Due 11/11'
-    timedue: '@10pm'
-    duelong: 'Monday, November 11th, 2019 @10pm'
-    show: True # show on schedule?
-  a3:
-    shortname: 'PA3'
-    longname: 'Assignment 3: Peer Project Review'
-    url: 'a3'
-    due: '~~Due 12/07~~ **Due 12/12**{:.text-danger}'
-    timedue: '@10pm'
-    duelong: '~~Saturday, December 7th, 2019 @10pm~~ **Thursday, December 12th, 2019 @10pm**{:.text-danger}'
-    show: True # show on schedule?
-
-project:
-  pages:
-    details: "Project Details"
-    schedule: "Project Teams & Schedule"
-  infolink:   'https://docs.google.com/spreadsheets/d/1uMk0pcho_B2v8_7t_E3S-IpsdUfhjBKsT5XdBcfPOBI/edit?usp=sharing'
-  signuplink: 'https://docs.google.com/spreadsheets/d/1uMk0pcho_B2v8_7t_E3S-IpsdUfhjBKsT5XdBcfPOBI/edit?usp=sharing'
-  attendance: 'https://docs.google.com/spreadsheets/d/1ViB-YF5SGXbf1jsXAIPJ-kK7-b3QskZJt4G-cYMuH9s/edit?usp=sharing'
-  rubric:     'https://docs.google.com/spreadsheets/d/1-i5t_Pu6qY2crSkh_R75qNOcRqQeNVmiTlRtsDGFDd0/edit?usp=sharing'
-  rubricpdf:  'rubric.pdf'
-  due-proposal: 'Friday, November 1st, 2019 @10pm'
-  due-final: '~~Friday, December 6th, 2019 @10pm~~ **Thursday, December 12th, 2019 @10pm**{:.text-danger}'
-
-exams:
-  files: "notes"
-  exam1:
-    name: 'Exam 1'
-    date: '10/07/2019'
-    url: '#exams'
-    show: True # show on schedule?
-  exam1:
-    name: 'Exam 2'
-    date: '11/08/2019'
-    url: '#exams'
-    show: False # show on schedule?
+# homeworks:
+#   hw1:
+#     url: 'https://ecat.montana.edu/d2l/home/553509'
+#     shortname: 'HW1'
+#     due: 'Due 09/13'
+#     show: True
+#   hw2:
+#     url: 'https://ecat.montana.edu/d2l/home/553509'
+#     shortname: 'HW2'
+#     due: 'Due 10/11'
+#     show: True
+#   hw3:
+#     url: 'https://ecat.montana.edu/d2l/home/553509'
+#     shortname: 'HW3'
+#     due: 'Due 10/18'
+#     show: True
+#   hw4:
+#     url: 'https://ecat.montana.edu/d2l/home/553509'
+#     shortname: 'HW4'
+#     due: 'Due 10/25'
+#     show: True
+#   hw5:
+#     url: 'https://ecat.montana.edu/d2l/home/553509'
+#     shortname: 'HW5'
+#     due: 'Due 11/01'
+#     show: True
+#   hw6:
+#     url: 'https://ecat.montana.edu/d2l/home/553509'
+#     shortname: 'HW6'
+#     due: 'Due 11/08'
+#     show: True
+#
+# assignments:
+#   a1:
+#     shortname: 'PA1'
+#     longname: 'Assignment 1: Concurrency'
+#     url: 'a1'
+#     due: 'Due 10/16'
+#     timedue: '@10pm'
+#     duecheckpoint: 'Friday, October 4th, 2019 @10pm'
+#     duelong: 'Wednesday, October 16th, 2019 @10pm'
+#     show: True # show on schedule?
+#   a2:
+#     shortname: 'PA2'
+#     longname: 'Assignment 2: Scheduling'
+#     url: 'a2'
+#     due: 'Due 11/11'
+#     timedue: '@10pm'
+#     duelong: 'Monday, November 11th, 2019 @10pm'
+#     show: True # show on schedule?
+#   a3:
+#     shortname: 'PA3'
+#     longname: 'Assignment 3: Peer Project Review'
+#     url: 'a3'
+#     due: '~~Due 12/07~~ **Due 12/12**{:.text-danger}'
+#     timedue: '@10pm'
+#     duelong: '~~Saturday, December 7th, 2019 @10pm~~ **Thursday, December 12th, 2019 @10pm**{:.text-danger}'
+#     show: True # show on schedule?
+#
+# project:
+#   pages:
+#     details: "Project Details"
+#     schedule: "Project Teams & Schedule"
+#   infolink:   'https://docs.google.com/spreadsheets/d/1uMk0pcho_B2v8_7t_E3S-IpsdUfhjBKsT5XdBcfPOBI/edit?usp=sharing'
+#   signuplink: 'https://docs.google.com/spreadsheets/d/1uMk0pcho_B2v8_7t_E3S-IpsdUfhjBKsT5XdBcfPOBI/edit?usp=sharing'
+#   attendance: 'https://docs.google.com/spreadsheets/d/1ViB-YF5SGXbf1jsXAIPJ-kK7-b3QskZJt4G-cYMuH9s/edit?usp=sharing'
+#   rubric:     'https://docs.google.com/spreadsheets/d/1-i5t_Pu6qY2crSkh_R75qNOcRqQeNVmiTlRtsDGFDd0/edit?usp=sharing'
+#   rubricpdf:  'rubric.pdf'
+#   due-proposal: 'Friday, November 1st, 2019 @10pm'
+#   due-final: '~~Friday, December 6th, 2019 @10pm~~ **Thursday, December 12th, 2019 @10pm**{:.text-danger}'
+#
+# exams:
+#   files: "notes"
+#   exam1:
+#     name: 'Exam 1'
+#     date: '10/07/2019'
+#     url: '#exams'
+#     show: True # show on schedule?
+#   exam1:
+#     name: 'Exam 2'
+#     date: '11/08/2019'
+#     url: '#exams'
+#     show: False # show on schedule?
