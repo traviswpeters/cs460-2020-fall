@@ -307,11 +307,6 @@ footer {}
 	color: #ff6600;
 }
 
-code[class*=language-], pre[class*=language-] {
-  line-height: 1.25;
-  font-size: 10pt;
-}
-
 a.fa-link:link { color: #DDDDDD; /* Really light gray */ }
 a.fa-link:visited { color: #DDDDDD; /* Really light gray */  }
 a.fa-link:hover { color: #777777; }
@@ -350,4 +345,34 @@ h1 a:active, h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active {
 }
 h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
   color: black;
+}
+
+code.highlighter-rouge {
+  background: #e8e8e8;
+  color: #333;
+  padding: 0.1em 0.35em;
+}
+
+code[class*=language-], pre[class*=language-] {
+  /* line-height: 1.25; */
+  /* font-size: 10pt; */
+}
+
+/* Adapted from https://stackoverflow.com/a/48694906 */
+pre.highlight {
+    background: #e8e8e8;
+    border: 1px solid #ddd;
+    border-left: 3px solid #003399;
+    color: #555;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 0.75em 0em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 0.5em 1.25em;
+    display: block;
+    word-wrap: break-word;
+    border-radius: 5px;
 }
