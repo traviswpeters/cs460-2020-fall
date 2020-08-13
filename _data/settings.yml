@@ -50,7 +50,6 @@ solutions: "files"
 # code: "code"
 
 menu:
-# - {name: 'Syllabus', url: ''}
 - {name: 'About', url: '#about-the-course'}
 - {name: 'Logistics', url: '#logistics'}
 - {name: 'Schedule', url: '#schedule'}
@@ -61,76 +60,34 @@ menu:
 - {name: 'FAQs', url: '#faqs'}
 - {name: '<span class="text-success">COVID-19 Info</span>', url: 'covid19'}
 
-# exams:
-#   files: "files"
-#   finalexam:
-#     name: 'Final Exam'
-#     date: 'XX/XX/2020'
-#     url: '#exams'
-#     show: False # show on schedule?
+work:
+  pa0:
+    link: 'pa0'
+    duedate: 'Saturday [08/29/2020] @ 11:59 PM (MST)'
+  pa1:
+    link: 'pa1'
+    duedate: 'Saturday [09/05/2020] @ 11:59 PM (MST)'
+  pa2:
+    link: 'pa2'
+    duedate: 'Saturday [09/12/2020] @ 11:59 PM (MST)'
 
-####################
-#### OLD WAY... ####
-####################
-# homeworks:
-#   hw1:
-#     url: 'https://ecat.montana.edu/d2l/home/553509'
-#     shortname: 'HW1'
-#     due: 'Due 09/13'
-#     show: True
-#   hw2:
-#     url: 'https://ecat.montana.edu/d2l/home/553509'
-#     shortname: 'HW2'
-#     due: 'Due 10/11'
-#     show: True
-#   hw3:
-#     url: 'https://ecat.montana.edu/d2l/home/553509'
-#     shortname: 'HW3'
-#     due: 'Due 10/18'
-#     show: True
-#   hw4:
-#     url: 'https://ecat.montana.edu/d2l/home/553509'
-#     shortname: 'HW4'
-#     due: 'Due 10/25'
-#     show: True
-#   hw5:
-#     url: 'https://ecat.montana.edu/d2l/home/553509'
-#     shortname: 'HW5'
-#     due: 'Due 11/01'
-#     show: True
-#   hw6:
-#     url: 'https://ecat.montana.edu/d2l/home/553509'
-#     shortname: 'HW6'
-#     due: 'Due 11/08'
-#     show: True
-#
-# assignments:
-#   a1:
-#     shortname: 'PA1'
-#     longname: 'Assignment 1: Concurrency'
-#     url: 'a1'
-#     due: 'Due 10/16'
-#     timedue: '@10pm'
-#     duecheckpoint: 'Friday, October 4th, 2019 @10pm'
-#     duelong: 'Wednesday, October 16th, 2019 @10pm'
-#     show: True # show on schedule?
-#   a2:
-#     shortname: 'PA2'
-#     longname: 'Assignment 2: Scheduling'
-#     url: 'a2'
-#     due: 'Due 11/11'
-#     timedue: '@10pm'
-#     duelong: 'Monday, November 11th, 2019 @10pm'
-#     show: True # show on schedule?
-#   a3:
-#     shortname: 'PA3'
-#     longname: 'Assignment 3: Peer Project Review'
-#     url: 'a3'
-#     due: '~~Due 12/07~~ **Due 12/12**{:.text-danger}'
-#     timedue: '@10pm'
-#     duelong: '~~Saturday, December 7th, 2019 @10pm~~ **Thursday, December 12th, 2019 @10pm**{:.text-danger}'
-#     show: True # show on schedule?
-#
+yalnix:
+  link: 'yalnix'
+  cp1:
+    duedate: 'Saturday [09/19/2020] @ 11:59 PM (MST)'
+  cp2:
+    duedate: 'Saturday [09/26/2020] @ 11:59 PM (MST)'
+  cp3:
+    duedate: 'Saturday [10/03/2020] @ 11:59 PM (MST)'
+  cp4:
+    duedate: 'Saturday [10/10/2020] @ 11:59 PM (MST)'
+  cp5:
+    duedate: 'Saturday [10/17/2020] @ 11:59 PM (MST)'
+  cp6:
+    duedate: 'Saturday [10/24/2020] @ 11:59 PM (MST)'
+  final:
+    duedate: 'Saturday [10/31/2020] @ 11:59 PM (MST)'
+
 # project:
 #   pages:
 #     details: "Project Details"
@@ -142,16 +99,3 @@ menu:
 #   rubricpdf:  'rubric.pdf'
 #   due-proposal: 'Friday, November 1st, 2019 @10pm'
 #   due-final: '~~Friday, December 6th, 2019 @10pm~~ **Thursday, December 12th, 2019 @10pm**{:.text-danger}'
-#
-# exams:
-#   files: "notes"
-#   exam1:
-#     name: 'Exam 1'
-#     date: '10/07/2019'
-#     url: '#exams'
-#     show: True # show on schedule?
-#   exam1:
-#     name: 'Exam 2'
-#     date: '11/08/2019'
-#     url: '#exams'
-#     show: False # show on schedule?

@@ -65,113 +65,100 @@ If you have any questions, please contact me.
 <tbody>
 
 
-<!-- Week 01  -->
+<!-- ========================================= Week 01 ========================================= -->
 
 <tr>
 <td id="week01" markdown="span">**Week 01**<a class="far fa-link" href="#week01"></a></td>
+<!-- Week Title Here -->
 <td markdown="span" class="note">Introduction & Course Overview
 <!-- <br/>[<i class="fas fa-play-circle"></i> Welcome Message](https://montana.techsmithrelay.com/????) <span class="text-muted">(0:00)</span> -->
-</td> <!-- Week Title Here -->
+</td>
 <td markdown="span" markdown="1">
 - Please fill out our [course questionnaire](https://forms.gle/rdDcKkSQsPwpTQDQA)!
 </td>
 </tr>
 
 <tr>
-<td markdown="span">08/17/2020 (M)</td> <!-- Date Here -->
+<!-- Date Here -->
+<td markdown="span">08/17/2020 (M)</td>
+<!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - Course Introduction & Roadmap <!-- [slides][slides01]{:.slides} -->
-</td> <!-- Topics & Lecture Details Here -->
-<td markdown="span" markdown="1"></td> <!-- Assignments & Reading Here -->
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1"></td>
 </tr>
 
 <tr>
-<td markdown="span">08/19/2020 (W)</td> <!-- Date Here -->
+<!-- Date Here -->
+<td markdown="span">08/19/2020 (W)</td>
+<!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- Computer System Overview + Operating System Overview <!-- [slides][slides02]{:.slides} -->
-</td> <!-- Topics & Lecture Details Here -->
-<td markdown="span" markdown="1"></td>  <!-- Assignments & Reading Here -->
+Computer System Overview + Operating System Overview
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1"></td>
 </tr>
 
 <tr>
-<td markdown="span">08/21/2020 (F)</td> <!-- Date Here -->
+<!-- Date Here -->
+<td markdown="span">08/21/2020 (F)</td>
+<!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - **OS Tech Bootcamp Begins...** Virtual Machines (VirtualBox + Vagrant), Commandline, C Programming, GDB, Makefiles, Git/GitHub, READMEs/Markdown, ... _oh my!_
-</td> <!-- Topics & Lecture Details Here -->
-<td markdown="span" markdown="1"></td>  <!-- Assignments & Reading Here -->
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1"></td>
+</tr>
+
+<!-- ========================================= Week 02 ========================================= -->
+
+<tr>
+<td id="week02" markdown="span">**Week 02**<a class="far fa-link" href="#week02"></a></td>
+<!-- Week Title Here -->
+<td markdown="span" class="note"></td>
+<td markdown="span"></td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">08/24/2020 (M)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+- **Tech Bootcamp _(cont.)_**
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1"></td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">08/26/2020 (W)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+- **Tech Bootcamp _(cont.)_**
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1"></td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">08/28/2020 (F)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+- **Tech Bootcamp _(cont.)_**
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span">
+<!-- **PA0 Due: {{ site.data.settings.yalnix.cp1.duedate }}**{:.badge .badge-pill .badge-warning} -->
+</td>
 </tr>
 
 </tbody>
 </table>
 
 {% comment %}
-
-<!-- Week 02  -->
-
-<tr>
-<td id="week02" markdown="span">**Week 02**<a class="far fa-link" href="#week02"></a></td>
-<td markdown="span" class="note"></td> <!-- Week Title Here -->
-<td markdown="span"></td>
-</tr>
-
-<tr>
-<td markdown="span">08/24/2020 (M)</td> <!-- Date Here -->
-<td markdown="span" markdown="1">
-- **Tech Bootcamp _(cont.)_**
-</td> <!-- Topics & Lecture Details Here -->
-<td markdown="span" markdown="1"></td>  <!-- Assignments & Reading Here -->
-</tr>
-
-<tr>
-<td markdown="span">08/26/2020 (W)</td> <!-- Date Here -->
-<td markdown="span" markdown="1">
-- **Tech Bootcamp _(cont.)_**
-</td> <!-- Topics & Lecture Details Here -->
-<td markdown="span" markdown="1"></td>  <!-- Assignments & Reading Here -->
-</tr>
-
-<tr>
-<td markdown="span">08/28/2020 (F)</td> <!-- Date Here -->
-<td markdown="span" markdown="1">
-- **Tech Bootcamp _(cont.)_**
-</td> <!-- Topics & Lecture Details Here -->
-<td markdown="span" markdown="1"></td>  <!-- Assignments & Reading Here -->
-</tr>
-
-<!-- Week 03  -->
-
-<tr>
-<td id="week03" markdown="span">**Week 03**<a class="far fa-link" href="#week03"></a></td>
-<td markdown="span" class="note"></td> <!-- Week Title Here -->
-<td markdown="span"></td>
-</tr>
-
-<!-- Week 04  -->
-
-<tr>
-<td id="week04" markdown="span">**Week 04**<a class="far fa-link" href="#week04"></a></td>
-<td markdown="span" class="note"></td> <!-- Week Title Here -->
-<td markdown="span"></td>
-</tr>
-
-<!-- Week 05  -->
-
-<tr>
-<td id="week05" markdown="span">**Week 05**<a class="far fa-link" href="#week05"></a></td>
-<td markdown="span" class="note"></td> <!-- Week Title Here -->
-<td markdown="span"></td>
-</tr>
-
-<!-- Week 06  -->
-
-<tr>
-<td id="week06" markdown="span">**Week 06**<a class="far fa-link" href="#week06"></a></td>
-<td markdown="span" class="note"></td> <!-- Week Title Here -->
-<td markdown="span"></td>
-</tr>
-
-</tbody>
-</table>
 
 {% endcomment %}
 
