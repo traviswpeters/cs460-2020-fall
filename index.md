@@ -380,7 +380,13 @@ This is a collection of general FAQs related to our course. I will update this s
 > To align with MSU, this course has [adapted some of the syllabus language prepared by the Center for Faculty Excellence regarding COVID-19](http://www.montana.edu/facultyexcellence/teaching/resources/SyllabusLanguage.html).
 > Specifically, we clarify some of the expecations for our class around wearing masks, health-related absences, and mask-related accomodations.
 
-###### Q: How will classes be run?
+###### Q: How will the FIRST DAY / FIRST WEEK of classes be run?
+> I recently announced that based on current insights from the course questionnaire,
+> for the first week (at least) our class will be broadcasted virtually via zoom on M/W/F from 8:00am to 8:50am.
+> We will see how things go this week and reevaluate.
+> I’ll make another announcement for week 2 closer to the end of our first week together.  
+
+###### Q: How will classes be run (in general)?
 > Our course is currently projected to meet in a hybrid/blended format, which gives us a lot of flexibility.
 > My current plan is to live-stream most of our classes using Zoom.
 > For live classes, I will also record classes using (e.g., using TechSmith/Camtasia) and upload the recordings as soon as possible following the class session.
