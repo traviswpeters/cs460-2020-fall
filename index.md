@@ -75,6 +75,7 @@ If you have any questions, please contact me.
 </td>
 <td markdown="span" markdown="1">
 - Please fill out our [course questionnaire](https://forms.gle/rdDcKkSQsPwpTQDQA)!
+- **Read:** Chapters 1 & 2
 </td>
 </tr>
 
@@ -105,7 +106,7 @@ Computer System Overview + Operating System Overview
 <td markdown="span">08/21/2020 (F)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- **OS Tech Bootcamp Begins...** Virtual Machines (VirtualBox + Vagrant), Commandline, C Programming, GDB, Makefiles, Git/GitHub, READMEs/Markdown, ... _oh my!_
+- Computer System Overview + Operating System Overview _(cont.)_
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
@@ -116,7 +117,7 @@ Computer System Overview + Operating System Overview
 <tr>
 <td id="week02" markdown="span">**Week 02**<a class="far fa-link" href="#week02"></a></td>
 <!-- Week Title Here -->
-<td markdown="span" class="note"></td>
+<td markdown="span" class="note">OS Tech Bootcamp</td>
 <td markdown="span"></td>
 </tr>
 
@@ -125,7 +126,7 @@ Computer System Overview + Operating System Overview
 <td markdown="span">08/24/2020 (M)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- **Tech Bootcamp _(cont.)_**
+- **Tech Bootcamp Begins...** Virtual Machines (VirtualBox + Vagrant), Commandline, C Programming, GDB, Makefiles, Git/GitHub, READMEs/Markdown, ... _oh my!_
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
