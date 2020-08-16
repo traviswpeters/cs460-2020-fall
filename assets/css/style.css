@@ -11,7 +11,6 @@
    width: auto;
  */
 
-  font-family: 'Assistant', sans-serif;
 }
 
 .container, .container-sm, .container-xl {
@@ -22,6 +21,7 @@
 
 body {
   background-color: #F2F2F2;
+  font-family: 'Assistant', sans-serif;
 }
 
 #coursetitle {
@@ -353,13 +353,11 @@ code.highlighter-rouge {
   padding: 0.1em 0.35em;
 }
 
-code[class*=language-], pre[class*=language-] {
-  /* line-height: 1.25; */
-  /* font-size: 10pt; */
-}
+/* code[class*=language-], pre[class*=language-] {
+} */
 
 /* Adapted from https://stackoverflow.com/a/48694906 */
-pre.highlight {
+/* pre.highlight {
     background: #e8e8e8;
     border: 1px solid #ddd;
     border-left: 3px solid #003399;
@@ -375,4 +373,4 @@ pre.highlight {
     display: block;
     word-wrap: break-word;
     border-radius: 3px;
-}
+} */
