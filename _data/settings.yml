@@ -23,7 +23,7 @@ taofficehours: 'TBD and by appointment.'
 title: 'Operating Systems'
 titlenum: 'CS 460'
 term: 'Fall 2020'
-dates: 'Monday, August 17, 2020 - Wednesday, November 18, 2020'
+dates: 'Monday, August 17, 2020 - Wednesday, November ~~18~~ 25, 2020'
 textbook: "[Operating Systems: Internals and Design Principles (9th Edition)](https://www.amazon.com/Operating-Systems-Internals-Design-Principles/dp/0134670957), by William Stallings"
 finalexamdate: '<a target="_blank" href="https://www.montana.edu/calendar/locations.php?building=3"><i class="fas fa-map-pin"></i> Barnard Hall 108</a> - TBD' #(8:00am - 9:50am) - https://www.montana.edu/registrar/Schedules.html
 

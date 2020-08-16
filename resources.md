@@ -30,7 +30,7 @@ Great reference materials for labs and programming
 
 <!-- - [Wireshark](https://www.wireshark.org) -->
 - [VirtualBox](https://www.virtualbox.org)
-  - [VirtualBox Networking Explained - NAT & Port Forwarding, Bridged, Internal, Host-Only](https://youtu.be/cDF4X7RmV4Q)
+  - [VirtualBox Networking Explained - NAT & Port Forwarding, Bridged, Internal, Host-Only (YouTube)](https://youtu.be/cDF4X7RmV4Q)
   - [VfirtualBox Network Settings: Complete Guide](https://www.nakivo.com/blog/virtualbox-network-setting-guide/)
 - [Infographic: The Linux Kernel - What Is It, and How Does It Work?](https://www.cyberciti.biz/media/new/cms/2017/04/how-does-linux-kernel-works-explained.png)
 - [Linux `man` pages](http://man7.org/linux/man-pages/dir_all_alphabetic.html)
