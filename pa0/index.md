@@ -1,6 +1,6 @@
 ---
 layout: default
-published: True
+published: False
 ---
 
 # Programming Assignment 0: <br/> Getting Started

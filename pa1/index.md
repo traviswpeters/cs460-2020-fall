@@ -1,6 +1,6 @@
 ---
 layout: default
-published: True
+published: False
 ---
 
 # Programming Assignment 1: <br/> A Web-Based Digital Photo Album
