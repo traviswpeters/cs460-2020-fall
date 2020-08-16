@@ -15,7 +15,7 @@ We've set up a VirtualBox image of a (pared-down) Linux with the right tools to 
 
 Here the instructions:
 
-0. Install [<i class="fas fa-external-link-alt"></i> VirtualBox](https://www.virtualbox.org/wiki/Downloads) on your machine. Select the plain vanilla "platform package."
+0. Install [**VirtualBox**](https://www.virtualbox.org/wiki/Downloads) on your machine. Select the relevant download for your OS and architecture under "VirtualBox X.Y.Z platform package."
 1. Download the [**VirtualBox appliance file** _(Link Coming Soon!)_]().
    - _I strongly recommend doing this via a tethered network since the file is large - several gigabytes._
   <!-- ``` -->

@@ -1,6 +1,6 @@
 ---
 layout: default
-published: False
+published: True
 ---
 
 # Programming Assignment 1: <br/> A Web-Based Digital Photo Album
@@ -76,7 +76,7 @@ the point is to create and manage concurrent processes, to achieve some specific
 - A [sample makefile](./Makefile.txt).
 - A Vagrantfile for students. (see next section)
 
-## A Reporducible Programming Environment (VirtualBox & Virtual Machines)
+## A Reproducible Programming Environment (VirtualBox & Virtual Machines)
 
 To make a reproducible environment where we can all develop/run code, you can use a Virtual Machine (VM).
 To make this task easier we can use a tool, Vagrant, that uses a configuration file (known as the "Vagrantfile") that specifies how a Virtual Machine (VM) should be configured.

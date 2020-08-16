@@ -1,23 +1,10 @@
 ---
 layout: default
-published: False
+published: True
 ---
 
 # Programming Assignment 2: <br/> The Bridger Canyon Drive Construction Project
 {:.text-center .pb-4}
-
-<!--
-<div class="subpage-header" markdown="1">
-### **{{ site.data.settings.assignments.a1.longname }}**
-{:.text-center}
-### The Bridger Canyon Drive Construction Project
-{:.text-center}
-###### ***Checkpoint Due:*** *{{ site.data.settings.assignments.a1.duecheckpoint }}*
-{:.text-center}
-###### ***Assignment Due:*** *{{ site.data.settings.assignments.a1.duelong }}*
-{:.text-center}
-</div>
--->
 
 ## Objective
 
@@ -105,13 +92,15 @@ Write code that simulates this scenario, where each car is simulated with a thre
 
 In your system, each vehicle should be represented by a thread, which executes the following function when it arrives at the point where the road goes to one-lane traffic only:
 
-    OneVehicle(direction) {
-        ArriveBridgerOneWay(direction);
-        // now the car is on the one-way section!
-        OnBridgerOneWay(direction);
-        ExitBridgerOneWay(direction);
-        // now the car is off
-    }
+```bash
+OneVehicle(direction) {
+    ArriveBridgerOneWay(direction);
+    // now the car is on the one-way section!
+    OnBridgerOneWay(direction);
+    ExitBridgerOneWay(direction);
+    // now the car is off
+}
+```
 
 Direction should be `TO_BRIDGER` or `TO_BOZEMAN`.
 (You may certainly add other arguments, or collapse this all into a general argument structure, as appropriate.)
@@ -134,7 +123,7 @@ Your program should accept (at least) two input arguments:
 Your program may accept additional, optional arguments.
 For example:
 
-```
+```bash
 Usage: ./b2bsim  NUMCARS  MAXCARS  [RANDSEED]  [VERBOSITY]
 ```
 
