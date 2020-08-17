@@ -97,7 +97,7 @@ If you have any questions, please contact me.
 <td markdown="span">08/19/2020 (W)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-Computer System Overview + Operating System Overview
+- Computer System Overview + Operating System Overview
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
