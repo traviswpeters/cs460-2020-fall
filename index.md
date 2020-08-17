@@ -86,7 +86,7 @@ If you have any questions, please contact me.
 <td markdown="span" markdown="1">
 - Course Introduction & Roadmap
 [slides](files/cs460-01-course-intro.pdf){:.slides}
-[video](https://zoom.us/rec/share/wcpQKpDv0jtOXY3yy3vFZLYnOZW8aaa81yUc8vIJyEYAMzlCyprO6RSAqyViBm9W?startTime=1597672515000){:.video}
+[video](https://zoom.us/rec/share/wcpQKpDv0jtOXY3yy3vFZLYnOZW8aaa81yUc8vIJyEYAMzlCyprO6RSAqyViBm9W){:.video}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
