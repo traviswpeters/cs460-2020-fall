@@ -68,7 +68,7 @@ If you have any questions, please contact me.
 <!-- ========================================= Week 01 ========================================= -->
 
 <tr>
-<td id="week01" markdown="span">**Week 01**<a class="far fa-link" href="#week01"></a></td>
+<td id="week01" markdown="span">Week 01</td>
 <!-- Week Title Here -->
 <td markdown="span" class="note">Introduction & Course Overview
 <!-- <br/>[<i class="fas fa-play-circle"></i> Welcome Message](https://montana.techsmithrelay.com/????) <span class="text-muted">(0:00)</span> -->
@@ -115,7 +115,7 @@ Computer System Overview + Operating System Overview
 <!-- ========================================= Week 02 ========================================= -->
 
 <tr>
-<td id="week02" markdown="span">**Week 02**<a class="far fa-link" href="#week02"></a></td>
+<td id="week02" markdown="span">Week 02</td>
 <!-- Week Title Here -->
 <td markdown="span" class="note">OS Tech Bootcamp</td>
 <td markdown="span"></td>
