@@ -19,6 +19,9 @@ The primary reference materials for classes and labs
 
 ###### Optional/Recommended Textbook(s)
 
+- [The C Programming Language](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628). Kernighan and Ritchie.
+- [Pthreads Programming](https://www.amazon.com/PThreads-Programming-Standard-Multiprocessing-Nutshell/dp/1565921151) Nichols et al
+
 - [zyBook - Interactive Operating Systems Textbook (v2020)](https://learn.zybooks.com/zybook/MONTANACSCI460PetersFall2020)
 - [Operating System Concepts - 8th Edition](https://www.amazon.com/Operating-Concepts-Silberschatz-Abraham-Hardcover-dp-B011DB56OO/dp/B011DB56OO/ref=mt_other?_encoding=UTF8&me=&qid=). Silberschatz, Galvin, Gagne (2011).
 <!-- - [The Craft of System Security - 1st Edition](https://www.amazon.com/Craft-System-Security-Sean-Smith/dp/0321434838). Sean Smith (2007). -->
