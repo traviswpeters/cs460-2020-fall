@@ -34,7 +34,7 @@ _>> Course dates: {{ site.data.settings.dates }}_{:.text-muted} <br/>
 ##### Links
 
 <i class="fas fa-external-link-alt"></i> [Code]({{site.data.settings.codelink}}) *>> All of the code from class (on GitHub)*{:.text-muted} <br/>
-<i class="fas fa-external-link-alt"></i> [Zoom]({{site.data.settings.zoomlink}}) *>> For tuning in and participating in classes virtually*{:.text-muted} <br/>
+<i class="fas fa-external-link-alt"></i> [Zoom]({{site.data.settings.zoomlink}}) *>> For tuning in and participating in classes virtually (for online chat during class, please use #classroomchat in Slack)*{:.text-muted} <br/>
 <i class="fas fa-external-link-alt"></i> {{site.data.settings.slack}} *>> For all course-related communications*{:.text-muted} <br/>
 <i class="fas fa-external-link-alt"></i> {{site.data.settings.d2l}} *>> For submitting assignments, tracking course grades, etc.*{:.text-muted} <br/>
 <i class="fas fa-external-link-alt"></i> {{site.data.settings.gradescope}} *>> For submitting and grading exams, providing exam feedback, etc.*{:.text-muted} <br/>
@@ -84,7 +84,9 @@ If you have any questions, please contact me.
 <td markdown="span">08/17/2020 (M)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- Course Introduction & Roadmap <!-- [slides][slides01]{:.slides} -->
+- Course Introduction & Roadmap
+[slides](files/cs460-01-course-intro.pdf){:.slides}
+[video](https://zoom.us/rec/share/wcpQKpDv0jtOXY3yy3vFZLYnOZW8aaa81yUc8vIJyEYAMzlCyprO6RSAqyViBm9W?startTime=1597672515000){:.video}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
