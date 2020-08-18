@@ -26,8 +26,9 @@ layout: default
 ##### Details
 
 **Lectures:**
-<a target="_blank" href="{{site.data.settings.zoomlink}}"><i class="fas fa-globe"></i> Online (Zoom)</a> &
-<a target="_blank" href="https://www.montana.edu/calendar/locations.php?building=3"><i class="fas fa-map-pin"></i> Barnard Hall 108</a> | M/W/F (8:00 &ndash; 8:50 a.m.)
+<a target="_blank" href="{{site.data.settings.zoomlink}}"><i class="fas fa-globe"></i> Online (Zoom)</a>
+<!-- & <a target="_blank" href="https://www.montana.edu/calendar/locations.php?building=3"><i class="fas fa-map-pin"></i> Barnard Hall 108</a> -->
+| M/W/F (8:00 &ndash; 8:50 a.m.)
 _>> Course dates: {{ site.data.settings.dates }}_{:.text-muted} <br/>
 **Textbook:** {{ site.data.settings.textbook }} <br/>
 
@@ -38,7 +39,20 @@ _>> Course dates: {{ site.data.settings.dates }}_{:.text-muted} <br/>
 <i class="fas fa-external-link-alt"></i> {{site.data.settings.slack}} *>> For all course-related communications*{:.text-muted} <br/>
 <i class="fas fa-external-link-alt"></i> {{site.data.settings.d2l}} *>> For submitting assignments, tracking course grades, etc.*{:.text-muted} <br/>
 <i class="fas fa-external-link-alt"></i> {{site.data.settings.gradescope}} *>> For submitting and grading exams, providing exam feedback, etc.*{:.text-muted} <br/>
+
+##### People/Help
+
+<i class="fas fa-external-link-alt"></i> [Travis's Office Hours (WebEx)]({{site.data.settings.webexlink}}) *>> A virtual meeting place for Travis's office hours*{:.text-muted} <br/>
+<i class="fas fa-external-link-alt"></i> [Reese's Office Hours (TBD)]({{site.data.settings.webexlink}}) *>> A virtual meeting place for Reese's office hours*{:.text-muted} <br/>
 <i class="fas fa-external-link-alt"></i> [CS Student Success Center]({{site.data.settings.ssclink}}) *>> Get help from TAs and peers*{:.text-muted} <br/>
+
+> You are _**always**_ welcome to come to my office hours and/or TA office hours as often as you like.
+To get the most out of office hours, you might like reading [How To Ask Questions The Smart Way, by Eric Steven Raymond](http://www.catb.org/esr/faqs/smart-questions.html).
+Please note  that I won't merely provide answers to assignments.
+I believe in the [Socratic method](https://en.wikipedia.org/wiki/Socratic_method)
+  and often [answer students' questions with questions](https://www.philsimon.com/blog/higher-education/analytics-students/).
+All of this is to say: come ready to chat :-)
+
 
 ## Schedule
 {:.titletext}
@@ -199,15 +213,6 @@ _More Schedule Details Coming Soon..._
 
 <!-- exams -->
 [Sample Exam Coversheet]: {{site.data.settings.exams.files}}/exam-coversheet-sample.pdf
-
-## Getting help
-
-You are _**always**_ welcome to come to my (virtual) office hours and/or TA office hours as often as you like.
-To get the most out of office hours, you might like reading [How To Ask Questions The Smart Way, by Eric Steven Raymond](http://www.catb.org/esr/faqs/smart-questions.html).
-Please note  that I won't merely provide answers to assignments.
-I believe in the [Socratic method](https://en.wikipedia.org/wiki/Socratic_method)
-  and often [answer students' questions with questions](https://www.philsimon.com/blog/higher-education/analytics-students/).
-All of this is to say: come ready to chat :-)
 
 ## Grading
 {:.titletext}
@@ -383,6 +388,18 @@ This is a collection of general FAQs related to our course. I will update this s
 > To align with MSU, this course has [adapted some of the syllabus language prepared by the Center for Faculty Excellence regarding COVID-19](http://www.montana.edu/facultyexcellence/teaching/resources/SyllabusLanguage.html).
 > Specifically, we clarify some of the expecations for our class around wearing masks, health-related absences, and mask-related accomodations.
 
+###### Q: How will classes be run?
+> I recently announced that our class has been transitioned to a fully **online** status.
+> For the most part, our class will be broadcasted live (virtually) via Zoom on M/W/F from 8:00am to 8:50am.
+
+> For live classes (synchronous), I will also record classes using (e.g., Zoom, TechSmith/Camtasia) and upload the recordings as soon as possible following the class session.
+> Sometimes I may choose to post recordings ahead of time instead of holding live class sessions (asynchronous), or point to other helpful content if it makes sense to do so.
+> I'll make it clear when that is happening.
+
+> Even though classes will be run (mostly) synchronously, all of the course materials (e.g., slides, links to recordings) will be linked from this website.
+> Furthermore, we will use Slack inside and outside class to facilitate conversations, make announcements, and so forth.
+
+{% comment %}
 ###### Q: How will the FIRST DAY / FIRST WEEK of classes be run?
 > I recently announced that based on current insights from the course questionnaire,
 > for the first week (at least) our class will be broadcasted virtually via zoom on M/W/F from 8:00am to 8:50am.
@@ -415,13 +432,14 @@ This is a collection of general FAQs related to our course. I will update this s
 > - **Wednesdays** - students whose last name is between **Hat-** through **Mil-**.
 > - **Fridays** - students whose last name is between **Nar-** through **Z-**.
 
-###### Q: How will office hours be run?
-> Office hours will likely follow a similar format  as class (though they will not be recorded).
-
 ###### Q: Do I have to (physically) attend class?
 > Nope! Even though classes will be run (mostly) synchronously, all of the course materials (e.g., slides, links to recordings) will be linked from this website.
 > Furthermore, we will use Slack inside and outside class to facilitate conversations, make announcements, and so forth.
 >  Thus, if you prefer to not attend in-person learning opportunities, or even if you do not return to Bozeman for the semester, you can still (virtually) attend classes and participate in this course.
+{% endcomment %}
+
+###### Q: How will office hours be run?
+> Office hours will likely follow a similar format  as class (though they will not be recorded).
 
 ###### Q: What happens if the online stream for class disconnects/drops?
 > An unfortunate reality is that these technologies may fail us at times.

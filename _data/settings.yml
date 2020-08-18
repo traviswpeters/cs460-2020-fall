@@ -11,7 +11,7 @@ img: 'assets/me.png'
 instructor: '<a target="_blank" href="https://www.traviswpeters.com/">Prof. Travis Peters</a>'
 email: '<a target="_blank" href="mailto:travis.peters1@montana.edu?subject=CS 460 Help">travis.peters1@montana.edu</a>'
 office: '<a target="_blank" href="https://www.montana.edu/calendar/locations.php?building=342">NAH 253A</a>'
-officehours: '(M) 10am-11am, (W) 3pm-4pm, (F) 9am-10am, and by appointment.'
+officehours: '<a target="_blank" href="https://montana.webex.com/meet/w52k448">(M) 10am-11am, (W) 3pm-4pm, (F) 9am-10am, and by appointment (via WebEx)</a>'
 # officephone: '<a target="_blank" href="tel:4069944296">406-994-4296</a>'
 
 ta: '<a target="_blank" href="https://reesep.github.io">Reese Pearsall</a>'
@@ -41,6 +41,7 @@ gradescope: '[Gradescope (code: 9RE7N4)](https://www.gradescope.com/courses/1410
 ssclink: 'https://www.cs.montana.edu/student-success-center.html'
 codelink: 'https://github.com/traviswpeters/cs460-code'
 zoomlink: 'https://zoom.us/meeting/register/tJYvc--rrzovGt1ohDQhvOV4DWPKvNptgipJ'
+webexlink: 'https://montana.webex.com/meet/w52k448' 
 
 # locations of things (notes, slides, etc.)
 slides: "files"
