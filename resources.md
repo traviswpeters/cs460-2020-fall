@@ -41,9 +41,9 @@ Great reference materials for labs and programming
 
 ###### Programming & Debugging
 - [An Introduction to C Programming for Java Programmers]({{site.data.settings.reading}}/intro-to-C-for-java-programmers.pdf)
-- [The C Cheat Sheet](files/the-C-cheat-sheet.pdf)
-- [C and C++ in 5 days]({{site.data.settings.reading}}/C-in-5-days.pdf)
-- [System Programming Overview / Programming in C Refresher](http://www.lysator.liu.se/c/bwk-tutor.html)
+  - [System Programming Overview / Programming in C Refresher](http://www.lysator.liu.se/c/bwk-tutor.html)
+  - [C and C++ in 5 days]({{site.data.settings.reading}}/C-in-5-days.pdf)
+  - [The C Cheat Sheet](files/the-C-cheat-sheet.pdf)
 - [POSIX Threads Programming](https://computing.llnl.gov/tutorials/pthreads/)
 - [GDB Cheatsheet](https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf)
 - [A Nice `Makefile` Tutorial](https://gist.github.com/isaacs/62a2d1825d04437c6f08)
