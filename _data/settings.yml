@@ -36,7 +36,7 @@ githuburl: https://github.com/traviswpeters/cs460-2020-fall/
 # COURSE LINKS
 # <i class="fas fa-external-link-alt"></i>
 questionnaire: '[Questionnaire](https://forms.gle/bEMav7XE9h5Nuybg7)'
-d2l: '[D2L](https://ecat.montana.edu/d2l/home/606493)'
+d2l: '[D2L](https://ecat.montana.edu/d2l/home/622131)'
 slack: '[Slack](https://join.slack.com/t/csci460-fa2020/shared_invite/zt-gop7i3kx-8ZwwdQYhyEILOGTSzT_uPA)'
 gradescope: '[Gradescope (code: 9RE7N4)](https://www.gradescope.com/courses/141029)'
 ssclink: 'https://www.cs.montana.edu/student-success-center.html'
@@ -55,39 +55,59 @@ menu:
 - {name: 'About', url: '#about-the-course'}
 - {name: 'Logistics', url: '#logistics'}
 - {name: 'Schedule', url: '#schedule'}
-# - {name: 'Labs', url: 'labs'}
+# - {name: 'Assignments', url: '#assignments'}
 # - {name: 'Yalnix', url: 'yalnix'}
 # - {name: 'Exams', url: '#exams'}
 - {name: 'Resources', url: 'resources'}
 - {name: 'FAQs', url: '#faqs'}
 - {name: '<span class="text-success">COVID-19 Info</span>', url: 'covid19'}
 
-work:
+assignments:
   pa0:
-    link: 'pa0'
+    show: False
+    name: 'PA0: Getting Started'
+    url: 'pa0'
     duedate: 'Saturday [08/29/2020] @ 11:59 PM (MST)'
   pa1:
-    link: 'pa1'
+    show: False
+    name: 'PA1: Procs & Syscalls'
+    url: 'pa1'
     duedate: 'Saturday [09/05/2020] @ 11:59 PM (MST)'
   pa2:
-    link: 'pa2'
+    show: False
+    name: 'PA2: Concurrency'
+    url: 'pa2'
     duedate: 'Saturday [09/12/2020] @ 11:59 PM (MST)'
 
 yalnix:
   link: 'yalnix'
   cp1:
+    show: True
+    name: 'Checkpoint 1'
     duedate: 'Saturday [09/19/2020] @ 11:59 PM (MST)'
   cp2:
+    show: True
+    name: 'Checkpoint 2'
     duedate: 'Saturday [09/26/2020] @ 11:59 PM (MST)'
   cp3:
+    show: True
+    name: 'Checkpoint 3'
     duedate: 'Saturday [10/03/2020] @ 11:59 PM (MST)'
   cp4:
+    show: True
+    name: 'Checkpoint 4'
     duedate: 'Saturday [10/10/2020] @ 11:59 PM (MST)'
   cp5:
+    show: True
+    name: 'Checkpoint 5'
     duedate: 'Saturday [10/17/2020] @ 11:59 PM (MST)'
   cp6:
+    show: True
+    name: 'Checkpoint 6'
     duedate: 'Saturday [10/24/2020] @ 11:59 PM (MST)'
   final:
+    show: True
+    name: 'Final Yalnix Submission'
     duedate: 'Saturday [10/31/2020] @ 11:59 PM (MST)'
 
 # project:

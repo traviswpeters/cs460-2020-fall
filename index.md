@@ -209,17 +209,47 @@ The grade breakdown is as follows:
 - **Exams (x2):** 30%
 <!-- - **Participation:** 5% _>> Engage in class/online discussions, ask questions, come to office hours, provide feedback / respond to surveys, etc._{:.text-muted} -->
 
-## Submitting Work
+## Assignments
+{:.mb-3}
 
-Submit assignments in **{{site.data.settings.d2l}}**.
-Assignments are **due @ TBD**.
+##### Submitting Work
+All assignments are to be submitted in **{{site.data.settings.d2l}}** or via git.
+(Each assignment will clarify the submission method.)
+<!-- Assignments are **due @ TBD**. -->
 <!-- Assignments are **due @ 11:59pm** on the due date. -->
+<!-- You can submit an assignment an unlimited number of times. Graders will only grade your most recent submission. -->
 
-You can submit an assignment an unlimited number of times. Graders will only grade your most recent submission.
+##### Solo Programming Assignments
+_Stay tuned for more information coming soon..._
 
-#### Late Penalties
+{% comment %}
+{% for assignment in site.data.settings.assignments %}
+{% for a in assignment %}
+{% if a.show %}
+- [{{a.name}}]({{site.baseurl}}/{{a.url}}) _>> Due: **{{a.duedate}}**_{:.text-muted .ml-2}
+  {:.m-0 .p-0}
+{% endif %}
+{% endfor %}
+{% endfor %}
+{% endcomment %}
 
-This course moves _fast_, and your evaluation is primarily based on completing the lab assignments.
+##### Yalnix Checkpoints (Group Project)
+_Stay tuned for more information coming soon..._
+
+{% comment %}
+{% for checkpoints in site.data.settings.yalnix %}
+{% for cp in checkpoints %}
+{% if cp.show %}
+- [{{cp.name}}]({{site.baseurl}}/{{site.data.settings.yalnix.link}}) _>> Due: **{{cp.duedate}}**_{:.text-muted .ml-2}
+  {:.m-0 .p-0}
+{% endif %}
+{% endfor %}
+{% endfor %}
+{% endcomment %}
+
+##### Late Penalties
+
+This course moves _fast_, and your evaluation is primarily based on completing the programming assignments & project checkpoints.
 As such, we take timely submissions seriously.
 
 The penalties for late submissions are as follows:
@@ -231,13 +261,15 @@ The penalties for late submissions are as follows:
 * &ge; 48 hours: no credit.
 
 I do understand, however, that extreme circumstances arise (e.g., interviews, illness, family matters).
-
 For this reason, **each student is herby granted two (virtual) "one-day late" coupons** whereby you can turn in an assingment late with no penalty &ndash; no excuse required.
 Each coupon is good for a 1-day (24-hour) extension on one project.
 However, an N-person project requires N coupons for a 1-day extension.
 Plan accordingly.
 You must tell me and the TA that you are using a coupon _before_ the official deadline.
 Also note that you _cannot_ change this decision later.
+
+_**No submissions (late coupons or no late coupons) will be accepted/graded 48 hours after the original deadline.**_
+{:.text-center .pt-2 .pb-2}
 
 <!-- For this reason, you are allowed -->
 <!-- **at most one 'late pass' where your submission can be turned in up to 48 hours late with no penalty** &ndash; no excuse required. -->
@@ -250,11 +282,9 @@ Also note that you _cannot_ change this decision later.
 <!-- Also note that if you are working on a team assignment, each member must have a late pass.  -->
 <!-- For example, if each member of a team of 3 still has their late pass, that team can submit an assignment up to 48 hours late with no penalty.  -->
 
-**No submissions (late pass or no late pass) will be accepted/graded 48 hours after the original deadline.**
-
 <!-- **Note:** this cannot be used to receive full credit on any assignment checkpoints. -->
 
-#### Poor Faith Assignments
+##### Poor Faith Assignments
 
 We work hard to make the assignments meaningful experiences for you, and to give you good feedback.
 We expect you to make good-faith efforts to do the assignments.

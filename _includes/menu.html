@@ -19,25 +19,14 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ item.name }}</a>
               <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 40px, 0px); top: 0px; left: 0px; will-change: transform;">
-                <a class="dropdown-item" href="{{ site.baseurl }}/{{ item.url }}">{{ item.name }} | Syllabus</a>
+                <a class="dropdown-item" href="{{ site.baseurl }}/{{ item.url }}">{{ item.name }} (Overview)</a>
                 <div class="dropdown-divider"></div>
                 {% for assignment in site.data.settings.assignments %}
                 {% for a in assignment %}
                   {% if a.show %}
-                  <a class="dropdown-item" href="{{site.baseurl}}/{{a.url}}">{{a.longname}}</a>
+                  <a class="dropdown-item" href="{{site.baseurl}}/{{a.url}}">{{a.name}}</a>
                   {% endif %}
                 {% endfor %}
-                {% endfor %}
-              </div>
-            </li>
-            {% elsif item.name == 'Project' %}
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ item.name }}</a>
-              <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 40px, 0px); top: 0px; left: 0px; will-change: transform;">
-                <a class="dropdown-item" href="{{ site.baseurl }}/{{ item.url }}">{{ item.name }} | Syllabus <br/><br/><i>All Materials Due: {{site.data.settings.project.due-final | markdownify}}</i></a>
-                <div class="dropdown-divider"></div>
-                {% for ppage in site.data.settings.project.pages %}
-                <a class="dropdown-item" href="{{ site.baseurl }}/project/{{ppage[0]}}">{{ppage[1]}}</a>
                 {% endfor %}
               </div>
             </li>
