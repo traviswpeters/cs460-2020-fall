@@ -112,6 +112,9 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - Computer System Overview + Operating System Overview
+<!-- [slides](files/cs460-01-course-intro.pdf){:.slides} -->
+<!-- [video](https://zoom.us/rec/share/wcpQKpDv0jtOXY3yy3vFZLYnOZW8aaa81yUc8vIJyEYAMzlCyprO6RSAqyViBm9W){:.video} -->
+[Minute Paper](https://forms.gle/dxRexo9t9CBbbFm38){:.activity}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
