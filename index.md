@@ -112,9 +112,8 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - Computer System Overview + Operating System Overview
-<!-- [slides](files/cs460-01-course-intro.pdf){:.slides} -->
-<!-- [video](https://zoom.us/rec/share/wcpQKpDv0jtOXY3yy3vFZLYnOZW8aaa81yUc8vIJyEYAMzlCyprO6RSAqyViBm9W){:.video} -->
-[Minute Paper](https://forms.gle/dxRexo9t9CBbbFm38){:.activity}
+[slides](files/cs460-02-system-and-OS-overview-1.pdf){:.slides}
+[video](https://zoom.us/rec/share/6tUkdLqopltLYYXvyGPGQv8fJ7XLeaa82iNPqPUIz0xDwgQDogLYCEU4qqkTBqtE){:.video}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
@@ -126,6 +125,9 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - Computer System Overview + Operating System Overview _(cont.)_
+<!-- [slides](files/cs460-02-system-and-OS-overview-2.pdf){:.slides} -->
+<!-- [video](https://zoom.us/rec/share/wcpQKpDv0jtOXY3yy3vFZLYnOZW8aaa81yUc8vIJyEYAMzlCyprO6RSAqyViBm9W){:.video} -->
+<!-- [Minute Paper](https://forms.gle/dxRexo9t9CBbbFm38){:.activity} -->
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
