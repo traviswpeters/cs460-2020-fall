@@ -18,6 +18,7 @@ ta: '<a target="_blank" href="https://reesep.github.io">Reese Pearsall</a>'
 taemail: '<a target="_blank" href="mailto:reese.pearsall@student.montana.edu?subject=CS 460 Help">reese.pearsall@student.montana.edu</a>'
 taoffice: '<a target="_blank" href="https://www.montana.edu/calendar/locations.php?building=342">NAH 253</a>'
 taofficehours: 'TBD and by appointment.'
+tawebexlink: 'https://montana.webex.com/'
 
 # Course-specific variables
 title: 'Operating Systems'
@@ -41,7 +42,7 @@ gradescope: '[Gradescope (code: 9RE7N4)](https://www.gradescope.com/courses/1410
 ssclink: 'https://www.cs.montana.edu/student-success-center.html'
 codelink: 'https://github.com/traviswpeters/cs460-code'
 zoomlink: 'https://zoom.us/meeting/register/tJYvc--rrzovGt1ohDQhvOV4DWPKvNptgipJ'
-webexlink: 'https://montana.webex.com/meet/w52k448' 
+webexlink: 'https://montana.webex.com/meet/w52k448'
 
 # locations of things (notes, slides, etc.)
 slides: "files"

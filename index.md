@@ -43,7 +43,7 @@ _>> Course dates: {{ site.data.settings.dates }}_{:.text-muted} <br/>
 ##### People/Help
 
 <i class="fas fa-external-link-alt"></i> [Travis's Office Hours (WebEx)]({{site.data.settings.webexlink}}) *>> A virtual meeting place for Travis's office hours*{:.text-muted} <br/>
-<i class="fas fa-external-link-alt"></i> [Reese's Office Hours (TBD)]({{site.data.settings.webexlink}}) *>> A virtual meeting place for Reese's office hours*{:.text-muted} <br/>
+<i class="fas fa-external-link-alt"></i> [Reese's Office Hours (TBD)]({{site.data.settings.tawebexlink}}) *>> A virtual meeting place for Reese's office hours*{:.text-muted} <br/>
 <i class="fas fa-external-link-alt"></i> [CS Student Success Center]({{site.data.settings.ssclink}}) *>> Get help from TAs and peers*{:.text-muted} <br/>
 
 > You are _**always**_ welcome to come to my office hours and/or TA office hours as often as you like.
@@ -179,37 +179,8 @@ If you have any questions, please contact me.
 
 {% endcomment %}
 
-
 _More Schedule Details Coming Soon..._
 {:.alert .alert-primary .text-center}
-
-<!-- slides -->
-
-<!-- Introductions + Basics -->
-<!-- TODO: TECH BOOTCAMP (1st week...) -->
-[slides01]: files/001.pdf
-[slides02]: files/002.pdf
-[slides03]: files/003.pdf
-
-<!-- labs -->
-[Lab 00]: labs/lab00
-[Lab 01]: labs/lab01
-[Lab 02]: labs/lab02
-[Lab 03]: labs/lab03
-[Lab 04]: labs/lab04
-[Lab 05]: labs/lab05
-[Lab 06]: labs/lab06
-[Lab 07]: labs/lab07
-[Lab 08]: labs/lab08
-[Lab 09]: labs/lab09
-[Lab 10]: labs/lab10
-[Final Lab]: labs/final
-
-<!-- code examples, provided code, etc. -->
-<!-- [probe.c]: code/probe.c -->
-<!-- [Makefile]: code/Makefile.txt -->
-<!-- [Makefile]: {{site.data.settings.code}}/Makefile -->
-<!-- [Vagrantfile]: {{site.data.settings.code}}/Vagrantfile -->
 
 <!-- exams -->
 [Sample Exam Coversheet]: {{site.data.settings.exams.files}}/exam-coversheet-sample.pdf
