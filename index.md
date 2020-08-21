@@ -126,8 +126,10 @@ If you have any questions, please contact me.
 <td markdown="span" markdown="1">
 - Computer System Overview + Operating System Overview _(cont.)_
 <!-- [slides](files/cs460-02-system-and-OS-overview-2.pdf){:.slides} -->
-<!-- [video](https://zoom.us/rec/share/wcpQKpDv0jtOXY3yy3vFZLYnOZW8aaa81yUc8vIJyEYAMzlCyprO6RSAqyViBm9W){:.video} -->
-<!-- [Minute Paper](https://forms.gle/dxRexo9t9CBbbFm38){:.activity} -->
+<!-- [video](){:.video} -->
+[Activity #1](files/cs460-02-system-and-OS-overview-A1.pdf){:.activity}
+[Activity #2](files/cs460-02-system-and-OS-overview-A2.pdf){:.activity}
+[Minute Paper](https://forms.gle/dxRexo9t9CBbbFm38){:.activity}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>

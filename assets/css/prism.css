@@ -45,7 +45,7 @@ pre[class*="language-"]>code {
 	background-size: 3em 3em;
 	background-origin: content-box;
 	background-attachment: local;
-	border-radius: 3px;
+	border-radius: 2px;
 }
 
 code[class*="language-"] {
