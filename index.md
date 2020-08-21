@@ -84,7 +84,7 @@ If you have any questions, please contact me.
 <tr>
 <td id="week01" markdown="span">Week 01</td>
 <!-- Week Title Here -->
-<td markdown="span" class="note">Introduction & Course Overview
+<td markdown="span" class="note">Introduction & Course Overview & Computer System Review
 <!-- <br/>[<i class="fas fa-play-circle"></i> Welcome Message](https://montana.techsmithrelay.com/????) <span class="text-muted">(0:00)</span> -->
 </td>
 <td markdown="span" markdown="1">
@@ -99,8 +99,8 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - Course Introduction & Roadmap
-[slides](files/cs460-01-course-intro.pdf){:.slides}
 [video](https://zoom.us/rec/share/wcpQKpDv0jtOXY3yy3vFZLYnOZW8aaa81yUc8vIJyEYAMzlCyprO6RSAqyViBm9W){:.video}
+[slides](files/cs460-01-course-intro.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
@@ -111,9 +111,9 @@ If you have any questions, please contact me.
 <td markdown="span">08/19/2020 (W)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- Computer System Overview + Operating System Overview
-[slides](files/cs460-02-system-and-OS-overview-1.pdf){:.slides}
+- Computer System Overview
 [video](https://zoom.us/rec/share/6tUkdLqopltLYYXvyGPGQv8fJ7XLeaa82iNPqPUIz0xDwgQDogLYCEU4qqkTBqtE){:.video}
+[slides](files/cs460-02-system-overview-p1.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
@@ -124,11 +124,11 @@ If you have any questions, please contact me.
 <td markdown="span">08/21/2020 (F)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- Computer System Overview + Operating System Overview _(cont.)_
-<!-- [slides](files/cs460-02-system-and-OS-overview-2.pdf){:.slides} -->
-<!-- [video](){:.video} -->
-[Activity #1](files/cs460-02-system-and-OS-overview-A1.pdf){:.activity}
-[Activity #2](files/cs460-02-system-and-OS-overview-A2.pdf){:.activity}
+- Computer System Overview _(cont.)_
+[video](https://zoom.us/rec/share/__UuNo30rmFJZqfVyGX9BOk5R6G0eaa81igX-vUNzUuENVnENH3Lr2ED9jfe1sPG){:.video}
+[slides](files/cs460-02-system-overview-p2.pdf){:.slides}
+<!-- [Activity #1](files/cs460-02-system-overview-a1.pdf){:.activity} -->
+<!-- [Activity #2](files/cs460-02-system-overview-a2.pdf){:.activity} -->
 [Minute Paper](https://forms.gle/dxRexo9t9CBbbFm38){:.activity}
 </td>
 <!-- Assignments & Reading Here -->
