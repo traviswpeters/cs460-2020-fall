@@ -150,7 +150,7 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - **Tech Bootcamp Begins...** Virtual Machines (VirtualBox + Vagrant), Commandline, C Programming, GDB, Makefiles, Git/GitHub, READMEs/Markdown, ... _oh my!_
-[PA0](pa0/){:.activity}
+[Activities (PA0)](pa0/){:.activity}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">

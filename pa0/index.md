@@ -142,6 +142,13 @@ sudo lshw -html > hardwareinfo.html
 > After you've become more familiar with command line tools, you may want to write your own scripts.
 > If you are interested, check out this [advanced Bash scripting guide](http://tldp.org/LDP/abs/html/).
 
+
+
+
+
+# PART II COMING SOON...
+{:.text-center}
+
 {% comment %}
 
 ## Task 5: Makefiles
