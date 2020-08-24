@@ -6,6 +6,14 @@ published: True
 # Programming Assignment 0: <br/> Getting Started
 {:.text-center .pb-4}
 
+<div class="alert alert-primary">
+  <h4 class="text-center alert-heading">Due Sunday (08/30/2020) @ 11:59 PM</h4>
+</div>
+
+<div class="alert alert-primary text-center">
+  <h4 class="alert-heading">Remember our policies around academic honesty!</h4>
+  <p class="mb-0">You may talk with others and discuss ideas and strategies at a high level, but do not look at anyone else's code for this assignment!</p>
+</div>
 
 ## Objective
 
@@ -18,9 +26,6 @@ The ultimate objectives of this assignment are:
 
 * to give you an opportunity to weigh in on aspects of our course,
 * to give you opportunities to practice with some of the course tools we'll be using this semester.
-
-**Remember our policies around academic honesty: <br/> You may talk with others and discuss ideas and strategies at a high level, but do not look at anyone else's code for this assignment!**
-{:.text-center .p-3}
 
 ## Task 1: Complete the Course Questionnaire
 
