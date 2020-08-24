@@ -67,48 +67,48 @@ assignments:
     show: False
     name: 'PA0: Getting Started'
     url: 'pa0'
-    duedate: 'Saturday [08/29/2020] @ 11:59 PM (MST)'
+    duedate: 'Sunday [08/30/2020] @ 11:59 PM (MST)'
   pa1:
     show: False
     name: 'PA1: Procs & Syscalls'
     url: 'pa1'
-    duedate: 'Saturday [09/05/2020] @ 11:59 PM (MST)'
+    duedate: 'Sunday [09/06/2020] @ 11:59 PM (MST)'
   pa2:
     show: False
     name: 'PA2: Concurrency'
     url: 'pa2'
-    duedate: 'Saturday [09/12/2020] @ 11:59 PM (MST)'
+    duedate: 'Sunday [09/13/2020] @ 11:59 PM (MST)'
 
 yalnix:
   link: 'yalnix'
   cp1:
     show: True
     name: 'Checkpoint 1'
-    duedate: 'Saturday [09/19/2020] @ 11:59 PM (MST)'
+    duedate: 'Sunday [09/20/2020] @ 11:59 PM (MST)'
   cp2:
     show: True
     name: 'Checkpoint 2'
-    duedate: 'Saturday [09/26/2020] @ 11:59 PM (MST)'
+    duedate: 'Sunday [09/27/2020] @ 11:59 PM (MST)'
   cp3:
     show: True
     name: 'Checkpoint 3'
-    duedate: 'Saturday [10/03/2020] @ 11:59 PM (MST)'
+    duedate: 'Sunday [10/04/2020] @ 11:59 PM (MST)'
   cp4:
     show: True
     name: 'Checkpoint 4'
-    duedate: 'Saturday [10/10/2020] @ 11:59 PM (MST)'
+    duedate: 'Sunday [10/11/2020] @ 11:59 PM (MST)'
   cp5:
     show: True
     name: 'Checkpoint 5'
-    duedate: 'Saturday [10/17/2020] @ 11:59 PM (MST)'
+    duedate: 'Sunday [10/18/2020] @ 11:59 PM (MST)'
   cp6:
     show: True
     name: 'Checkpoint 6'
-    duedate: 'Saturday [10/24/2020] @ 11:59 PM (MST)'
+    duedate: 'Sunday [10/25/2020] @ 11:59 PM (MST)'
   final:
     show: True
     name: 'Final Yalnix Submission'
-    duedate: 'Saturday [10/31/2020] @ 11:59 PM (MST)'
+    duedate: 'Sunday [11/01/2020] @ 11:59 PM (MST)'
 
 # project:
 #   pages:
