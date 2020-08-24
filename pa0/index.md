@@ -1,6 +1,6 @@
 ---
 layout: default
-published: False
+published: True
 ---
 
 # Programming Assignment 0: <br/> Getting Started
@@ -58,7 +58,7 @@ This file should be named `README.md` and it should be at the top-level director
 **At a minimum your README should include:**
 - An overview of what this project (PA0, in this case) is all about. This should be a few sentences at most.
 - An overview of what is "here" _(i.e., What is in the folder you submit? Are there subdirectories? Are there any particularly important/useful files?)_
-- Examples of how to work with this project _(e.g., What `make` targets should be run to compile you code? How can I quickly verify that the project has been compiled correctly and works? Are there commandline arguments or features that are useful to demonstrate to help others effectively use and understand your code?)._
+- Examples of how to work with this project _(e.g., What `make` targets should be run to compile you code? How can I quickly verify that the project has been compiled correctly and works? Are there command line arguments or features that are useful to demonstrate to help others effectively use and understand your code?)._
 - Responses to the tasks/questions throughout PA0.
 
 ## Task 3: VirtualBox & Vagrant
@@ -71,7 +71,7 @@ VirtualBox and Vagrant are invaluable virtualization tools.
 
 VirtualBox is an application that helps us create and run virtual machines (VMs).
 Vagrant, helps us to automate a lot of the tedious things, such as downloading virtual images, configuring our VMs, controlling and interacting with our VMS, etc.
-The real "win" for us is that using VirtualBox and Vagrant together makes it easier for us to all reproduce an identical environment to run code and interact with the OS via the commandline;
+The real "win" for us is that using VirtualBox and Vagrant together makes it easier for us to all reproduce an identical environment to run code and interact with the OS via the command line;
 when we discuss examples in class, you'll be able to follow along or try later and know that any code and examples will just work!
 Cool, huh?!
 
@@ -85,27 +85,37 @@ Subsequent tasks depend on this task, so please make sure you have this task com
 
 1. Install [**VirtualBox**](https://www.virtualbox.org/wiki/Downloads) on your machine. Select the relevant download for your OS and architecture under "VirtualBox X.Y.Z platform package."
 2. Install [**Vagrant**](https://www.vagrantup.com/downloads) on your machine. Select the relevant download for your OS and architecture.
-3. Download our [**Vagrantfile**](https://raw.githubusercontent.com/traviswpeters/cs460-code/master/Vagrantfile) from class. Put this file at the top level of whatever directory you plan to do your work in (e.g., `~/projects/cs460/`).
+3. Download our [**Vagrantfile**](https://raw.githubusercontent.com/traviswpeters/cs460-code/master/Vagrantfile) from class.
+Put this file at the top level of whatever directory you plan to do your work in (e.g., `~/projects/cs460/`).
+```bash
+# for example, if you have curl installed:
+mkdir -p ~/projects/cs460/
+cd ~/projects/cs460/
+curl -O https://raw.githubusercontent.com/traviswpeters/cs460-code/master/Vagrantfile
+```
 4. Open a terminal, navigate to where you stored your Vagrantfile, and run: `vagrant up`.
 5. After the machine has been created and successfully boots, run `vagrant ssh`.
-6. Run `uname -a` at the commandline and describe your observation (i.e., what is this command doing?). Please capture your answer in the README for your submission.
+6. Run `uname -a` at the command line and describe your observation (i.e., what is this command doing?). Please capture your answer in the README for your submission.
 
 > **NOTE:** When installing this software, please install the most recent, stable versions.
 If you have already installed VirtualBox and/or Vagrant, I strongly recommend you upgrade to the latest and greatest versions.
 
-## Task 4: Commandline
+## Task 4: Command Line
+You will spend a lot of time at the command line in this course. _[**<< cheatsheet >>**](https://cheatography.com/davechild/cheat-sheets/linux-command-line/)_
 
-While you can use VirtualBox GUI to interact with your VM, I prefer (and recommend!) to SSH into a VM and work from the commandline.
-_[**<< cheatsheet >>**](https://cheatography.com/davechild/cheat-sheets/linux-command-line/)_
+> While you can use the VirtualBox GUI to interact with your VM, ultimately you'll be doing a lot of your work at the command line.
+> Thus, I prefer (and recommend!) to SSH into a VM and work from the command line that way.
+> (Rather than spinning up a GUI just to use the terminal application to access the command line on your VM.)
 
-Now that we have a VM up and running (previous task), we can familiarize ourselves with working inside the VM.
+Now that we have a VM up and running (previous task), we can familiarize ourselves with working _inside_ the VM.
 
-This task is intended to get you thinking about some of the commandline tools that may be useful to you this semester.
+This task is intended to get you thinking about some of the command line tools that may be useful to you this semester.
 
 1. Run the following commands and describe your observations in your README.
 _(**NOTE:** each line is a separate command or series of commands.)_
 I encourage you to run these commands and to try to get a feel for what might be happening.
-_After_ you have some intuition, then follow up with looking at a book, cheatsheet, manual, website, etc.
+_After_ you have run the commands and some intuition,
+then follow up with looking at a resource (e.g., a book, cheatsheet, manual, website, etc.) to verify your thinking and your observations.
 ```bash
 cd ~
 pwd
@@ -113,20 +123,21 @@ mkdir -p /tmp/this/is/a/sub/directory
 ln -s /tmp/this/is/a/sub/directory ~/mydir
 ls -al
 env | grep PATH
-curl https://raw.githubusercontent.com/traviswpeters/cs460-code/master/week01/info
+curl -O https://raw.githubusercontent.com/traviswpeters/cs460-code/master/week02/info
 cat info
 sudo lshw -html > hardwareinfo.html
 ```
 2. Without using Google, Stack Overflow, etc. how can you learn more about commands?
 (**hint:** is there some sort of _manual_ that you can access?)
-3. In your experience, what is your favorite commandline tool _and_ why?
+3. In your experience, what is your favorite command line tool _and_ why?
 
-> Obviously there is so much more we can do at the commandline.
-> I definitely recommend checking out more commandline tutorials to go deeper.
+> Obviously there is so much more we can do at the command line.
+> I definitely recommend checking out more command line tutorials to go deeper.
 > For instance, [this Linux Tutorial](https://ryanstutorials.net/linuxtutorial/).
-> After you've become more familiar with commandline tools, you may want to write your own scripts.
+> After you've become more familiar with command line tools, you may want to write your own scripts.
 > If you are interested, check out this [advanced Bash scripting guide](http://tldp.org/LDP/abs/html/).
 
+{% comment %}
 
 ## Task 5: Makefiles
 
@@ -136,8 +147,7 @@ _[**<< cheatsheet >>**](https://gist.github.com/evertrol/4b6fd05f3b6be2b331c6063
 This task is meant to show you that Makefiles are not magic.
 We'll do this by tinkering with a Makefile example in a silly way.
 
-
-Using the [**"get dressed" Makefile**](https://raw.githubusercontent.com/traviswpeters/cs460-code/master/week01/makefile-intro/Makefile):
+Using the [**"get dressed" Makefile**](https://raw.githubusercontent.com/traviswpeters/cs460-code/master/week02/makefile-intro/Makefile):
 1. Instead of echoing to stdout, redirect each echo statement to a file called 'dressed.txt'.
 2. Add a 'clean' target that removes any file(s) that your makefile generates.
 3. Answer this question: Why is it important to use the '.PHONY' target when adding targets that don't explicitly build files?
@@ -154,54 +164,25 @@ For example, [Clark Grubb's Makefile Style Guide](https://clarkgrubb.com/makefil
 ## Task 6: Programming in C
 
 Writing programs in C is expected in this course.
-_[**<< cheatsheet >>**](../files/the-C-cheat-sheet.pdf)_
+_[**<< cheatsheet >>**](../files/intro-to-C-for-java-programmers.pdf)_
 
 > If you haven't already, please check out the FAQ, specifically the question:
 > [What programming languages & tools will we use for programming assignments in this class?](../#q-what-programming-languages--tools-will-we-use-for-programming-assignments-in-this-class)
 
 This task is meant to allow you to review C programming syntax and to practice with reading and writing C code.
 
-1. ...
-2. ...
-3. ...
-
-```C
-#include <stdio.h>
-
-void first_function(void);
-void second_function(int);
-
-int main(void)
-{
-   printf("hello world\n");
-   first_function();
-   printf("goodbye goodbye\n");
-
-   return 0;
-}
+1. Change `secret.c` to write out _**ONLY**_ the encoded data to a file, `data.encoded`.
+2. Write a `decode` function that reads in an encoded file (e.g., `data.encoded`), decodes the data, and writes out the decoded data to a file, `data.encoded`.
+3. Change `secret.c` to read an `op` to be performed. Your program should handle `encode` and `decode` as valid ops. All other ops are invalid. (If your program is given an invalid `op` it should report an error and return a non-negative return value.)
+4. Change `secret.c` to read the `key` as an ASCII string from the command line.
 
 
-void first_function(void)
-{
-   int imidate = 3;
-   char broiled = 'c';
-   void *where_prohibited = NULL;
-
-   second_function(imidate);
-   imidate = 10;
-}
-
-
-void second_function(int a)
-{
-   int b = a;
-}
-```
-<!-- {:.line-numbers} -->
+2. ...compile and run...describe what this program is doing...
+3. ...create a new C program to...
 
 ## Task 7: Debugginig C Programs with GDB
 
-The [GNU Debugger (GDB)](https://www.gnu.org/software/gdb/) is a popular commandline debugger.
+The [GNU Debugger (GDB)](https://www.gnu.org/software/gdb/) is a popular command line debugger.
 _[**<< cheatsheet >>**](https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf)_
 
 According the to project:
@@ -269,7 +250,7 @@ Your zipped folder should contains ***at least*** the following files:
 | On-time assignment that reflects a good faith effort                               | 25      |       |
 | Completed the course questionnaire                                                 | 5       |       |
 | Provides evidence that Virtual Box & Vagrant are installed and run correctly       | 10      |       |
-| Provides responses and observations to commandline tasks                           | 10      |       |
+| Provides responses and observations to command line tasks                          | 10      |       |
 | Demonstrates correctness of new features added to the "getting dressed" Makefile   | 10      |       |
 | ...                                                                                | 5       |       |
 | ...                                                                                | 5       |       |
@@ -278,3 +259,5 @@ Your zipped folder should contains ***at least*** the following files:
 | ---------------------------------------------------------------------------------- | ------- |------ |
 | **Total**                                                                          | **100** |       |
 | ---------------------------------------------------------------------------------- | ------- |------ |
+
+{% endcomment %}
