@@ -33,7 +33,6 @@ _>> Course dates: {{ site.data.settings.dates }}_{:.text-muted} <br/>
 **Textbook:** {{ site.data.settings.textbook }} <br/>
 
 ##### Links
-
 <i class="fas fa-external-link-alt"></i> [Code]({{site.data.settings.codelink}}) *>> All of the code from class (on GitHub)*{:.text-muted} <br/>
 <i class="fas fa-external-link-alt"></i> [Zoom]({{site.data.settings.zoomlink}}) *>> For tuning in and participating in classes virtually (for online chat during class, please use #classroomchat in Slack)*{:.text-muted} <br/>
 <i class="fas fa-external-link-alt"></i> {{site.data.settings.slack}} *>> For all course-related communications*{:.text-muted} <br/>
@@ -43,7 +42,7 @@ _>> Course dates: {{ site.data.settings.dates }}_{:.text-muted} <br/>
 ##### People/Help
 
 <i class="fas fa-external-link-alt"></i> [Travis's Office Hours (WebEx)]({{site.data.settings.webexlink}}) *>> A virtual meeting place for Travis's office hours*{:.text-muted} <br/>
-<i class="fas fa-external-link-alt"></i> [Reese's Office Hours (TBD)]({{site.data.settings.tawebexlink}}) *>> A virtual meeting place for Reese's office hours*{:.text-muted} <br/>
+<i class="fas fa-external-link-alt"></i> [Reese's Office Hours (WebEx)]({{site.data.settings.tawebexlink}}) *>> A virtual meeting place for Reese's office hours*{:.text-muted} <br/>
 <i class="fas fa-external-link-alt"></i> [CS Student Success Center]({{site.data.settings.ssclink}}) *>> Get help from TAs and peers*{:.text-muted} <br/>
 
 > You are _**always**_ welcome to come to my office hours and/or TA office hours as often as you like.

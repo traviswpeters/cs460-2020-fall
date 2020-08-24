@@ -17,8 +17,8 @@ officehours: '<a target="_blank" href="https://montana.webex.com/meet/w52k448">(
 ta: '<a target="_blank" href="https://reesep.github.io">Reese Pearsall</a>'
 taemail: '<a target="_blank" href="mailto:reese.pearsall@student.montana.edu?subject=CS 460 Help">reese.pearsall@student.montana.edu</a>'
 taoffice: '<a target="_blank" href="https://www.montana.edu/calendar/locations.php?building=342">NAH 253</a>'
-taofficehours: 'TBD and by appointment.'
-tawebexlink: 'https://montana.webex.com/'
+# taofficehours: 'TBD and by appointment.'
+taofficehours: '<a target="_blank" href="https://montana.webex.com/meet/b37k331">(W) 10am-11am, (Th) 11am-12pm, and by appointment (via WebEx)</a>'
 
 # Course-specific variables
 title: 'Operating Systems'
@@ -43,6 +43,7 @@ ssclink: 'https://www.cs.montana.edu/student-success-center.html'
 codelink: 'https://github.com/traviswpeters/cs460-code'
 zoomlink: 'https://zoom.us/meeting/register/tJYvc--rrzovGt1ohDQhvOV4DWPKvNptgipJ'
 webexlink: 'https://montana.webex.com/meet/w52k448'
+tawebexlink: 'https://montana.webex.com/meet/b37k331'
 
 # locations of things (notes, slides, etc.)
 slides: "files"
