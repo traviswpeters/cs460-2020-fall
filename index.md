@@ -149,6 +149,8 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - **Tech Bootcamp Begins...** Virtual Machines (VirtualBox + Vagrant), Commandline, C Programming, GDB, Makefiles, Git/GitHub, READMEs/Markdown, ... _oh my!_
+[video](https://zoom.us/rec/share/2p0lIZPNr09JeKPo6BjdBKcgQIC_eaa80Ccd86INz4Fpsaf6X8rJmD1BgB_9PcE){:.video}
+[slides](files/cs460-00-bootcamp-p1.pdf){:.slides}
 [Activities (PA0)](pa0/){:.activity}
 </td>
 <!-- Assignments & Reading Here -->
