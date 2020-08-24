@@ -93,17 +93,19 @@ Subsequent tasks depend on this task, so please make sure you have this task com
 3. Download our [**Vagrantfile**](https://raw.githubusercontent.com/traviswpeters/cs460-code/master/Vagrantfile) from class.
 Put this file at the top level of whatever directory you plan to do your work in (e.g., `~/projects/cs460/`).
 ```bash
-# for example, if you have curl installed:
 mkdir -p ~/projects/cs460/
 cd ~/projects/cs460/
 curl -O https://raw.githubusercontent.com/traviswpeters/cs460-code/master/Vagrantfile
 ```
+> **NOTE:** The commands above were run on a machine running macOS. It also assumes you have `curl` installed. Your mileage may vary.
+
 4. Open a terminal, navigate to where you stored your Vagrantfile, and run: `vagrant up`.
 5. After the machine has been created and successfully boots, run `vagrant ssh`.
 6. Run `uname -a` at the command line and describe your observation (i.e., what is this command doing?). Please capture your answer in the README for your submission.
 
 > **NOTE:** When installing this software, please install the most recent, stable versions.
 If you have already installed VirtualBox and/or Vagrant, I strongly recommend you upgrade to the latest and greatest versions.
+
 
 ## Task 4: Command Line
 You will spend a lot of time at the command line in this course. _[**<< cheatsheet >>**](https://cheatography.com/davechild/cheat-sheets/linux-command-line/)_
@@ -141,6 +143,11 @@ sudo lshw -html > hardwareinfo.html
 > For instance, [this Linux Tutorial](https://ryanstutorials.net/linuxtutorial/).
 > After you've become more familiar with command line tools, you may want to write your own scripts.
 > If you are interested, check out this [advanced Bash scripting guide](http://tldp.org/LDP/abs/html/).
+
+
+
+
+
 
 
 
