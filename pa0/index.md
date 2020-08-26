@@ -144,20 +144,6 @@ sudo lshw -html > hardwareinfo.html
 > After you've become more familiar with command line tools, you may want to write your own scripts.
 > If you are interested, check out this [advanced Bash scripting guide](http://tldp.org/LDP/abs/html/).
 
-
-
-
-
-
-
-
-
-
-# PART II COMING SOON...
-{:.text-center}
-
-{% comment %}
-
 ## Task 5: Makefiles
 
 While there is a lot to Makefiles, they can be extremely useful even if we use only a small subset of the features this tool provides.
@@ -180,6 +166,20 @@ Using the [**"get dressed" Makefile**](https://raw.githubusercontent.com/travisw
 > For the curious, I encourage you to seek out more in-depth and advanced information on Makefiles.
 For example, [Clark Grubb's Makefile Style Guide](https://clarkgrubb.com/makefile-style-guide).
 
+
+
+
+
+
+
+
+
+
+
+
+
+{% comment %}
+
 ## Task 6: Programming in C
 
 Writing programs in C is expected in this course.
@@ -195,6 +195,11 @@ This task is meant to allow you to review C programming syntax and to practice w
 3. Change `secret.c` to read an `op` to be performed. Your program should handle `encode` and `decode` as valid ops. All other ops are invalid. (If your program is given an invalid `op` it should report an error and return a non-negative return value.)
 4. Change `secret.c` to read the `key` as an ASCII string from the command line.
 
+
+In `stategame.c:`
+1. Fill in part of `listInsert()` (given the basic structure, fill in insertion logic).
+2. Fill in part of `removeDuplicates()` (given the basic structure, fill in insertion logic).
+3. Write a `cleanUpList()` routine that frees each item in the list before exiting.
 
 2. ...compile and run...describe what this program is doing...
 3. ...create a new C program to...
@@ -280,3 +285,5 @@ Your zipped folder should contains ***at least*** the following files:
 | ---------------------------------------------------------------------------------- | ------- |------ |
 
 {% endcomment %}
+# PART III COMING SOON...
+{:.text-center}
