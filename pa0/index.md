@@ -150,10 +150,8 @@ sudo lshw -html > hardwareinfo.html
 # PART II
 {:.text-center .pt-3 .pb-3}
 
-<div class="alert alert-primary text-center">
-  <!-- <h4 class="alert-heading">Accessing CS460 Code</h4> -->
-  <p class="mb-0" markdown="1">At this point I recommend that you follow the instructions in [_Getting Started (click me!)_](https://github.com/traviswpeters/cs460-code#getting-started){:.text-white .lead .font-weight-bold} to get local/easy access to code we reference in class.</p>
-</div>
+_At this point I recommend that you follow the instructions in [Getting Started (click me!)](https://github.com/traviswpeters/cs460-code#getting-started){:.lead .font-weight-bold} to get local/easy access to code we reference in class._
+{:.text-center .pb-3}
 
 ## Task 5: Makefiles
 
