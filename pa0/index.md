@@ -150,6 +150,9 @@ sudo lshw -html > hardwareinfo.html
 # PART II
 {:.text-center .pt-3 .pb-3}
 
+_If you haven't already, consider getting our [**code from GitHub**]({{site.data.settings.codelink}}) and making it accessible on your VM via a shared folder (see: "Getting Started")._
+{:.text-center}
+
 ## Task 5: Makefiles
 
 While there is a lot to Makefiles, they can be extremely useful even if we use only a small subset of the features this tool provides.
