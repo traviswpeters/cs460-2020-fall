@@ -150,9 +150,6 @@ sudo lshw -html > hardwareinfo.html
 # PART II
 {:.text-center .pt-3 .pb-3}
 
-_At this point I recommend that you follow the instructions in [Getting Started (click me!)](https://github.com/traviswpeters/cs460-code#getting-started){:.lead .font-weight-bold} to get local/easy access to code we reference in class._
-{:.text-center .pb-3}
-
 ## Task 5: Makefiles
 
 While there is a lot to Makefiles, they can be extremely useful even if we use only a small subset of the features this tool provides.
@@ -323,5 +320,6 @@ Your zipped folder should contains ***at least*** the following files:
 | ---------------------------------------------------------------------------------- | ------- |------ |
 
 {% endcomment %}
+
 # PART III COMING SOON...
 {:.text-center .pt-3 .pb-3}
