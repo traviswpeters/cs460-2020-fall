@@ -187,8 +187,6 @@ For example, [Clark Grubb's Makefile Style Guide](https://clarkgrubb.com/makefil
 
 
 
-
-
 {% comment %}
 
 
