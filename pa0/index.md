@@ -27,6 +27,9 @@ The ultimate objectives of this assignment are:
 * to give you an opportunity to weigh in on aspects of our course,
 * to give you opportunities to practice with some of the course tools we'll be using this semester.
 
+# PART I
+{:.text-center .pt-3 .pb-3}
+
 ## Task 1: Complete the Course Questionnaire
 
 Please complete our [course questionnaire](https://forms.gle/rdDcKkSQsPwpTQDQA).
@@ -144,6 +147,14 @@ sudo lshw -html > hardwareinfo.html
 > After you've become more familiar with command line tools, you may want to write your own scripts.
 > If you are interested, check out this [advanced Bash scripting guide](http://tldp.org/LDP/abs/html/).
 
+# PART II
+{:.text-center .pt-3 .pb-3}
+
+<div class="alert alert-primary text-center">
+  <!-- <h4 class="alert-heading">Accessing CS460 Code</h4> -->
+  <p class="mb-0" markdown="1">At this point I recommend that you follow the instructions in [_Getting Started (click me!)_](https://github.com/traviswpeters/cs460-code#getting-started){:.text-white .lead .font-weight-bold} to get local/easy access to code we reference in class.</p>
+</div>
+
 ## Task 5: Makefiles
 
 While there is a lot to Makefiles, they can be extremely useful even if we use only a small subset of the features this tool provides.
@@ -180,6 +191,7 @@ For example, [Clark Grubb's Makefile Style Guide](https://clarkgrubb.com/makefil
 
 {% comment %}
 
+
 ## Task 6: Programming in C
 
 Writing programs in C is expected in this course.
@@ -190,19 +202,49 @@ _[**<< cheatsheet >>**](../files/intro-to-C-for-java-programmers.pdf)_
 
 This task is meant to allow you to review C programming syntax and to practice with reading and writing C code.
 
+<!--
+In `secret.c:`
+
 1. Change `secret.c` to write out _**ONLY**_ the encoded data to a file, `data.encoded`.
 2. Write a `decode` function that reads in an encoded file (e.g., `data.encoded`), decodes the data, and writes out the decoded data to a file, `data.encoded`.
 3. Change `secret.c` to read an `op` to be performed. Your program should handle `encode` and `decode` as valid ops. All other ops are invalid. (If your program is given an invalid `op` it should report an error and return a non-negative return value.)
 4. Change `secret.c` to read the `key` as an ASCII string from the command line.
+-->
 
+In `stategame.c:` (Thanks, [_Friends_](https://www.youtube.com/watch?v=22HXTrqn468))
 
-In `stategame.c:`
-1. Fill in part of `listInsert()` (given the basic structure, fill in insertion logic).
-2. Fill in part of `removeDuplicates()` (given the basic structure, fill in insertion logic).
-3. Write a `cleanUpList()` routine that frees each item in the list before exiting.
+<!-- 1. Fill in part of `listInsert()` (given the basic structure, fill in insertion logic). -->
+<!-- 2. Fill in part of `removeDuplicates()` (given the basic structure, fill in insertion logic). -->
+3. Write a `freeAllNodes()` routine that frees each item in the list before exiting.
+4. Use `myvalgrind ./stategame` to verify that your `freeAllNodes()` successfully `free`s all allocated memory before exiting.
 
-2. ...compile and run...describe what this program is doing...
-3. ...create a new C program to...
+    For reference, this is what the `valgrind` summary looks like for my solution.
+    A few things worth noticing:
+    (1) My HEAP SUMMARY shows no memory in use at exit, and a nice message, "All heap blocks were freed -- no leaks are possible";
+    (2) The number of "allocs" (memory allocations) match the number of "frees" (both are 62 in my case); and
+    (3) My ERROR SUMMARY shows 0 errors.
+    This is what you want your `valgrind` summaries to look like :-)
+    ```bash
+    ...
+    ==4158==
+    ==4158== HEAP SUMMARY:
+    ==4158==     in use at exit: 0 bytes in 0 blocks
+    ==4158==   total heap usage: 62 allocs, 62 frees, 10,009 bytes allocated
+    ==4158==
+    ==4158== All heap blocks were freed -- no leaks are possible
+    ==4158==
+    ==4158== For counts of detected and suppressed errors, rerun with: -v
+    ==4158== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+    ```
+
+> **NOTE:** `valgrind` is debugging and profiling program for Linux executable.
+> I like to use it to help me debug memory-related issues (for example, to make sure I free all of the memory that I malloc).
+> Using this tool can be pretty simple: tell `valgrind` to run **your** program and use `valgrind`s feedback to fix any issues.
+> The goal is to get a clean summary report like the one above.
+> This isn't always possible (e.g., sometimes your dependencies have memory leaks); nevertheless it is a a useful debugging tool.
+> We ask that you run `myvalgrind` instead of directly running `valgrind`.
+> `myvalgrind` is a shell alias I have provided for you.
+> It simply invokes `valgrind` but with some flags that are especially useful for debugging memory-related issues.
 
 ## Task 7: Debugginig C Programs with GDB
 
@@ -261,8 +303,8 @@ Please submit all of your files for this assignment ***as a zipped folder to D2L
 
 Your zipped folder should contains ***at least*** the following files:
 
-1. A `README.md` file (written in Markdown) that details your responses to the tasks in this assignment.
-2. A short screencast (no more than 5 minutes) that walks us through your sumission.
+1. A short screencast (no more than 5 minutes) that walks us through your sumission.
+2. A `README.md` file (written in Markdown) that details your responses to the tasks in this assignment.
 3. ...
 4. ...
 
@@ -286,4 +328,4 @@ Your zipped folder should contains ***at least*** the following files:
 
 {% endcomment %}
 # PART III COMING SOON...
-{:.text-center}
+{:.text-center .pt-3 .pb-3}
