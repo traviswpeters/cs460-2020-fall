@@ -68,17 +68,17 @@ assignments:
     show: False
     name: 'PA0: Getting Started'
     url: 'pa0'
-    duedate: 'Sunday [08/30/2020] @ 11:59 PM (MST)'
+    duedate: 'Sunday [09/06/2020] @ 11:59 PM (MST)'
   pa1:
     show: False
     name: 'PA1: Procs & Syscalls'
     url: 'pa1'
-    duedate: 'Sunday [09/06/2020] @ 11:59 PM (MST)'
+    duedate: 'Sunday [09/13/2020] @ 11:59 PM (MST)'
   pa2:
     show: False
     name: 'PA2: Concurrency'
     url: 'pa2'
-    duedate: 'Sunday [09/13/2020] @ 11:59 PM (MST)'
+    duedate: 'Sunday [09/20/2020] @ 11:59 PM (MST)'
 
 yalnix:
   link: 'yalnix'

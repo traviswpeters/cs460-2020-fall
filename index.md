@@ -66,7 +66,7 @@ If you have any questions, please contact me.
 <!-- Thanks! https://idratherbewriting.com/documentation-theme-jekyll/mydoc_tables.html -->
 
 <table class="table table-striped table-bordered table-sm">
-<colgroup><col width="10%" /><col width="55%" /><col width="35%" /></colgroup>
+<colgroup><col width="15%" /><col width="55%" /><col width="30%" /></colgroup>
 <thead>
 <tr class="header">
 <th>Date</th>
@@ -151,11 +151,11 @@ If you have any questions, please contact me.
 - **Tech Bootcamp Begins...** Virtual Machines (VirtualBox + Vagrant), Commandline, C Programming, GDB, Makefiles, Git/GitHub, READMEs/Markdown, ... _oh my!_
 [video](https://zoom.us/rec/share/2p0lIZPNr09JeKPo6BjdBKcgQIC_eaa80Ccd86INz4Fpsaf6X8rJmD1BgB_9PcE){:.video}
 [slides](files/cs460-00-bootcamp-p1.pdf){:.slides}
-[Activities (PA0)](pa0/){:.activity}
+[Activities (PA0 - Part I)](pa0/){:.activity}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
-- [PA0](pa0/) out! **Due Sunday (08/30/2020) @ 11:59 PM**
+- [PA0](pa0/) out!
 </td>
 </tr>
 
@@ -164,9 +164,10 @@ If you have any questions, please contact me.
 <td markdown="span">08/26/2020 (W)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- **Tech Bootcamp _(cont.)_**
+- Tech Bootcamp _(cont.)_
 [video](https://zoom.us/rec/share/6890dqj2021OYZ3q0W3Dd4U4Pdn8eaa8h3JL8_sJyRkfYlW7q9LlN0rFJbmw9Nbm){:.video}
 [slides](files/cs460-00-bootcamp-p2.pdf){:.slides}
+[Activities (PA0 - Part II)](pa0/){:.activity}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
@@ -177,12 +178,57 @@ If you have any questions, please contact me.
 <td markdown="span">08/28/2020 (F)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- **Tech Bootcamp _(cont.)_**
+- Tech Bootcamp _(cont.)_
+[Activities (PA0 - Part III)](pa0/){:.activity}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span">
-<!-- **PA0 Due: {{ site.data.settings.yalnix.cp1.duedate }}**{:.badge .badge-pill .badge-warning} -->
 </td>
+</tr>
+
+<!-- ========================================= Week 03 ========================================= -->
+
+<tr>
+<td id="week03" markdown="span">Week 03</td>
+<!-- Week Title Here -->
+<td markdown="span" class="note">TITLE</td>
+<td markdown="span"></td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">08/31/2020 (M)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1">
+</td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">09/02/2020 (W)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1"></td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">09/04/2020 (F)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span">
+</td>
+</tr>
+
+<tr class="table-default">
+    <td colspan = "3" class="text-center" markdown="span">**PA0 Due: {{ site.data.settings.assignments.pa0.duedate }}**{:.text-dark .heavy}</td>
 </tr>
 
 </tbody>

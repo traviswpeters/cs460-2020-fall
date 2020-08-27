@@ -7,12 +7,12 @@ published: True
 {:.text-center .pb-4}
 
 <div class="alert alert-primary">
-  <h4 class="text-center alert-heading">Due Sunday (08/30/2020) @ 11:59 PM</h4>
+  <h4 class="text-center alert-heading">{{ site.data.settings.assignments.pa0.duedate }}</h4>
 </div>
 
 <div class="alert alert-primary text-center">
   <h4 class="alert-heading">Remember our policies around academic honesty!</h4>
-  <p class="mb-0">You may talk with others and discuss ideas and strategies at a high level, but do not look at anyone else's code for this assignment!</p>
+  <p class="mb-0">You may talk with others and discuss ideas and strategies at a high level, but do not share specifics about solutions for this assignment (e.g., code)!</p>
 </div>
 
 ## Objective
@@ -147,13 +147,21 @@ sudo lshw -html > hardwareinfo.html
 > After you've become more familiar with command line tools, you may want to write your own scripts.
 > If you are interested, check out this [advanced Bash scripting guide](http://tldp.org/LDP/abs/html/).
 
+
+
+
+
 # PART II
 {:.text-center .pt-3 .pb-3}
 
-_If you haven't already, consider getting our [**code from GitHub**]({{site.data.settings.codelink}}) and making it accessible on your VM via a shared folder (see: "Getting Started")._
+_If you haven't already, please follow the instructions detailed in the README for [**our course repo on GitHub**]({{site.data.settings.codelink}})._
+{:.text-center}
+
+_There are also details about making the repo accessible on your VM via a shared folder (see: ["Synced Folder" (a.k.a. "Shared Folder"](https://github.com/traviswpeters/cs460-code#synced-folder-aka-shared-folder))))._
 {:.text-center}
 
 ## Task 5: Makefiles
+{:.pt-3}
 
 While there is a lot to Makefiles, they can be extremely useful even if we use only a small subset of the features this tool provides.
 _[**<< cheatsheet >>**](https://gist.github.com/evertrol/4b6fd05f3b6be2b331c60638b1af7101)_
@@ -179,14 +187,8 @@ For example, [Clark Grubb's Makefile Style Guide](https://clarkgrubb.com/makefil
 
 
 
-
-
-
-
-
-
-{% comment %}
-
+# PART III
+{:.text-center .pt-3 .pb-3}
 
 ## Task 6: Programming in C
 
@@ -263,15 +265,20 @@ This task is meant to give you practice with using GDB to debug C programs.
 
 ## Task 8: Git
 
-This task is intended to introduce you to how we can use Git to version control software and share code
+This task is intended to introduce you to how we can use Git to version control software and share code.
 _[**<< cheatsheet >>**](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)_
 
 Specifically, we will use Git & Github.
-In the early days this will enable you to share code with the course staff so that we can assess your work and provide feedback.
+
+In the early days you will use a private repository for your work,
+which will enable you to share code with the course staff so that we can assess your work and provide feedback.
 Later on you will use git to collaboratively develop Yalnix with your team members.
 
 _**NOTE:** Any repos that you create to hold your solo or team work should be set to **private**._
 {:.text-center}
+
+We have provided you with detailed instructions for how to set up a public and private repository for this class.
+Please follow the instructions here: [**CSCI 460 Code (our course GitHub repo**]({{site.data.settings.codelink}}).
 
 > In class we will work through examples from [https://learngitbranching.js.org](https://learngitbranching.js.org).
 
@@ -322,7 +329,5 @@ Your zipped folder should contains ***at least*** the following files:
 | **Total**                                                                          | **100** |       |
 | ---------------------------------------------------------------------------------- | ------- |------ |
 
+{% comment %}
 {% endcomment %}
-
-# PART III COMING SOON...
-{:.text-center .pt-3 .pb-3}
