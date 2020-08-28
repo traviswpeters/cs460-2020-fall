@@ -371,23 +371,25 @@ Your submission should contain ***at least*** the following:
 **DO NOT** put video files directly in a GitHub repository.
 Rather, make the video accessible and share a link to your video.
 
-{% comment %}
 ## Rubric
 
 {:.table .table-hover .table-striped .table-bordered .table-sm}
-| Criteria                                                                           | Points  | Score |
-| ---------------------------------------------------------------------------------- | ------- |------ |
-| On-time assignment that reflects a good faith effort                               | 25      |       |
-| Completed the course questionnaire                                                 | 5       |       |
-| Provides evidence that Virtual Box & Vagrant are installed and run correctly       | 10      |       |
-| Provides responses and observations to command line tasks                          | 10      |       |
-| Demonstrates correctness of new features added to the "getting dressed" Makefile   | 10      |       |
-| ...                                                                                | 5       |       |
-| ...                                                                                | 5       |       |
-| ...                                                                                | 5       |       |
-| Provides README                                                                    | 5       |       |
-| ---------------------------------------------------------------------------------- | ------- |------ |
-| **Total**                                                                          | **100** |       |
-| ---------------------------------------------------------------------------------- | ------- |------ |
+| Criteria                                                                                                            | Points  | Score |
+| ------------------------------------------------------------------------------------------------------------------- | ------- |------ |
+| On-time assignment that reflects a good faith effort _(multiple commits over time? attempted all things? etc.)_     | 20      |       |
+| Responses to questions/prompts present and clearly organized in the top-level README                                | 10      |       |
+| (Task 1) Completed the course questionnaire                                                                         | 3       |       |
+| (Task 2) Includes links to 3 projects + 3 observations                                                              | 6       |       |
+| (Task 3) Provides evidence that VirtualBox & Vagrant are installed and run correctly                                | 5       |       |
+| (Task 4) Provides responses and observations to command line tasks                                                  | 11      |       |
+| (Task 5) Demonstrates correctness of new features added to the "getting dressed" Makefile                           | 10      |       |
+| (Task 6) Correct implementation of "freeAllNodes"                                                                   | 10      |       |
+| (Task 7) Demonstrate basic understanding of GDB + Valgrind                                                          | 9       |       |
+| (Task 8) Pull request is properly formatted, correctly add collaborators and configure repo to "private"            | 6       |       |
+| Screencast walk-through of submission _(make sure link to video is accessible!)_                                    | 10      |       |
+| ------------------------------------------------------------------------------------------------------------------- | ------- |------ |
+| **Total**                                                                                                           | **100** |       |
+| ------------------------------------------------------------------------------------------------------------------- | ------- |------ |
 
+{% comment %}
 {% endcomment %}
