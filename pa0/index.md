@@ -198,7 +198,8 @@ _[**<< cheatsheet >>**](../files/intro-to-C-for-java-programmers.pdf)_
 > If you haven't already, please check out the FAQ, specifically the question:
 > [What programming languages & tools will we use for programming assignments in this class?](../#q-what-programming-languages--tools-will-we-use-for-programming-assignments-in-this-class)
 
-This task is meant to allow you to review C programming syntax and to practice with reading and writing C code.
+In class we will walk through some code examples.
+The examples are available in [`week02/` of our course repo](https://github.com/traviswpeters/cs460-code/tree/master/week02).
 
 <!--
 In `secret.c:`
@@ -209,42 +210,36 @@ In `secret.c:`
 4. Change `secret.c` to read the `key` as an ASCII string from the command line.
 -->
 
-In `stategame.c:` (Thanks, [_Friends_](https://www.youtube.com/watch?v=22HXTrqn468))
+This task is meant to allow you to review C programming syntax and to practice with reading and writing C code.
+
+For PA0 you will add some new code to one of the programs we looked at (see below).
+
+In `stategame.c` (Insprired by [_Friends_](https://www.youtube.com/watch?v=22HXTrqn468)),
+you need to do one thing:
 
 <!-- 1. Fill in part of `listInsert()` (given the basic structure, fill in insertion logic). -->
 <!-- 2. Fill in part of `removeDuplicates()` (given the basic structure, fill in insertion logic). -->
-3. Write a `freeAllNodes()` routine that frees each item in the list before exiting.
-4. Use `myvalgrind ./stategame` to verify that your `freeAllNodes()` successfully `free`s all allocated memory before exiting.
+1. Write a `freeAllNodes()` routine that frees each item in the list before exiting.
 
-    For reference, this is what the `valgrind` summary looks like for my solution.
-    A few things worth noticing:
-    (1) My HEAP SUMMARY shows no memory in use at exit, and a nice message, "All heap blocks were freed -- no leaks are possible";
-    (2) The number of "allocs" (memory allocations) match the number of "frees" (both are 62 in my case); and
-    (3) My ERROR SUMMARY shows 0 errors.
-    This is what you want your `valgrind` summaries to look like :-)
-    ```bash
-    ...
-    ==4158==
-    ==4158== HEAP SUMMARY:
-    ==4158==     in use at exit: 0 bytes in 0 blocks
-    ==4158==   total heap usage: 62 allocs, 62 frees, 10,009 bytes allocated
-    ==4158==
-    ==4158== All heap blocks were freed -- no leaks are possible
-    ==4158==
-    ==4158== For counts of detected and suppressed errors, rerun with: -v
-    ==4158== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
-    ```
+We will use the `statesgame` program, including your newly implemented function,
+in the next section.
 
-> **NOTE:** `valgrind` is debugging and profiling program for Linux executable.
-> I like to use it to help me debug memory-related issues (for example, to make sure I free all of the memory that I malloc).
-> Using this tool can be pretty simple: tell `valgrind` to run **your** program and use `valgrind`s feedback to fix any issues.
-> The goal is to get a clean summary report like the one above.
-> This isn't always possible (e.g., sometimes your dependencies have memory leaks); nevertheless it is a a useful debugging tool.
-> We ask that you run `myvalgrind` instead of directly running `valgrind`.
-> `myvalgrind` is a shell alias I have provided for you.
-> It simply invokes `valgrind` but with some flags that are especially useful for debugging memory-related issues.
+## Task 7: Debugginig C Programs
 
-## Task 7: Debugginig C Programs with GDB
+In this section we will explore basic usage of a couple of popular debgugging tools: `gdb` and `valgrind`.
+_[**<< cheatsheet >>**](https://wiki.tiker.net/ToolCheatSheet/)_
+
+If you are comfortable with these tools, great! You can probably jump right in and do the tasks below.
+Otherwise I highly recommend that you read this tutorial that I wrote up:
+[Debugging with GDB and Valgrind](https://www.traviswpeters.com/classes/debugging-gdb-valgrind/).
+This tutorial is quite long (a class on its own!) but it has lots of great
+details about `gdb` and `valgrind`, as well as some helpful references.
+
+Not everything needs to make sense _right now_.
+We are just trying to get a feel for the basics.
+You'll have lots of opportunities to practice soon... :-)
+
+##### GDB
 
 The [GNU Debugger (GDB)](https://www.gnu.org/software/gdb/) is a popular command line debugger.
 _[**<< cheatsheet >>**](https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf)_
@@ -258,9 +253,61 @@ According the to project:
 
 This task is meant to give you practice with using GDB to debug C programs.
 
-1. ...
-2. ...
-3. ...
+I'd like you to demonstrate how to use `gdb` to answer the questions:
+
+1. What is the address of the `head` variable in the `statesgame` program?
+2. How can I quickly and easily see all of the local variables for the current function (e.g., `main()`)?
+
+Please copy and paste the `gdb` commands you ran, and their output, into a code block in your README.
+For example, your answers to these questions should following this format:
+
+```bash
+$ gdb -q stategame
+Reading symbols from stategame...done.
+(gdb) [COMMAND1]
+OUTPUT1
+(gdb) [COMMAND2]
+OUTPUT2
+...
+```
+
+##### Valgrind
+
+Valgrind is a programming tool for memory debugging, memory leak detection, and profiling.
+We will primarily use it in this class for memory-related debugging and valdiation.
+
+This task is meant to give you practice with using Valgrind to debug C programs.
+
+1. Use `myvalgrind` on the `stategame` program to verify that your `freeAllNodes()` successfully `free`s all allocated memory _**before**_ exiting the program.
+
+For reference, this is what the `valgrind` summary looks like for my solution.
+A few things worth noticing:
+(1) My HEAP SUMMARY shows no memory in use at exit, and a nice message, "All heap blocks were freed -- no leaks are possible";
+(2) The number of "allocs" (memory allocations) match the number of "frees" (both are 62 in my case); and
+(3) My ERROR SUMMARY shows 0 errors.
+This is what you want your `valgrind` summaries to look like :-)
+```bash
+...
+==4158==
+==4158== HEAP SUMMARY:
+==4158==     in use at exit: 0 bytes in 0 blocks
+==4158==   total heap usage: 62 allocs, 62 frees, 10,009 bytes allocated
+==4158==
+==4158== All heap blocks were freed -- no leaks are possible
+==4158==
+==4158== For counts of detected and suppressed errors, rerun with: -v
+==4158== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+```
+
+> **NOTE:** `valgrind` is a debugging and profiling program for Linux executable.
+> I like to use it to help me debug memory-related issues (for example, to make sure I free all of the memory that I malloc).
+> Using this tool can be pretty simple: tell `valgrind` to run **your** program and use `valgrind`s feedback to fix any issues.
+> The goal is to get a clean summary report like the one above.
+> This isn't always possible (e.g., sometimes your dependencies have memory leaks); nevertheless it is a a useful debugging tool.
+> We ask that you run `myvalgrind` instead of directly running `valgrind`.
+> `myvalgrind` is a shell alias I have provided for you.
+> It simply invokes `valgrind` but with some flags that are especially useful for debugging memory-related issues.
+
 
 
 ## Task 8: Git
@@ -270,47 +317,59 @@ _[**<< cheatsheet >>**](https://github.github.com/training-kit/downloads/github-
 
 Specifically, we will use Git & Github.
 
-In the early days you will use a private repository for your work,
+> I found [this article about forking, pulling, merging, etc.](https://reflectoring.io/github-fork-and-pull/) to be very useful.
+
+In the early days you will use a **private** repository for your work,
 which will enable you to share code with the course staff so that we can assess your work and provide feedback.
 Later on you will use git to collaboratively develop Yalnix with your team members.
 
 _**NOTE:** Any repos that you create to hold your solo or team work should be set to **private**._
 {:.text-center}
 
-We have provided you with detailed instructions for how to set up a public and private repository for this class.
-Please follow the instructions here: [**CSCI 460 Code (our course GitHub repo**]({{site.data.settings.codelink}}).
 
-> In class we will work through examples from [https://learngitbranching.js.org](https://learngitbranching.js.org).
+<!-- > In class we will work through examples from [https://learngitbranching.js.org](https://learngitbranching.js.org). -->
 
 Your task for this assignment:
 
-1. Fork the [course code repo](https://github.com/traviswpeters/cs460-code) to your personal account and add a file to `funfacts2020/` named
+1. We have provided you with detailed instructions for how to set up a public and private repository for this class.
+Please follow the instructions here: [**CSCI 460 Code (our course GitHub repo**]({{site.data.settings.codelink}}).
+
+##### Extra Practice _(Fun Is Always Recommended, But Optional)_
+
+For fun (not part of the assignment), if you want to practice this workflow again, you can try this:
+- Add a file to `funfacts2020/` named
     ```bash
     <YOUR NET ID>-<YOUR GITHUB ID>.txt
     ```
-    with a fun fact about yourself. You can add the file in a variety of ways.
-      - The easiest way is to do it right through the browser;
-      - _or_, if you are feeling adventurous,
-      you can clone your forked copy of the repo to your machine (directly onto your VM or into a shared folder accessible by your VM - either works),
-      add and commit the file,
-      push it back up to GitHub.
-2. Next, create a pull request against this repository. We will accept it and excitedly read all of your fun facts :-)
+    with a fun fact about yourself.
+- Next, create a pull request against this repository. We will accept it and excitedly read all of your fun facts :-)
 
-
-_**NOTE:** Do not push your solo or team work to this (**public**) repository!_
-{:.text-center}
+<!--
+You can add the file in a variety of ways.
+  - The easiest way is to do it right through the browser;
+  - _or_, if you are feeling adventurous,
+  you can clone your forked copy of the repo to your machine (directly onto your VM or into a shared folder accessible by your VM - either works),
+  add and commit the file,
+  push it back up to GitHub.
+-->
 
 ## What To Turn In & Instructions On Submitting your Assignment
 
-Please submit all of your files for this assignment ***as a zipped folder to D2L***.
+Please submit your assignment via your **private** GitHub repository.
 
-Your zipped folder should contains ***at least*** the following files:
+Specifically, you should create a `pa0` directory for this assignment.
 
-1. A short screencast (no more than 5 minutes) that walks us through your sumission.
-2. A `README.md` file (written in Markdown) that details your responses to the tasks in this assignment.
-3. ...
-4. ...
+Make sure you have added Travis and Reese as collaborators to your project so we can access your submission.
 
+Your submission should contain ***at least*** the following:
+
+1. A `README.md` file (written in Markdown) that details your responses to the tasks in this assignment.
+2. A subdirectory for any task where you needed to create/edit files. (E.g., Task 5 should be in `pa0/task5/`).
+1. A short screencast (no more than 5 minutes) that walks us through your submission.
+**DO NOT** put video files directly in a GitHub repository.
+Rather, make the video accessible and share a link to your video.
+
+{% comment %}
 ## Rubric
 
 {:.table .table-hover .table-striped .table-bordered .table-sm}
@@ -329,5 +388,4 @@ Your zipped folder should contains ***at least*** the following files:
 | **Total**                                                                          | **100** |       |
 | ---------------------------------------------------------------------------------- | ------- |------ |
 
-{% comment %}
 {% endcomment %}

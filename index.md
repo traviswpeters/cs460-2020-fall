@@ -151,7 +151,7 @@ If you have any questions, please contact me.
 - **Tech Bootcamp Begins...** Virtual Machines (VirtualBox + Vagrant), Commandline, C Programming, GDB, Makefiles, Git/GitHub, READMEs/Markdown, ... _oh my!_
 [video](https://zoom.us/rec/share/2p0lIZPNr09JeKPo6BjdBKcgQIC_eaa80Ccd86INz4Fpsaf6X8rJmD1BgB_9PcE){:.video}
 [slides](files/cs460-00-bootcamp-p1.pdf){:.slides}
-[Activities (PA0 - Part I)](pa0/){:.activity}
+[Activities (PA0 - Part I)](pa0/#part-i){:.activity}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
@@ -167,7 +167,7 @@ If you have any questions, please contact me.
 - Tech Bootcamp _(cont.)_
 [video](https://zoom.us/rec/share/6890dqj2021OYZ3q0W3Dd4U4Pdn8eaa8h3JL8_sJyRkfYlW7q9LlN0rFJbmw9Nbm){:.video}
 [slides](files/cs460-00-bootcamp-p2.pdf){:.slides}
-[Activities (PA0 - Part II)](pa0/){:.activity}
+[Activities (PA0 - Part II)](pa0/#part-ii){:.activity}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
@@ -179,7 +179,7 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - Tech Bootcamp _(cont.)_
-[Activities (PA0 - Part III)](pa0/){:.activity}
+[Activities (PA0 - Part III)](pa0/#part-iii){:.activity}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span">
@@ -191,8 +191,11 @@ If you have any questions, please contact me.
 <tr>
 <td id="week03" markdown="span">Week 03</td>
 <!-- Week Title Here -->
-<td markdown="span" class="note">TITLE</td>
-<td markdown="span"></td>
+<td markdown="span" class="note">OS Tech Bootcamp (Wrap-Up); Processes & Threads</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1">
+- **Read:** Chapters 3 & 4
+</td>
 </tr>
 
 <tr>
