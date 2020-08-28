@@ -55,9 +55,9 @@ _Is there anything else I should know that will help me get the most out of usin
 
 In this task I'd like you to:
 
-1. Do a quick survey of READMEs on Github to see how other people/projects do things.
+1. Do a quick survey of READMEs on GitHub to see how other people/projects do things.
 Specifically,
-- In your README (you'll create it in the next step), include links to 3 projects you looked at on Github.
+- In your README (you'll create it in the next step), include links to 3 projects you looked at on GitHub.
 - Please list and briefly describe 3 things that you observed and hope to use in your own READMEs going foward.
 > **Pro Tip:** I recommend you look at projects with lots of stars - these are likely to be better examples to learn from.
 
@@ -310,12 +310,12 @@ This is what you want your `valgrind` summaries to look like :-)
 
 
 
-## Task 8: Git
+## Task 8: Git & GitHub
 
 This task is intended to introduce you to how we can use Git to version control software and share code.
 _[**<< cheatsheet >>**](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)_
 
-Specifically, we will use Git & Github.
+Specifically, we will use Git & GitHub.
 
 > I found [this article about forking, pulling, merging, etc.](https://reflectoring.io/github-fork-and-pull/) to be very useful.
 
@@ -332,7 +332,7 @@ _**NOTE:** Any repos that you create to hold your solo or team work should be se
 Your task for this assignment:
 
 1. We have provided you with detailed instructions for how to set up a public and private repository for this class.
-Please follow the instructions here: [**CSCI 460 Code (our course GitHub repo**]({{site.data.settings.codelink}}).
+Please follow the instructions here: [**CSCI 460 Code (our course GitHub repo)**]({{site.data.settings.codelink}}).
 
 ##### Extra Practice _(Fun Is Always Recommended, But Optional)_
 
