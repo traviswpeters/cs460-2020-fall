@@ -180,6 +180,7 @@ If you have any questions, please contact me.
 <td markdown="span" markdown="1">
 - Tech Bootcamp _(cont.)_
 [Activities (PA0 - Part III)](pa0/#part-iii){:.activity}
+- [<i class="fas fa-play-circle"></i> Intro](https://zoom.us/rec/share/3PZ1JL_U3WxLeqPQ-l2AeL4cOK3XT6a8hHMW_fsPy0jAz-2ABdVR8cz2Ow5tWLL0) <span class="text-muted">(5:06)</span>
 - [<i class="fas fa-play-circle"></i> 1. Hello World (v1)](https://montana.techsmithrelay.com/UeTq) <span class="text-muted">(11:38)</span>
 - [<i class="fas fa-play-circle"></i> 2. Hello World (v2)](https://montana.techsmithrelay.com/PvdY) <span class="text-muted">(12:53)</span>
 - [<i class="fas fa-play-circle"></i> 3. Bottle Song](https://montana.techsmithrelay.com/CdRi) <span class="text-muted">(9:39)</span>
