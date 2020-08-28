@@ -280,6 +280,8 @@ This task is meant to give you practice with using Valgrind to debug C programs.
 
 1. Use `myvalgrind` on the `stategame` program to verify that your `freeAllNodes()` successfully `free`s all allocated memory _**before**_ exiting the program.
 
+Please copy and paste the final valgrind output into a code block in your README.
+
 For reference, this is what the `valgrind` summary looks like for my solution.
 A few things worth noticing:
 (1) My HEAP SUMMARY shows no memory in use at exit, and a nice message, "All heap blocks were freed -- no leaks are possible";
