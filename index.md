@@ -180,6 +180,11 @@ If you have any questions, please contact me.
 <td markdown="span" markdown="1">
 - Tech Bootcamp _(cont.)_
 [Activities (PA0 - Part III)](pa0/#part-iii){:.activity}
+- [<i class="fas fa-play-circle"></i> 1. Hello World (v1)](https://montana.techsmithrelay.com/UeTq) <span class="text-muted">(11:38)</span>
+- [<i class="fas fa-play-circle"></i> 2. Hello World (v2)](https://montana.techsmithrelay.com/PvdY) <span class="text-muted">(12:53)</span>
+- [<i class="fas fa-play-circle"></i> 3. Bottle Song](https://montana.techsmithrelay.com/CdRi) <span class="text-muted">(9:39)</span>
+- [<i class="fas fa-play-circle"></i> 4. Secret](https://montana.techsmithrelay.com/ZRoJ) <span class="text-muted">(19:40)</span>
+- [<i class="fas fa-play-circle"></i> 5. State Game](https://montana.techsmithrelay.com/TIlh) <span class="text-muted">(1:00:56)</span>
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span">
