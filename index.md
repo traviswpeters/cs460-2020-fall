@@ -212,7 +212,7 @@ If you have any questions, please contact me.
 <td markdown="span" markdown="1">
 - OS Overview (Part 1)
 [video](https://zoom.us/rec/share/-tNtEJrPqlJLep2d2m7ZeL54Jp_eX6a8gyEcq_Ven0unQvuBByZUZz37EqgcXUGp){:.video}
-[slides](files/cs460-03-os-overview.pdf){:.slides}
+[slides](files/cs460-04-os-overview-p1.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
