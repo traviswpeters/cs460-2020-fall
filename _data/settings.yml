@@ -56,7 +56,8 @@ menu:
 - {name: 'About', url: '#about-the-course'}
 - {name: 'Logistics', url: '#logistics'}
 - {name: 'Schedule', url: '#schedule'}
-# - {name: 'Assignments', url: '#assignments'}
+- {name: 'Code', url: 'https://github.com/traviswpeters/cs460-code'}
+- {name: 'Assignments', url: '#assignments'}
 # - {name: 'Yalnix', url: 'yalnix'}
 # - {name: 'Exams', url: '#exams'}
 - {name: 'Resources', url: 'resources'}
