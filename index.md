@@ -198,7 +198,7 @@ If you have any questions, please contact me.
 <tr>
 <td id="week03" markdown="span">Week 03</td>
 <!-- Week Title Here -->
-<td markdown="span" class="note">OS Tech Bootcamp (Wrap-Up); OS Overview; (Start Processes & Threads?)</td>
+<td markdown="span" class="note">OS Overview; (Start Processes & Threads?)</td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
 - **Read:** Chapters 2 & 3
@@ -210,6 +210,9 @@ If you have any questions, please contact me.
 <td markdown="span">08/31/2020 (M)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
+- OS Overview (Part 1)
+[video](https://zoom.us/rec/share/-tNtEJrPqlJLep2d2m7ZeL54Jp_eX6a8gyEcq_Ven0unQvuBByZUZz37EqgcXUGp){:.video}
+[slides](files/cs460-03-os-overview.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
@@ -221,6 +224,7 @@ If you have any questions, please contact me.
 <td markdown="span">09/02/2020 (W)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
+- OS Overview (Part 2)
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
