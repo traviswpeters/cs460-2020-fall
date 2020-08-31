@@ -224,7 +224,7 @@ you need to do one thing:
 We will use the `statesgame` program, including your newly implemented function,
 in the next section.
 
-## Task 7: Debugginig C Programs
+## Task 7: Debugging C Programs
 
 In this section we will explore basic usage of a couple of popular debgugging tools: `gdb` and `valgrind`.
 _[**<< cheatsheet >>**](https://wiki.tiker.net/ToolCheatSheet/)_
@@ -370,6 +370,10 @@ Your submission should contain ***at least*** the following:
 1. A short screencast (no more than 5 minutes) that walks us through your submission.
 **DO NOT** put video files directly in a GitHub repository.
 Rather, make the video accessible and share a link to your video.
+
+**NOTE:** Videos can be recorded and shared using [TechSmith](http://ato.montana.edu/technologies/techsmith/), for example.
+Make sure the video permissions are set to be viewable by anyone with the link.
+If we cannot view the link when we go to grade your submission you will automatically receive a zero for the relevant demo part(s) of your grade.
 
 ## Rubric
 
