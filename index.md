@@ -150,7 +150,7 @@ If you have any questions, please contact me.
 <td markdown="span" markdown="1">
 - **Tech Bootcamp Begins...** Virtual Machines (VirtualBox + Vagrant), Commandline, C Programming, GDB, Makefiles, Git/GitHub, READMEs/Markdown, ... _oh my!_
 [video](https://zoom.us/rec/share/2p0lIZPNr09JeKPo6BjdBKcgQIC_eaa80Ccd86INz4Fpsaf6X8rJmD1BgB_9PcE){:.video}
-[slides](files/cs460-00-bootcamp-p1.pdf){:.slides}
+[slides](files/cs460-00-bootcamp-p1-p2-p3.pdf){:.slides}
 [Activities (PA0 - Part I)](pa0/#part-i){:.activity}
 </td>
 <!-- Assignments & Reading Here -->
@@ -166,7 +166,7 @@ If you have any questions, please contact me.
 <td markdown="span" markdown="1">
 - Tech Bootcamp _(cont.)_
 [video](https://zoom.us/rec/share/6890dqj2021OYZ3q0W3Dd4U4Pdn8eaa8h3JL8_sJyRkfYlW7q9LlN0rFJbmw9Nbm){:.video}
-[slides](files/cs460-00-bootcamp-p2.pdf){:.slides}
+[slides](files/cs460-00-bootcamp-p1-p2-p3.pdf){:.slides}
 [Activities (PA0 - Part II)](pa0/#part-ii){:.activity}
 </td>
 <!-- Assignments & Reading Here -->
@@ -179,6 +179,7 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - Tech Bootcamp _(cont.)_
+[slides](files/cs460-00-bootcamp-p1-p2-p3.pdf){:.slides}
 [Activities (PA0 - Part III)](pa0/#part-iii){:.activity}
 - [<i class="fas fa-play-circle"></i> Intro](https://zoom.us/rec/share/3PZ1JL_U3WxLeqPQ-l2AeL4cOK3XT6a8hHMW_fsPy0jAz-2ABdVR8cz2Ow5tWLL0) <span class="text-muted">(5:06)</span>
 - [<i class="fas fa-play-circle"></i> 1. Hello World (v1)](https://montana.techsmithrelay.com/UeTq) <span class="text-muted">(11:38)</span>
@@ -197,10 +198,10 @@ If you have any questions, please contact me.
 <tr>
 <td id="week03" markdown="span">Week 03</td>
 <!-- Week Title Here -->
-<td markdown="span" class="note">OS Tech Bootcamp (Wrap-Up); Processes & Threads</td>
+<td markdown="span" class="note">OS Tech Bootcamp (Wrap-Up); OS Overview; (Start Processes & Threads?)</td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
-- **Read:** Chapters 3 & 4
+- **Read:** Chapters 2 & 3
 </td>
 </tr>
 
@@ -236,17 +237,581 @@ If you have any questions, please contact me.
 </td>
 </tr>
 
-<tr class="table-default">
-    <td colspan = "3" class="text-center" markdown="span">**PA0 Due: {{ site.data.settings.assignments.pa0.duedate }}**{:.text-dark .heavy}</td>
+<tr class="duedate table-dark">
+    <td colspan = "3" class="text-center" markdown="span">**Programming Assignment 0 Due: {{ site.data.settings.assignments.pa0.duedate }}**</td>
+</tr>
+
+<!-- ========================================= Week 04 ========================================= -->
+
+<tr>
+<td id="week04" markdown="span">Week 04</td>
+<!-- Week Title Here -->
+<td markdown="span" class="note">Processes & Threads</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1">
+- **Read:** Chapters 3 & 4
+</td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">09/07/2020 (M)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+- _No Class --- Labor Day_
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1">
+</td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">09/09/2020 (W)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1"></td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">09/11/2020 (F)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span">
+</td>
+</tr>
+
+<!-- ========================================= Week 05 ========================================= -->
+
+<tr>
+<td id="week05" markdown="span">Week 05</td>
+<!-- Week Title Here -->
+<td markdown="span" class="note">Processes & Threads (cont.); Race Conditions & Synchronization Strategies</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1">
+<!-- - **Read:** Chapters ... -->
+</td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">09/14/2020 (M)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1">
+</td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">09/16/2020 (W)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1"></td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">09/18/2020 (F)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span">
+</td>
+</tr>
+
+<tr class="duedate table-dark">
+    <td colspan = "3" class="text-center" markdown="span">**Programming Assignment 1 Due: {{ site.data.settings.assignments.pa1.duedate }}**</td>
+</tr>
+
+<!-- ========================================= Week 06 ========================================= -->
+
+<tr>
+<td id="week06" markdown="span">Week 06</td>
+<!-- Week Title Here -->
+<td markdown="span" class="note">Race Conditions & Synchronization Strategies (cont.)</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1">
+<!-- - **Read:** Chapters ... -->
+</td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">09/21/2020 (M)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1">
+</td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">09/23/2020 (W)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1"></td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">09/25/2020 (F)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span">
+</td>
+</tr>
+
+<!-- ========================================= Week 07 ========================================= -->
+
+<tr>
+<td id="week07" markdown="span">Week 07</td>
+<!-- Week Title Here -->
+<td markdown="span" class="note">Memory Management</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1">
+<!-- - **Read:** Chapters ... -->
+</td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">09/28/2020 (M)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1">
+</td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">09/30/2020 (W)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+- _Exam #1 - Review_
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1"></td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">10/02/2020 (F)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+- _Exam #1_
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span">
+</td>
+</tr>
+
+<tr class="duedate table-dark">
+    <td colspan = "3" class="text-center" markdown="span">**Programming Assignment 2 Due: {{ site.data.settings.assignments.pa2.duedate }}**</td>
+</tr>
+
+<!-- ========================================= Week 08 ========================================= -->
+
+<tr>
+<td id="week08" markdown="span">Week 08</td>
+<!-- Week Title Here -->
+<td markdown="span" class="note">Memory Management (cont.)</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1">
+<!-- - **Read:** Chapters ... -->
+</td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">10/05/2020 (M)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1">
+</td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">10/07/2020 (W)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1"></td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">10/09/2020 (F)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span">
+</td>
+</tr>
+
+<tr class="duedate table-dark">
+    <td colspan = "3" class="text-center" markdown="span">**Yalnix Checkpoint 1 Due: {{ site.data.settings.yalnix.cp1.duedate }}**</td>
+</tr>
+
+<!-- ========================================= Week 09 ========================================= -->
+
+<tr>
+<td id="week09" markdown="span">Week 09</td>
+<!-- Week Title Here -->
+<td markdown="span" class="note">Scheduling</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1">
+<!-- - **Read:** Chapters ... -->
+</td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">10/12/2020 (M)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1">
+</td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">10/14/2020 (W)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1"></td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">10/16/2020 (F)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span">
+</td>
+</tr>
+
+<tr class="duedate table-dark">
+    <td colspan = "3" class="text-center" markdown="span">**Yalnix Checkpoint 2 Due: {{ site.data.settings.yalnix.cp2.duedate }}**</td>
+</tr>
+
+<!-- ========================================= Week 10 ========================================= -->
+
+<tr>
+<td id="week10" markdown="span">Week 10</td>
+<!-- Week Title Here -->
+<td markdown="span" class="note">Fily Systems & I/O</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1">
+<!-- - **Read:** Chapters ... -->
+</td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">10/19/2020 (M)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1">
+</td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">10/21/2020 (W)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1"></td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">10/23/2020 (F)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span">
+</td>
+</tr>
+
+<tr class="duedate table-dark">
+    <td colspan = "3" class="text-center" markdown="span">**Yalnix Checkpoint 3 Due: {{ site.data.settings.yalnix.cp3.duedate }}**</td>
+</tr>
+
+<!-- ========================================= Week 11 ========================================= -->
+
+<tr>
+<td id="week11" markdown="span">Week 11</td>
+<!-- Week Title Here -->
+<td markdown="span" class="note">OS Security</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1">
+<!-- - **Read:** Chapters ... -->
+</td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">10/26/2020 (M)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1">
+</td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">10/28/2020 (W)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1"></td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">10/30/2020 (F)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span">
+</td>
+</tr>
+
+<tr class="duedate table-dark">
+    <td colspan = "3" class="text-center" markdown="span">**Yalnix Checkpoint 4 Due: {{ site.data.settings.yalnix.cp4.duedate }}**</td>
+</tr>
+
+<!-- ========================================= Week 12 ========================================= -->
+
+<tr>
+<td id="week12" markdown="span">Week 12</td>
+<!-- Week Title Here -->
+<td markdown="span" class="note">Special Topics: Mobile OS and IoT, Networks & Distribution [+Distributed File Systems], How Yalnix Works, Virtualization [Virtual Machines, Containers, etc.], SGX / TrustZone, Safer Lanagues for OS development --- Rust, Recent Developments in OS</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1">
+<!-- - **Read:** Chapters ... -->
+</td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">11/02/2020 (M)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+- _TDB. Special Topic._
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1">
+</td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">11/04/2020 (W)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+- _TDB. Special Topic._
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1"></td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">11/06/2020 (F)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+- _TDB. Special Topic._
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span">
+</td>
+</tr>
+
+<tr class="duedate table-dark">
+    <td colspan = "3" class="text-center" markdown="span">**Yalnix Checkpoint 5 Due: {{ site.data.settings.yalnix.cp5.duedate }}**</td>
+</tr>
+
+<!-- ========================================= Week 13 ========================================= -->
+
+<tr>
+<td id="week13" markdown="span">Week 13</td>
+<!-- Week Title Here -->
+<td markdown="span" class="note"></td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1">
+<!-- - **Read:** Chapters ... -->
+</td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">11/09/2020 (M)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+- _TDB. Special Topic._
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1">
+</td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">11/11/2020 (W)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+- _No Class - Veteran's Day_
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1"></td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">11/13/2020 (F)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+- _TDB. Special Topic._
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span">
+</td>
+</tr>
+
+<tr class="duedate table-dark">
+    <td colspan = "3" class="text-center" markdown="span">**Yalnix Checkpoint 6 Due: {{ site.data.settings.yalnix.cp6.duedate }}**</td>
+</tr>
+
+<!-- ========================================= Week 14 ========================================= -->
+
+<tr>
+<td id="week14" markdown="span">Week 14</td>
+<!-- Week Title Here -->
+<td markdown="span" class="note"></td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1">
+<!-- - **Read:** Chapters ... -->
+</td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">11/16/2020 (M)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+- _TDB. Special Topic._
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1">
+</td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">11/18/2020 (W)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+- Course Wrap-Up (Summary & Next Steps, Exam #2 Details, ...)
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1"></td>
+</tr>
+
+<tr class="duedate table-dark">
+    <td colspan = "3" class="text-center" markdown="span">**Yalnix FINAL TURN IN Due: {{ site.data.settings.yalnix.final.duedate }}**</td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">11/20/2020 (F)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+- _Exam #2 - Review_
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span">
+</td>
+</tr>
+
+<!-- ========================================= Week 15 ========================================= -->
+
+<tr>
+<td id="week15" markdown="span">Week 15</td>
+<!-- Week Title Here -->
+<td markdown="span" class="note"></td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1">
+<!-- - **Read:** Chapters ... -->
+</td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">11/23/2020 (M)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+- _Exam #2_
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1">
+</td>
+</tr>
+
+<tr>
+<!-- Date Here -->
+<td markdown="span">11/25/2020 (W)</td>
+<!-- Topics & Lecture Details Here -->
+<td markdown="span" markdown="1">
+- _Exam #2 - Returned & Postmortem_
+</td>
+<!-- Assignments & Reading Here -->
+<td markdown="span" markdown="1"></td>
 </tr>
 
 </tbody>
 </table>
-
 {% comment %}
-
 {% endcomment %}
-
 _More Schedule Details Coming Soon..._
 {:.alert .alert-primary .text-center}
 
@@ -276,16 +841,16 @@ The grade breakdown is as follows:
 {:.mb-3}
 
 ##### Submitting Work
-All assignments are to be submitted in **{{site.data.settings.d2l}}** or via git.
-(Each assignment will clarify the submission method.)
+<!-- All assignments are to be submitted in **{{site.data.settings.d2l}}** or via git. -->
+All assignments are to be submitted via **your GitHub repository**.
+<!-- (Each assignment will clarify the submission method.) -->
 <!-- Assignments are **due @ TBD**. -->
 <!-- Assignments are **due @ 11:59pm** on the due date. -->
 <!-- You can submit an assignment an unlimited number of times. Graders will only grade your most recent submission. -->
 
 ##### Solo Programming Assignments
-_Stay tuned for more information coming soon..._
+<!-- _Stay tuned for more information coming soon..._ -->
 
-{% comment %}
 {% for assignment in site.data.settings.assignments %}
 {% for a in assignment %}
 {% if a.show %}
@@ -294,7 +859,6 @@ _Stay tuned for more information coming soon..._
 {% endif %}
 {% endfor %}
 {% endfor %}
-{% endcomment %}
 
 ##### Yalnix Checkpoints (Group Project)
 _Stay tuned for more information coming soon..._

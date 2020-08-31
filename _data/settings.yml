@@ -65,7 +65,7 @@ menu:
 
 assignments:
   pa0:
-    show: False
+    show: True
     name: 'PA0: Getting Started'
     url: 'pa0'
     duedate: 'Sunday [09/06/2020] @ 11:59 PM (MST)'
@@ -73,43 +73,51 @@ assignments:
     show: False
     name: 'PA1: Procs & Syscalls'
     url: 'pa1'
-    duedate: 'Sunday [09/13/2020] @ 11:59 PM (MST)'
+    duedate: 'Sunday [09/20/2020] @ 11:59 PM (MST)'
   pa2:
     show: False
     name: 'PA2: Concurrency'
     url: 'pa2'
-    duedate: 'Sunday [09/20/2020] @ 11:59 PM (MST)'
+    duedate: 'Sunday [10/04/2020] @ 11:59 PM (MST)'
 
 yalnix:
   link: 'yalnix'
+  signuplink: 'https://docs.google.com/spreadsheets/d/10l4tUyOCdWaOeW11HN7hy0Ps4-jy9oC9iaI3rFyZlgg/edit?usp=sharing'
   cp1:
     show: True
     name: 'Checkpoint 1'
-    duedate: 'Sunday [09/20/2020] @ 11:59 PM (MST)'
+    duedate: 'Sunday [10/11/2020] @ 11:59 PM (MST)'
+    rubric: ''
   cp2:
     show: True
     name: 'Checkpoint 2'
-    duedate: 'Sunday [09/27/2020] @ 11:59 PM (MST)'
+    duedate: 'Sunday [10/18/2020] @ 11:59 PM (MST)'
+    rubric: ''
   cp3:
     show: True
     name: 'Checkpoint 3'
-    duedate: 'Sunday [10/04/2020] @ 11:59 PM (MST)'
+    duedate: 'Sunday [10/25/2020] @ 11:59 PM (MST)'
+    rubric: ''
   cp4:
     show: True
     name: 'Checkpoint 4'
-    duedate: 'Sunday [10/11/2020] @ 11:59 PM (MST)'
+    duedate: 'Sunday [11/01/2020] @ 11:59 PM (MST)'
+    rubric: ''
   cp5:
     show: True
     name: 'Checkpoint 5'
-    duedate: 'Sunday [10/18/2020] @ 11:59 PM (MST)'
+    duedate: 'Sunday [11/08/2020] @ 11:59 PM (MST)'
+    rubric: ''
   cp6:
     show: True
     name: 'Checkpoint 6'
-    duedate: 'Sunday [10/25/2020] @ 11:59 PM (MST)'
+    duedate: 'Sunday [11/15/2020] @ 11:59 PM (MST)'
+    rubric: ''
   final:
     show: True
     name: 'Final Yalnix Submission'
-    duedate: 'Sunday [11/01/2020] @ 11:59 PM (MST)'
+    duedate: 'Wednesday [11/18/2020] @ 11:59 PM (MST)'
+    rubric: ''
 
 # project:
 #   pages:
