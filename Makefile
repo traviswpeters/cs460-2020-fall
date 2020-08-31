@@ -18,7 +18,7 @@ show:
 
 # fetch exported PDF versions of slides from iCloud and copy to website
 slides:
-	@echo "Fetching PDF versions of slides:"
+	@echo "Fetching PDF versions of slides..."
 	- @mv $(SLIDES)/cs460*.pdf $(WEBSITESLIDES)/ 2> /dev/null
 	@echo "\nSlides in 'files/' on website:"
 	@ls -alG $(WEBSITESLIDES)/cs460*
