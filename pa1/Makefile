@@ -20,23 +20,4 @@ $(TARGET): $(OBJS)
 
 .PHONY: clean
 clean:
-	rm -rf $(OBJS) $(TARGET) *~ $(BUILD_FILE) $(BUILD_DIR)
-
-######################################
-# Misc. Helpers
-# ~~> You can safely ignore these...
-
-RELEASE_FILES = demo.c readline.c readline.h Makefile photos sample
-RELEASE_NAME  = pa1_release
-BUILD_DIR     = $(RELEASE_NAME)
-BUILD_FILE    = $(RELEASE_NAME).tar.gz
-.PHONY: package unpackage
-package:
-	mkdir -p $(BUILD_DIR)
-	cp -r $(RELEASE_FILES) $(BUILD_DIR)/
-	tar -czvf $(BUILD_FILE) $(BUILD_DIR)
-	rm -rf $(BUILD_DIR)
-
-# mostly for testing...
-unpackage:
-	tar -xzvf $(BUILD_FILE)
+	rm -rf $(OBJS) $(TARGET) *~
