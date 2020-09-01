@@ -65,6 +65,7 @@ That is:
         * a caption
         * a link from the thumbnail to a properly oriented medium-size version of the photo
     * the thumbnails and medium-size versions.
+    * (And, optionally, any support files for your HTML file; e.g., a CSS file.)
 
 ## Constraints:
 
@@ -89,7 +90,7 @@ the point is to create and manage concurrent processes, to achieve some specific
 
 Here is [a zip of all of the provided resources](../pa1_release.tar.gz), which includes:
 - A set of sample images. <!-- [sample images](./photos.zip) -->
-- A directory with sample output material (based on one photo). <!-- [sample output material](./sample.zip) -->
+- A directory with sample output material based on a few photos. <!-- [sample output material](./sample.zip) -->
 - Sample code (`demo.c`, `readline.c`, `readline.h`) that reads in a string from the user. <!-- [Sample code](./demo.c) -->
 - A sample Makefile. <!-- [sample makefile](./Makefile) -->
 
