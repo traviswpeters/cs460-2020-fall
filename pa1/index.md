@@ -140,7 +140,8 @@ The submission should only contain:
 2. **Lifeline.** Include a PDF showing the basic lifeline of the processes involved, and their coordination, for one photo cycle.
 3. **Demos.** Submit a link to a video of you demonstrating your solution to this assignment. This video should be at most 5 minutes long.
    - In your demo, also include a **GDB demo.** Specifically, part of your demo should include a portion dedicated to you demonstrating how to use `gdb` to answer the question:
-   _"When you type `album photos/*.jpg` to the shell, what arguments does the shell give album?"_ This part of the video should be no more than 2 minutes long.
+   _"Assuming you have a `photos/` directory in the current directory, when you type `album photos/*.jpg` to the shell, what arguments does the shell give album?"_
+   This part of the video should be no more than 2 minutes long.
 > **NOTE:** Videos can be recorded and shared using [TechSmith](http://ato.montana.edu/technologies/techsmith/), for example.
 Make sure the video permissions are set to be viewable by anyone with the link.
 If we cannot view the link when we go to grade your submission you will automatically receive a zero for the relevant demo part(s) of your grade.
