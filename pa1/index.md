@@ -16,7 +16,7 @@ published: True
 </div>
 
 > This assignment has been adapted from a past OS course at Dartmouth.
-> Much thanks to Prof. Sean Smith at Dartmouth for thinking up a fun way to practice working with syscalls and process coordination!
+> Many thanks to Prof. Sean Smith at Dartmouth for thinking up a fun way to practice working with syscalls and process coordination!
 
 ## Objective
 
