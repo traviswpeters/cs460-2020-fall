@@ -87,29 +87,40 @@ the point is to create and manage concurrent processes, to achieve some specific
 
 ## Resources for Students
 
-Here is [a zip of all of the provided resources](./pa1_release.tar.gz), which includes:
-- Here is a set of [sample images](./photos.zip).
-- Also, here is [sample output material](./sample.zip) (based on one photo).
-- [Sample code](./demo.c) that reads in a string from the user.
-- A [sample makefile](./Makefile).
-- The [Vagrantfile](https://github.com/traviswpeters/cs460-code/blob/master/Vagrantfile) from class _(which students should already have setup from PA0!)_.
+Here is [a zip of all of the provided resources](../pa1_release.tar.gz), which includes:
+- A set of sample images. <!-- [sample images](./photos.zip) -->
+- A directory with sample output material (based on one photo). <!-- [sample output material](./sample.zip) -->
+- Sample code (`demo.c`, `readline.c`, `readline.h`) that reads in a string from the user. <!-- [Sample code](./demo.c) -->
+- A sample Makefile. <!-- [sample makefile](./Makefile) -->
+
+> _**NOTE:**_ _You aren't required to use any of this code but we provide it for you in case you find it helpful._
 
 ## A Reproducible Programming Environment <br/> (VirtualBox & Virtual Machines)
 
+_**Recall:**_
 To make a reproducible environment where we can all develop/run code, you should use a Virtual Machine (VM).
 To make this task easier we use a tool, Vagrant, that uses a configuration file (known as the "Vagrantfile") that specifies how a Virtual Machine (VM) should be configured.
 We can then use simple commands that will create the VM, start it running, and allow us to log into it so we can compile and run our code.
-By the time you start this assignment, this should not be new news to you --- we will have covered using Vagrant/Virtual Machine to create and use a vM.
+By the time you start this assignment, this should not be new news to you --- we will have covered using Vagrant/Virtual Machine to create and use a VM.
+
+<!-- Specifically, we should all have a VM built from our Vagrantfile from class _(which students should already have setup from PA0!)_. -->
+<!-- [Vagrantfile](https://github.com/traviswpeters/cs460-code/blob/master/Vagrantfile) -->
 
 _**Please use the Vagrantfile that we have shared!**_
-This specifies a VM where we have installed software you need for this assignment.
-This is also the VM we have used to test solutions to this assignment.
-Last, this is also the environment where we've run most of our demos from class, so you _should_ have this Vagrantfile (and VM) already.
+This Vagrantfile creates and properly configures a VM with the software you need for this assignment.
+This Vagrantfile has also been used to build the VM where we test solutions to this assignment.
+<!-- Last, this is also the environment where we've run most of our demos from class, so you _should_ have this Vagrantfile (and VM) already. -->
 
-> The VM should already be configured with the ImageMagick suite of tools and X11 software.
-> Once you've booted the VM and ssh-ed in, run an X11 app such as `xeyes` to verify this.
-> It is not absolutely essential for X forwarding to work, though it is preferred and improves the usability of this assignment.
-> If X forwarding is not setup you won't have a GUI open up to render the photo on your host as the code runs on the VM.
+###### X11
+The VM should already be configured with the ImageMagick suite of tools and X11 software.
+Once you've booted the VM and `ssh`-ed in, run an X11 app such as `xeyes` to verify this.
+It is not absolutely essential for X forwarding to work, though it is preferred and greatly improves the usability of this assignment.
+If X forwarding is not setup you won't have a GUI open up to render the photo on your host as the code runs on the VM.
+
+> _**NOTE:**_ The first time you create your VM you may get a warning from the vagrant/the VM about X11 and something about Xauthority.
+> This should only happen once. After this initial warning the necessary files should be created to properly run X11.
+
+If you have trouble with X11, please post on Slack and/or set up time with Travis or Reese to discuss.
 
 <!-- ~~You will need to have X forwarding set up between flume and your client.~~ -->
 
