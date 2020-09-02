@@ -27,6 +27,14 @@ slides:
 	@echo "\nSlides in 'files/' on website:"
 	@ls -alG $(WEBSITESLIDES)/cs460*
 
+open:
+	open /Users/twp/Desktop/msu/teaching/class/os-cs460 # iCloud stuff (slides, etc.)
+	open /Users/twp/projects/classes/admin-teaching/ # admin (solutions, exams, etc.)
+openrefs: open
+	open /Users/twp/projects/classes/msu-cs460-2020-fall # website
+	open /Users/twp/projects/classes/msu-cs460-code # public code
+	open /Users/twp/Desktop/dartmouth # dartmouth samples
+
 clean:
 	rm -rf *~ $(BUILD_DIR) #$(BUILD_FILE)
 
