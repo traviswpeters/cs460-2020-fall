@@ -225,6 +225,8 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - OS Overview (Part 2)
+[video](https://zoom.us/rec/share/bkaH5cxn4sgGeMAo7Zv0uIEnXZx-zxJlCepq-3HCz19wNTl_GGcYgHaiC-7fO2KB.kj_Cl_alI_5_jWFz){:.video}
+[slides](files/cs460-04-os-overview-p2.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
@@ -235,6 +237,9 @@ If you have any questions, please contact me.
 <td markdown="span">09/04/2020 (F)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
+<!-- - OS Overview (Part 3 / wrap-up) +  -->
+<!-- [video](){:.video} -->
+<!-- [slides](files/cs460-04-os-overview-p3.pdf){:.slides} -->
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span">
