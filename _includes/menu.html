@@ -15,30 +15,34 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
         {% for item in site.data.settings.menu %}
+            {% assign urlFirstChar = (item.url | slice: 0, 1) %}
             {% if item.name == 'Assignments' %}
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ item.name }}</a>
-              <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 40px, 0px); top: 0px; left: 0px; will-change: transform;">
-                <a class="dropdown-item" href="{{ site.baseurl }}/{{ item.url }}">{{ item.name }} (Overview)</a>
-                <div class="dropdown-divider"></div>
-                {% for assignment in site.data.settings.assignments %}
-                {% for a in assignment %}
-                  {% if a.show %}
-                  <a class="dropdown-item" href="{{ site.baseurl }}/{{a.url}}">{{a.name}}</a>
-                  {% endif %}
-                {% endfor %}
-                {% endfor %}
-              </div>
-            </li>
-            {% else if item.name == 'Code' %}
-            <li class="nav-item">
-                <a class="nav-link" href="{{ item.url }}">{{ item.name }}</a>
-            </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ item.name }}</a>
+                  <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 40px, 0px); top: 0px; left: 0px; will-change: transform;">
+                    <a class="dropdown-item" href="{{ site.baseurl }}/{{ item.url }}">{{ item.name }} (Overview)</a>
+                    <div class="dropdown-divider"></div>
+                    {% for assignment in site.data.settings.assignments %}
+                    {% for a in assignment %}
+                      {% if a.show %}
+                      <a class="dropdown-item" href="{{ site.baseurl }}/{{a.url}}">{{a.name}}</a>
+                      {% endif %}
+                    {% endfor %}
+                    {% endfor %}
+                  </div>
+                </li>
+            {% elsif item.name == 'Code' %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ item.url }}">Code / GitHub</a>
+                </li>
+            {% elsif urlFirstChar == '#' %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ item.url | relative_url }}">#{{ item.name }}</a>
+                </li>
             {% else %}
-            <li class="nav-item">
-                <!-- https://www.traviswpeters.com/cs460-2020-fall/ -->
-                <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.name }}</a>
-            </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.name }}</a>
+                </li>
             {% endif %}
         {% endfor %}
         </ul>
