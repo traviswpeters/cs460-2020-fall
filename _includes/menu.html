@@ -36,7 +36,8 @@
             </li>
             {% else %}
             <li class="nav-item">
-                <a class="nav-link" href="{{ item.url | absolute_url }}">{{ item.name }}</a>
+                <!-- https://www.traviswpeters.com/cs460-2020-fall/ -->
+                <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.name }}</a>
             </li>
             {% endif %}
         {% endfor %}
