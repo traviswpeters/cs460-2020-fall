@@ -28,7 +28,7 @@ slides:
 	@ls -alG $(WEBSITESLIDES)/cs460*
 
 clean:
-	rm -rf *~ $(BUILD_DIR) $(BUILD_FILE)
+	rm -rf *~ $(BUILD_DIR) #$(BUILD_FILE)
 
 ######################################
 # Misc. Helpers
@@ -41,12 +41,11 @@ BUILD_DIR     = $(RELEASE_NAME)
 BUILD_FILE    = $(RELEASE_NAME).tar.gz
 
 .PHONY: package
-package:
+package: clean
 	mkdir -p $(BUILD_DIR)
 	cp -r $(RELEASE_FILES) $(BUILD_DIR)/
 	tar -czvf $(BUILD_FILE) $(BUILD_DIR)
 	rm -rf $(BUILD_DIR)
-	# mv $(BUILD_FILE) $(RELEASE_DIR)
 
 .PHONY: unpackage
 unpackage:
