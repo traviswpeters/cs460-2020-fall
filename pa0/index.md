@@ -124,6 +124,7 @@ Put this file at the top level of whatever directory you plan to do your work in
 If you have already installed VirtualBox and/or Vagrant, I strongly recommend you upgrade to the latest and greatest versions.
 
 #### NOTE: Using "Synced Folders" (a.k.a. "Shared Folder")
+{:.pt-3 .pb-3}
 
 In class we've talked about using _shared folders_ to share files between your host OS and your guest OS.
 We have a default synched folder set up in our Vagrantfile for you already.
@@ -163,6 +164,7 @@ Important files should be stored on the host and version-controlled with Git/Git
 {:.pb-3}
 
 ###### A First Step To Resolving VM Issues
+{:.pt-1 .pb-1}
 
 We have encountered a few issues with VMs not compiling software correctly, etc.
 
@@ -189,6 +191,7 @@ vagrant up
 ```
 
 ###### Time Sync Issues
+{:.pt-1 .pb-1}
 
 If you don't have the most up-to-date version of [_Guest Additions_](https://www.virtualbox.org/manual/ch04.html) installed for your VM,
 it is possible that your VM may "drift" and become out of sync with the host.
@@ -469,15 +472,15 @@ Please follow the instructions below.
 **Your private repository** will be used for your individual work and our grading.
 Unfortunately, GitHub doesn't let you fork a repo _and then_ make it private.
 Thus, rather than the traditional Forking model, we are going to use a Copy model for the class.
-Please use the following steps to create a *PRIVATE* version of this repo for your work:
+Please use the following steps to create a *PRIVATE* version of [our class repository]({{site.data.settings.codelink}}) for your work:
 
-- Create a *private* repository in your own account by
+- Create a *PRIVATE* repository in your own account by
     - Going to <https://github.com/new>
     - Enter the name `csci-460-fall2020-private`
     - Select `Private`
     - Navigate to the `Settings` -> `Manage Access` section
     - Add `traviswpeters` (Travis's GitHub handle) and `reesep` (Reese's GitHub handle) as collaborators
-- Now run the following git commands at the commandline on your computer, substituting your GitHub username and NetID where required:
+- Now run the following git commands at the command line on your computer, substituting your **GitHub username** and **NetID** where required:
 ```bash
 $ git clone https://github.com/traviswpeters/cs460-code.git csci-460-fall2020-private
 $ cd csci-460-fall2020-private
@@ -502,8 +505,7 @@ You might want to do this at least each week, but likely before each class.
 #### 8.2 Setup Your SSH Identity
 {:.pt-3 .pb-3}
 
-Setting up an SSH identity makes it possible for you to interact with GitHub repos via the command line
-without having to re-enter your password all the time.
+Setting up an SSH identity makes it possible for you to interact with GitHub repos via the command line without having to re-enter your password all the time.
 If you've already setup an SSH key to have passwordless access to GitHub on the command line, you can probably skip this step.
 You can check to see if you have a key setup by looking in your `~/.ssh/` directory.
 If there is nothing there, or if you don't have a key dedicated to using with GitHub, you should read the following article:
@@ -531,7 +533,7 @@ _**DO NOT PUSH YOUR INDIVIDUAL WORK CODE TO THIS REPOSITORY**_
 #### 8.4 Register Your PRIVATE Repo (via Pull Request)
 {:.pt-3 .pb-3}
 
-Now, in **your forked copy of the class repo** (the public version),
+Now, in **your forked copy of the class repo** (the public version from Task 8.3),
 please add a file to the `/repos` directory that is named
 ```bash
 <YOUR NET ID>.txt
@@ -583,8 +585,8 @@ Your submission should contain ***at least*** the following:
 
 1. A `README.md` file (written in Markdown) that details your responses to the tasks in this assignment.
 2. A subdirectory for any task where you needed to create/edit files. (E.g., Task 5 should be in `pa0/task5/`).
-1. A short screencast (no more than 5 minutes) that walks us through your submission.
-**DO NOT** put video files directly in a GitHub repository.
+1. A short screencast (no more than 5 minutes) that walks us through your submission.  
+_**DO NOT** put video files directly in a GitHub repository._  
 Rather, make the video accessible and share a link to your video.
 
 **NOTE:** Videos can be recorded and shared using [TechSmith](http://ato.montana.edu/technologies/techsmith/), for example.
