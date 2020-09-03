@@ -95,19 +95,137 @@ Subsequent tasks depend on this task, so please make sure you have this task com
 2. Install [**Vagrant**](https://www.vagrantup.com/downloads) on your machine. Select the relevant download for your OS and architecture.
 3. Download our [**Vagrantfile**](https://raw.githubusercontent.com/traviswpeters/cs460-code/master/Vagrantfile) from class.
 Put this file at the top level of whatever directory you plan to do your work in (e.g., `~/projects/cs460/`).
-```bash
-mkdir -p ~/projects/cs460/
-cd ~/projects/cs460/
-curl -O https://raw.githubusercontent.com/traviswpeters/cs460-code/master/Vagrantfile
-```
-> **NOTE:** The commands above were run on a machine running macOS. It also assumes you have `curl` installed. Your mileage may vary.
+    ```bash
+    # create a top-level directory for all of your cs460 work.
+    mkdir -p ~/projects/cs460/
 
-4. Open a terminal, navigate to where you stored your Vagrantfile, and run: `vagrant up`.
-5. After the machine has been created and successfully boots, run `vagrant ssh`.
-6. Run `uname -a` at the command line and describe your observation (i.e., what is this command doing?). Please capture your answer in the README for your submission.
+    # move into your cs460 directory
+    cd ~/projects/cs460/
+
+    # download our Vagrantfile into the current directory
+    curl -O https://raw.githubusercontent.com/traviswpeters/cs460-code/master/Vagrantfile
+
+    ### ALL VAGRANT COMMANDS SHOULD BE RUN WITHIN THE DIRECTORY WHERE YOU STORED YOUR VAGRANTFILE ###
+
+    # install a vagrant plugin to help with managing VirtualBox Guest Additions
+    vagrant plugin install vagrant-vbguest
+
+    # create/boot the VM (this may take a while the very 1st time!)
+    vagrant up   
+
+    # ssh into your VM - only works after the machine has been created and successfully boots ;)
+    vagrant ssh
+    ```
+    > **NOTE:** The commands above were run on a machine running macOS. It also assumes you have `curl` installed. Your mileage may vary.
+
+4. Run `uname -a` at the command line and describe your observation (i.e., what is this command doing?). Please capture your answer in the README for your submission.
 
 > **NOTE:** When installing this software, please install the most recent, stable versions.
 If you have already installed VirtualBox and/or Vagrant, I strongly recommend you upgrade to the latest and greatest versions.
+
+#### NOTE: Using "Synced Folders" (a.k.a. "Shared Folder")
+
+In class we've talked about using _shared folders_ to share files between your host OS and your guest OS.
+We have a default synched folder set up in our Vagrantfile for you already.
+(Feel free to add other shared folders too.)
+This tells vagrant to mount the current directory, and all of its subdirectories, into the VM in a folder called "projects" within the VM's home directory.
+
+```bash
+config.vm.synced_folder ".", "/home/vagrant/projects"
+```
+
+
+
+<!--
+Once you know you've cloned the repo to your local system (Task 8) you can add a line like this to your `Vagrantfile`:
+
+```bash
+config.vm.synced_folder "/Users/myHome/dir/where/I/work/cs460-code", "/home/vagrant/code"
+# Note that we are using the absolute path here.
+# I've had mixed results with using symbols that expand to the correct directory
+# (E.g., '~' for 'home directory). Try at your own risk...
+```
+
+Now when we access our VM, there should be a directory (`~/code`) in the VM that is synchronized between the host and guest.
+-->
+
+Shared folders are nice for lots of things.
+
+For example, a shared folder will enable you to edit code in your preferred editor _**on your host**_, and compile/run code _**on the guest**_.
+
+Using shared folders also means that your code is not actually stored on the VM; everything in the shared folder is actually stored on your host!
+This enables you to delete your VM (`vagrant destroy`), create a new VM, and pick right up where you left off with your work.
+
+> _**WARNING:**_ This means you need to make sure you never save files that you want to keep directly to the VM.
+Important files should be stored on the host and version-controlled with Git/GitHub.
+
+#### Troubleshooting
+{:.pb-3}
+
+###### A First Step To Resolving VM Issues
+
+We have encountered a few issues with VMs not compiling software correctly, etc.
+
+If this happens to you, I first recommend re-running the Vagrantfile's provisioning steps and rebooting your VM.
+
+This can be done by running the following commands from your host OS in the directory with your Vagrantfile:
+
+```bash
+vagrant provision
+vagrant reload
+```
+
+If something seems out of place, try this step.
+
+> _This is the VM/vagrant version of "Have you tried turning it off and on again?" :-)_
+
+A more extreme approach
+_- which should be totally acceptable so long as you keep all of your files that you want to keep in a synced/shared folder! -_
+is to run:
+
+```bash
+vagrant destroy
+vagrant up
+```
+
+###### Time Sync Issues
+
+If you don't have the most up-to-date version of [_Guest Additions_](https://www.virtualbox.org/manual/ch04.html) installed for your VM,
+it is possible that your VM may "drift" and become out of sync with the host.
+Put another way, it will be one time on your host OS and another time on your guest OS.
+This can be problematic for software that uses time / the timestamps of files in its logic.
+(Think `make` and Makefiles.)
+
+There is a nifty vagrant plugin I use to help keep my VMs configured with the correct version of Guest Additions.
+
+```bash
+vagrant plugin install vagrant-vbguest
+```
+
+Then reboot the VM.
+
+This should work. If you still have issues with time syncing between your host/guest,
+DM me and we can discuss more - I have a few other tricks up my sleeve :-)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Task 4: Command Line
@@ -331,11 +449,110 @@ _**NOTE:** Any repos that you create to hold your solo or team work should be se
 
 <!-- > In class we will work through examples from [https://learngitbranching.js.org](https://learngitbranching.js.org). -->
 
-Your task for this assignment:
+_**Your task for this assignment:**_
+We have provided you with detailed instructions for how to set up a public and private repository for this class.
+Please follow the instructions below.
+<!-- Please follow the instructions here: [**CSCI 460 Code (our course GitHub repo)**]({{site.data.settings.codelink}}). -->
 
-1. We have provided you with detailed instructions for how to set up a public and private repository for this class.
-Please follow the instructions here: [**CSCI 460 Code (our course GitHub repo)**]({{site.data.settings.codelink}}).
 
+> These instructions are adapted from [CSCI 366 (Systems Programming)](https://github.com/msu/csci-366-fall2020) @ Montana State University.
+> Many thanks to Carson Gross for paving the way.
+> In fact, there are some videos from 366 that may be useful if this stuff is confusing to you.
+> 1. [Setting Up Your Git Repositories](https://youtu.be/MFBeFUorg3w)
+> 2. [GitHub Repo Diagram Explained](https://www.youtube.com/watch?v=zMwEQN8oG7E)
+>
+> Make sure you follow OUR directions below though - remember, this is CSCI 460, not CSCI 366 :-)
+
+#### 8.1 Setup Your PRIVATE Repo (via Clone)
+{:.pt-3 .pb-3}
+
+**Your private repository** will be used for your individual work and our grading.
+Unfortunately, GitHub doesn't let you fork a repo _and then_ make it private.
+Thus, rather than the traditional Forking model, we are going to use a Copy model for the class.
+Please use the following steps to create a *PRIVATE* version of this repo for your work:
+
+- Create a *private* repository in your own account by
+    - Going to <https://github.com/new>
+    - Enter the name `csci-460-fall2020-private`
+    - Select `Private`
+    - Navigate to the `Settings` -> `Manage Access` section
+    - Add `traviswpeters` (Travis's GitHub handle) and `reesep` (Reese's GitHub handle) as collaborators
+- Now run the following git commands at the commandline on your computer, substituting your GitHub username and NetID where required:
+```bash
+$ git clone https://github.com/traviswpeters/cs460-code.git csci-460-fall2020-private
+$ cd csci-460-fall2020-private
+$ git remote set-url origin git@github.com:<YOUR-GITHUB-USERNAME>/csci-460-fall2020-private.git
+$ git remote add upstream https://github.com/traviswpeters/cs460-code.git
+```
+> **NOTE:** My examples are all based on a Unix-y terminal running atop macOS.
+> If you use a different OS (e.g., Windows) your mileage may vary.
+
+You now have a private copy of the repository on GitHub.
+
+You can push and pull to this repository with the standard `git pull` and `git push` commands.
+
+When you want to get an update from the public class repository you can run this command:
+
+```bash
+$ git pull upstream master
+```
+
+You might want to do this at least each week, but likely before each class.
+
+#### 8.2 Setup Your SSH Identity
+{:.pt-3 .pb-3}
+
+Setting up an SSH identity makes it possible for you to interact with GitHub repos via the command line
+without having to re-enter your password all the time.
+If you've already setup an SSH key to have passwordless access to GitHub on the command line, you can probably skip this step.
+You can check to see if you have a key setup by looking in your `~/.ssh/` directory.
+If there is nothing there, or if you don't have a key dedicated to using with GitHub, you should read the following article:
+[Adding a new SSH key to your GitHub account](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
+
+#### 8.3 Setup Your PUBLIC Repo (via Fork)
+{:.pt-3 .pb-3}
+
+**Your public repository** can be used for contributing back to the class repository and to register your private repository.
+
+Please **_fork_** [our class repository]({{site.data.settings.codelink}}) to your personal account.
+
+_**DO NOT PUSH YOUR INDIVIDUAL WORK CODE TO THIS REPOSITORY**_
+{:.text-warning}
+
+<!-- I highly recommend against cloning the public respoitory to your local system, to avoid confusion between the two.  -->
+<!-- You can edit files in the public repository via the web interface, and that will be much safer. -->
+
+> **Word of Caution**
+> It is strongly recommended that students **DO NOT** clone their public fork of this repository to their local system.
+> This is to avoid confusion between your private repository (Task 8.1) and your public repository (Task 8.3).
+> If this applies to you (i.e., you are prone to confusion), you should know that there is no need to have the public repo on your local system;
+> you can edit files in the public repository via the web interface and submit pull requests there too.
+
+#### 8.4 Register Your PRIVATE Repo (via Pull Request)
+{:.pt-3 .pb-3}
+
+Now, in **your forked copy of the class repo** (the public version),
+please add a file to the `/repos` directory that is named
+```bash
+<YOUR NET ID>.txt
+```
+with the git URL of your private repository.
+
+For example, if I were a student with the NetID `W43m513` and my GitHub username was `studentIAm`
+I would add a file named `W43m513.txt` to `/repos` with the following line:
+```bash
+git@github.com:studentIAm/csci-460-fall2020-private.git
+```
+
+And then create a pull request against our class repository (the original one, from which you forked).
+
+We will accept the pull request, and your private work repo will be registered for the class at that point.
+
+
+
+
+
+<!--
 ##### Extra Practice _(Fun Is Always Recommended, But Optional)_
 
 For fun (not part of the assignment), if you want to practice this workflow again, you can try this:
@@ -346,7 +563,6 @@ For fun (not part of the assignment), if you want to practice this workflow agai
     with a fun fact about yourself.
 - Next, create a pull request against this repository. We will accept it and excitedly read all of your fun facts :-)
 
-<!--
 You can add the file in a variety of ways.
   - The easiest way is to do it right through the browser;
   - _or_, if you are feeling adventurous,
