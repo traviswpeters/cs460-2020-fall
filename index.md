@@ -155,7 +155,7 @@ If you have any questions, please contact me.
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
-- [PA0](pa0/) out!
+- [PA0](pa0/) released!
 </td>
 </tr>
 
@@ -242,7 +242,7 @@ If you have any questions, please contact me.
 <!-- [slides](files/cs460-04-os-overview-p3.pdf){:.slides} -->
 </td>
 <!-- Assignments & Reading Here -->
-<td markdown="span">
+<td markdown="span" markdown="1">
 </td>
 </tr>
 
@@ -271,6 +271,7 @@ If you have any questions, please contact me.
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
+- [PA1](pa1/) released!
 </td>
 </tr>
 

@@ -1,3 +1,10 @@
+# NOTES FOR NEXT TIME
+# -------------------
+# pa0/
+# - reorder Task 8 to be the 1st task (git/github stuff should be setup immediately.)
+# - use GitHub Classrooms next time?!
+
+
 ###
 ### Website Settings
 ### => NOTE: Access variables here with: {{site.data.settings.XXXXXXXXX}}
@@ -51,7 +58,6 @@ slides: "files"
 notes: "files"
 reading: "files"
 solutions: "files"
-# code: "code"
 
 menu:
 - {name: 'About', url: '#about-the-course'}
@@ -72,7 +78,7 @@ assignments:
     url: 'pa0'
     duedate: 'Sunday [09/06/2020] @ 11:59 PM (MST)'
   pa1:
-    show: False
+    show: True
     name: 'PA1: Procs & Syscalls'
     url: 'pa1'
     duedate: 'Sunday [09/20/2020] @ 11:59 PM (MST)'
