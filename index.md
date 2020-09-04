@@ -238,8 +238,8 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - OS Overview (Part 3 / wrap-up)
-<!-- [video](){:.video} -->
-<!-- [slides](files/cs460-04-os-overview-p3.pdf){:.slides} -->
+[video](https://zoom.us/rec/play/QKj5Os56w0Bv7DN-0sX_ew4cUTyr-pLWiKcmOVlGknN40U_3f0f3bWzs2_mO14KH0kgXM1w-Ux54YOYo.rq0Q6uP7OnbJkQtO?continueMode=true){:.video}
+[slides](files/cs460-04-os-overview-p3.pdf){:.slides}
 [Minute Paper (09/04)](https://forms.gle/mHgQrfMhh7ETmdnYA){:.activity}
 </td>
 <!-- Assignments & Reading Here -->
