@@ -125,7 +125,11 @@ If you have trouble with X11, please post on Slack and/or set up time with Travi
 
 <!-- ~~You will need to have X forwarding set up between flume and your client.~~ -->
 
-## Submission
+## What To Turn In & Instructions On Submitting your Assignment
+
+Please submit your assignment via your **private** GitHub repository.
+
+Specifically, you should create a `pa1` directory for this assignment where you do all of your work for _this_ assignment.
 
 Submission of this assignment requires a few things:
 

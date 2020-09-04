@@ -577,7 +577,7 @@ You can add the file in a variety of ways.
 
 Please submit your assignment via your **private** GitHub repository.
 
-Specifically, you should create a `pa0` directory for this assignment.
+Specifically, you should create a `pa0` directory for this assignment where you do all of your work for _this_ assignment.
 
 Make sure you have added Travis and Reese as collaborators to your project so we can access your submission.
 
