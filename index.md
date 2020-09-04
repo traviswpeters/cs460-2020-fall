@@ -128,7 +128,7 @@ If you have any questions, please contact me.
 [slides](files/cs460-02-system-overview-p2.pdf){:.slides}
 <!-- [Activity #1](files/cs460-02-system-overview-a1.pdf){:.activity} -->
 <!-- [Activity #2](files/cs460-02-system-overview-a2.pdf){:.activity} -->
-[Minute Paper](https://forms.gle/dxRexo9t9CBbbFm38){:.activity}
+[Minute Paper (08/21)](https://forms.gle/dxRexo9t9CBbbFm38){:.activity}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
@@ -237,9 +237,10 @@ If you have any questions, please contact me.
 <td markdown="span">09/04/2020 (F)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-<!-- - OS Overview (Part 3 / wrap-up) +  -->
+- OS Overview (Part 3 / wrap-up)
 <!-- [video](){:.video} -->
 <!-- [slides](files/cs460-04-os-overview-p3.pdf){:.slides} -->
+[Minute Paper (09/04)](https://forms.gle/mHgQrfMhh7ETmdnYA){:.activity}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
@@ -635,7 +636,17 @@ If you have any questions, please contact me.
 <tr>
 <td id="week12" markdown="span">Week 12</td>
 <!-- Week Title Here -->
-<td markdown="span" class="note">Special Topics: Mobile OS and IoT, Networks & Distribution [+Distributed File Systems], How Yalnix Works, Virtualization [Virtual Machines, Containers, etc.], SGX / TrustZone, Safer Lanagues for OS development --- Rust, Recent Developments in OS</td>
+<td markdown="span" class="note">Special Topics:
+Mobile OS and IoT,
+Networks & Distribution [+Distributed File Systems],
+How Yalnix Works,
+Virtualization [Virtual Machines, Containers, etc.],
+SGX / TrustZone,
+Safer Languages for OS development (e.g., Rust),
+Better Languages for Concurrent Programming (e.g., Go),
+Recent Developments in OS,
+...
+</td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
 <!-- - **Read:** Chapters ... -->
