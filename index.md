@@ -198,7 +198,7 @@ If you have any questions, please contact me.
 <tr>
 <td id="week03" markdown="span">Week 03</td>
 <!-- Week Title Here -->
-<td markdown="span" class="note">OS Overview; (Start Processes & Threads?)</td>
+<td markdown="span" class="note">OS Overview</td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
 - **Read:** Chapters 2 & 3
