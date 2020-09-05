@@ -141,7 +141,10 @@ The submission should only contain:
     - the necessary **source code**,
     - a **Makefile** for compiling and testing, and
     - a **README.md** file to tell us about your program and anything that isn't obvious from the other files.
+>  **NOTE:** A PHONY Makefile target, or bash script, that invokes your program with various inputs is recommended.
+
 2. **Lifeline.** Include a PDF showing the basic lifeline of the processes involved, and their coordination, for one photo cycle.
+
 3. **Demos.** Submit a link to a video of you demonstrating your solution to this assignment. This video should be at most 5 minutes long.
    - In your demo, also include a **GDB demo.** Specifically, part of your demo should include a portion dedicated to you demonstrating how to use `gdb` to answer the question:
    _"Assuming you have a `photos/` directory in the current directory, when you type `album photos/*.jpg` to the shell, what arguments does the shell give album?"_

@@ -257,7 +257,7 @@ Your submission should contain ***at least*** the following files:
 3. A `README.md` file (written in Markdown), which provides a summary of the program and your approach to achieving synchronization amongst the "cars" (threads).
 4. A `TESTING.md` file (written in Markdown), which provides a summary of how you validated the correctness of your solution.
 For example, you should document various configurations of `num_cars`, `max_cars`, etc, and how your program handles different inputs.
-A bash script that invokes your program with various inputs is recommended.
+> **NOTE:** A PHONY Makefile target, or bash script, that invokes your program with various inputs is recommended.
 5. Demo. Submit a link to a video of you demonstrating your solution to this assignment. This video should be at most 5 minutes long.
 
 > **NOTE:** Videos can be recorded and shared using [TechSmith](http://ato.montana.edu/technologies/techsmith/), for example.
