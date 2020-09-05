@@ -863,7 +863,12 @@ The grade breakdown is as follows:
 
 ##### Submitting Work
 <!-- All assignments are to be submitted in **{{site.data.settings.d2l}}** or via git. -->
-All assignments are to be submitted via **your GitHub repository**.
+All assignments are to be submitted via **your private GitHub repository**.
+
+So long as your work is committed and pushed to your private GitHub repository by the deadline, you should be good to go!
+
+> **Pro Tip:** Please double check that Travis and Reese are added as "collaborators" in your GitHub repository.
+
 <!-- (Each assignment will clarify the submission method.) -->
 <!-- Assignments are **due @ TBD**. -->
 <!-- Assignments are **due @ 11:59pm** on the due date. -->
@@ -911,7 +916,7 @@ The penalties for late submissions are as follows:
 I do understand, however, that extreme circumstances arise (e.g., interviews, illness, family matters).
 For this reason, **each student is herby granted two (virtual) "one-day late" coupons** whereby you can turn in an assingnment late with no penalty &ndash; no excuse required.
 Each coupon is good for a 1-day (24-hour) extension on one project.
-However, an N-person project _(think Yalnix!)_ requires N coupons for a 1-day extension. 
+However, an N-person project _(think Yalnix!)_ requires N coupons for a 1-day extension.
 Plan accordingly.
 You must tell me and the TA that you are using a coupon _before_ the official deadline.
 Also note that you _cannot_ change this decision later.
