@@ -909,9 +909,9 @@ The penalties for late submissions are as follows:
 * &ge; 48 hours: no credit.
 
 I do understand, however, that extreme circumstances arise (e.g., interviews, illness, family matters).
-For this reason, **each student is herby granted two (virtual) "one-day late" coupons** whereby you can turn in an assingment late with no penalty &ndash; no excuse required.
+For this reason, **each student is herby granted two (virtual) "one-day late" coupons** whereby you can turn in an assingnment late with no penalty &ndash; no excuse required.
 Each coupon is good for a 1-day (24-hour) extension on one project.
-However, an N-person project requires N coupons for a 1-day extension.
+However, an N-person project _(think Yalnix!)_ requires N coupons for a 1-day extension. 
 Plan accordingly.
 You must tell me and the TA that you are using a coupon _before_ the official deadline.
 Also note that you _cannot_ change this decision later.
