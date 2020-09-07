@@ -131,25 +131,48 @@ Please submit your assignment via your **private** GitHub repository.
 
 Specifically, you should create a `pa1` directory for this assignment where you do all of your work for _this_ assignment.
 
-Submission of this assignment requires a few things:
+Your submission should contain ***at least*** the following items:
 
-1. **Code.** 
-_**DO**_ submit your code and files we need to build/run/explain your code.
-_**DO NOT**_ submit photos, executables, or other generated files.
-_(In general we try not to store generated files in a repository... unless there is a really good reason... and usually there isn't!)_
-The submission should only contain:
-    - the necessary **source code**,
-    - a **Makefile** for compiling and testing, and
-    - a **README.md** file to tell us about your program and anything that isn't obvious from the other files.
->  **NOTE:** A PHONY Makefile target, or bash script, that invokes your program with various inputs is recommended.
+1. The **source code** file(s) you've written for your solution.
+> Regarding what you have in your repository for the submission:
+> _**DO**_ commit your code and files that are needed to build/run/explain your code to the repository.
+> _**DO NOT**_ commit photos, executables, or other generated files.
+> In general we try not to store generated files (executables, object files, test output, etc.)
+> in a git repository... unless there is a really good reason... and usually there isn't!
+> (We also try not to store large binary assets, such as images or PDFs.
+> We may ask you to do this at times in this course, but these are exceptions, not norms.)
+> A `.gitignore` file is very helpful for telling git to "ignore" specific files or files that match certain patterns.
+> (See [this Atlassian tutorial on .gitignore files](https://www.atlassian.com/git/tutorials/saving-changes/gitignore) for more information.)
 
-2. **Lifeline.** Include a PDF showing the basic lifeline of the processes involved, and their coordination, for one photo cycle.
+2. A `.gitignore` file that specifies files and file types that should _**not**_ be tracked by git.
+3. A `Makefile` for compiling and testing your program.
+- The `Makefile` _**must**_ be written such that we can run `make` (with no arguments) to generate your program.
+- The program your `Makefile` builds _**must**_ be called `album`.
+- If the compilation of your program fails (i.e., no executable is built) upon running `make`, _**we will automatically deduct 10 points**_.
+- If the program "segfaults" when given an expected configuration of input parameters, _**we will automatically deduct 5 points**_.
+- If the compilation has warnings, _**we will automatically deduct 5 points**_.
+> These are serious penalties for issues that can be easily avoided with basic testing!
 
-3. **Demos.** Submit a link to a video of you demonstrating your solution to this assignment. This video should be at most 5 minutes long.
-   - In your demo, also include a **GDB demo.** Specifically, part of your demo should include a portion dedicated to you demonstrating how to use `gdb` to answer the question:
+4. A `README.md` file (written in Markdown), which tell us about your program and anything that isn't obvious from the other files.
+5. A `TESTING.md` file (written in Markdown), which provides a summary of how you validated the correctness of your solution.
+For example, you should document basic configurations (e.g., no photos provided, unsupported file types), etc., and (generally) how your program handles different inputs.
+> A PHONY Makefile target, or bash script, that invokes your program with various inputs is recommended.  
+
+6. A `lifeline.pdf` "**lifeline diagram**" showing the basic lifeline of the processes involved, and their coordination, for one photo cycle.
+> I know, I know. I said above not to commit PDFs (in general). I want one here though... &#128513;
+> This can be hand-drawn. This can be made with a tool that helps to make diagrams. Whatever tool you prefer is fine.
+> All that matters is that the diagram is
+> (1) a PDF,
+> (2) that the file is named `lifeline.pdf`,
+> and (3) that it depicts the basic lifeline of the processes involved, and their coordination, for one photo cycle.
+
+7. **Demos.** Submit a link to a video of you demonstrating your solution to this assignment.
+   _**This video should be at most 7 minutes long.**_
+   - In your demo, _also_ include a **GDB demo.**
+     Specifically, part of your demo should include a portion dedicated to you demonstrating how to use `gdb` to answer the question:
    _"Assuming you have a `photos/` directory in the current directory, when you type `album photos/*.jpg` to the shell, what arguments does the shell give album?"_
-   This part of the video should be no more than 2 minutes long.
-> **NOTE:** Videos can be recorded and shared using [TechSmith](http://ato.montana.edu/technologies/techsmith/), for example.
+   _**This part of the video should be no more than 2 minutes long.**_
+   - Videos can be recorded and shared using [TechSmith](http://ato.montana.edu/technologies/techsmith/), for example.
 Make sure the video permissions are set to be viewable by anyone with the link.
 If we cannot view the link when we go to grade your submission you will automatically receive a zero for the relevant demo part(s) of your grade.
 
@@ -158,20 +181,20 @@ If we cannot view the link when we go to grade your submission you will automati
 Here's what we're looking for:
 
 {:.table .table-hover .table-striped .table-bordered .table-sm}
-| Criteria                                                                                                               | Points  | Score |
-| ---------------------------------------------------------------------------------------------------------------------- | ------- |------ |
-| On-time assignment that reflects a good faith effort _(multiple commits over time? attempted all things? etc.)_        | 20      |       |
-| Provides README describing approach and solution; documents any non-obvious features or details                        | 5       |       |
-| Provide a lifeline that demonstrates accurate understanding of process coordination                                    | 10      |       |
-| Use of good software engineering principles (useful comments; clearly named functions that aren't too long; etc.)      | 10      |       |
-| Provides album demo & demonstrates correctness of solution                                                             | 10      |       |
-| Provides gdb demo & demonstrates efficient use of gdb commands                                                         | 10      |       |
-| Code shows you know how to **create and manage processes effectively**, and **make good use of concurrency**:          | -       |       |
-| >> Have _at least_ two processes run concurrently and use `fork`/`exec`/`wait` to effectively coordinate processes     | 15      |       |
-| >> Convert while waiting for user input                                                                                | 5       |       |
-| >> Pre-converts future images                                                                                          | 5       |       |
-| >> Kills display processes                                                                                             | 5       |       |
-| >> No fork-bomb threat                                                                                                 | 5       |       |
-| ---------------------------------------------------------------------------------------------------------------------- | ------- |------ |
-| **Total**                                                                                                              | **100** |       |
-| ---------------------------------------------------------------------------------------------------------------------- | ------- |------ |
+| Criteria                                                                                                                                                               | Points  | Score |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |------ |
+| On-time assignment that reflects a good faith effort _(submission follows directions and adheres to the spec? multiple commits over time? attempted all things? etc.)_ | 20      |       |
+| Provides README describing approach and solution; documents any non-obvious features or details                                                                        | 5       |       |
+| Provide a lifeline that demonstrates accurate understanding of process coordination                                                                                    | 10      |       |
+| Use of good software engineering principles (useful comments; clearly named functions that aren't too long; etc.)                                                      | 10      |       |
+| Provides album demo & demonstrates correctness of solution                                                                                                             | 10      |       |
+| Provides gdb demo & demonstrates efficient use of gdb commands                                                                                                         | 10      |       |
+| Code shows you know how to **create and manage processes effectively**, and **make good use of concurrency**:                                                          | -       |       |
+| >> Have _at least_ two processes run concurrently and use `fork`/`exec`/`wait` to effectively coordinate processes                                                     | 15      |       |
+| >> Convert while waiting for user input                                                                                                                                | 5       |       |
+| >> Pre-converts future images                                                                                                                                          | 5       |       |
+| >> Kills display processes                                                                                                                                             | 5       |       |
+| >> No fork-bomb threat                                                                                                                                                 | 5       |       |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |------ |
+| **Total**                                                                                                                                                              | **100** |       |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |------ |

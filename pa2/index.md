@@ -250,17 +250,26 @@ Please submit your assignment via your **private** GitHub repository.
 
 Specifically, you should create a `pa2` directory for this assignment where you do all of your work for _this_ assignment.
 
-Your submission should contain ***at least*** the following files:
+Your submission should contain ***at least*** the following items:
 
-1. The source code file(s) you've written for your solution.
-2. A `Makefile` for compiling your program.
-3. A `README.md` file (written in Markdown), which provides a summary of the program and your approach to achieving synchronization amongst the "cars" (threads).
-4. A `TESTING.md` file (written in Markdown), which provides a summary of how you validated the correctness of your solution.
-For example, you should document various configurations of `num_cars`, `max_cars`, etc, and how your program handles different inputs.
-> **NOTE:** A PHONY Makefile target, or bash script, that invokes your program with various inputs is recommended.
-5. Demo. Submit a link to a video of you demonstrating your solution to this assignment. This video should be at most 5 minutes long.
+1. The **source code** file(s) you've written for your solution.
+2. A `.gitignore` file that specifies files and file types that should _**not**_ be tracked by git.
+3. A `Makefile` for compiling and testing your program.
+- The `Makefile` _**must**_ be written such that we can run `make` (with no arguments) to generate your program.
+- The program your `Makefile` builds _**must**_ be called `b2bsim`.
+- If the compilation of your program fails (i.e., no executable is built) upon running `make`, _**we will automatically deduct 15 points**_.
+- If the program "segfaults" when given an expected configuration of input parameters, _**we will automatically deduct 10 points**_.
+- If the compilation has warnings, _**we will automatically deduct 5 points**_.
+> These are serious penalties for issues that can be easily avoided with basic testing!
 
-> **NOTE:** Videos can be recorded and shared using [TechSmith](http://ato.montana.edu/technologies/techsmith/), for example.
+4. A `README.md` file (written in Markdown), which provides a summary of the program and your approach to achieving synchronization amongst the "cars" (threads).
+5. A `TESTING.md` file (written in Markdown), which provides a summary of how you validated the correctness of your solution.
+For example, you should document various configurations of `num_cars`, `max_cars`, etc., and (generally) how your program handles different inputs.
+> A PHONY Makefile target, or bash script, that invokes your program with various inputs is recommended.  
+
+6. **Demo.** Submit a link to a video of you demonstrating your solution to this assignment.
+   _**This video should be at most 7 minutes long**_.
+- Videos can be recorded and shared using [TechSmith](http://ato.montana.edu/technologies/techsmith/), for example.
 Make sure the video permissions are set to be viewable by anyone with the link.
 If we cannot view the link when we go to grade your submission you will automatically receive a zero for the relevant demo part(s) of your grade.
 
