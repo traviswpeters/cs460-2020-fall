@@ -105,13 +105,13 @@ In your system, each vehicle should be represented by a thread,
 which executes the function `OneVehicle(direction)` when it arrives at the point where the road goes to one-lane traffic only.
 
 ```C
-OneVehicle(direction) {
-    ArriveBridgerOneWay(direction);
+oneVehicle(direction) {
+    arriveOneWay(direction);
     // --> now the car is on the one-way road!
 
-    OnBridgerOneWay(direction); // simulate some time passing; cars don't get on/off instantaneously :)
+    onOneWay(direction); // simulate some time passing; cars don't get on/off instantaneously :)
 
-    ExitBridgerOneWay(direction);
+    exitOneWay(direction);
     // --> now the car is off the one-way road!
 }
 ```
@@ -119,13 +119,13 @@ OneVehicle(direction) {
 The `direction` should be either `TO_BRIDGER` or `TO_BOZEMAN`.
 (You may certainly add other function arguments, or collapse this all into a general argument structure, as appropriate.)
 
-`ArriveBridgerOneWay` must not return until it is safe for the car to get on the one-way.
+`arriveOneWay` must not return until it is safe for the car to get on the one-way.
 
-`OnBridgerOneWay` should, as a side-effect, print the state of the one-way and waiting cars,
+`onOneWay` should, as a side-effect, print the state of the one-way and waiting cars,
 in some nice format, to make it easier to monitor the behavior of the system.
 *(So.... watch out for race conditions here, too!)*
 
-`ExitBridgerOneWay` should update the state of your simulation to reflect that the car has traversed the one-way and exited out the other end.
+`exitOneWay` should update the state of your simulation to reflect that the car has traversed the one-way and exited out the other end.
 
 ## Requirements
 
