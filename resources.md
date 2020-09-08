@@ -44,7 +44,7 @@ Great reference materials for labs and programming
   - [System Programming Overview / Programming in C Refresher](http://www.lysator.liu.se/c/bwk-tutor.html)
   - [C and C++ in 5 days]({{site.data.settings.reading}}/C-in-5-days.pdf)
   - [The C Cheat Sheet](files/the-C-cheat-sheet.pdf)
-- [POSIX Threads Programming](https://computing.llnl.gov/tutorials/pthreads/)
+- [POSIX Threads Programming](https://computing.llnl.gov/tutorials/pthreads/) _**<< Programming Assignment 2!**_
 - [GDB Cheatsheet](https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf)
 - [A Nice `Makefile` Tutorial](https://gist.github.com/isaacs/62a2d1825d04437c6f08)
 - [ASCII/Decimal/Hex/Octal Reference Table](https://i.stack.imgur.com/mij6M.jpg)
@@ -63,7 +63,27 @@ Great reference materials for labs and programming
 - [x86 and amd64 instruction reference](https://www.felixcloutier.com/x86/)
 - [Intel x86 Assembler Instruction Set Opcode Table](http://sparksandflames.com/files/x86InstructionChart.html)
 
-<!-- ## Articles, Research Papers, Feeds, Reading Lists -->
-<!-- {:.titletext} -->
-<!-- Where you might find other helpful and/or interesting information -->
-<!-- {:.subtitletext} -->
+## Articles, Research Papers, Feeds, Reading Lists
+{:.titletext}
+Want to go deeper? Here are some links to help you explore more!
+{:.subtitletext}
+
+ - An analysis of performance evolution of Linux’s core operations (SOSP'19)
+  [[Summary]](https://blog.acolyer.org/2019/11/04/an-analysis-of-performance-evolution-of-linuxs-core-operations/)
+  [[Full Paper]](https://dl.acm.org/doi/10.1145/3341301.3359640)
+- A `fork()` in the road (HotOS'19)
+  [[Full Paper]](https://www.microsoft.com/en-us/research/uploads/prod/2019/04/fork-hotos19.pdf)
+- My VM is Lighter (and Safer) than your Container (SOSP'17)
+  [[Full Paper]](https://dl.acm.org/citation.cfm?id=3132763)
+- Granular Computing (HotOS'19)
+  [[Full Paper]](https://dl.acm.org/citation.cfm?id=3321447)
+- Practical Safe Linux Kernel Extensibility (HotOS'19)
+  [[Full Paper]](https://dl.acm.org/citation.cfm?id=3321429)
+- Twizzler: An Operating System for Next-Generation Memory Hierarchies (2017)
+  [[Full Paper]](https://www.ssrc.ucsc.edu/pub/bittman-ssrctr-17-01.html)
+- CheriABI: enforcing valid pointer provenance and minimizing pointer privilege in the POSIX C run-time environment (ASPLOS'19)
+  [[Summary]](https://blog.acolyer.org/2019/05/28/cheri-abi/)
+  [[Full Paper]](https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/201904-asplos-cheriabi.pdf)
+- Compress Objects, Not Cache Lines: An Object-Based Compressed Memory Hierarchy (ASPLOS'19)
+  [[Summary]](https://blog.acolyer.org/2019/05/24/zippads/)
+  [[Full Paper]](https://people.csail.mit.edu/poantsai/papers/2019.zippads.asplos.pdf)  
