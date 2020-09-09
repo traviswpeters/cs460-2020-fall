@@ -280,6 +280,9 @@ If you have any questions, please contact me.
 <td markdown="span">09/09/2020 (W)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
+- OS Interactions (Part 1): user & kernel modes, syscalls and libraries
+[video](https://zoom.us/rec/share/tqgTxFGi7NOio-Wt6wXGtrSEcTJV1osLpZb133O342HNvyCpm5FP0TXNARcgx6gk.chY_rzh7OO8lKrfm?startTime=1599659992000){:.video}
+[slides](files/cs460-05-procs-and-threads-p1.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
@@ -290,6 +293,7 @@ If you have any questions, please contact me.
 <td markdown="span">09/11/2020 (F)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
+- OS Interactions (Part 2): syscalls and libraries; processes & process control
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span">
@@ -301,7 +305,7 @@ If you have any questions, please contact me.
 <tr>
 <td id="week05" markdown="span">Week 05</td>
 <!-- Week Title Here -->
-<td markdown="span" class="note">Processes & Threads (cont.); Race Conditions & Synchronization Strategies</td>
+<td markdown="span" class="note">Processes & Threads (cont.)</td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
 <!-- - **Read:** Chapters ... -->
@@ -349,7 +353,7 @@ If you have any questions, please contact me.
 <tr>
 <td id="week06" markdown="span">Week 06</td>
 <!-- Week Title Here -->
-<td markdown="span" class="note">Race Conditions & Synchronization Strategies (cont.)</td>
+<td markdown="span" class="note">Race Conditions & Synchronization Strategies</td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
 <!-- - **Read:** Chapters ... -->
