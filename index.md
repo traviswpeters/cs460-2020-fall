@@ -41,7 +41,7 @@ _>> Course dates: {{ site.data.settings.dates }}_{:.text-muted} <br/>
 
 ##### People/Help
 
-<i class="fas fa-external-link-alt"></i> [Travis's Office Hours (WebEx)]({{site.data.settings.webexlink}}) *>> A virtual meeting place for Travis's office hours*{:.text-muted} <br/>
+<i class="fas fa-external-link-alt"></i> [Travis's Office Hours (Zoom)]({{site.data.settings.zoomhelplink}}) *>> A virtual meeting place for Travis's office hours*{:.text-muted} <br/>
 <i class="fas fa-external-link-alt"></i> [Reese's Office Hours (WebEx)]({{site.data.settings.tawebexlink}}) *>> A virtual meeting place for Reese's office hours*{:.text-muted} <br/>
 <i class="fas fa-external-link-alt"></i> [CS Student Success Center]({{site.data.settings.ssclink}}) *>> Get help from TAs and peers*{:.text-muted} <br/>
 
@@ -51,7 +51,6 @@ Please note  that I won't merely provide answers to assignments.
 I believe in the [Socratic method](https://en.wikipedia.org/wiki/Socratic_method)
   and often [answer students' questions with questions](https://www.philsimon.com/blog/higher-education/analytics-students/).
 All of this is to say: come ready to chat :-)
-
 
 ## Schedule
 {:.titletext}
