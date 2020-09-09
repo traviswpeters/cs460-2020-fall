@@ -831,10 +831,11 @@ Recent Developments in OS,
 
 </tbody>
 </table>
+
 {% comment %}
-{% endcomment %}
 _More Schedule Details Coming Soon..._
 {:.alert .alert-primary .text-center}
+{% endcomment %}
 
 <!-- exams -->
 [Sample Exam Coversheet]: {{site.data.settings.exams.files}}/exam-coversheet-sample.pdf
@@ -852,10 +853,10 @@ I do not curve grades. The score you earn is the score you receive.
 
 The grade breakdown is as follows:
 
-- **Early Programming Assignments (x3):** 20%
+- **Early Programming Assignments (x3):** 20% _>> Assignments to gain experience with OS concepts and prepare for the project._{:.text-muted}
 - **Yalnix Checkpoints (x6):** 20% _>> Low-stakes opportunities for feedback on a large software development project; each checkpoint graded on a 0-5 scale._{:.text-muted}
 - **Yalnix Project (Final Submission):** 30%  _>> 80% Running the Code / 20% Reading the Code_{:.text-muted}
-- **Exams (x2):** 30%
+- **Exams (x2):** 30% _>> A mix of conceptual questions and hand-on activities to assess your understanding of OS concepts, techniques, and tools._{:.text-muted}
 <!-- - **Participation:** 5% _>> Engage in class/online discussions, ask questions, come to office hours, provide feedback / respond to surveys, etc._{:.text-muted} -->
 
 ## Assignments
