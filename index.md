@@ -224,7 +224,7 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - OS Overview (Part 2)
-[video](https://zoom.us/rec/share/bkaH5cxn4sgGeMAo7Zv0uIEnXZx-zxJlCepq-3HCz19wNTl_GGcYgHaiC-7fO2KB.kj_Cl_alI_5_jWFz){:.video}
+[video](https://zoom.us/rec/share/w1YCEt-ij6Nss4dWWs8NlmcqDQ5tD_unllSs1uCD2qYS-4ipA5-nF_1oBHGFD0Lv.Cy1bjFsjjs2wMWdZ){:.video}
 [slides](files/cs460-04-os-overview-p2.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
@@ -237,7 +237,7 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - OS Overview (Part 3 / wrap-up)
-[video](https://zoom.us/rec/play/QKj5Os56w0Bv7DN-0sX_ew4cUTyr-pLWiKcmOVlGknN40U_3f0f3bWzs2_mO14KH0kgXM1w-Ux54YOYo.rq0Q6uP7OnbJkQtO?continueMode=true){:.video}
+[video](https://zoom.us/rec/share/lNQdb_y8CXHf1lD3mmDWF5tuVGA-zOuusK29ILZYgpdykPccTlaXa2jUtQNpXcNX.fzTn3v0QQJMAP08b){:.video}
 [slides](files/cs460-04-os-overview-p3.pdf){:.slides}
 [Minute Paper (09/04)](https://forms.gle/mHgQrfMhh7ETmdnYA){:.activity}
 </td>
@@ -281,7 +281,7 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - OS Interactions (Part 1): user & kernel modes, syscalls and libraries
-[video](https://zoom.us/rec/share/tqgTxFGi7NOio-Wt6wXGtrSEcTJV1osLpZb133O342HNvyCpm5FP0TXNARcgx6gk.chY_rzh7OO8lKrfm?startTime=1599659992000){:.video}
+[video](https://zoom.us/rec/share/gcYwfO198MnOfp7-LYU9vAuScuvM1ZK0QvUgD5yrnzAyU1TmmBuMf4h4zoj7FqUT.fCB9ll0Q1UCfcBh2){:.video}
 [slides](files/cs460-05-procs-and-threads-p1.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
