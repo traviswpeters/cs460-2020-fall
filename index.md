@@ -293,7 +293,9 @@ If you have any questions, please contact me.
 <td markdown="span">09/11/2020 (F)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- OS Interactions (Part 2): syscalls and libraries; processes & process control
+- OS Interactions (Part 2): syscalls (wrap-up); process control _(fork, exec, etc.)_
+[video](https://zoom.us/rec/share/eoSaXE1aU_vpA13UymmE-evAlUyuywZuyalCsTeEcXpaHYQzHCx9gIDirrJKIHhc.teeTAgryi_Hm7Bn8){:.video}
+[slides](files/cs460-05-procs-and-threads-p2.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span">
