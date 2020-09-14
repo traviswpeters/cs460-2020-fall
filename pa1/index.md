@@ -112,20 +112,45 @@ This Vagrantfile creates and properly configures a VM with the software you need
 This Vagrantfile has also been used to build the VM where we test solutions to this assignment.
 <!-- Last, this is also the environment where we've run most of our demos from class, so you _should_ have this Vagrantfile (and VM) already. -->
 
-###### X11
-The VM should already be configured with the ImageMagick suite of tools and X11 software.
-Once you've booted the VM and `ssh`-ed in, run an X11 app such as `xeyes` to verify this.
-It is not absolutely essential for X forwarding to work, though it is preferred and greatly improves the usability of this assignment.
-If X forwarding is not setup you won't have a GUI open up to render the photo on your host as the code runs on the VM.
+## X11
 
-> _**NOTE:**_ The first time you create your VM you may get a warning from the Vagrant/the VM about X11 and something about Xauthority.
-> This should only happen once. After this initial warning the necessary files should be created to properly run X11.
+The VM should already be configured with the ImageMagick suite of tools and X11 software.
+
+**You'll need to make sure you install an X11 server on your host (see below) _then_ reboot your host.**
+
+Once you've booted the VM and `ssh`-ed in, run an X11 app such, as `xeyes` to verify that X is working correctly.
+<!-- It is not absolutely essential for X forwarding to work, though it is preferred and greatly improves the usability of this assignment. -->
+<!-- If X forwarding is not setup you won't have a GUI open up to render the photo on your host as the code runs on the VM. -->
+
+### X11 for Mac
+
+XQuartz: [https://www.xquartz.org](https://www.xquartz.org)
+
+You can install XQuartz easily from the command line if you have homebrew installed:
+```bash
+$ brew cask install xquartz                                                                                                                                         
+```
+
+### X11 for Windows
+
+XMing: [http://www.straightrunning.com/XmingNotes/](http://www.straightrunning.com/XmingNotes/)
+
+### Troubleshooting X11
+
+For reference, this article talks through the setup for X11:
+[How to enable and use SSH X11 Forwarding on Vagrant Instances](https://computingforgeeks.com/how-to-enable-and-use-ssh-x11-forwarding-on-vagrant-instances/)
 
 If you have trouble with X11, please post on Slack and/or set up time with Travis or Reese to discuss.
+
+> _**NOTE:**_ The first time you create your VM you may get a warning from the Vagrant/the VM about X11 and something about Xauthority.
+> This is not actually an issue.
+> This should only happen once.
+> After this initial warning the necessary files should be created to properly run X11.
 
 <!-- ~~You will need to have X forwarding set up between flume and your client.~~ -->
 
 ## What To Turn In & Instructions On Submitting your Assignment
+{:.pt-3}
 
 Please submit your assignment via your **private** GitHub repository.
 
