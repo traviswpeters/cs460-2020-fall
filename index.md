@@ -310,7 +310,7 @@ If you have any questions, please contact me.
 <td markdown="span" class="note">Processes & Threads (cont.)</td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
-<!-- - **Read:** Chapters ... -->
+- **Read:** Chapters 3 & 4
 </td>
 </tr>
 
@@ -319,6 +319,9 @@ If you have any questions, please contact me.
 <td markdown="span">09/14/2020 (M)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
+- OS Interactions (Part 3): process control _(wrap-up)_: IPC, shells; demos
+[video](https://zoom.us/rec/share/Q5jwTX0xWkXn2LnWVv43rIbX3fWVLRDJwDNFCKVwsTP1shhxRhapg6G5UqrzK52s.qDa5Y-Pf82sOCT4V){:.video}
+[slides](files/cs460-05-procs-and-threads-p3.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
