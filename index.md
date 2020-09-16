@@ -333,6 +333,9 @@ If you have any questions, please contact me.
 <td markdown="span">09/16/2020 (W)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
+- Process Implementation
+[video](https://zoom.us/rec/share/9FcVjsHL7sxEUhGGZ9KGY6BHsXAxiZVN7vY3zp34TygR0T1j5BWKF6KP_C2RGji4.eemPwCUVWKcfkJTo){:.video}
+[slides](files/cs460-05-procs-and-threads-p4.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
@@ -343,6 +346,9 @@ If you have any questions, please contact me.
 <td markdown="span">09/18/2020 (F)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
+- Processes to Threads
+<!-- [video](){:.video} -->
+<!-- [slides](){:.slides} -->
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span">
@@ -402,7 +408,7 @@ If you have any questions, please contact me.
 <tr>
 <td id="week07" markdown="span">Week 07</td>
 <!-- Week Title Here -->
-<td markdown="span" class="note">Memory Management</td>
+<td markdown="span" class="note"></td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
 <!-- - **Read:** Chapters ... -->
@@ -425,7 +431,7 @@ If you have any questions, please contact me.
 <td markdown="span">09/30/2020 (W)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- _Exam #1 - Review_
+- _TBD. Exam #1 - Review?_
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
@@ -452,7 +458,7 @@ If you have any questions, please contact me.
 <tr>
 <td id="week08" markdown="span">Week 08</td>
 <!-- Week Title Here -->
-<td markdown="span" class="note">Memory Management (cont.)</td>
+<td markdown="span" class="note">Memory Management</td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
 <!-- - **Read:** Chapters ... -->
@@ -666,7 +672,7 @@ Recent Developments in OS,
 <td markdown="span">11/02/2020 (M)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- _TDB. Special Topic._
+- _Special Topic: How Yalnix Works (Travis Peters)_
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
@@ -678,7 +684,7 @@ Recent Developments in OS,
 <td markdown="span">11/04/2020 (W)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- _TDB. Special Topic._
+- _Special Topic: Better concurrency with the Go programming language (Reese Pearsall)_
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
@@ -689,7 +695,7 @@ Recent Developments in OS,
 <td markdown="span">11/06/2020 (F)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- _TDB. Special Topic._
+- _Special Topic: Addressing Crash Recovery With Persistent Memory Allocation. (Nick Stone)_
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span">
