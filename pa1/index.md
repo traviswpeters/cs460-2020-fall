@@ -136,6 +136,18 @@ $ brew cask install xquartz                                                     
 XMing: [http://www.straightrunning.com/XmingNotes/](http://www.straightrunning.com/XmingNotes/)
 - Scroll down on the page to "Releases"
 - Under "Public Domain Releases" select "Xming"
+- Download the .exe file and accept the default settings when installing.
+- Make sure Xming is running on your host (your Windows machine)
+- Set the `DISPLAY` environment variable on your VM:
+  - Run `ipconfig` on your Windows machine and verify the IPv4 address under "Ethernet adapter VirtualBox Host-Only Network" is set to `192.168.56.1`.
+  (If not, update address in the next step accordingly)
+  - Run the following command inside your VM to permanently add the updated `DISPLAY` settings to your environment:
+  ```bash
+  echo 'export DISPLAY=192.168.56.1:0' >> ~/.bashrc
+  # note the ':0' after the IP address - that needs to be there!
+  ```
+- Logout of your VM and then log back in.
+- Run `xeyes` to verify that X works. (You should see a small window with eyes open on your screen.)
 
 > If you have other X11 software you like for Windows, please let me know. I'm happy to include a link and basic instructions here for others.
 
