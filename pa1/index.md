@@ -228,10 +228,13 @@ Here's what we're looking for:
 {:.table .table-hover .table-striped .table-bordered .table-sm}
 | Criteria                                                                                                                                                               | Points  | Score |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |------ |
-| On-time assignment that reflects a good faith effort _(submission follows directions and adheres to the spec? multiple commits over time? attempted all things? etc.)_ | 20      |       |
-| Provides README describing approach and solution; documents any non-obvious features or details                                                                        | 5       |       |
-| Provide a lifeline that demonstrates accurate understanding of process coordination                                                                                    | 10      |       |
-| Use of good software engineering principles (useful comments; clearly named functions that aren't too long; etc.)                                                      | 10      |       |
+| On-time assignment that reflects a good faith effort _(submission follows directions and adheres to the spec? multiple commits over time? attempted all things? etc.)_ | 10      |       |
+| Provides a `.gitignore` and execludes unwanted files (e.g., *.o, images, executables)                                                                                  | 5       |       |
+| Provides a `Makefile` for compiling and testing your program (see the requirements under #3 above)                                                                     | 5       |       |
+| Provides `README.md` describing approach and solution; documents any non-obvious features or details                                                                   | 5       |       |
+| Provides `TESTING.md` describing your efforts to validate the correctness of your solution                                                                             | 5       |       |
+| Provide a lifeline that demonstrates accurate understanding of process coordination                                                                                    | 5       |       |
+| Use of good software engineering principles _(useful comments, clearly named functions that aren't too long, etc.)_                                                    | 10      |       |
 | Provides album demo & demonstrates correctness of solution                                                                                                             | 10      |       |
 | Provides gdb demo & demonstrates efficient use of gdb commands                                                                                                         | 10      |       |
 | Code shows you know how to **create and manage processes effectively**, and **make good use of concurrency**:                                                          | -       |       |
