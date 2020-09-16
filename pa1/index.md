@@ -67,7 +67,7 @@ That is:
     * the thumbnails and medium-size versions.
     * (And, optionally, any support files for your HTML file; e.g., a CSS file.)
 
-## Constraints:
+## Constraints
 
 When developing your program, think about what we've been learning in class:
 * Think about processes!
@@ -150,6 +150,10 @@ XMing: [http://www.straightrunning.com/XmingNotes/](http://www.straightrunning.c
 - Run `xeyes` to verify that X works. (You should see a small window with eyes open on your screen.)
 
 > If you have other X11 software you like for Windows, please let me know. I'm happy to include a link and basic instructions here for others.
+
+### X11 for Linux
+
+X11 seems to work "out of the box" for the Linux users I've spoken with. _Yay Linux!_ :)
 
 ### Troubleshooting X11
 
