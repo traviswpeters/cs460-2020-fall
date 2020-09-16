@@ -59,6 +59,8 @@ That is:
     * Ask the user whether or not it should be rotated / how much it should be rotated; if so, do it (using the Linux command-line `convert` program).
     * Ask the user for a caption, and collect it.
     * Generate a properly oriented 75% version of the photo (using the Linux command-line `convert` program)
+    > **NOTE:** It is OK if the final thumbnail is or is not rotated. The new medium-sized photo, however, must be properly rotated.
+
 * When done, the program should leave the following in the directory in which it was invoked. (That is, if you were in `foo/` when you invoked `album`, then all these things go into `foo/`)
     * a file `index.html` containing, for each photo:
         * a properly oriented thumbnail
@@ -95,6 +97,13 @@ Here is [a zip of all of the provided resources](../pa1_release.tar.gz), which i
 - A sample Makefile. <!-- [sample makefile](./Makefile) -->
 
 > _**NOTE:**_ _You aren't required to use any of this code but we provide it for you in case you find it helpful._
+
+## Hints
+
+- Recall that anything from CSCI 112 is fair game. _(For example, recall things like `snprintf` for string manipulation, `structs` for organizing data, etc.)_
+- You might find `basename` useful...
+- When working with `gdb` and passing arguments, you might find the `--args` option for helpful (especially in your `gdb` demo).
+- Review the demo code. There are lots of examples that help you do a lot of what you need to do for this assignment.
 
 ## A Reproducible Programming Environment <br/> (VirtualBox & Virtual Machines)
 
