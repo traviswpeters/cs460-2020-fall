@@ -116,7 +116,7 @@ This Vagrantfile has also been used to build the VM where we test solutions to t
 
 The VM should already be configured with the ImageMagick suite of tools and X11 software.
 
-**You'll need to make sure you install an X11 server on your host (see below) _then_ reboot your host.**
+**You'll need to make sure you install an X11 server on your host (see below for suggestions) _then_ reboot your host.**
 
 Once you've booted the VM and `ssh`-ed in, run an X11 app such, as `xeyes` to verify that X is working correctly.
 <!-- It is not absolutely essential for X forwarding to work, though it is preferred and greatly improves the usability of this assignment. -->
@@ -134,6 +134,10 @@ $ brew cask install xquartz                                                     
 ### X11 for Windows
 
 XMing: [http://www.straightrunning.com/XmingNotes/](http://www.straightrunning.com/XmingNotes/)
+- Scroll down on the page to "Releases"
+- Under "Public Domain Releases" select "Xming"
+
+> If you have other X11 software you like for Windows, please let me know. I'm happy to include a link and basic instructions here for others.
 
 ### Troubleshooting X11
 
