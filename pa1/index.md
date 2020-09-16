@@ -217,6 +217,7 @@ For example, you should document basic configurations (e.g., no photos provided,
      Specifically, part of your demo should include a portion dedicated to you demonstrating how to use `gdb` to answer the question:
    _"Assuming you have a `photos/` directory in the current directory, when you type `album photos/*.jpg` to the shell, what arguments does the shell give album?"_
    _**This part of the video should be no more than 2 minutes long.**_
+     - _**hint:** you might find the `--args` option for gdb helpful when making your gdb demo._
    - Videos can be recorded and shared using [TechSmith](http://ato.montana.edu/technologies/techsmith/), for example.
 Make sure the video permissions are set to be viewable by anyone with the link.
 If we cannot view the link when we go to grade your submission you will automatically receive a zero for the relevant demo part(s) of your grade.
