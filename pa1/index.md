@@ -98,6 +98,23 @@ Here is [a zip of all of the provided resources](../pa1_release.tar.gz), which i
 
 > _**NOTE:**_ _You aren't required to use any of this code but we provide it for you in case you find it helpful._
 
+**Pro Tip!** To download and unpack the files on my VM (in my `pa1/` directory), I have a PHONY makefile target ("fetch") in my `Makefile` that runs commands like this:
+
+```bash
+# Helper to fetch pa1_release (resources provided to students, including photos)
+RELEASE_FILE = pa1_release.tar.gz
+fetch:
+	wget https://www.traviswpeters.com/cs460-2020-fall/$(RELEASE_FILE)
+	tar -xzvf $(RELEASE_FILE)
+```
+
+I also add the following to my `.gitignore` file to ensure that these files don't get tracked in my git repository:
+
+```txt
+pa1_release/
+pa1_release.tar.gz
+```
+
 ## Hints
 
 - Recall that anything from CSCI 112 is fair game. _(For example, recall things like `snprintf` for string manipulation, `structs` for organizing data, etc.)_
