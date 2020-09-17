@@ -119,8 +119,9 @@ pa1_release.tar.gz
 
 - Recall that anything from CSCI 112 is fair game. _(For example, recall things like `snprintf` for string manipulation, `structs` for organizing data, etc.)_
 - You might find `basename` useful...
-- When working with `gdb` and passing arguments, you might find the `--args` option for helpful (especially in your `gdb` demo).
+- When working with `gdb` and passing arguments, you might find the `--args` option helpful (especially in your `gdb` demo).
 - Review the demo code. There are lots of examples that help you do a lot of what you need to do for this assignment.
+- Use the provided resources (above). This provides a nice starting point / basic structure for a C program that gets input from a user. 
 
 ## A Reproducible Programming Environment <br/> (VirtualBox & Virtual Machines)
 
