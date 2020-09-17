@@ -121,7 +121,7 @@ pa1_release.tar.gz
 - You might find `basename` useful...
 - When working with `gdb` and passing arguments, you might find the `--args` option helpful (especially in your `gdb` demo).
 - Review the demo code. There are lots of examples that help you do a lot of what you need to do for this assignment.
-- Use the provided resources (above). This provides a nice starting point / basic structure for a C program that gets input from a user. 
+- Use the provided resources (above). This provides a nice starting point / basic structure for a C program that gets input from a user.
 
 ## A Reproducible Programming Environment <br/> (VirtualBox & Virtual Machines)
 
@@ -225,7 +225,7 @@ Your submission should contain ***at least*** the following items:
 - If the compilation has warnings, _**we will automatically deduct 5 points**_.
 > These are serious penalties for issues that can be easily avoided with basic testing!
 
-4. A `README.md` file (written in Markdown), which tell us about your program and anything that isn't obvious from the other files.
+4. A `README.md` file (written in Markdown), which provides a summary of the program and tells us anything that isn't obvious from the other files.
 5. A `TESTING.md` file (written in Markdown), which provides a summary of how you validated the correctness of your solution.
 For example, you should document basic configurations (e.g., no photos provided, unsupported file types), etc., and (generally) how your program handles different inputs.
 > A PHONY Makefile target, or bash script, that invokes your program with various inputs is recommended.  
@@ -257,15 +257,15 @@ Here's what we're looking for:
 | Criteria                                                                                                                                                               | Points  | Score |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |------ |
 | On-time assignment that reflects a good faith effort _(submission follows directions and adheres to the spec? multiple commits over time? attempted all things? etc.)_ | 10      |       |
-| Provides a `.gitignore` and execludes unwanted files (e.g., *.o, images, executables)                                                                                  | 5       |       |
+| Provides a `.gitignore` and excludes unwanted files (e.g., *.o, images, executables)                                                                                   | 5       |       |
 | Provides a `Makefile` for compiling and testing your program (see the requirements under #3 above)                                                                     | 5       |       |
-| Provides `README.md` describing approach and solution; documents any non-obvious features or details                                                                   | 5       |       |
-| Provides `TESTING.md` describing your efforts to validate the correctness of your solution                                                                             | 5       |       |
-| Provide a lifeline that demonstrates accurate understanding of process coordination                                                                                    | 5       |       |
+| Provides a `README.md` describing approach and solution; documents any non-obvious features or details                                                                 | 5       |       |
 | Use of good software engineering principles _(useful comments, clearly named functions that aren't too long, etc.)_                                                    | 10      |       |
+| Provides a `TESTING.md` describing your efforts to validate the correctness of your solution                                                                           | 5       |       |
+| Provides a lifeline that demonstrates accurate understanding of process coordination                                                                                   | 5       |       |
 | Provides album demo & demonstrates correctness of solution                                                                                                             | 10      |       |
 | Provides gdb demo & demonstrates efficient use of gdb commands                                                                                                         | 10      |       |
-| Code shows you know how to **create and manage processes effectively**, and **make good use of concurrency**:                                                          | -       |       |
+| Your code shows you know how to **create and manage processes effectively**, and **make good use of concurrency**:                                                     | -       |       |
 | >> Have _at least_ two processes run concurrently and use `fork`/`exec`/`wait` to effectively coordinate processes                                                     | 15      |       |
 | >> Convert while waiting for user input                                                                                                                                | 5       |       |
 | >> Pre-converts future images                                                                                                                                          | 5       |       |

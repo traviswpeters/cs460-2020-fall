@@ -226,7 +226,7 @@ Note, however, that your program should also have a _**principled design**_;
   testing may show the presence of bugs, but probably cannot assure you of their absence.
 
 To address your testing and design,
-    please submit a README that describes your testing efforts and presents some sample output.
+    please submit a `TESTING.md` that describes your testing efforts and presents some sample output.
 
 #### Handling Race Conditions
 {:.pb-3}
@@ -275,20 +275,31 @@ If we cannot view the link when we go to grade your submission you will automati
 
 ## Rubric
 
+Here's what we're looking for:
+
 {:.table .table-hover .table-striped .table-bordered .table-sm}
-| Criteria                                                                                      | Points  | Score |
-| --------------------------------------------------------------------------------------------- | ------- |------ |
-| You have an on-time assignment reflecting good-faith effort                                   | 20      |       |
-| The code shows good software engineering principles                                           | 10      |       |
-| The submission demonstrated a principled approach to synchronization                          | 10      |       |
-| The submission demonstrated good testing                                                      | 10      |       |
-| The code showed safety                                                                        | 15      |       |
-| The code showed liveness                                                                      | 15      |       |
-| The code made efficient use of the one-way                                                    | 10      |       |
-| You include a demo of your solution w/ a (concise) discussion of your testing and correctness | 10      |       |
-| --------------------------------------------------------------------------------------------- | ------- |------ |
-| **Total**                                                                                     | **100** |       |
-| --------------------------------------------------------------------------------------------- | ------- |------ |
+| Criteria                                                                                                                                                               | Points  | Score |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |------ |
+| On-time assignment that reflects a good faith effort _(submission follows directions and adheres to the spec? multiple commits over time? attempted all things? etc.)_ | 10      |       |
+| Provides a `.gitignore` and excludes unwanted files (e.g., *.o, executables)                                                                                           | 2       |       |
+| Provides a `Makefile` for compiling and testing your program (see the requirements under #3 above)                                                                     | 3       |       |
+| Provides a `README.md` describing approach and solution; documents any non-obvious features or details                                                                 | 5       |       |
+| Use of good software engineering principles _(useful comments, clearly named functions that aren't too long, etc.)_                                                    | 10      |       |
+| Provides a `TESTING.md` describing your efforts to validate the correctness of your solution                                                                           | 5       |       |
+| Your code shows you know how to **create and manage threads effectively**:                                                                                             | -       |       |
+| >> The submission demonstrated a principled approach to **synchronization** _(i.e., correct use of locks, condition variables, etc.)_                                  | 15      |       |
+| >> The code showed **safety**                                                                                                                                          | 15      |       |
+| >> The code showed **liveness**                                                                                                                                        | 15      |       |
+| >> The code made **efficient** use of the one-way                                                                                                                      | 10      |       |
+| >> _(Grad Students Only)_ The code ensures **starvation** is not possible _(i.e., no direction is "starved" from accessing the one-way)_                               | 10      |       |
+| You include a demo of your solution w/ a (concise) discussion of your testing and correctness                                                                          | 10      |       |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |------ |
+| **Total _(Undergraduate Students)_**                                                                                                                                   | **100** |       |
+| **Total _(Graduate Students)_**                                                                                                                                        | **110** |       |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |------ |
+
+
+
 
 {%comment%}
 ## Troubleshooting
