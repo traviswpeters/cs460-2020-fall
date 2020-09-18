@@ -289,7 +289,7 @@ Here's what we're looking for:
 | Provides a `.gitignore` and excludes unwanted files (e.g., *.o, executables)                                                                                           | 2       |       |
 | Provides a `Makefile` for compiling and testing your program (see the requirements under #3 above)                                                                     | 3       |       |
 | Provides a `README.md` describing approach and solution; documents any non-obvious features or details                                                                 | 5       |       |
-| Use of good software engineering principles _(useful comments, clearly named functions that aren't too long, etc.)_                                                    | 10      |       |
+| Use of good software engineering principles _(useful comments, clearly named functions and variables, basic error checking, etc.)_                                     | 10      |       |
 | Provides a `TESTING.md` describing your efforts to validate the correctness of your solution                                                                           | 5       |       |
 | Your code shows you know how to **create and manage threads effectively**:                                                                                             | -       |       |
 | >> The submission demonstrated a principled approach to **synchronization** _(i.e., correct use of locks, condition variables, etc.)_                                  | 15      |       |
