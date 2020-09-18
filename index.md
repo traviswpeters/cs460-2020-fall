@@ -333,7 +333,7 @@ If you have any questions, please contact me.
 <td markdown="span">09/16/2020 (W)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- Process Implementation
+- Process Implementation (Part 1)
 [video](https://zoom.us/rec/share/9FcVjsHL7sxEUhGGZ9KGY6BHsXAxiZVN7vY3zp34TygR0T1j5BWKF6KP_C2RGji4.eemPwCUVWKcfkJTo){:.video}
 [slides](files/cs460-05-procs-and-threads-p4.pdf){:.slides}
 </td>
@@ -346,9 +346,9 @@ If you have any questions, please contact me.
 <td markdown="span">09/18/2020 (F)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- Processes to Threads
-<!-- [video](){:.video} -->
-<!-- [slides](){:.slides} -->
+- Process Implementation (Part 2)
+[video](https://zoom.us/rec/share/pae5OYfT0kJk_RbX260SIOGzQ6GCPdl6Ieva4LgKILjHQQwv06UH56FJGqU265Np.GtQAaUkH5MkAYbkv){:.video}
+[slides](files/cs460-05-procs-and-threads-p5.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span">
@@ -376,6 +376,9 @@ If you have any questions, please contact me.
 <td markdown="span">09/21/2020 (M)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
+<!-- - Processes to Threads -->
+<!-- [video](){:.video} -->
+<!-- [slides](){:.slides} -->
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
