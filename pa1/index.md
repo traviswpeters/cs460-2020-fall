@@ -50,7 +50,7 @@ That is:
 * The program should take, as arguments, the names of a set of raw images.
   For example, if `photos/` is the directory and `album` is your program, one might invoke the program via the shell command line as:
   ```bash
-  album photos/*.jpg
+  ./album photos/*.jpg
   ```
   (So, yes, you will need to use `argc` and `argv` to process arguments from the command line.)
 * For each photo in this input set, the program should:
