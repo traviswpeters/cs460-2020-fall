@@ -473,6 +473,7 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - _Exam #1_
+- [coversheet](files/exam1-coversheet.pdf){:.slides} << _Read me **before** the exam starts!_
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span">
