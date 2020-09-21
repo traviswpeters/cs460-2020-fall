@@ -85,7 +85,7 @@ assignments:
     url: 'pa1'
     duedate: 'Sunday [09/20/2020] @ 11:59 PM (MST)'
   pa2:
-    show: False
+    show: True
     name: 'PA2: Concurrency'
     url: 'pa2'
     duedate: 'Sunday [10/04/2020] @ 11:59 PM (MST)'

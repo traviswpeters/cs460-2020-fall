@@ -225,6 +225,7 @@ If you have any questions, please contact me.
 - OS Overview (Part 1)
 [video](https://zoom.us/rec/share/-tNtEJrPqlJLep2d2m7ZeL54Jp_eX6a8gyEcq_Ven0unQvuBByZUZz37EqgcXUGp){:.video}
 [slides](files/cs460-04-os-overview-p1.pdf){:.slides}
+<!-- - [<i class="fas fa-play-circle"></i> Class Recording](https://zoom.us/rec/share/-tNtEJrPqlJLep2d2m7ZeL54Jp_eX6a8gyEcq_Ven0unQvuBByZUZz37EqgcXUGp) <span class="text-muted"></span> -->
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
@@ -397,6 +398,7 @@ If you have any questions, please contact me.
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
+- [PA2](pa2/) released!
 </td>
 </tr>
 
