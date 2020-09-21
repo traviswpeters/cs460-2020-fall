@@ -364,10 +364,12 @@ If you have any questions, please contact me.
 <tr>
 <td id="week06" markdown="span">Week 06</td>
 <!-- Week Title Here -->
-<td markdown="span" class="note">Race Conditions & Synchronization Strategies</td>
+<td markdown="span" class="note">Threads & Race Conditions & Synchronization Strategies</td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
-<!-- - **Read:** Chapters ... -->
+- **Read:** Chapters 4, 5, 6
+\+ [_An Introduction to Programming with Threads_](files/intro2threads-andrew-birrell-1989.pdf) (Birrell, 1989)
+\+ [Excerpt from _Pthreads Programming_](https://robotics.ee.uwa.edu.au/courses/adv-comp-arch/labs/pthreads/POSIX%20Threads%20Programming.pdf)
 </td>
 </tr>
 
@@ -376,7 +378,7 @@ If you have any questions, please contact me.
 <td markdown="span">09/21/2020 (M)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-<!-- - Processes to Threads -->
+- Processes to Threads
 <!-- [video](){:.video} -->
 <!-- [slides](){:.slides} -->
 </td>
@@ -390,6 +392,9 @@ If you have any questions, please contact me.
 <td markdown="span">09/23/2020 (W)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
+- Race Conditions
+<!-- [video](){:.video} -->
+<!-- [slides](){:.slides} -->
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
@@ -400,6 +405,9 @@ If you have any questions, please contact me.
 <td markdown="span">09/25/2020 (F)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
+- Synchronization & Synchronization Strategies
+<!-- [video](){:.video} -->
+<!-- [slides](){:.slides} -->
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span">
@@ -423,6 +431,9 @@ If you have any questions, please contact me.
 <td markdown="span">09/28/2020 (M)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
+<!-- - Synchronization & Synchronization Strategies -->
+<!-- [video](){:.video} -->
+<!-- [slides](){:.slides} -->
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
