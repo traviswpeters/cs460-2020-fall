@@ -1,13 +1,50 @@
 ---
 layout: default
-published: False
+published: true
 ---
 
 # Yalnix!
+{:.text-center .pb-4}
+
+## Sign Up For A Team!
+
+Please use this Google Sheet to record your team information:
+[_[ Yalnix Team Sign-up (Google Sheet) ]_]({{ site.data.settings.yalnix.signuplink }})
+
+Ideal partners are people whom you mesh with,
+and who have the same kind of work schedule you do.
+
+In theory, we would like to match:
+- undergrads with undergrads
+- grad students with grad students
+- auditors with auditors
+
+> **NOTE:** Teams with graduate students will be expected to add additional features above and beyond the standard spec. by the final submission.
+
 
 ## Download the Project Manual
 
-A current copy can be viewed/downloaded here: [_Yalnix Project Manual - Coming Soon!_]()
+The project manual can be viewed/downloaded here: [_[ Yalnix Project Manual ] - Coming Soon!_](#YalnixManualComingSoon)
+
+> Leading up to the start of Yalnix, be thinking about the ideas we've read about and discussed so far.
+> Your first "checkpoint" will be to work with your team to provide a high-level sketch of your simple OS ("Yalnix").
+> Nothing will need to compile or run yet but you may consider writing basic function declarations, writing comments as placeholders that you can flesh out more later, outlining data structures, and so forth.
+> <br/>
+> <br/>
+> **Basically, pseudocode as much of your OS as you can right now!** :-)
+> <br/>
+> <br/>
+> This certainly won't be complete, so don't stress about every little detail.
+> The objective is to get you thinking about the OS as a whole and to get your ideas down so that we can give you feedback on your early thinking/design.
+> We will revise and implement in subsequent checkpoints.
+> <br/>
+> <br/>
+> Some specific things to guide your initial thinking:
+> - specific information that the OS has to keep track of internally (e.g., processes and their PCBs, memory, files) as well as the data structures that might be useful for managing that information.
+> - specific tasks that the OS may be asked to perform (handling syscalls, such as fork, exec, wait, etc.; switching processes, scheduling).
+> - (You may want to **review the slides and class recordings from Week 03**, where we discussed the OS at a high level. More recent lectures flesh our things related to processes. In coming weeks we will delve deeper into memory management, scheduling, I/O, etc. )
+
+{% comment %}
 
 ## Setting Up Your VM for Yalnix
 
@@ -50,34 +87,4 @@ Here the instructions:
 6. To work with Yalnix, put your source code in the shared folder, so you can edit it easily on the host/guess and work with git.
    - _Note, however, that VirtualBox does not want to dump core into a shared folder, so you might want to set up your Makefile so it grabs source from shared folders, but leaves the executable in a purely guest folder)._
 
-<!--
-Some snapshots of the versions of things on the yalnix VM from sean.
-```
-$ uname -a
-Linux localhost.localdomain 5.6.8-200.fc31.x86_64 #1 SMP Wed Apr 29 19:10:01 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
-
-$ gcc --version
-gcc (GCC) 9.3.1 20200408 (Red Hat 9.3.1-2)
-
-$ /lib/libc.so.6
-GNU C Library (GNU libc) stable release version 2.30.
-Copyright (C) 2019 Free Software Foundation, Inc.
-This is free software; see the source for copying conditions.
-There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
-PARTICULAR PURPOSE.
-Compiled by GNU CC version 9.2.1 20190827 (Red Hat 9.2.1-1).
-libc ABIs: UNIQUE IFUNC ABSOLUTE
-For bug reporting instructions, please see:
-<http://www.gnu.org/software/libc/bugs.html>.
-
-$ ldd --version
-ldd (GNU libc) 2.30
-Copyright (C) 2019 Free Software Foundation, Inc.
-This is free software; see the source for copying conditions.  There is NO
-warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-Written by Roland McGrath and Ulrich Drepper.
-...
-
-
-```
--->
+{% endcomment %}

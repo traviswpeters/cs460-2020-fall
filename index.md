@@ -932,9 +932,8 @@ So long as your work is committed and pushed to your private GitHub repository b
 {% endfor %}
 
 ##### Yalnix Checkpoints (Group Project)
-_Stay tuned for more information coming soon..._
+<!-- _Stay tuned for more information coming soon..._ -->
 
-{% comment %}
 {% for checkpoints in site.data.settings.yalnix %}
 {% for cp in checkpoints %}
 {% if cp.show %}
@@ -943,7 +942,6 @@ _Stay tuned for more information coming soon..._
 {% endif %}
 {% endfor %}
 {% endfor %}
-{% endcomment %}
 
 ##### Late Penalties
 
