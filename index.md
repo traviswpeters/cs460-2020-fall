@@ -408,8 +408,8 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - Processes to Threads (Part 2)
-<!-- [video](){:.video} -->
-<!-- [slides](){:.slides} -->
+[video](https://zoom.us/rec/share/FNHfUJvtOCHIDQDa4BGDZqlJ554GLswPaFYBPjoU3xw_DXQr5jTKiIszy2BsaRCk.zglp0iyqzX2-Jpoo){:.video}
+[slides](files/cs460-05-procs-and-threads-p7.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
