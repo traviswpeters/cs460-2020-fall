@@ -25,6 +25,11 @@ The objectives of this assignment are:
 * to give you practical experience in using synchronization to solve concurrency problems, and
 * to give you a little more practice with C programming before you build your OS...
 
+<div class="alert alert-dark">
+  <h4 class="alert-heading">PA2 Starter Files</h4>
+  <p class="mb-0" markdown="1">See the [**pa2_release/ folder in our GitHub**](https://github.com/traviswpeters/cs460-code/tree/master/pa2_release) for some starter files and sample output.</p>
+</div>
+
 <!--
 ## Checkpoint
 
