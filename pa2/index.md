@@ -277,13 +277,17 @@ For example, you should document various configurations of `num_cars`, `max_cars
 - Videos can be recorded and shared using [TechSmith](http://ato.montana.edu/technologies/techsmith/), for example.
 Make sure the video permissions are set to be viewable by anyone with the link.
 If we cannot view the link when we go to grade your submission you will automatically receive a zero for the relevant demo part(s) of your grade.
-> A few recommendations regarding your demos:
-> - The rubric calls out specific aspects of your submission, such as files that need to be present, features you need to implement - stuff like that.
+
+## Rubric
+
+**NOTE:** IF YOU DO NOT SUBMIT A VIDEO DEMO OF YOUR SOLUTION, <br/>WE WILL NOT GRADE YOUR ASSIGNMENT AND YOU WILL RECEIVE 0 POINTS FOR PA2.
+{:.text-center .lead .text-warning}
+
+> A few recommendations regarding your video demos:
+> - The rubric below calls out specific aspects of your submission, such as files that need to be present, features you need to implement - stuff like that.
 > - When creating your demo video(s), **use the rubric as a guide/outline!** In other words,
     **make sure you highlight the rubric items in your demo video!**
     Anything you can do to make it clear that you’ve addressed each specific item in the rubric makes it that much easier for us to give you all the points you’ve earned.
-
-## Rubric
 
 Here's what we're looking for:
 
@@ -302,7 +306,7 @@ Here's what we're looking for:
 | >> The code showed **liveness**                                                                                                                                        | 15      |       |
 | >> The code made **efficient** use of the one-way                                                                                                                      | 10      |       |
 | >> _(Grad Students Only)_ The code ensures **starvation** is not possible _(i.e., no direction is "starved" from accessing the one-way)_                               | 10      |       |
-| You include a demo of your solution w/ a (concise) discussion of your testing and correctness                                                                          | 10      |       |
+| You include a demo of your solution _(touching on the topic above)_ w/ a concise discussion of your testing and correctness                                          | 10      |       |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |------ |
 | **Total _(Undergraduate Students)_**                                                                                                                                   | **100** |       |
 | **Total _(Graduate Students)_**                                                                                                                                        | **110** |       |
