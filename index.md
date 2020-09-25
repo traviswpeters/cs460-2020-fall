@@ -140,7 +140,7 @@ If you have any questions, please contact me.
 [slides](files/cs460-02-system-overview-p2.pdf){:.slides}
 <!-- [Activity #1](files/cs460-02-system-overview-a1.pdf){:.activity} -->
 <!-- [Activity #2](files/cs460-02-system-overview-a2.pdf){:.activity} -->
-[Minute Paper (08/21)](https://forms.gle/dxRexo9t9CBbbFm38){:.activity}
+[minute paper (08/21)](https://forms.gle/dxRexo9t9CBbbFm38){:.activity}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
@@ -160,14 +160,14 @@ If you have any questions, please contact me.
 <td markdown="span">08/24/2020 (M)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- **Tech Bootcamp Begins...** Virtual Machines (VirtualBox + Vagrant), Commandline, C Programming, GDB, Makefiles, Git/GitHub, READMEs/Markdown, ... _oh my!_
+- **Tech Bootcamp Begins...** Virtual Machines (VirtualBox + Vagrant), Commandline, C, GDB, Makefiles, Git/GitHub, READMEs/Markdown, ... _oh my!_
 [video](https://zoom.us/rec/share/2p0lIZPNr09JeKPo6BjdBKcgQIC_eaa80Ccd86INz4Fpsaf6X8rJmD1BgB_9PcE){:.video}
 [slides](files/cs460-00-bootcamp-p1-p2-p3.pdf){:.slides}
 [Activities (PA0 - Part I)](pa0/#part-i){:.activity}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
-- [PA0](pa0/) released!
+- [PA0](pa0/){:.code} released!
 </td>
 </tr>
 
@@ -193,12 +193,12 @@ If you have any questions, please contact me.
 - Tech Bootcamp _(cont.)_
 [slides](files/cs460-00-bootcamp-p1-p2-p3.pdf){:.slides}
 [Activities (PA0 - Part III)](pa0/#part-iii){:.activity}
-- [<i class="fas fa-play-circle"></i> Intro](https://zoom.us/rec/share/3PZ1JL_U3WxLeqPQ-l2AeL4cOK3XT6a8hHMW_fsPy0jAz-2ABdVR8cz2Ow5tWLL0) <span class="text-muted">(5:06)</span>
-- [<i class="fas fa-play-circle"></i> 1. Hello World (v1)](https://montana.techsmithrelay.com/UeTq) <span class="text-muted">(11:38)</span>
-- [<i class="fas fa-play-circle"></i> 2. Hello World (v2)](https://montana.techsmithrelay.com/PvdY) <span class="text-muted">(12:53)</span>
-- [<i class="fas fa-play-circle"></i> 3. Bottle Song](https://montana.techsmithrelay.com/CdRi) <span class="text-muted">(9:39)</span>
-- [<i class="fas fa-play-circle"></i> 4. Secret](https://montana.techsmithrelay.com/ZRoJ) <span class="text-muted">(19:40)</span>
-- [<i class="fas fa-play-circle"></i> 5. State Game](https://montana.techsmithrelay.com/TIlh) <span class="text-muted">(1:00:56)</span>
+- [<i class="far fa-play-circle"></i> Intro](https://zoom.us/rec/share/3PZ1JL_U3WxLeqPQ-l2AeL4cOK3XT6a8hHMW_fsPy0jAz-2ABdVR8cz2Ow5tWLL0) <span class="text-muted">(5:06)</span>
+- [<i class="far fa-play-circle"></i> 1. Hello World (v1)](https://montana.techsmithrelay.com/UeTq) <span class="text-muted">(11:38)</span>
+- [<i class="far fa-play-circle"></i> 2. Hello World (v2)](https://montana.techsmithrelay.com/PvdY) <span class="text-muted">(12:53)</span>
+- [<i class="far fa-play-circle"></i> 3. Bottle Song](https://montana.techsmithrelay.com/CdRi) <span class="text-muted">(9:39)</span>
+- [<i class="far fa-play-circle"></i> 4. Secret](https://montana.techsmithrelay.com/ZRoJ) <span class="text-muted">(19:40)</span>
+- [<i class="far fa-play-circle"></i> 5. State Game](https://montana.techsmithrelay.com/TIlh) <span class="text-muted">(1:00:56)</span>
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span">
@@ -253,7 +253,7 @@ If you have any questions, please contact me.
 - OS Overview (Part 3 / wrap-up)
 [video](https://zoom.us/rec/share/lNQdb_y8CXHf1lD3mmDWF5tuVGA-zOuusK29ILZYgpdykPccTlaXa2jUtQNpXcNX.fzTn3v0QQJMAP08b){:.video}
 [slides](files/cs460-04-os-overview-p3.pdf){:.slides}
-[Minute Paper (09/04)](https://forms.gle/mHgQrfMhh7ETmdnYA){:.activity}
+[minute paper (09/04)](https://forms.gle/mHgQrfMhh7ETmdnYA){:.activity}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
@@ -285,7 +285,7 @@ If you have any questions, please contact me.
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
-- [PA1](pa1/) released!
+- [PA1](pa1/){:.code} released!
 </td>
 </tr>
 
@@ -398,7 +398,7 @@ If you have any questions, please contact me.
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
-- [PA2](pa2/) released!
+- [PA2](pa2/){:.code} released!
 </td>
 </tr>
 
@@ -473,7 +473,7 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - _Exam #1_
-- [coversheet](files/exam1-coversheet.pdf){:.slides} << _Read me **before** the exam starts!_
+- [coversheet](files/exam1-coversheet.pdf){:.pdf} << _Read me **before** the exam starts!_
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span">
