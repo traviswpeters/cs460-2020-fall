@@ -421,8 +421,8 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - Race Conditions
-<!-- [video](){:.video} -->
-<!-- [slides](){:.slides} -->
+[video](https://zoom.us/rec/share/enyR3T50m9o9nKKzpiwFR_5wwKVgHht_fs0neZaOIytmfCw58bwv-w-dhR4wYAOc.90IB3POQMK3ZtDWu){:.video}
+[slides](files/cs460-06-concurrency-p1.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span">
