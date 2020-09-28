@@ -447,8 +447,8 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - Synchronization & Synchronization Strategies (Part 1)
-<!-- [video](){:.video} -->
-<!-- [slides](){:.slides} -->
+[video](https://zoom.us/rec/share/8cAqzkxiA9Mj8pwssmVZvzIyTjs7lHX1cVHl1zhAM6GWwvj6s7l7pNqWboM1pRaB.LlWJh-ixNsL9vys9){:.video}
+[slides](files/cs460-06-concurrency-p2.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
@@ -493,6 +493,7 @@ If you have any questions, please contact me.
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
 <!-- - **Read:** Chapters ... -->
+<!-- - [Yalnix Project Manual](yalnix/){:.code} released! -->
 </td>
 </tr>
 
