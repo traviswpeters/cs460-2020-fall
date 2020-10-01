@@ -16,13 +16,20 @@
         <ul class="navbar-nav mr-auto">
         {% for item in site.data.settings.menu %}
             {% assign urlFirstChar = (item.url | slice: 0, 1) %}
-            {% if item.name == 'Assignments' %}
+            {% if item.name == 'Assignments' or item.name == 'Group Assignments' %}
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ item.name }}</a>
                   <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 40px, 0px); top: 0px; left: 0px; will-change: transform;">
                     <a class="dropdown-item" href="{{ site.baseurl }}/{{ item.url }}">{{ item.name }} (Overview)</a>
                     <div class="dropdown-divider"></div>
                     {% for assignment in site.data.settings.assignments %}
+                    {% for a in assignment %}
+                      {% if a.show %}
+                      <a class="dropdown-item" href="{{ site.baseurl }}/{{a.url}}">{{a.name}}</a>
+                      {% endif %}
+                    {% endfor %}
+                    {% endfor %}
+                    {% for assignment in site.data.settings.groupassignments %}
                     {% for a in assignment %}
                       {% if a.show %}
                       <a class="dropdown-item" href="{{ site.baseurl }}/{{a.url}}">{{a.name}}</a>

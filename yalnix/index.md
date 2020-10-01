@@ -4,45 +4,49 @@ published: true
 ---
 
 # Yalnix!
-{:.text-center .pb-4}
 
-## Sign Up For A Team!
+## Introduction & Project Manual
 
-Please use this Google Sheet to record your team information:
-[_[ Yalnix Team Sign-up (Google Sheet) ]_]({{ site.data.settings.yalnix.signuplink }})
+If your group wants to continue ahead and attempt the Yalnix project... _yay!_
 
-Ideal partners are people whom you mesh with,
-and who have the same kind of work schedule you do.
+The project manual can be viewed/downloaded here: [_[ Yalnix Project Manual ]_](./yalnix2020.pdf){:.lead}
 
-In theory, we would like to match:
-- undergrads with undergrads
-- grad students with grad students
-- auditors with auditors
+Start by looking over the document at a high level to get a feel for what is there.
+You'll likely find that you want to start in the first few chapters, then jump around to later chapters as needed.
+You'll _definitely_ want to look over **"Chapter 8: The Checkpoint Sequence"** to get a feel for how to start and progress through various milestones of the project.
 
-> **NOTE:** Teams with graduate students will be expected to add additional features above and beyond the standard spec. by the final submission.
+You should plan to coordinate with Travis ASAP to get setup with a suitable VM (or experimental Vagrantfile...) that can run the yalnix framework.
 
+## Yalnix FAQs
 
-## Download the Project Manual
+You might be wondering:
 
-The project manual can be viewed/downloaded here: [_[ Yalnix Project Manual ] - Coming Soon!_](#YalnixManualComingSoon)
+**Is Yalnix really hard?**
+> It isn't easy, that's for sure!
+> But it is doable, and if you are really interested in OS, I think this can be a lot of fun!
+> When I did this project (years ago...) I learned SO MUCH.
+> There were definitely lots of challenges and setbacks and hard days, but I can't emphasize enough how grateful I am that I had this learning experience.
 
-> Leading up to the start of Yalnix, be thinking about the ideas we've read about and discussed so far.
-> Your first "checkpoint" will be to work with your team to provide a high-level sketch of your simple OS ("Yalnix").
-> Nothing will need to compile or run yet but you may consider writing basic function declarations, writing comments as placeholders that you can flesh out more later, outlining data structures, and so forth.
-> <br/>
-> <br/>
-> **Basically, pseudocode as much of your OS as you can right now!** :-)
-> <br/>
-> <br/>
-> This certainly won't be complete, so don't stress about every little detail.
-> The objective is to get you thinking about the OS as a whole and to get your ideas down so that we can give you feedback on your early thinking/design.
-> We will revise and implement in subsequent checkpoints.
-> <br/>
-> <br/>
-> Some specific things to guide your initial thinking:
-> - specific information that the OS has to keep track of internally (e.g., processes and their PCBs, memory, files) as well as the data structures that might be useful for managing that information.
-> - specific tasks that the OS may be asked to perform (handling syscalls, such as fork, exec, wait, etc.; switching processes, scheduling).
-> - (You may want to **review the slides and class recordings from Week 03**, where we discussed the OS at a high level. More recent lectures flesh our things related to processes. In coming weeks we will delve deeper into memory management, scheduling, I/O, etc. )
+**How will we be assessed if we try Yalnix?**
+> I'm going to try to not set a hard a fast rule for this.
+> Basically, I don't want you to feel like you'll be penalized if you attempt this project but don't get super far.
+> For groups attempting Yalnix, I would **hope** that you can get through at least Checkpoint 4.
+> (It isn't necessarily a bad thing if you don't make it this far, but then I'd expect to hear more about your experience, your challenges, what you learned, and what you'd try in the future if you had more time.)
+> Reaching later checkpoints (e.g., Checkpoint 5 or Checkpoint 6) would be _awesome_ and should definitely be your goal from the start!
+
+**So... We don't have to complete the Yalnix checkpoints you previously outlined?**
+> Correct.
+> Since not everyone will be doing Yalnix as their project, we won't have weekly checkpoint deadlines anymore.
+> I do recommend that you try to keep a similar cadence (e.g., try to complete a checkpoint every 1-2 weeks) if you choose this as your project and want to make good progress.
+
+**Can we get help?**
+
+> You can absolutely get help from Travis and Reese!
+> (You should not seek help from other teams that are also working on Yalnix though.)
+> If you get really stuck or just want to chat, we can setup time to meet as a group and share thoughts and feedback about how you might keep moving forward.
+> Specifically, I can clarify aspects of the Yalnix spec., give pointers and make recommendations about how to design/implement things, etc.
+> Since this won't be the primary project in class though, I'll expect you and your group to work together to resolve issues and connect with me if you are really stuck and need help.
+
 
 {% comment %}
 

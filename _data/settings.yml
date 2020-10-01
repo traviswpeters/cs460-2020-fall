@@ -67,12 +67,12 @@ menu:
 - {name: 'Schedule', url: '#schedule'}
 - {name: 'Code', url: 'https://github.com/traviswpeters/cs460-code'}
 - {name: 'Assignments', url: '#assignments'}
-- {name: 'Yalnix', url: 'yalnix'}
-# - {name: 'Exams', url: '#exams'}
+- {name: '<del>Yalnix</del> Project', url: 'project'}
 - {name: 'Resources', url: 'resources'}
 - {name: 'FAQs', url: '#faqs'}
 - {name: '<span class="text-success">COVID-19 Info</span>', url: 'covid19'}
 
+# solo assignments
 assignments:
   pa0:
     show: True
@@ -90,53 +90,64 @@ assignments:
     url: 'pa2'
     duedate: 'Sunday [10/04/2020] @ 11:59 PM (MST)'
 
+# group assignments
+groupassignments:
+  pa3:
+    show: True
+    name: 'PA3: Designing Your Own OS'
+    url: 'pa3'
+    duedate: 'Sunday [10/18/2020] @ 11:59 PM (MST)'
+
+project:
+  link: 'project'
+  pages:
+    details: "Project Details"
+    schedule: "Project Teams & Schedule"
+  # infolink:   'https://docs.google.com/spreadsheets/d/1uMk0pcho_B2v8_7t_E3S-IpsdUfhjBKsT5XdBcfPOBI/edit?usp=sharing'
+  # signuplink: 'https://docs.google.com/spreadsheets/d/1uMk0pcho_B2v8_7t_E3S-IpsdUfhjBKsT5XdBcfPOBI/edit?usp=sharing'
+  # attendance: 'https://docs.google.com/spreadsheets/d/1ViB-YF5SGXbf1jsXAIPJ-kK7-b3QskZJt4G-cYMuH9s/edit?usp=sharing'
+  # rubric:     'https://docs.google.com/spreadsheets/d/1-i5t_Pu6qY2crSkh_R75qNOcRqQeNVmiTlRtsDGFDd0/edit?usp=sharing'
+  rubricpdf:  'rubric.pdf'
+  due-proposal: 'Sunday [10/25/2020] @ 11:59 PM (MST)'
+  due-presentation: 'Sunday [11/15/2020] @ 11:59 PM (MST)'
+  due-final: 'Sunday [11/15/2020] @ 11:59 PM (MST)'
+  due-evaluations: 'Wednesday [11/18/2020] @ 11:59 PM (MST)'
+
 yalnix:
   link: 'yalnix'
   signuplink: 'https://docs.google.com/spreadsheets/d/10l4tUyOCdWaOeW11HN7hy0Ps4-jy9oC9iaI3rFyZlgg/edit?usp=sharing'
-  cp1:
-    show: True
-    name: 'Checkpoint 1'
-    duedate: 'Sunday [10/11/2020] @ 11:59 PM (MST)'
-    rubric: ''
-  cp2:
-    show: True
-    name: 'Checkpoint 2'
-    duedate: 'Sunday [10/18/2020] @ 11:59 PM (MST)'
-    rubric: ''
-  cp3:
-    show: True
-    name: 'Checkpoint 3'
-    duedate: 'Sunday [10/25/2020] @ 11:59 PM (MST)'
-    rubric: ''
-  cp4:
-    show: True
-    name: 'Checkpoint 4'
-    duedate: 'Sunday [11/01/2020] @ 11:59 PM (MST)'
-    rubric: ''
-  cp5:
-    show: True
-    name: 'Checkpoint 5'
-    duedate: 'Sunday [11/08/2020] @ 11:59 PM (MST)'
-    rubric: ''
-  cp6:
-    show: True
-    name: 'Checkpoint 6'
-    duedate: 'Sunday [11/15/2020] @ 11:59 PM (MST)'
-    rubric: ''
-  final:
-    show: True
-    name: 'Final Yalnix Submission'
-    duedate: 'Wednesday [11/18/2020] @ 11:59 PM (MST)'
-    rubric: ''
-
-# project:
-#   pages:
-#     details: "Project Details"
-#     schedule: "Project Teams & Schedule"
-#   infolink:   'https://docs.google.com/spreadsheets/d/1uMk0pcho_B2v8_7t_E3S-IpsdUfhjBKsT5XdBcfPOBI/edit?usp=sharing'
-#   signuplink: 'https://docs.google.com/spreadsheets/d/1uMk0pcho_B2v8_7t_E3S-IpsdUfhjBKsT5XdBcfPOBI/edit?usp=sharing'
-#   attendance: 'https://docs.google.com/spreadsheets/d/1ViB-YF5SGXbf1jsXAIPJ-kK7-b3QskZJt4G-cYMuH9s/edit?usp=sharing'
-#   rubric:     'https://docs.google.com/spreadsheets/d/1-i5t_Pu6qY2crSkh_R75qNOcRqQeNVmiTlRtsDGFDd0/edit?usp=sharing'
-#   rubricpdf:  'rubric.pdf'
-#   due-proposal: 'Friday, November 1st, 2019 @10pm'
-#   due-final: '~~Friday, December 6th, 2019 @10pm~~ **Thursday, December 12th, 2019 @10pm**{:.text-danger}'
+  # cp1:
+  #   show: True
+  #   name: 'Checkpoint 1'
+  #   duedate: 'Sunday [10/11/2020] @ 11:59 PM (MST)'
+  #   rubric: ''
+  # cp2:
+  #   show: True
+  #   name: 'Checkpoint 2'
+  #   duedate: 'Sunday [10/18/2020] @ 11:59 PM (MST)'
+  #   rubric: ''
+  # cp3:
+  #   show: True
+  #   name: 'Checkpoint 3'
+  #   duedate: 'Sunday [10/25/2020] @ 11:59 PM (MST)'
+  #   rubric: ''
+  # cp4:
+  #   show: True
+  #   name: 'Checkpoint 4'
+  #   duedate: 'Sunday [11/01/2020] @ 11:59 PM (MST)'
+  #   rubric: ''
+  # cp5:
+  #   show: True
+  #   name: 'Checkpoint 5'
+  #   duedate: 'Sunday [11/08/2020] @ 11:59 PM (MST)'
+  #   rubric: ''
+  # cp6:
+  #   show: True
+  #   name: 'Checkpoint 6'
+  #   duedate: 'Sunday [11/15/2020] @ 11:59 PM (MST)'
+  #   rubric: ''
+  # final:
+  #   show: True
+  #   name: 'Final Yalnix Submission'
+  #   duedate: 'Wednesday [11/18/2020] @ 11:59 PM (MST)'
+  #   rubric: ''

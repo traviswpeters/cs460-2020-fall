@@ -193,12 +193,12 @@ If you have any questions, please contact me.
 - Tech Bootcamp _(cont.)_
 [slides](files/cs460-00-bootcamp-p1-p2-p3.pdf){:.slides}
 [Activities (PA0 - Part III)](pa0/#part-iii){:.activity}
-- [<i class="far fa-play-circle"></i> Intro](https://zoom.us/rec/share/3PZ1JL_U3WxLeqPQ-l2AeL4cOK3XT6a8hHMW_fsPy0jAz-2ABdVR8cz2Ow5tWLL0) <span class="text-muted">(5:06)</span>
-- [<i class="far fa-play-circle"></i> 1. Hello World (v1)](https://montana.techsmithrelay.com/UeTq) <span class="text-muted">(11:38)</span>
-- [<i class="far fa-play-circle"></i> 2. Hello World (v2)](https://montana.techsmithrelay.com/PvdY) <span class="text-muted">(12:53)</span>
-- [<i class="far fa-play-circle"></i> 3. Bottle Song](https://montana.techsmithrelay.com/CdRi) <span class="text-muted">(9:39)</span>
-- [<i class="far fa-play-circle"></i> 4. Secret](https://montana.techsmithrelay.com/ZRoJ) <span class="text-muted">(19:40)</span>
-- [<i class="far fa-play-circle"></i> 5. State Game](https://montana.techsmithrelay.com/TIlh) <span class="text-muted">(1:00:56)</span>
+/ [<i class="far fa-play-circle"></i> Intro](https://zoom.us/rec/share/3PZ1JL_U3WxLeqPQ-l2AeL4cOK3XT6a8hHMW_fsPy0jAz-2ABdVR8cz2Ow5tWLL0) <span class="text-muted">(5:06)</span>
+/ [<i class="far fa-play-circle"></i> (1) Hello World (v1)](https://montana.techsmithrelay.com/UeTq) <span class="text-muted">(11:38)</span>
+/ [<i class="far fa-play-circle"></i> (2) Hello World (v2)](https://montana.techsmithrelay.com/PvdY) <span class="text-muted">(12:53)</span>
+/ [<i class="far fa-play-circle"></i> (3) Bottle Song](https://montana.techsmithrelay.com/CdRi) <span class="text-muted">(9:39)</span>
+/ [<i class="far fa-play-circle"></i> (4) Secret](https://montana.techsmithrelay.com/ZRoJ) <span class="text-muted">(19:40)</span>
+/ [<i class="far fa-play-circle"></i> (5) State Game](https://montana.techsmithrelay.com/TIlh) <span class="text-muted">(1:00:56)</span>
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span">
@@ -461,7 +461,8 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - Synchronization & Synchronization Strategies (Part 2)
-<!-- - _TBD. Exam #1 - Review?_ -->
+[video](https://zoom.us/rec/share/ykq6S_fSdrZzqLUfBDUMN7TX2K_qwlxUrdvQ3R09uZUq5pIXHSr76bVbTHIXHrC-.Z3gMVQHrJyw7jbGi){:.video}
+[slides](files/cs460-06-concurrency-p3.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
@@ -472,7 +473,7 @@ If you have any questions, please contact me.
 <td markdown="span">10/02/2020 (F)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- _Exam #1_
+- _Exam #1_ _>> Released by 8am. Due by 11:59pm._{:.text-muted}
 - [coversheet](files/exam1-coversheet.pdf){:.pdf} << _Read me **before** the exam starts!_
 </td>
 <!-- Assignments & Reading Here -->
@@ -505,6 +506,8 @@ If you have any questions, please contact me.
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
+- [PA3](pa3/){:.code} released!
+- Updated [project specs.](project/){:.code} released!
 </td>
 </tr>
 
@@ -528,11 +531,11 @@ If you have any questions, please contact me.
 <td markdown="span">
 </td>
 </tr>
-
+<!--
 <tr class="duedate table-dark">
     <td colspan = "3" class="text-center" markdown="span">**Yalnix Checkpoint 1 Due: {{ site.data.settings.yalnix.cp1.duedate }}**</td>
 </tr>
-
+ -->
 <!-- ========================================= Week 09 ========================================= -->
 
 <tr>
@@ -578,15 +581,19 @@ If you have any questions, please contact me.
 </tr>
 
 <tr class="duedate table-dark">
+    <td colspan = "3" class="text-center" markdown="span">**Group Assignment (PA3) Due: {{ site.data.settings.groupassignments.pa3.duedate }}**</td>
+</tr>
+<!--
+<tr class="duedate table-dark">
     <td colspan = "3" class="text-center" markdown="span">**Yalnix Checkpoint 2 Due: {{ site.data.settings.yalnix.cp2.duedate }}**</td>
 </tr>
-
+ -->
 <!-- ========================================= Week 10 ========================================= -->
 
 <tr>
 <td id="week10" markdown="span">Week 10</td>
 <!-- Week Title Here -->
-<td markdown="span" class="note">Fily Systems & I/O</td>
+<td markdown="span" class="note">File Systems & I/O</td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
 <!-- - **Read:** Chapters ... -->
@@ -626,9 +633,14 @@ If you have any questions, please contact me.
 </tr>
 
 <tr class="duedate table-dark">
-    <td colspan = "3" class="text-center" markdown="span">**Yalnix Checkpoint 3 Due: {{ site.data.settings.yalnix.cp3.duedate }}**</td>
+    <td colspan = "3" class="text-center" markdown="span">**Project Proposal Due: {{ site.data.settings.project.due-proposal }}**</td>
 </tr>
 
+<!--
+<tr class="duedate table-dark">
+    <td colspan = "3" class="text-center" markdown="span">**Yalnix Checkpoint 3 Due: {{ site.data.settings.yalnix.cp3.duedate }}**</td>
+</tr>
+ -->
 <!-- ========================================= Week 11 ========================================= -->
 
 <tr>
@@ -673,16 +685,20 @@ If you have any questions, please contact me.
 </td>
 </tr>
 
+<!--
 <tr class="duedate table-dark">
     <td colspan = "3" class="text-center" markdown="span">**Yalnix Checkpoint 4 Due: {{ site.data.settings.yalnix.cp4.duedate }}**</td>
 </tr>
-
+ -->
 <!-- ========================================= Week 12 ========================================= -->
 
 <tr>
 <td id="week12" markdown="span">Week 12</td>
 <!-- Week Title Here -->
-<td markdown="span" class="note">Special Topics:
+<td markdown="span" class="note">
+Special Topics
+<!--
+Special Topics:
 Mobile OS and IoT,
 Networks & Distribution [+Distributed File Systems],
 How Yalnix Works,
@@ -692,6 +708,7 @@ Safer Languages for OS development (e.g., Rust),
 Better Languages for Concurrent Programming (e.g., Go),
 Recent Developments in OS,
 ...
+ -->
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
@@ -704,7 +721,8 @@ Recent Developments in OS,
 <td markdown="span">11/02/2020 (M)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- _Special Topic: How Yalnix Works (Travis Peters)_
+- _Special Topic: TBD_
+<!-- - _Special Topic: How Yalnix Works (Travis Peters)_ -->
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
@@ -733,11 +751,11 @@ Recent Developments in OS,
 <td markdown="span">
 </td>
 </tr>
-
+<!--
 <tr class="duedate table-dark">
     <td colspan = "3" class="text-center" markdown="span">**Yalnix Checkpoint 5 Due: {{ site.data.settings.yalnix.cp5.duedate }}**</td>
 </tr>
-
+ -->
 <!-- ========================================= Week 13 ========================================= -->
 
 <tr>
@@ -755,7 +773,7 @@ Recent Developments in OS,
 <td markdown="span">11/09/2020 (M)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- _TDB. Special Topic._
+- _No Class - Project Work Day_
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
@@ -778,15 +796,24 @@ Recent Developments in OS,
 <td markdown="span">11/13/2020 (F)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- _TDB. Special Topic._
+- _No Class - Project Work Day_
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span">
 </td>
 </tr>
-
+<!--
 <tr class="duedate table-dark">
     <td colspan = "3" class="text-center" markdown="span">**Yalnix Checkpoint 6 Due: {{ site.data.settings.yalnix.cp6.duedate }}**</td>
+</tr>
+ -->
+
+<tr class="duedate table-dark">
+    <td colspan = "3" class="text-center" markdown="span">**All Presentations Due: {{ site.data.settings.project.due-presentation }}**</td>
+</tr>
+
+<tr class="duedate table-dark">
+    <td colspan = "3" class="text-center" markdown="span">**Project Due: {{ site.data.settings.project.due-final }} <br/> ALL FINAL MATERIALS MUST BE TURNED IN**</td>
 </tr>
 
 <!-- ========================================= Week 14 ========================================= -->
@@ -806,7 +833,7 @@ Recent Developments in OS,
 <td markdown="span">11/16/2020 (M)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- _TDB. Special Topic._
+- _Project Presentations & Evaluations_
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
@@ -818,27 +845,34 @@ Recent Developments in OS,
 <td markdown="span">11/18/2020 (W)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- Course Wrap-Up (Summary & Next Steps, Exam #2 Details, ...)
+- _Project Presentations & Evaluations_
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
 </tr>
 
 <tr class="duedate table-dark">
+    <td colspan = "3" class="text-center" markdown="span">**All Evaluations Due: {{ site.data.settings.project.due-evaluations }}**</td>
+</tr>
+
+<!--
+<tr class="duedate table-dark">
     <td colspan = "3" class="text-center" markdown="span">**Yalnix FINAL TURN IN Due: {{ site.data.settings.yalnix.final.duedate }}**</td>
 </tr>
+-->
 
 <tr>
 <!-- Date Here -->
 <td markdown="span">11/20/2020 (F)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- _Exam #2 - Review_
+- Course Wrap-Up (Summary & Next Steps, Exam #2 Details, ...)
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span">
 </td>
 </tr>
+
 
 <!-- ========================================= Week 15 ========================================= -->
 
@@ -858,6 +892,8 @@ Recent Developments in OS,
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - _Exam #2_
+  <!-- _>> Released by 8am. Due by 11:59pm._{:.text-muted} -->
+<!-- - [coversheet](files/exam2-coversheet.pdf){:.pdf} << _Read me **before** the exam starts!_ -->
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
@@ -899,10 +935,23 @@ I do not curve grades. The score you earn is the score you receive.
 
 The grade breakdown is as follows:
 
-- **Early Programming Assignments (x3):** 20% _>> Assignments to gain experience with OS concepts and prepare for the project._{:.text-muted}
-- **Yalnix Checkpoints (x6):** 20% _>> Low-stakes opportunities for feedback on a large software development project; each checkpoint graded on a 0-5 scale._{:.text-muted}
-- **Yalnix Project (Final Submission):** 30%  _>> 80% Running the Code / 20% Reading the Code_{:.text-muted}
+<!-- - **Early Programming Assignments (x3):** 15% _>> Assignments to gain experience with OS concepts and prepare for the project._{:.text-muted} -->
+- **Early Programming Assignments (x3):** 15% _>> Assignments to gain experience with OS concepts._{:.text-muted}
+- **Group Assignment (x1):** 5% _>> Design assignment to allow groups to gain experience with OS design._{:.text-muted}
 - **Exams (x2):** 30% _>> A mix of conceptual questions and hand-on activities to assess your understanding of OS concepts, techniques, and tools._{:.text-muted}
+- **Project:** 50% _>> A group project to dig deeper into OS ideas!_{:.text-muted}
+    - Proposal (10%) _>> Submit a proposal summarizing what your group will do._{:.text-muted}
+    - Final Presentation (20%) _>> Deliver a short presentation about your project._{:.text-muted}
+    - Final Submission (50%) _>> Submit project deliverables defined in your proposal._{:.text-muted}
+    - Presentation Evaluations (10%) _>> Every individual in the course will evaluate 3 other group projects/presentations._{:.text-muted}
+    - Team Member Evaluations (5%) _>> Every individual will evaluate the members of their team and their respective contributions to the project._{:.text-muted}
+    - Self Evaluation (5%) _>> Every individual will evaluate themselves and their own contributions to the project._{:.text-muted}
+    > Regarding the project, all members of a team will receive the same grade for the proposal, presentation, and final submission (80% of the project grade).
+    Students will, however, receive individual grades for the completion of their various evaluations (20% of the project grade).
+    Based on feedback from the team evaluations (e.g., poor communication, insignificant contributions), we reserve the right to apply penalties to the grades of specific individuals.
+
+<!-- - ~~**Yalnix Checkpoints (x6):** 20% _>> Low-stakes opportunities for feedback on a large software development project; each checkpoint graded on a 0-5 scale._{:.text-muted}~~ -->
+<!-- - ~~**Yalnix Project (Final Submission):** 30%  _>> 80% Running the Code / 20% Reading the Code_{:.text-muted}~~ -->
 <!-- - **Participation:** 5% _>> Engage in class/online discussions, ask questions, come to office hours, provide feedback / respond to surveys, etc._{:.text-muted} -->
 
 ## Assignments
@@ -911,10 +960,8 @@ The grade breakdown is as follows:
 ##### Submitting Work
 <!-- All assignments are to be submitted in **{{site.data.settings.d2l}}** or via git. -->
 All assignments are to be submitted via **your private GitHub repository**.
-
 So long as your work is committed and pushed to your private GitHub repository by the deadline, you should be good to go!
-
-> **Pro Tip:** Please double check that Travis and Reese are added as "collaborators" in your GitHub repository.
+To ensure that we have access, please double check that Travis and Reese are added as "collaborators" in your GitHub repository.
 
 <!-- (Each assignment will clarify the submission method.) -->
 <!-- Assignments are **due @ TBD**. -->
@@ -933,8 +980,24 @@ So long as your work is committed and pushed to your private GitHub repository b
 {% endfor %}
 {% endfor %}
 
-##### Yalnix Checkpoints (Group Project)
+##### Group Assignments
 <!-- _Stay tuned for more information coming soon..._ -->
+
+{% for assignment in site.data.settings.groupassignments %}
+{% for a in assignment %}
+{% if a.show %}
+- [{{a.name}}]({{site.baseurl}}/{{a.url}}) _>> Due: **{{a.duedate}}**_{:.text-muted .ml-2}
+  {:.m-0 .p-0}
+{% endif %}
+{% endfor %}
+{% endfor %}
+
+##### Project
+
+Please see the [Project page]({{site.baseurl}}/{{site.data.settings.project.link}}) for details.
+
+<!--
+##### Yalnix Checkpoints (Group Project)
 
 {% for checkpoints in site.data.settings.yalnix %}
 {% for cp in checkpoints %}
@@ -944,33 +1007,40 @@ So long as your work is committed and pushed to your private GitHub repository b
 {% endif %}
 {% endfor %}
 {% endfor %}
+-->
 
 ##### Late Penalties
 
-This course moves _fast_, and your evaluation is primarily based on completing the programming assignments & project checkpoints.
-As such, we take timely submissions seriously.
+<!-- This course moves _fast_, and  -->
+Your evaluation in this course is primarily based on completing the programming assignments & project.
+<!-- As such, we take timely submissions seriously. -->
+We had previously outlined strict deadlines and penalties for late submissions.
+In light of this semester's unique circumstances, we have decided to relax some of these policies.
+Late coupons and late penalties have been removed so long as your assignment is submitted within 48 hours of the original deadline.
+I still recommend that you adhere to the deadlines to stay on track with the course as things keep moving.
 
-The penalties for late submissions are as follows:
-{:.p-0 .m-0}
+
+<!-- The penalties for late submissions are as follows: -->
+<!-- {:.p-0 .m-0} -->
 
 <!-- * &lt;  8 hours: 10% -->
-* &lt; 24 hours: 25%
-* &lt; 48 hours: 50%
-* &ge; 48 hours: no credit.
+<!-- * &lt; 24 hours: 25% -->
+<!-- * &lt; 48 hours: 50% -->
+<!-- * &ge; 48 hours: no credit. -->
 
-I do understand, however, that extreme circumstances arise (e.g., interviews, illness, family matters).
-For this reason, **each student is herby granted two (virtual) "one-day late" coupons** whereby you can turn in an assignment late with no penalty &ndash; no excuse required.
-Each coupon is good for a 1-day (24-hour) extension on one project.
-However, an N-person project _(think Yalnix!)_ requires N coupons for a 1-day extension.
-Plan accordingly.
-You must tell me and the TA that you are using a coupon _before_ the official deadline.
-Also note that you _cannot_ change this decision later.
+<!-- I do understand, however, that extreme circumstances arise (e.g., interviews, illness, family matters). -->
+<!-- For this reason, **each student is herby granted two (virtual) "one-day late" coupons** whereby you can turn in an assignment late with no penalty &ndash; no excuse required. -->
+<!-- Each coupon is good for a 1-day (24-hour) extension on one project. -->
+<!-- However, an N-person project _(think Yalnix!)_ requires N coupons for a 1-day extension. -->
+<!-- Plan accordingly. -->
+<!-- You must tell me and the TA that you are using a coupon _before_ the official deadline. -->
+<!-- Also note that you _cannot_ change this decision later. -->
 
-_**You MUST send a message to Reese (and Travis) to tell us that you are using a coupon BEFORE the official deadline.**_
-{:.text-center .lead .text-warning .pt-2 .pb-2}
+<!-- _**You MUST send a message to Reese (and Travis) to tell us that you are using a coupon BEFORE the official deadline.**_ -->
+<!-- {:.text-center .lead .text-warning .pt-2 .pb-2} -->
 
-_**No submissions (late coupons or no late coupons) will be accepted/graded 48 hours after the original deadline.**_
-{:.text-center .lead .text-warning .pt-2 .pb-2}
+_**No submissions will be accepted/graded 48 hours after the original deadline.**_
+{:.text-center .lead .text-danger .pt-2 .pb-2}
 
 <!-- For this reason, you are allowed -->
 <!-- **at most one 'late pass' where your submission can be turned in up to 48 hours late with no penalty** &ndash; no excuse required. -->
@@ -987,10 +1057,10 @@ _**No submissions (late coupons or no late coupons) will be accepted/graded 48 h
 
 ##### Poor Faith Assignments
 
-We work hard to make the assignments meaningful experiences for you, and to give you good feedback.
+We work hard to make the assignments meaningful experiences for you, to provide help, and to give you good feedback.
 We expect you to make good-faith efforts to do the assignments.
-Assignments that are extremely careless/sloppy---or neglected altogether---will incur an additional grading penalty.
-Do your work---don't try to game the system.
+Submissions that are extremely careless/sloppy will incur an additional grading penalty.
+<!-- Do your work---don't try to game the system. -->
 
 ## Communication
 
