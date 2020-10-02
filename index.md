@@ -473,7 +473,7 @@ If you have any questions, please contact me.
 <td markdown="span">10/02/2020 (F)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- _Exam #1_ _>> Released by 8am. Due by 11:59pm._{:.text-muted}
+- _Exam #1_ _>> Released by 8am. Due by 11:59pm. Please upload your completed exam to Gradescope._{:.text-muted}
 - [coversheet](files/exam1-coversheet.pdf){:.pdf} << _Read me **before** the exam starts!_
 </td>
 <!-- Assignments & Reading Here -->
