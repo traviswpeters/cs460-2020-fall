@@ -1,0 +1,83 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "generic/fedora30"
+  config.vm.hostname = "yalbox"
+  config.vm.box_check_update = false
+  config.vm.provider 'virtualbox' do |vb|
+    vb.gui = false
+    # vb.check_guest_additions = false
+    vb.customize ['modifyvm', :id, '--name', 'DevBoxYalnix']
+    vb.customize ['modifyvm', :id, '--memory', 2048]
+    vb.customize ["modifyvm", :id, "--cpuexecutioncap", "50"]
+  end
+
+  # here, I sync the current directory (".") on my host machine with the ~/working directory on my VM
+  config.vm.synced_folder ".",  "/home/vagrant/working"
+  # -> On my system, "." == /Users/twp/projects/classes/admin-teaching/yalnix
+
+  # Permissioned provisioning with a shell script.
+  config.vm.provision "shell", inline: <<-SHELL
+    echo 'Doing privileged provisioning...'
+    export DEBIAN_FRONTEND=noninteractive
+    whoami
+
+    #################
+    ### DEBUGGING ###
+    #################
+
+    # LD_DEBUG=libs make
+    # LD_DEBUG=all make
+
+    ################################
+    ### BASE SYSTEM DEPENDENCIES ###
+    ################################
+
+    dnf install -y libgcc-*.i686
+    dnf install -y glibc-devel.i686
+    dnf install -y libstdc++-devel.i686
+    dnf install -y elfutils-libelf-devel.i686
+    dnf install -y man-pages man-db man
+    dnf install -y strace
+    dnf install -y gdb
+    dnf install -y tree
+
+    # Try to make this link... I've seen instances where it doesn't exist, and builds fail...
+    ln -s /lib/libelf.so.1 /lib/libelf.so > /dev/null 2>&1
+
+    ####################
+    ### YALNIX SETUP ###
+    ####################
+
+    # install the yalnix-framework
+    git clone https://github.com/traviswpeters/yalnix-framework.git /yalnix
+
+    # fix up ownership
+    chown -R vagrant:vagrant /yalnix
+
+    # fix up permissions
+    chmod -vR 777 /yalnix
+
+  SHELL
+
+  # Non-root provisioning with a shell script.
+  config.vm.provision "shell", privileged: false, inline: <<-SHELL
+    echo 'Now doing non-root provisioning...'
+    whoami
+
+    # surpress login banner w/ motd
+    touch ~/.hushlogin
+
+    # verify: yalnix-framework has been installed
+    [ -d "/yalnix/" ] && echo "yalnix framework found!"
+    [ ! -d "/yalnix/" ] && echo "yalnix framework not found! (FIX ME!)"
+
+    # config: use our sample gdbinit as a nice configuration
+    # NOTE: if you want to edit your configuration, change the files in sample or comment these lines out!
+    cp -f /yalnix/sample/dot.gdbinit ~/.gdbinit
+    cp -f /yalnix/sample/dot.bash_profile ~/.bash_profile
+  SHELL
+
+  config.vm.provision "shell", inline: "echo All done! Now run: vagrant ssh"
+end

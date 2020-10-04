@@ -15,7 +15,56 @@ Start by looking over the document at a high level to get a feel for what is the
 You'll likely find that you want to start in the first few chapters, then jump around to later chapters as needed.
 You'll _definitely_ want to look over **"Chapter 8: The Checkpoint Sequence"** to get a feel for how to start and progress through various milestones of the project.
 
-You should plan to coordinate with Travis ASAP to get setup with a suitable VM (or experimental Vagrantfile...) that can run the yalnix framework.
+## Prerequisites
+
+To run Yalnix you will need to install Vagrant and VirtualBox on your host,
+and download our official [_[ Vagrantfile ]_](./Vagrantfile){:.lead}.
+<!-- - The [_[ yalnix-framework ]_](https://github.com/traviswpeters/yalnix-framework){:.lead} _(on GitHub)_ -->
+<!-- - Our official [_[ Vagrantfile ]_](./Vagrantfile){:.lead} -->
+<!-- - The [_[ vagrant-setup.sh ]_](./vagrant-setup.sh){:.lead} script _(this is needed by the Vagrantfile!)_ -->
+The Vagrantfile should be placed in the top-level directory where you plan to do your Yalnix work.
+<!-- Please note that these files should be placed at the same level in the same directory. -->
+For reference, your directory should look something like this:
+
+```bash
+dir-where-I-work-on-yalnix/
+|-- README.md
+|-- Vagrantfile
+# ...any other files/directories...
+```
+
+Please coordinate with Travis if you need any help or clarifications.
+
+## Configuring Your Virtual Environment for Yalnix
+
+If you've downloaded the dependencies and organized them as instructed above,
+Vagrant should automatically configure a correct VM using our Vagrantfile.
+
+```bash
+# cd to dir-where-I-work-on-yalnix/ (your Vagrantfile should be here!)
+vagrant up
+vagrant ssh
+```
+
+For your information, running `vagrant up` will:
+create a VM that is identical to the VM that we've used to successfully run and test Yalnix,
+then provision the VM with necessary dependencies, including some yalnix-specific configurations.
+
+## Troubleshooting
+{:.mb-3}
+
+###### "FIX ME"
+
+If our configuration fails and reports an error message, indicating that you should "FIX ME",
+you should verify that your files are organized as instructed above.
+After fixing any issues with your setup, you can destroy your VM and start again.
+If you continue to have issues, please contact Travis.
+
+###### Other Problems?
+
+First try to run `vagrant destroy` and `vagrant up` again.
+(This is likely what I'll have you do first if we meet to discuss troubleshooting).
+If you continue to have inexplicable issues, please contact Travis.
 
 ## Yalnix FAQs
 
@@ -46,6 +95,7 @@ You might be wondering:
 > If you get really stuck or just want to chat, we can setup time to meet as a group and share thoughts and feedback about how you might keep moving forward.
 > Specifically, I can clarify aspects of the Yalnix spec., give pointers and make recommendations about how to design/implement things, etc.
 > Since this won't be the primary project in class though, I'll expect you and your group to work together to resolve issues and connect with me if you are really stuck and need help.
+
 
 
 {% comment %}
