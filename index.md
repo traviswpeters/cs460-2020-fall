@@ -503,6 +503,8 @@ If you have any questions, please contact me.
 <td markdown="span">10/05/2020 (M)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
+Discussing the revised project format + PA3
+[video](https://zoom.us/rec/share/nvzdvLuBZGyqfVuGnHxYD--Bb6lpk2w37xvziG0R0uUJX3wELC5vgs88Bxeo4D41.7B9Fm71OeRVBKZ_c){:.video}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
