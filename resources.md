@@ -80,6 +80,8 @@ Want to go deeper? Here are some links to help you explore more!
   [[Full Paper]](https://dl.acm.org/citation.cfm?id=3321447)
 - Practical Safe Linux Kernel Extensibility (HotOS'19)
   [[Full Paper]](https://dl.acm.org/citation.cfm?id=3321429)
+- Efficient Scalable Thread-Safety-Violation Detection - Finding thousands of concurrency bugs during testing  (SOSP'19)
+  [[Full Paper]](https://www.microsoft.com/en-us/research/uploads/prod/2019/09/sosp19-final193.pdf)
 - Twizzler: An Operating System for Next-Generation Memory Hierarchies (2017)
   [[Full Paper]](https://www.ssrc.ucsc.edu/pub/bittman-ssrctr-17-01.html)
 - CheriABI: enforcing valid pointer provenance and minimizing pointer privilege in the POSIX C run-time environment (ASPLOS'19)
