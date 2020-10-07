@@ -493,7 +493,7 @@ If you have any questions, please contact me.
 <td markdown="span" class="note">Memory Management</td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
-<!-- - **Read:** Chapters ... -->
+- **Read:** Chapters 7-8
 <!-- - [Yalnix Project Manual](yalnix/){:.code} released! -->
 </td>
 </tr>
@@ -518,6 +518,9 @@ Discussing the revised project format + PA3
 <td markdown="span">10/07/2020 (W)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
+- Approaches to Memory Management
+[video](https://zoom.us/rec/share/VTP6Ed7VMq7c9wltoBwEyZATTqAF9dYitnZ9KLlk-D-kmERMF3QIGpAyBCwwXzt8.u6dWYA9bmwDVOuiZ){:.video}
+[slides](files/cs460-07-memory-p1.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
@@ -528,6 +531,9 @@ Discussing the revised project format + PA3
 <td markdown="span">10/09/2020 (F)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
+<!-- -
+[video](){:.video}
+[slides](){:.slides} -->
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span">
@@ -555,6 +561,9 @@ Discussing the revised project format + PA3
 <td markdown="span">10/12/2020 (M)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
+<!-- -
+[video](){:.video}
+[slides](){:.slides} -->
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
@@ -566,6 +575,9 @@ Discussing the revised project format + PA3
 <td markdown="span">10/14/2020 (W)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
+<!-- -
+[video](){:.video}
+[slides](){:.slides} -->
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
@@ -576,6 +588,9 @@ Discussing the revised project format + PA3
 <td markdown="span">10/16/2020 (F)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
+<!-- -
+[video](){:.video}
+[slides](){:.slides} -->
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span">
@@ -698,7 +713,7 @@ Discussing the revised project format + PA3
 <td id="week12" markdown="span">Week 12</td>
 <!-- Week Title Here -->
 <td markdown="span" class="note">
-Special Topics
+Special Topics (if time permits)
 <!--
 Special Topics:
 Mobile OS and IoT,
@@ -723,7 +738,7 @@ Recent Developments in OS,
 <td markdown="span">11/02/2020 (M)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- _Special Topic: TBD_
+<!-- - _Special Topic: TBD_ -->
 <!-- - _Special Topic: How Yalnix Works (Travis Peters)_ -->
 </td>
 <!-- Assignments & Reading Here -->
@@ -736,7 +751,7 @@ Recent Developments in OS,
 <td markdown="span">11/04/2020 (W)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- _Special Topic: Better concurrency with the Go programming language (Reese Pearsall)_
+<!-- - _Special Topic: Better concurrency with the Go programming language (Reese Pearsall)_ -->
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
@@ -747,7 +762,7 @@ Recent Developments in OS,
 <td markdown="span">11/06/2020 (F)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- _Special Topic: Addressing Crash Recovery With Persistent Memory Allocation. (Nick Stone)_
+<!-- - _Special Topic: Addressing Crash Recovery With Persistent Memory Allocation. (Nick Stone)_ -->
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span">
