@@ -65,12 +65,13 @@ menu:
 - {name: 'About', url: '#about-the-course'}
 - {name: 'Logistics', url: '#logistics'}
 - {name: 'Schedule', url: '#schedule'}
-- {name: 'Code', url: 'https://github.com/traviswpeters/cs460-code'}
-- {name: 'Assignments', url: '#assignments'}
-- {name: '<del>Yalnix</del> Project', url: 'project'}
-- {name: 'Resources', url: 'resources'}
+- {name: 'Grading', url: '#grading'}
 - {name: 'FAQs', url: '#faqs'}
-- {name: '<span class="text-success">COVID-19 Info</span>', url: 'covid19'}
+- {name: 'Assignments', url: '#assignments'}
+- {name: 'Project', url: 'project'}
+- {name: 'Code', url: 'https://github.com/traviswpeters/cs460-code'}
+- {name: 'Resources', url: 'resources'}
+# - {name: 'COVID-19 Info', url: 'covid19'}
 
 # solo assignments
 assignments:
@@ -100,13 +101,11 @@ groupassignments:
 
 project:
   link: 'project'
-  pages:
-    details: "Project Details"
-    schedule: "Project Teams & Schedule"
-  # infolink:   'https://docs.google.com/spreadsheets/d/1uMk0pcho_B2v8_7t_E3S-IpsdUfhjBKsT5XdBcfPOBI/edit?usp=sharing'
+  yalnixlink: 'yalnix'
+  teamslink: 'https://docs.google.com/spreadsheets/d/10l4tUyOCdWaOeW11HN7hy0Ps4-jy9oC9iaI3rFyZlgg/edit#gid=0'
   # signuplink: 'https://docs.google.com/spreadsheets/d/1uMk0pcho_B2v8_7t_E3S-IpsdUfhjBKsT5XdBcfPOBI/edit?usp=sharing'
   # attendance: 'https://docs.google.com/spreadsheets/d/1ViB-YF5SGXbf1jsXAIPJ-kK7-b3QskZJt4G-cYMuH9s/edit?usp=sharing'
-  # rubric:     'https://docs.google.com/spreadsheets/d/1-i5t_Pu6qY2crSkh_R75qNOcRqQeNVmiTlRtsDGFDd0/edit?usp=sharing'
+  rubriclink: 'https://docs.google.com/spreadsheets/d/1-i5t_Pu6qY2crSkh_R75qNOcRqQeNVmiTlRtsDGFDd0/edit?usp=sharing'
   rubricpdf:  'rubric.pdf'
   due-proposal: 'Sunday [10/25/2020] @ 11:59 PM (MST)'
   due-presentation: 'Sunday [11/15/2020] @ 11:59 PM (MST)'

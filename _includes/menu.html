@@ -38,6 +38,16 @@
                     {% endfor %}
                   </div>
                 </li>
+            {% elsif item.name == 'Project' %}
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ item.name }}</a>
+                      <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 40px, 0px); top: 0px; left: 0px; will-change: transform;">
+                        <a class="dropdown-item" href="{{ site.baseurl }}/{{site.data.settings.project.link}}">Project Overview</a>
+                        <a class="dropdown-item" href="{{ site.baseurl }}/{{site.data.settings.project.yalnixlink}}">Yalnix</a>
+                        <a class="dropdown-item" target="_blank" href="{{site.data.settings.project.teamslink}}">Teams</a>
+                        <a class="dropdown-item" target="_blank" href="{{site.data.settings.project.rubriclink}}">Rubric</a>
+                      </div>
+                    </li>
             {% elsif item.name == 'Code' %}
                 <li class="nav-item">
                     <a class="nav-link" target="_blank" href="{{ item.url }}">Code / GitHub</a>
