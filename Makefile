@@ -9,7 +9,7 @@ SLIDESADMIN = $(HOME)/Desktop/msu/teaching/class/os-cs460/2020
 YALNIXWEBSITE = $(WEBSITE)/yalnix
 YALNIXADMIN = $(HOME)/projects/classes/admin-teaching/yalnix/yh2020
 
-.PHONY: help # Generate list of targets with descriptions                                
+.PHONY: help # Generate list of targets with descriptions
 help:
 	@echo "Makefile Targets:"
 	@echo "-----------------"
@@ -31,7 +31,8 @@ kill:
 .PHONY: slides # fetch exported PDF versions of slides from iCloud and copy to website
 slides:
 	@echo "Fetching PDF versions of slides..."
-	- @mv $(SLIDESADMIN)/cs460*.pdf $(SLIDESWEBSITE)/ 2> /dev/null
+	- @mv $(SLIDESADMIN)/cs460-*.pdf $(SLIDESWEBSITE)/ 2> /dev/null
+	- @mv $(SLIDESADMIN)/slides-*.pdf $(SLIDESWEBSITE)/ 2> /dev/null
 	@echo "\nSlides in 'files/' on website:"
 	@ls -alG $(SLIDESWEBSITE)/cs460*
 
@@ -48,11 +49,11 @@ work:
 	open /Users/twp/projects/classes/admin-teaching/ # admin (solutions, exams, etc.)
 
 .PHONY: code # -> open ONLY course-related code folder
-code: 
+code:
 	open /Users/twp/projects/classes/msu-cs460-code # public code
 
 .PHONY: refs # -> open ONLY course-related reference materials
-refs: 
+refs:
 	open /Users/twp/projects/classes/msu-cs460-2020-fall # website
 	open /Users/twp/Desktop/dartmouth # dartmouth samples
 

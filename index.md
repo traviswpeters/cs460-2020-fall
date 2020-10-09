@@ -518,7 +518,7 @@ Discussing the revised project format + PA3
 <td markdown="span">10/07/2020 (W)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- Approaches to Memory Management
+- Approaches to Memory Management (Part 1)
 [video](https://zoom.us/rec/share/VTP6Ed7VMq7c9wltoBwEyZATTqAF9dYitnZ9KLlk-D-kmERMF3QIGpAyBCwwXzt8.u6dWYA9bmwDVOuiZ){:.video}
 [slides](files/cs460-07-memory-p1.pdf){:.slides}
 </td>
@@ -531,9 +531,10 @@ Discussing the revised project format + PA3
 <td markdown="span">10/09/2020 (F)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-<!-- -
-[video](){:.video}
-[slides](){:.slides} -->
+- Approaches to Memory Management (Part 2)
+[video](https://zoom.us/rec/share/Ai8AY4RUcod8qSH1RWz6zHm7w7nQQwSyY8gRvikyw7b--F0ux3Ub-EWRs9TJcQ.gW267Rmn-uV9-uJj){:.video}
+[slides](files/cs460-07-memory-p2.pdf){:.slides}
+[fault.c demos](files/slides-memory-fault-demo.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span">
@@ -549,7 +550,7 @@ Discussing the revised project format + PA3
 <tr>
 <td id="week09" markdown="span">Week 09</td>
 <!-- Week Title Here -->
-<td markdown="span" class="note">Scheduling</td>
+<td markdown="span" class="note">Memory Management (cont.)</td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
 <!-- - **Read:** Chapters ... -->
@@ -610,7 +611,7 @@ Discussing the revised project format + PA3
 <tr>
 <td id="week10" markdown="span">Week 10</td>
 <!-- Week Title Here -->
-<td markdown="span" class="note">File Systems & I/O</td>
+<td markdown="span" class="note">Scheduling</td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
 <!-- - **Read:** Chapters ... -->
@@ -663,7 +664,7 @@ Discussing the revised project format + PA3
 <tr>
 <td id="week11" markdown="span">Week 11</td>
 <!-- Week Title Here -->
-<td markdown="span" class="note">OS Security</td>
+<td markdown="span" class="note">File Systems & I/O</td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
 <!-- - **Read:** Chapters ... -->
@@ -712,8 +713,9 @@ Discussing the revised project format + PA3
 <tr>
 <td id="week12" markdown="span">Week 12</td>
 <!-- Week Title Here -->
-<td markdown="span" class="note">
-Special Topics (if time permits)
+<td markdown="span" class="note">OS Security</td>
+<!-- <td markdown="span" class="note"> -->
+<!-- Special Topics (if time permits) -->
 <!--
 Special Topics:
 Mobile OS and IoT,
@@ -726,7 +728,7 @@ Better Languages for Concurrent Programming (e.g., Go),
 Recent Developments in OS,
 ...
  -->
-</td>
+<!-- </td> -->
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
 <!-- - **Read:** Chapters ... -->
