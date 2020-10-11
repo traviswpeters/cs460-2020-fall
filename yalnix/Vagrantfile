@@ -51,7 +51,9 @@ Vagrant.configure("2") do |config|
     ####################
 
     # install the yalnix-framework
-    git clone https://github.com/traviswpeters/yalnix-framework.git /yalnix
+    if [ ! -d "/yalnix/" ]; then
+        git clone https://github.com/traviswpeters/yalnix-framework.git /yalnix
+    fi
 
     # fix up ownership
     chown -R vagrant:vagrant /yalnix
@@ -70,7 +72,7 @@ Vagrant.configure("2") do |config|
     touch ~/.hushlogin
 
     # verify: yalnix-framework has been installed
-    [ -d "/yalnix/" ] && echo "yalnix framework found!"
+    [   -d "/yalnix/" ] && echo "yalnix framework found!"
     [ ! -d "/yalnix/" ] && echo "yalnix framework not found! (FIX ME!)"
 
     # config: use our sample gdbinit as a nice configuration
