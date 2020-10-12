@@ -518,9 +518,10 @@ Discussing the revised project format + PA3
 <td markdown="span">10/07/2020 (W)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- Approaches to Memory Management (Part 1)
+- Approaches to Memory Management (Part 1) _>> memory basics, logical vs. physical addresses, contiguous memory and dynamic storage allocation_{:.text-muted}
 [video](https://zoom.us/rec/share/VTP6Ed7VMq7c9wltoBwEyZATTqAF9dYitnZ9KLlk-D-kmERMF3QIGpAyBCwwXzt8.u6dWYA9bmwDVOuiZ){:.video}
 [slides](files/cs460-07-memory-p1.pdf){:.slides}
+
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
@@ -531,7 +532,7 @@ Discussing the revised project format + PA3
 <td markdown="span">10/09/2020 (F)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- Approaches to Memory Management (Part 2)
+- Approaches to Memory Management (Part 2) _>> paging, non-contiguous memory, address translation_{:.text-muted}
 [video](https://zoom.us/rec/share/Ai8AY4RUcod8qSH1RWz6zHm7w7nQQwSyY8gRvikyw7b--F0ux3Ub-EWRs9TJcQ.gW267Rmn-uV9-uJj){:.video}
 [slides](files/cs460-07-memory-p2.pdf){:.slides}
 [fault.c demos](files/slides-memory-fault-demo.pdf){:.slides}
@@ -562,9 +563,9 @@ Discussing the revised project format + PA3
 <td markdown="span">10/12/2020 (M)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-<!-- -
-[video](){:.video}
-[slides](){:.slides} -->
+- Approaches to Memory Management (Part 3) _>> page tables, more on address translation, heap memory_{:.text-muted}
+[video](https://zoom.us/rec/share/P9MsWjyy2gOrQG1iC-ixFjg037-ZJa6nI-vZsGCow-SkZtwESpbGpijEA1ePbY4V.F3RTEKGxIa5zKAl_){:.video}
+[slides](files/cs460-07-memory-p3.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
