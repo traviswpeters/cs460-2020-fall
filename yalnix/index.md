@@ -20,8 +20,6 @@ You'll _definitely_ want to look over **"Chapter 8: The Checkpoint Sequence"** t
 To run Yalnix you will need to install Vagrant and VirtualBox on your host,
 and download our official [_[ Vagrantfile ]_](./Vagrantfile){:.lead}.
 <!-- - The [_[ yalnix-framework ]_](https://github.com/traviswpeters/yalnix-framework){:.lead} _(on GitHub)_ -->
-<!-- - Our official [_[ Vagrantfile ]_](./Vagrantfile){:.lead} -->
-<!-- - The [_[ vagrant-setup.sh ]_](./vagrant-setup.sh){:.lead} script _(this is needed by the Vagrantfile!)_ -->
 The Vagrantfile should be placed in the top-level directory where you plan to do your Yalnix work.
 <!-- Please note that these files should be placed at the same level in the same directory. -->
 For reference, your directory should look something like this:
@@ -48,19 +46,64 @@ vagrant ssh
 
 For your information, running `vagrant up` will:
 create a VM that is identical to the VM that we've used to successfully run and test Yalnix,
-then provision the VM with necessary dependencies, including some yalnix-specific configurations.
+then automatically provision the VM with necessary dependencies, including some yalnix-specific configurations
+<!-- (e.g., installing the [yalnix-framework](https://github.com/traviswpeters/yalnix-framework)). -->
+
+##### An Example "Flow" for Getting Started
+
+I performed these simple steps to get started.
+These commands were run on a machine running macOS.
+Your mileage may vary.
+
+```bash
+# 0. create a directory on your HOST where you will work. This should be a GitHub repository!
+cd ~/projects
+git clone git@github.com:USERNAME/YALNIX.git yalnix
+cd yalnix
+
+# 1. if you haven't already, download the Vagrantfile and add it to your repo
+wget https://www.traviswpeters.com/cs460-2020-fall/yalnix/Vagrantfile
+
+# 2. create your  GUEST VM
+vagrant up
+# -> this will clone the yalnix-framework to /yalnix on your VM
+
+# 3. create your VM and log into the GUEST VM
+vagrant ssh
+
+# 4. use our sample makefile as a starting place for developing yalnix
+cp /yalnix/sample/Makefile ~/working/Makefile
+```
+
+> **NOTE:** Your kernel won't compile right away. You'll have to do a little work to get `make` to work without compiler errors (i.e., you need to include some definitions and at least stub out a little code related to starting your kernel).
+> Once you have a few things in place though, you should be able to compile your kernel and at least see that `KernelStart` gets invoked.
+> (Nothing can really happen beyond that until you do more work though.)
 
 ## Troubleshooting
 {:.mb-3}
 
-###### "FIX ME"
+##### Updates
+
+The [yalnix-framework](https://github.com/traviswpeters/yalnix-framework) is cloned to your VM automatically by vagrant when you run `vagrant up`.
+In response to bugs or other issues, however, we may need to push out updates to the yalnix-framework.
+This is super easy due to our Vagrantfile configuration, which clones the yalnix-framework to `/yalnix` on your VM.
+In fact, if you use our sample `.bash_profile` _(this is setup for you by default via our Vagrantfile - thanks, vagrant!)_,
+a `pull` will be issued on yalnix-framework each time you ssh into your VM.
+
+If you ever need to update the yalnix-framework manually, run:
+
+```bash
+cd /yalnix && git pull
+```
+
+##### "FIX ME"
 
 If our configuration fails and reports an error message, indicating that you should "FIX ME",
 you should verify that your files are organized as instructed above.
 After fixing any issues with your setup, you can destroy your VM and start again.
 If you continue to have issues, please contact Travis.
 
-###### Other Problems?
+##### Other Problems?
 
 First try to run `vagrant destroy` and `vagrant up` again.
 (This is likely what I'll have you do first if we meet to discuss troubleshooting).
