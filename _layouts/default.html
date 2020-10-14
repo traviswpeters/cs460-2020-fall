@@ -44,7 +44,8 @@ $(document).ready(function() {
         $(this).html('<i class="far fa-file-pdf"></i> ' +$(this).html()+ '' );
     });
     $( ".video" ).each(function(index) {
-        $(this).html('<i class="far fa-play-circle pl-1"></i> ' +$(this).html()+ '' );
+        $(this).html('<br/><i class="far fa-play-circle pl-1"></i> ' +$(this).html()+ '' );
+        $(this).attr('target', '_blank');
     });
 
     // add links to all section headers...

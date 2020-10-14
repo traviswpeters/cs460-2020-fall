@@ -563,7 +563,7 @@ Discussing the revised project format + PA3
 <td markdown="span">10/12/2020 (M)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- Approaches to Memory Management (Part 3) _>> page tables, more on address translation, heap memory_{:.text-muted}
+- Approaches to Memory Management (Part 3) _>> page tables and address translation, heap memory_{:.text-muted}
 [video](https://zoom.us/rec/share/P9MsWjyy2gOrQG1iC-ixFjg037-ZJa6nI-vZsGCow-SkZtwESpbGpijEA1ePbY4V.F3RTEKGxIa5zKAl_){:.video}
 [slides](files/cs460-07-memory-p3.pdf){:.slides}
 </td>
@@ -577,7 +577,7 @@ Discussing the revised project format + PA3
 <td markdown="span">10/14/2020 (W)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- Approaches to Memory Management (Part 4) _>> stack memory, page tables (cont.), TLB_{:.text-muted}
+- Approaches to Memory Management (Part 4) _>> stack memory, page tables (cont.), the TLB_{:.text-muted}
 [video](https://zoom.us/rec/share/DCIs62_2uvG-7Rtr1SFLqaTd0OKGRbJpZK5khP8DNSvOYb9OfL2rj2-AwrRQjmtL.GfwceRkcNLgkNlu9){:.video}
 [slides](files/cs460-07-memory-p4.pdf){:.slides}
 </td>
