@@ -577,9 +577,9 @@ Discussing the revised project format + PA3
 <td markdown="span">10/14/2020 (W)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-<!-- -
-[video](){:.video}
-[slides](){:.slides} -->
+- Approaches to Memory Management (Part 4) _>> stack memory, page tables (cont.), TLB_{:.text-muted}
+[video](https://zoom.us/rec/share/DCIs62_2uvG-7Rtr1SFLqaTd0OKGRbJpZK5khP8DNSvOYb9OfL2rj2-AwrRQjmtL.GfwceRkcNLgkNlu9){:.video}
+[slides](files/cs460-07-memory-p4.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
@@ -590,9 +590,9 @@ Discussing the revised project format + PA3
 <td markdown="span">10/16/2020 (F)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-<!-- -
+<!-- - Approaches to Memory Management (Part 5) _>> putting it all together: Virtual Memory_{:.text-muted}
 [video](){:.video}
-[slides](){:.slides} -->
+[slides](files/cs460-07-memory-p5.pdf){:.slides} -->
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span">
