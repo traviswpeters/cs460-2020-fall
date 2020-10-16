@@ -590,9 +590,9 @@ Discussing the revised project format + PA3
 <td markdown="span">10/16/2020 (F)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-<!-- - Approaches to Memory Management (Part 5) _>> putting it all together: Virtual Memory_{:.text-muted}
-[video](){:.video}
-[slides](files/cs460-07-memory-p5.pdf){:.slides} -->
+- Approaches to Memory Management (Part 5) _>> putting it all together: Virtual Memory_{:.text-muted}
+[video](https://zoom.us/rec/share/jli8pVS1KJclsO0c4EQ-Y1Ug1gItxz8EGk7oxxi43vE9o3HN49Y9nmfhBx8AJBVN.Tn-fOBMJIi6lFJed){:.video}
+[slides](files/cs460-07-memory-p5.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span">
