@@ -590,7 +590,7 @@ Discussing the revised project format + PA3
 <td markdown="span">10/16/2020 (F)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- Approaches to Memory Management (Part 5) _>> putting it all together: Virtual Memory_{:.text-muted}
+- Approaches to Memory Management (Part 5) _>> switching processes, syscalls revisited_{:.text-muted}
 [video](https://zoom.us/rec/share/jli8pVS1KJclsO0c4EQ-Y1Ug1gItxz8EGk7oxxi43vE9o3HN49Y9nmfhBx8AJBVN.Tn-fOBMJIi6lFJed){:.video}
 [slides](files/cs460-07-memory-p5.pdf){:.slides}
 </td>
@@ -624,6 +624,9 @@ Discussing the revised project format + PA3
 <td markdown="span">10/19/2020 (M)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
+- Approaches to Memory Management (Part 6) _>> variations, paging to disk_{:.text-muted}
+<!-- [video](){:.video} -->
+<!-- [slides](files/cs460-07-memory-p6.pdf){:.slides} -->
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
@@ -635,6 +638,10 @@ Discussing the revised project format + PA3
 <td markdown="span">10/21/2020 (W)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
+- Scheduling (Part 1)
+  <!-- _>> ..._{:.text-muted} -->
+<!-- [video](){:.video} -->
+<!-- [slides](files/cs460-07-memory-p6.pdf){:.slides} -->
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
@@ -645,6 +652,10 @@ Discussing the revised project format + PA3
 <td markdown="span">10/23/2020 (F)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
+- Scheduling (Part 2) 
+<!-- _>> ..._{:.text-muted} -->
+<!-- [video](){:.video} -->
+<!-- [slides](files/cs460-07-memory-p6.pdf){:.slides} -->
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span">
@@ -1016,6 +1027,10 @@ To ensure that we have access, please double check that Travis and Reese are add
 
 Please see the [Project page]({{site.baseurl}}/{{site.data.settings.project.link}}) for details.
 
+_**Please note that for all project milestones, the deadlines are hard deadlines. <br/> No work will be accepted past the posted deadline.**_
+{:.text-center .lead .text-danger .pt-2 .pb-2}
+
+
 <!--
 ##### Yalnix Checkpoints (Group Project)
 
@@ -1039,6 +1054,8 @@ In light of this semester's unique circumstances, we have decided to relax some 
 Late coupons and late penalties have been removed so long as your assignment is submitted within 48 hours of the original deadline.
 I still recommend that you adhere to the deadlines to stay on track with the course as things keep moving.
 
+Note that this applies to non-final project work.
+All deadlines for final project milestones are hard deadlines.
 
 <!-- The penalties for late submissions are as follows: -->
 <!-- {:.p-0 .m-0} -->

@@ -77,6 +77,9 @@ Throughout this project your team will need to complete a few milestones.
 
 For each milestone, ensure that the relevant deliverables are committed and pushed to your group's private GitHub repository.
 
+_**Please note that for all project milestones, the deadlines are hard deadlines. <br/> No work will be accepted past the posted deadline.**_
+{:.text-center .lead .text-danger .pt-2 .pb-2}
+
 <!--
 ### TL;DR
 
