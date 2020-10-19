@@ -623,9 +623,9 @@ If you have any questions, please contact me.
 <td markdown="span">10/19/2020 (M)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- Approaches to Memory Management (Part 6) _>> variations, paging to disk_{:.text-muted}
-<!-- - [video](){:.video} -->
-<!-- [slides](files/cs460-07-memory-p6.pdf){:.slides} -->
+- Approaches to Memory Management (Part 6) _>> variations, paging to disk, virtual memory!_{:.text-muted}
+- [video](https://zoom.us/rec/share/LRcfEI0vJUBh3JnZ0v6N87qqlNXuhrB2FMug5L9HyAGW34t8xzteDENWOnS9jWI8.ajLxlvrOgKyu8vDd){:.video}
+[slides](files/cs460-07-memory-p6.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
