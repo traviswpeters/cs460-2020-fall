@@ -110,7 +110,7 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - Course Introduction & Roadmap
-[video](https://zoom.us/rec/share/wcpQKpDv0jtOXY3yy3vFZLYnOZW8aaa81yUc8vIJyEYAMzlCyprO6RSAqyViBm9W){:.video}
+- [video](https://zoom.us/rec/share/wcpQKpDv0jtOXY3yy3vFZLYnOZW8aaa81yUc8vIJyEYAMzlCyprO6RSAqyViBm9W){:.video}
 [slides](files/cs460-01-course-intro.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
@@ -123,7 +123,7 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - Computer System Overview
-[video](https://zoom.us/rec/share/6tUkdLqopltLYYXvyGPGQv8fJ7XLeaa82iNPqPUIz0xDwgQDogLYCEU4qqkTBqtE){:.video}
+- [video](https://zoom.us/rec/share/6tUkdLqopltLYYXvyGPGQv8fJ7XLeaa82iNPqPUIz0xDwgQDogLYCEU4qqkTBqtE){:.video}
 [slides](files/cs460-02-system-overview-p1.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
@@ -136,7 +136,7 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - Computer System Overview _(cont.)_
-[video](https://zoom.us/rec/share/__UuNo30rmFJZqfVyGX9BOk5R6G0eaa81igX-vUNzUuENVnENH3Lr2ED9jfe1sPG){:.video}
+- [video](https://zoom.us/rec/share/__UuNo30rmFJZqfVyGX9BOk5R6G0eaa81igX-vUNzUuENVnENH3Lr2ED9jfe1sPG){:.video}
 [slides](files/cs460-02-system-overview-p2.pdf){:.slides}
 <!-- [Activity #1](files/cs460-02-system-overview-a1.pdf){:.activity} -->
 <!-- [Activity #2](files/cs460-02-system-overview-a2.pdf){:.activity} -->
@@ -161,7 +161,7 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - **Tech Bootcamp Begins...** Virtual Machines (VirtualBox + Vagrant), Commandline, C, GDB, Makefiles, Git/GitHub, READMEs/Markdown, ... _oh my!_
-[video](https://zoom.us/rec/share/2p0lIZPNr09JeKPo6BjdBKcgQIC_eaa80Ccd86INz4Fpsaf6X8rJmD1BgB_9PcE){:.video}
+- [video](https://zoom.us/rec/share/2p0lIZPNr09JeKPo6BjdBKcgQIC_eaa80Ccd86INz4Fpsaf6X8rJmD1BgB_9PcE){:.video}
 [slides](files/cs460-00-bootcamp-p1-p2-p3.pdf){:.slides}
 [Activities (PA0 - Part I)](pa0/#part-i){:.activity}
 </td>
@@ -177,7 +177,7 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - Tech Bootcamp _(cont.)_
-[video](https://zoom.us/rec/share/6890dqj2021OYZ3q0W3Dd4U4Pdn8eaa8h3JL8_sJyRkfYlW7q9LlN0rFJbmw9Nbm){:.video}
+- [video](https://zoom.us/rec/share/6890dqj2021OYZ3q0W3Dd4U4Pdn8eaa8h3JL8_sJyRkfYlW7q9LlN0rFJbmw9Nbm){:.video}
 [slides](files/cs460-00-bootcamp-p1-p2-p3.pdf){:.slides}
 [Activities (PA0 - Part II)](pa0/#part-ii){:.activity}
 </td>
@@ -223,7 +223,7 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - OS Overview (Part 1)
-[video](https://zoom.us/rec/share/-tNtEJrPqlJLep2d2m7ZeL54Jp_eX6a8gyEcq_Ven0unQvuBByZUZz37EqgcXUGp){:.video}
+- [video](https://zoom.us/rec/share/-tNtEJrPqlJLep2d2m7ZeL54Jp_eX6a8gyEcq_Ven0unQvuBByZUZz37EqgcXUGp){:.video}
 [slides](files/cs460-04-os-overview-p1.pdf){:.slides}
 <!-- - [<i class="fas fa-play-circle"></i> Class Recording](https://zoom.us/rec/share/-tNtEJrPqlJLep2d2m7ZeL54Jp_eX6a8gyEcq_Ven0unQvuBByZUZz37EqgcXUGp) <span class="text-muted"></span> -->
 </td>
@@ -238,7 +238,7 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - OS Overview (Part 2)
-[video](https://zoom.us/rec/share/w1YCEt-ij6Nss4dWWs8NlmcqDQ5tD_unllSs1uCD2qYS-4ipA5-nF_1oBHGFD0Lv.Cy1bjFsjjs2wMWdZ){:.video}
+- [video](https://zoom.us/rec/share/w1YCEt-ij6Nss4dWWs8NlmcqDQ5tD_unllSs1uCD2qYS-4ipA5-nF_1oBHGFD0Lv.Cy1bjFsjjs2wMWdZ){:.video}
 [slides](files/cs460-04-os-overview-p2.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
@@ -251,7 +251,7 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - OS Overview (Part 3 / wrap-up)
-[video](https://zoom.us/rec/share/lNQdb_y8CXHf1lD3mmDWF5tuVGA-zOuusK29ILZYgpdykPccTlaXa2jUtQNpXcNX.fzTn3v0QQJMAP08b){:.video}
+- [video](https://zoom.us/rec/share/lNQdb_y8CXHf1lD3mmDWF5tuVGA-zOuusK29ILZYgpdykPccTlaXa2jUtQNpXcNX.fzTn3v0QQJMAP08b){:.video}
 [slides](files/cs460-04-os-overview-p3.pdf){:.slides}
 [minute paper (09/04)](https://forms.gle/mHgQrfMhh7ETmdnYA){:.activity}
 </td>
@@ -295,7 +295,7 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - OS Interactions (Part 1): user & kernel modes, syscalls and libraries
-[video](https://zoom.us/rec/share/gcYwfO198MnOfp7-LYU9vAuScuvM1ZK0QvUgD5yrnzAyU1TmmBuMf4h4zoj7FqUT.fCB9ll0Q1UCfcBh2){:.video}
+- [video](https://zoom.us/rec/share/gcYwfO198MnOfp7-LYU9vAuScuvM1ZK0QvUgD5yrnzAyU1TmmBuMf4h4zoj7FqUT.fCB9ll0Q1UCfcBh2){:.video}
 [slides](files/cs460-05-procs-and-threads-p1.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
@@ -308,7 +308,7 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - OS Interactions (Part 2): syscalls (wrap-up); process control _(fork, exec, etc.)_
-[video](https://zoom.us/rec/share/eoSaXE1aU_vpA13UymmE-evAlUyuywZuyalCsTeEcXpaHYQzHCx9gIDirrJKIHhc.teeTAgryi_Hm7Bn8){:.video}
+- [video](https://zoom.us/rec/share/eoSaXE1aU_vpA13UymmE-evAlUyuywZuyalCsTeEcXpaHYQzHCx9gIDirrJKIHhc.teeTAgryi_Hm7Bn8){:.video}
 [slides](files/cs460-05-procs-and-threads-p2.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
@@ -334,7 +334,7 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - OS Interactions (Part 3): process control _(wrap-up)_: IPC, shells; demos
-[video](https://zoom.us/rec/share/Q5jwTX0xWkXn2LnWVv43rIbX3fWVLRDJwDNFCKVwsTP1shhxRhapg6G5UqrzK52s.qDa5Y-Pf82sOCT4V){:.video}
+- [video](https://zoom.us/rec/share/Q5jwTX0xWkXn2LnWVv43rIbX3fWVLRDJwDNFCKVwsTP1shhxRhapg6G5UqrzK52s.qDa5Y-Pf82sOCT4V){:.video}
 [slides](files/cs460-05-procs-and-threads-p3.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
@@ -348,7 +348,7 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - Process Implementation (Part 1)
-[video](https://zoom.us/rec/share/9FcVjsHL7sxEUhGGZ9KGY6BHsXAxiZVN7vY3zp34TygR0T1j5BWKF6KP_C2RGji4.eemPwCUVWKcfkJTo){:.video}
+- [video](https://zoom.us/rec/share/9FcVjsHL7sxEUhGGZ9KGY6BHsXAxiZVN7vY3zp34TygR0T1j5BWKF6KP_C2RGji4.eemPwCUVWKcfkJTo){:.video}
 [slides](files/cs460-05-procs-and-threads-p4.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
@@ -361,7 +361,7 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - Process Implementation (Part 2)
-[video](https://zoom.us/rec/share/pae5OYfT0kJk_RbX260SIOGzQ6GCPdl6Ieva4LgKILjHQQwv06UH56FJGqU265Np.GtQAaUkH5MkAYbkv){:.video}
+- [video](https://zoom.us/rec/share/pae5OYfT0kJk_RbX260SIOGzQ6GCPdl6Ieva4LgKILjHQQwv06UH56FJGqU265Np.GtQAaUkH5MkAYbkv){:.video}
 [slides](files/cs460-05-procs-and-threads-p5.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
@@ -393,7 +393,7 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - Processes to Threads (Part 1)
-[video](https://zoom.us/rec/share/D4AIJo_Ehghnc3kBx85MiuuOZUzynTnYzlWQUPRf5ODnU2H6NmmPFN_IAPlQhjgU.UOVuh1VGVZzHzQaO){:.video}
+- [video](https://zoom.us/rec/share/D4AIJo_Ehghnc3kBx85MiuuOZUzynTnYzlWQUPRf5ODnU2H6NmmPFN_IAPlQhjgU.UOVuh1VGVZzHzQaO){:.video}
 [slides](files/cs460-05-procs-and-threads-p6.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
@@ -408,7 +408,7 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - Processes to Threads (Part 2)
-[video](https://zoom.us/rec/share/FNHfUJvtOCHIDQDa4BGDZqlJ554GLswPaFYBPjoU3xw_DXQr5jTKiIszy2BsaRCk.zglp0iyqzX2-Jpoo){:.video}
+- [video](https://zoom.us/rec/share/FNHfUJvtOCHIDQDa4BGDZqlJ554GLswPaFYBPjoU3xw_DXQr5jTKiIszy2BsaRCk.zglp0iyqzX2-Jpoo){:.video}
 [slides](files/cs460-05-procs-and-threads-p7.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
@@ -421,7 +421,7 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - Race Conditions
-[video](https://zoom.us/rec/share/enyR3T50m9o9nKKzpiwFR_5wwKVgHht_fs0neZaOIytmfCw58bwv-w-dhR4wYAOc.90IB3POQMK3ZtDWu){:.video}
+- [video](https://zoom.us/rec/share/enyR3T50m9o9nKKzpiwFR_5wwKVgHht_fs0neZaOIytmfCw58bwv-w-dhR4wYAOc.90IB3POQMK3ZtDWu){:.video}
 [slides](files/cs460-06-concurrency-p1.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
@@ -447,7 +447,7 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - Synchronization & Synchronization Strategies (Part 1)
-[video](https://zoom.us/rec/share/8cAqzkxiA9Mj8pwssmVZvzIyTjs7lHX1cVHl1zhAM6GWwvj6s7l7pNqWboM1pRaB.LlWJh-ixNsL9vys9){:.video}
+- [video](https://zoom.us/rec/share/8cAqzkxiA9Mj8pwssmVZvzIyTjs7lHX1cVHl1zhAM6GWwvj6s7l7pNqWboM1pRaB.LlWJh-ixNsL9vys9){:.video}
 [slides](files/cs460-06-concurrency-p2.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
@@ -461,7 +461,7 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - Synchronization & Synchronization Strategies (Part 2)
-[video](https://zoom.us/rec/share/ykq6S_fSdrZzqLUfBDUMN7TX2K_qwlxUrdvQ3R09uZUq5pIXHSr76bVbTHIXHrC-.Z3gMVQHrJyw7jbGi){:.video}
+- [video](https://zoom.us/rec/share/ykq6S_fSdrZzqLUfBDUMN7TX2K_qwlxUrdvQ3R09uZUq5pIXHSr76bVbTHIXHrC-.Z3gMVQHrJyw7jbGi){:.video}
 [slides](files/cs460-06-concurrency-p3.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
@@ -503,8 +503,8 @@ If you have any questions, please contact me.
 <td markdown="span">10/05/2020 (M)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-Discussing the revised project format + PA3
-[video](https://zoom.us/rec/share/nvzdvLuBZGyqfVuGnHxYD--Bb6lpk2w37xvziG0R0uUJX3wELC5vgs88Bxeo4D41.7B9Fm71OeRVBKZ_c){:.video}
+- Discussing the revised project format + PA3
+- [video](https://zoom.us/rec/share/nvzdvLuBZGyqfVuGnHxYD--Bb6lpk2w37xvziG0R0uUJX3wELC5vgs88Bxeo4D41.7B9Fm71OeRVBKZ_c){:.video}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
@@ -519,9 +519,8 @@ Discussing the revised project format + PA3
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - Approaches to Memory Management (Part 1) _>> memory basics, logical vs. physical addresses, contiguous memory and dynamic storage allocation_{:.text-muted}
-[video](https://zoom.us/rec/share/VTP6Ed7VMq7c9wltoBwEyZATTqAF9dYitnZ9KLlk-D-kmERMF3QIGpAyBCwwXzt8.u6dWYA9bmwDVOuiZ){:.video}
+- [video](https://zoom.us/rec/share/VTP6Ed7VMq7c9wltoBwEyZATTqAF9dYitnZ9KLlk-D-kmERMF3QIGpAyBCwwXzt8.u6dWYA9bmwDVOuiZ){:.video}
 [slides](files/cs460-07-memory-p1.pdf){:.slides}
-
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
@@ -533,7 +532,7 @@ Discussing the revised project format + PA3
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - Approaches to Memory Management (Part 2) _>> paging, non-contiguous memory, address translation_{:.text-muted}
-[video](https://zoom.us/rec/share/Ai8AY4RUcod8qSH1RWz6zHm7w7nQQwSyY8gRvikyw7b--F0ux3Ub-EWRs9TJcQ.gW267Rmn-uV9-uJj){:.video}
+- [video](https://zoom.us/rec/share/Ai8AY4RUcod8qSH1RWz6zHm7w7nQQwSyY8gRvikyw7b--F0ux3Ub-EWRs9TJcQ.gW267Rmn-uV9-uJj){:.video}
 [slides](files/cs460-07-memory-p2.pdf){:.slides}
 [fault.c demos](files/slides-memory-fault-demo.pdf){:.slides}
 </td>
@@ -564,7 +563,7 @@ Discussing the revised project format + PA3
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - Approaches to Memory Management (Part 3) _>> page tables and address translation, heap memory_{:.text-muted}
-[video](https://zoom.us/rec/share/P9MsWjyy2gOrQG1iC-ixFjg037-ZJa6nI-vZsGCow-SkZtwESpbGpijEA1ePbY4V.F3RTEKGxIa5zKAl_){:.video}
+- [video](https://zoom.us/rec/share/P9MsWjyy2gOrQG1iC-ixFjg037-ZJa6nI-vZsGCow-SkZtwESpbGpijEA1ePbY4V.F3RTEKGxIa5zKAl_){:.video}
 [slides](files/cs460-07-memory-p3.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
@@ -578,7 +577,7 @@ Discussing the revised project format + PA3
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - Approaches to Memory Management (Part 4) _>> stack memory, page tables (cont.), the TLB_{:.text-muted}
-[video](https://zoom.us/rec/share/DCIs62_2uvG-7Rtr1SFLqaTd0OKGRbJpZK5khP8DNSvOYb9OfL2rj2-AwrRQjmtL.GfwceRkcNLgkNlu9){:.video}
+- [video](https://zoom.us/rec/share/DCIs62_2uvG-7Rtr1SFLqaTd0OKGRbJpZK5khP8DNSvOYb9OfL2rj2-AwrRQjmtL.GfwceRkcNLgkNlu9){:.video}
 [slides](files/cs460-07-memory-p4.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
@@ -591,7 +590,7 @@ Discussing the revised project format + PA3
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - Approaches to Memory Management (Part 5) _>> switching processes, syscalls revisited_{:.text-muted}
-[video](https://zoom.us/rec/share/jli8pVS1KJclsO0c4EQ-Y1Ug1gItxz8EGk7oxxi43vE9o3HN49Y9nmfhBx8AJBVN.Tn-fOBMJIi6lFJed){:.video}
+- [video](https://zoom.us/rec/share/jli8pVS1KJclsO0c4EQ-Y1Ug1gItxz8EGk7oxxi43vE9o3HN49Y9nmfhBx8AJBVN.Tn-fOBMJIi6lFJed){:.video}
 [slides](files/cs460-07-memory-p5.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
@@ -625,7 +624,7 @@ Discussing the revised project format + PA3
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - Approaches to Memory Management (Part 6) _>> variations, paging to disk_{:.text-muted}
-<!-- [video](){:.video} -->
+<!-- - [video](){:.video} -->
 <!-- [slides](files/cs460-07-memory-p6.pdf){:.slides} -->
 </td>
 <!-- Assignments & Reading Here -->
@@ -640,7 +639,7 @@ Discussing the revised project format + PA3
 <td markdown="span" markdown="1">
 - Scheduling (Part 1)
   <!-- _>> ..._{:.text-muted} -->
-<!-- [video](){:.video} -->
+<!-- - [video](){:.video} -->
 <!-- [slides](files/cs460-07-memory-p6.pdf){:.slides} -->
 </td>
 <!-- Assignments & Reading Here -->
@@ -652,9 +651,9 @@ Discussing the revised project format + PA3
 <td markdown="span">10/23/2020 (F)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- Scheduling (Part 2) 
+- Scheduling (Part 2)
 <!-- _>> ..._{:.text-muted} -->
-<!-- [video](){:.video} -->
+<!-- - [video](){:.video} -->
 <!-- [slides](files/cs460-07-memory-p6.pdf){:.slides} -->
 </td>
 <!-- Assignments & Reading Here -->
