@@ -18,7 +18,6 @@ help:
 .PHONY: local # run a local jekyll server
 local:
 	@jekyll serve --port 4460 --livereload-port 35460 &
-	# @jekyll serve &
 
 .PHONY: show # show any running jekyll servers
 show:
