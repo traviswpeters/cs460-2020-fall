@@ -13,3 +13,4 @@ files/SLIDES
 # don't ignore some specific files (e.g., for easy distribution)
 !pa1_release.tar.gz
 !pa2_release.tar.gz
+admin
