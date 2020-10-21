@@ -638,10 +638,9 @@ If you have any questions, please contact me.
 <td markdown="span">10/21/2020 (W)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- Scheduling (Part 1)
-  <!-- _>> ..._{:.text-muted} -->
-<!-- - [video](){:.video} -->
-<!-- [slides](files/cs460-08-scheduling-p1.pdf){:.slides} -->
+- Scheduling (Part 1) _>> basics of scheduling, scheduling algorithms_{:.text-muted}
+- [video](https://zoom.us/rec/share/SqdJSwLZLMeMUecRPWiGs-JcuIdNACFmDuNNBZ30Sc8URocFwM4EhtiGdJatSisn.EOh_A9gSWIl8rcKe){:.video}
+[slides](files/cs460-08-scheduling-p1.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
@@ -652,10 +651,9 @@ If you have any questions, please contact me.
 <td markdown="span">10/23/2020 (F)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- Scheduling (Part 2)
-<!-- _>> ..._{:.text-muted} -->
+- Scheduling (Part 2) _>> scheduling algorithms (cont.)_{:.text-muted}
 <!-- - [video](){:.video} -->
-<!-- [slides](files/cs460-07-memory-p6.pdf){:.slides} -->
+<!-- [slides](files/cs460-08-scheduling-p2.pdf){:.slides} -->
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span">
