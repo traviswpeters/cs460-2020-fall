@@ -614,7 +614,8 @@ If you have any questions, please contact me.
 <td markdown="span" class="note">Scheduling</td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
-<!-- - **Read:** Chapters ... -->
+- **Read:** Chapter 9 (9.1-9.4).
+  <!-- Chapter 10 (10.1-10.5) -->
 </td>
 </tr>
 
@@ -640,7 +641,7 @@ If you have any questions, please contact me.
 - Scheduling (Part 1)
   <!-- _>> ..._{:.text-muted} -->
 <!-- - [video](){:.video} -->
-<!-- [slides](files/cs460-07-memory-p6.pdf){:.slides} -->
+<!-- [slides](files/cs460-08-scheduling-p1.pdf){:.slides} -->
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
