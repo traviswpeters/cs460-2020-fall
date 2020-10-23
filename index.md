@@ -652,8 +652,8 @@ If you have any questions, please contact me.
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - Scheduling (Part 2) _>> scheduling algorithms (cont.)_{:.text-muted}
-<!-- - [video](){:.video} -->
-<!-- [slides](files/cs460-08-scheduling-p2.pdf){:.slides} -->
+- [video](https://zoom.us/rec/share/y6TPU7_oqPvtU2IiL-yOrTBih-7qJLn-O9OZGubXElExHBrXo7ziXQkqyqGa2eX1.OLdIYm97Np4E6-Si){:.video}
+[slides](files/cs460-08-scheduling-p2.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span">
