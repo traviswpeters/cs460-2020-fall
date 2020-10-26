@@ -1,5 +1,7 @@
 baseurl: /cs460-2020-fall
 livereload: true
+exclude:
+- admin/
 
 mathjax: true
 defaults:

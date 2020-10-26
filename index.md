@@ -674,10 +674,10 @@ If you have any questions, please contact me.
 <tr>
 <td id="week11" markdown="span">Week 11</td>
 <!-- Week Title Here -->
-<td markdown="span" class="note">File Systems & I/O</td>
+<td markdown="span" class="note">I/O, Files, & File Systems</td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
-<!-- - **Read:** Chapters ... -->
+- **Read:** Chapter 11.1-11.5 (11.6-11.9), 12.1-12.9
 </td>
 </tr>
 
@@ -686,6 +686,9 @@ If you have any questions, please contact me.
 <td markdown="span">10/26/2020 (M)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
+- An Overview of the OS and I/O
+- [video](https://zoom.us/rec/share/Zfi9OFGRkPtjDTalFZBWb7eLSk5Fr7I0EakdYUUMxNzlKPDcZg79yUJSplKFy0Nw.j4vDXZ63p763qlfy){:.video}
+[slides](files/cs460-09-files-IO-p1.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
@@ -697,6 +700,8 @@ If you have any questions, please contact me.
 <td markdown="span">10/28/2020 (W)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
+<!-- - [video](){:.video} -->
+<!-- [slides](files/cs460-09-files-IO-p2.pdf){:.slides} -->
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
@@ -707,6 +712,8 @@ If you have any questions, please contact me.
 <td markdown="span">10/30/2020 (F)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
+<!-- - [video](){:.video} -->
+<!-- [slides](files/cs460-09-files-IO-p3.pdf){:.slides} -->
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span">
@@ -718,6 +725,7 @@ If you have any questions, please contact me.
     <td colspan = "3" class="text-center" markdown="span">**Yalnix Checkpoint 4 Due: {{ site.data.settings.yalnix.cp4.duedate }}**</td>
 </tr>
  -->
+
 <!-- ========================================= Week 12 ========================================= -->
 
 <tr>
@@ -752,6 +760,7 @@ Recent Developments in OS,
 <td markdown="span" markdown="1">
 <!-- - _Special Topic: TBD_ -->
 <!-- - _Special Topic: How Yalnix Works (Travis Peters)_ -->
+OS Security (Part 1)
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
@@ -764,6 +773,7 @@ Recent Developments in OS,
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 <!-- - _Special Topic: Better concurrency with the Go programming language (Reese Pearsall)_ -->
+OS Security (Part 2)
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
@@ -775,9 +785,11 @@ Recent Developments in OS,
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 <!-- - _Special Topic: Addressing Crash Recovery With Persistent Memory Allocation. (Nick Stone)_ -->
+- What if we don't want to trust the OS?! _>> A look at SGX and Bluetooth security_
 </td>
 <!-- Assignments & Reading Here -->
-<td markdown="span">
+<td markdown="span" markdown="1">
+- [BASTION-SGX (HASP'18)](https://www.traviswpeters.com/papers/peters-hasp2018.pdf){:.slides}
 </td>
 </tr>
 <!--
