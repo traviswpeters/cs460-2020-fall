@@ -700,8 +700,9 @@ If you have any questions, please contact me.
 <td markdown="span">10/28/2020 (W)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-<!-- - [video](){:.video} -->
-<!-- [slides](files/cs460-09-files-IO-p2.pdf){:.slides} -->
+- I/O & Disk Scheduling
+- [video](https://zoom.us/rec/share/LqkziF8i3nHOrJuJmnWfFqgxGmYswYhpIdJpZ_NF_o9wxWqruXCXGv95PSr7xsWo.QN90Ade4JDxE9x81){:.video}
+[slides](files/cs460-09-files-IO-p2.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
