@@ -677,7 +677,7 @@ If you have any questions, please contact me.
 <td markdown="span" class="note">I/O, Files, & File Systems</td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
-- **Read:** Chapter 11.1-11.5 (11.6-11.9), 12.1-12.9
+- **Read:** Chapter 11.1-11.5 (11.6-11.9), (12.1-12.7) 12.8-12.9
 </td>
 </tr>
 
@@ -713,8 +713,9 @@ If you have any questions, please contact me.
 <td markdown="span">10/30/2020 (F)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-<!-- - [video](){:.video} -->
-<!-- [slides](files/cs460-09-files-IO-p3.pdf){:.slides} -->
+- Files & File Systems
+- [video](https://zoom.us/rec/share/Rz-Q5Dvs9Zwda0o6ku4jK-DahBqPXFGjqAwaZp6wu5hwf6_Lb0hHNU8NxmrSlcJZ.kdX6pNPba8KzLO9u){:.video}
+[slides](files/cs460-09-files-IO-p3.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span">
