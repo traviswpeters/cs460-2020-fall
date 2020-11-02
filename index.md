@@ -751,7 +751,7 @@ Recent Developments in OS,
 <!-- </td> -->
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
-<!-- - **Read:** Chapters ... -->
+- **Read:** Chapter 15.1-15.6
 </td>
 </tr>
 
@@ -762,7 +762,8 @@ Recent Developments in OS,
 <td markdown="span" markdown="1">
 <!-- - _Special Topic: TBD_ -->
 <!-- - _Special Topic: How Yalnix Works (Travis Peters)_ -->
-OS Security (Part 1)
+- _No Class - Class Canceled_
+<!-- OS Security (Part 1) -->
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
@@ -775,7 +776,7 @@ OS Security (Part 1)
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 <!-- - _Special Topic: Better concurrency with the Go programming language (Reese Pearsall)_ -->
-OS Security (Part 2)
+OS Security
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
