@@ -776,7 +776,10 @@ Recent Developments in OS,
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 <!-- - _Special Topic: Better concurrency with the Go programming language (Reese Pearsall)_ -->
-OS Security
+- OS Security (Part 1)
+- [video](https://zoom.us/rec/share/MXjKfMxqM70sLUJsEvefc9wriMr8kuvPCWgVGWvQ7_wLEDoeibN0d-oWuXzpAfQL._e-x0YE-cFpDBctW){:.video}
+[slides](files/cs460-10-security-p1.pdf){:.slides}
+[buffer overflow sequence](files/slides-security-buffer-overflow.pdf){:.slides}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
@@ -788,11 +791,14 @@ OS Security
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 <!-- - _Special Topic: Addressing Crash Recovery With Persistent Memory Allocation. (Nick Stone)_ -->
-- What if we don't want to trust the OS?! _>> A look at SGX and Bluetooth security_
+<!-- - What if we don't want to trust the OS?! _>> A look at SGX and Bluetooth security_ -->
+- OS Security (Part 2)
+<!-- - [video](){:.video} -->
+<!-- [slides](files/cs460-10-security-p2.pdf){:.slides} -->
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
-- [BASTION-SGX (HASP'18)](https://www.traviswpeters.com/papers/peters-hasp2018.pdf){:.slides}
+- Extras: [BASTION-SGX (HASP'18)](https://www.traviswpeters.com/papers/peters-hasp2018.pdf){:.slides}
 </td>
 </tr>
 <!--
@@ -910,7 +916,10 @@ OS Security
 <td markdown="span">11/20/2020 (F)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- Course Wrap-Up (Summary & Next Steps, Exam #2 Details, ...)
+- _Exam #2_
+<!-- _>> Released by 8am. Due by 11:59pm._{:.text-muted} -->
+<!-- - [coversheet](files/exam2-coversheet.pdf){:.pdf} << _Read me **before** the exam starts!_ -->
+<!-- - Course Wrap-Up (Summary & Next Steps) -->
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span">
@@ -935,9 +944,10 @@ OS Security
 <td markdown="span">11/23/2020 (M)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- _Exam #2_
-  <!-- _>> Released by 8am. Due by 11:59pm._{:.text-muted} -->
+<!-- - _Exam #2_ -->
+<!-- _>> Released by 8am. Due by 11:59pm._{:.text-muted} -->
 <!-- - [coversheet](files/exam2-coversheet.pdf){:.pdf} << _Read me **before** the exam starts!_ -->
+- Course Wrap-Up (Summary & Next Steps)
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
