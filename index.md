@@ -780,6 +780,7 @@ Recent Developments in OS,
 - [video](https://zoom.us/rec/share/MXjKfMxqM70sLUJsEvefc9wriMr8kuvPCWgVGWvQ7_wLEDoeibN0d-oWuXzpAfQL._e-x0YE-cFpDBctW){:.video}
 [slides](files/cs460-10-security-p1.pdf){:.slides}
 [buffer overflow sequence](files/slides-security-buffer-overflow.pdf){:.slides}
+- _>> Have you completed the [course evaluation](https://montana.campuslabs.com/eval-home/cei/csci/460/801)? If not, please do! :)_{:.text-muted}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
@@ -795,6 +796,7 @@ Recent Developments in OS,
 - OS Security (Part 2)
 <!-- - [video](){:.video} -->
 <!-- [slides](files/cs460-10-security-p2.pdf){:.slides} -->
+- _>> Have you completed the [course evaluation](https://montana.campuslabs.com/eval-home/cei/csci/460/801)? If not, please do! :)_{:.text-muted}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
@@ -824,6 +826,7 @@ Recent Developments in OS,
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - _No Class - Project Work Day_
+- _>> Have you completed the [course evaluation](https://montana.campuslabs.com/eval-home/cei/csci/460/801)? If not, please do! :)_{:.text-muted}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
@@ -836,6 +839,7 @@ Recent Developments in OS,
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - _No Class - Veteran's Day_
+- _>> Have you completed the [course evaluation](https://montana.campuslabs.com/eval-home/cei/csci/460/801)? If not, please do! :)_{:.text-muted}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
@@ -847,6 +851,7 @@ Recent Developments in OS,
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - _No Class - Project Work Day_
+- _>> Have you completed the [course evaluation](https://montana.campuslabs.com/eval-home/cei/csci/460/801)? If not, please do! :)_{:.text-muted}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span">
@@ -884,6 +889,7 @@ Recent Developments in OS,
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - _Project Presentations & Evaluations_
+- _>> Have you completed the [course evaluation](https://montana.campuslabs.com/eval-home/cei/csci/460/801)? If not, please do! :)_{:.text-muted}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
@@ -896,6 +902,7 @@ Recent Developments in OS,
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - _Project Presentations & Evaluations_
+- _>> Have you completed the [course evaluation](https://montana.campuslabs.com/eval-home/cei/csci/460/801)? If not, please do! :)_{:.text-muted}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
