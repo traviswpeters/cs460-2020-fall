@@ -19,13 +19,10 @@ instructor: '<a target="_blank" href="https://www.traviswpeters.com/">Prof. Trav
 email: '<a target="_blank" href="mailto:travis.peters1@montana.edu?subject=CS 460 Help">travis.peters1@montana.edu</a>'
 office: '<a target="_blank" href="https://www.montana.edu/calendar/locations.php?building=342">NAH 253A</a>'
 officehours: '<a target="_blank" href="https://zoom.us/j/94923050762?pwd=bVhWZlFKc3JGRjRXUXd5Ri94QUtoUT09">(M) 10-11am, (W) 3-4pm, (F) 9-10am, and by appointment (via Zoom)</a>'
-# officehours: '<a target="_blank" href="https://montana.webex.com/meet/w52k448">(M) 10am-11am, (W) 3pm-4pm, (F) 9am-10am, and by appointment (via WebEx)</a>'
-# officephone: '<a target="_blank" href="tel:4069944296">406-994-4296</a>'
 
 ta: '<a target="_blank" href="https://reesep.github.io">Reese Pearsall</a>'
 taemail: '<a target="_blank" href="mailto:reese.pearsall@student.montana.edu?subject=CS 460 Help">reese.pearsall@student.montana.edu</a>'
 taoffice: '<a target="_blank" href="https://www.montana.edu/calendar/locations.php?building=342">NAH 253</a>'
-# taofficehours: 'TBD and by appointment.'
 taofficehours: '<a target="_blank" href="https://montana.webex.com/meet/b37k331">(W) 10am-11am, (Th) 11am-12pm, and by appointment (via WebEx)</a>'
 
 # Course-specific variables
@@ -42,14 +39,12 @@ url: https://www.traviswpeters.com/cs460-2020-fall/
 githuburl: https://github.com/traviswpeters/cs460-2020-fall/
 
 # COURSE LINKS
-# <i class="fas fa-external-link-alt"></i>
 questionnaire: '[Questionnaire](https://forms.gle/bEMav7XE9h5Nuybg7)'
 d2l: '[D2L](https://ecat.montana.edu/d2l/home/622131)'
 slack: '[Slack](https://join.slack.com/t/csci460-fa2020/shared_invite/zt-gop7i3kx-8ZwwdQYhyEILOGTSzT_uPA)'
-gradescope: '[Gradescope (code: 9RE7N4)](https://www.gradescope.com/courses/141029)'
+gradescope: '[Gradescope](https://www.gradescope.com/courses/141029)'
 ssclink: 'https://www.cs.montana.edu/student-success-center.html'
 codelink: 'https://github.com/traviswpeters/cs460-code'
-# zoomlink: 'https://zoom.us/meeting/register/tJYvc--rrzovGt1ohDQhvOV4DWPKvNptgipJ' # register first...
 zoomlink: 'https://zoom.us/j/92246311509?pwd=cW1lOWdHYi9MS1QwbkhROEh1QW1Edz09' # class; no need to register...
 zoomhelplink: 'https://zoom.us/j/94923050762?pwd=bVhWZlFKc3JGRjRXUXd5Ri94QUtoUT09' # "other"; no need to register...
 webexlink: 'https://montana.webex.com/meet/w52k448'
