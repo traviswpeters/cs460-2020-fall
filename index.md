@@ -888,7 +888,7 @@ Recent Developments in OS,
 <td markdown="span">11/16/2020 (M)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- _Project Presentations & Evaluations_
+- _No Class - Asynchronous Project Presentations & Evaluations_
 - _>> Have you completed the [course evaluation](https://montana.campuslabs.com/eval-home/cei/csci/460/801)? If not, please do! :)_{:.text-muted}
 </td>
 <!-- Assignments & Reading Here -->
@@ -901,7 +901,7 @@ Recent Developments in OS,
 <td markdown="span">11/18/2020 (W)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- _Project Presentations & Evaluations_
+- _No Class - Asynchronous Project Presentations & Evaluations_
 - _>> Have you completed the [course evaluation](https://montana.campuslabs.com/eval-home/cei/csci/460/801)? If not, please do! :)_{:.text-muted}
 </td>
 <!-- Assignments & Reading Here -->
