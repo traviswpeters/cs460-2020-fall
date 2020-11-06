@@ -779,7 +779,6 @@ Recent Developments in OS,
 - OS Security (Part 1)
 - [video](https://zoom.us/rec/share/MXjKfMxqM70sLUJsEvefc9wriMr8kuvPCWgVGWvQ7_wLEDoeibN0d-oWuXzpAfQL._e-x0YE-cFpDBctW){:.video}
 [slides](files/cs460-10-security-p1.pdf){:.slides}
-[buffer overflow sequence](files/slides-security-buffer-overflow.pdf){:.slides}
 - _>> Have you completed the [course evaluation](https://montana.campuslabs.com/eval-home/cei/csci/460/801)? If not, please do! :)_{:.text-muted}
 </td>
 <!-- Assignments & Reading Here -->
@@ -794,8 +793,9 @@ Recent Developments in OS,
 <!-- - _Special Topic: Addressing Crash Recovery With Persistent Memory Allocation. (Nick Stone)_ -->
 <!-- - What if we don't want to trust the OS?! _>> A look at SGX and Bluetooth security_ -->
 - OS Security (Part 2)
-<!-- - [video](){:.video} -->
-<!-- [slides](files/cs460-10-security-p2.pdf){:.slides} -->
+- [video](https://zoom.us/rec/share/zwV9LxbwU5mTUf7je_ZQCV9EHnDY_rmiXZAaoueBVeEnusFwrIRjaGU6MltdzjIN.qRhY7POjk8aOTmI8){:.video}
+[slides](files/cs460-10-security-p2.pdf){:.slides}
+[buffer overflow sequence](files/slides-security-buffer-overflow.pdf){:.slides}
 - _>> Have you completed the [course evaluation](https://montana.campuslabs.com/eval-home/cei/csci/460/801)? If not, please do! :)_{:.text-muted}
 </td>
 <!-- Assignments & Reading Here -->
