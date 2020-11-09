@@ -27,8 +27,8 @@ The ultimate objectives of this assignment are:
 * to give you an opportunity to weigh in on aspects of our course,
 * to give you opportunities to practice with some of the course tools we'll be using this semester.
 
-# PART I
-{:.text-center .pt-3 .pb-3}
+<!-- PART I -->
+<!-- {:.text-center .pt-3 .pb-3} -->
 
 ## Task 1: Complete the Course Questionnaire
 
@@ -272,8 +272,8 @@ sudo lshw -html > hardwareinfo.html
 
 
 
-# PART II
-{:.text-center .pt-3 .pb-3}
+<!-- PART II -->
+<!-- {:.text-center .pt-3 .pb-3} -->
 
 _If you haven't already, please follow the instructions detailed in the README for [**our course repo on GitHub**]({{site.data.settings.codelink}})._
 {:.text-center}
@@ -308,8 +308,8 @@ For example, [Clark Grubb's Makefile Style Guide](https://clarkgrubb.com/makefil
 
 
 
-# PART III
-{:.text-center .pt-3 .pb-3}
+<!-- PART III -->
+<!-- {:.text-center .pt-3 .pb-3} -->
 
 ## Task 6: Programming in C
 

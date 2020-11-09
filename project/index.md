@@ -159,7 +159,7 @@ Your final technical report should be well-written and address (at least) the fo
 
 **Along with your final technical report, your group should also submit any other relevant deliverables (e.g., code, documentation).**
 
-### 4. Evaluations
+### Evaluations
 {:.titletext}
 Due: {{ site.data.settings.project.due-evaluations }}
 {:.subtitletext}

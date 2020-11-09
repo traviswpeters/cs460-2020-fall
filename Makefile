@@ -36,6 +36,13 @@ slides:
 	@echo "\nSlides in 'files/' on website:"
 	@ls -alG $(SLIDESWEBSITE)/cs460*
 
+.PHONY: release # commit slides+links
+release: 
+	# git add .
+	git add *.md files/
+	git commit -m "Release course updates (slides, links, etc.)"
+	git push origin HEAD
+
 ######################################
 # Misc. Helpers
 # ~~> You can safely ignore these...

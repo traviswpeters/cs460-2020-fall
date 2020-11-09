@@ -57,14 +57,15 @@ reading: "files"
 solutions: "files"
 
 menu:
-- {name: 'About', url: '#about-the-course'}
-- {name: 'Logistics', url: '#logistics'}
+# - {name: 'About', url: '#about-the-course'}
+# - {name: 'Logistics', url: '#logistics'}
 - {name: 'Schedule', url: '#schedule'}
-- {name: 'Grading', url: '#grading'}
-- {name: 'FAQs', url: '#faqs'}
+# - {name: 'Grading', url: '#grading'}
+# - {name: 'FAQs', url: '#faqs'}
+- {name: 'Class (Zoom)', url: 'https://zoom.us/j/92246311509?pwd=cW1lOWdHYi9MS1QwbkhROEh1QW1Edz09', type: 'external'}
+- {name: 'Code (GitHub)', url: 'https://github.com/traviswpeters/cs460-code', type: 'external'}
 - {name: 'Assignments', url: '#assignments'}
 - {name: 'Project', url: 'project'}
-- {name: 'Code', url: 'https://github.com/traviswpeters/cs460-code'}
 - {name: 'Resources', url: 'resources'}
 # - {name: 'COVID-19 Info', url: 'covid19'}
 

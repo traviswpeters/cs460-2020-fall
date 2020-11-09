@@ -1222,8 +1222,16 @@ This is a collection of general FAQs related to our course. I will update this s
 > Even though classes will be run (mostly) synchronously, all of the course materials (e.g., slides, links to recordings) will be linked from this website.
 > Furthermore, we will use Slack inside and outside class to facilitate conversations, make announcements, and so forth.
 
+###### Q: How will office hours be run?
+> Office hours will likely follow a similar format  as class (though they will not be recorded).
+
 ###### Q: How can I get help in this class?
 
+> Knowing the proper way to ask for help is a vital skill.
+> Generally, people are more willing and able to help you when you are clear and concise in your communication.
+> I encourage you to practice this skill in our class!
+
+> One of the best ways to get help is to participate in office hours.
 > You are _**always**_ welcome to come to my office hours and/or TA office hours as often as you like.
 To get the most out of office hours, you might like reading [How To Ask Questions The Smart Way, by Eric Steven Raymond](http://www.catb.org/esr/faqs/smart-questions.html).
 Please note  that I won't merely provide answers to assignments.
@@ -1231,9 +1239,9 @@ I believe in the [Socratic method](https://en.wikipedia.org/wiki/Socratic_method
   and often [answer students' questions with questions](https://www.philsimon.com/blog/higher-education/analytics-students/).
 All of this is to say: come ready to chat :-)
 
-> **Some additional tips:**
-- Start by posting conceptual questions to public channels in our Slack workspace. <br/> _>> You are more likely to get a fast response..._
-- When you need to discuss code, send a DM on Slack to Travis and/or Reese. <br/> _>> Be as specific as possible about what you’ve tried and what seems to be the problem._
+> **Some tips for asking for help:**
+- Start by posting conceptual questions to public channels in our Slack workspace. <br/> _>> You are more likely to get a fast response than you are if you send a message to one specific person._
+- When you need to discuss code, send a DM on Slack to Travis and/or Reese. <br/> _>> Be as specific as possible about (1) what you are trying to accomplish, (2) what you’ve already tried, and (3) what you think the problem could be._
 - Regularly push code to GitHub. <br/> _>> This enables Travis and Reese to review your code and be more equipped to help._
 - Have your Makefile put together ASAP. <br/> _>> This helps you and Travis/Reese easily build your code in a consistent way._
 - Make sure your code is commented and formatted consistently. <br/> _>> Anything you can do to help YOU and Travis/Reese navigate your code, makes us all more effective in troubleshooting issues!_
@@ -1279,9 +1287,6 @@ All of this is to say: come ready to chat :-)
 >  Thus, if you prefer to not attend in-person learning opportunities, or even if you do not return to Bozeman for the semester, you can still (virtually) attend classes and participate in this course.
 
 {% endcomment %}
-
-###### Q: How will office hours be run?
-> Office hours will likely follow a similar format  as class (though they will not be recorded).
 
 ###### Q: What happens if the online stream for class disconnects/drops?
 > An unfortunate reality is that these technologies may fail us at times.
