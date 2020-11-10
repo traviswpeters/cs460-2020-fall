@@ -5,24 +5,24 @@
 
 <body data-spy="scroll" data-target="#toc">
 
-<div class="container-fluid col-sm-11">
+<div class="container-fluid col-sm-11 p-4 mb-4">
 <div class="row flex-xl-nowrap m-0">
 
-<!-- <div class="d-none d-md-block d-xl-block col-xl-2"> -->
-<!-- <div class="d-none d-xl-block col-xl-2"> -->
 <div class="d-none d-xl-block col-xl-2">
 </div>
 
-<div class="col-12 col-md-12 col-xl-8 bg-white rounded shadow">
-<!-- <div class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bg-white rounded shadow"> -->
-<!-- <div class="container-xl rounded shadow-lg p-4 mb-4 bg-white"> -->
+<div class="col-12 col-md-12 col-xl-8 bg-white rounded shadow-lg">
 {% include header.html %}
 {{ content }}
 {% include footer.html %}
 </div>
 
 <div class="d-none d-xl-block col-xl-2">
+    {% if page.disableNav %}
+    <!-- no interactive nav bar -->
+    {% else %}
     <nav id="toc" data-toggle="toc" class="sticky-top"></nav>
+    {% endif %}
 </div>
 
 </div>
