@@ -128,6 +128,7 @@ Some other useful details:
 - Regardless of video recording platform, the video must be made to be "viewable by anyone with a link."
 - Project presentations are due at the end of week 13. I will share links to video presentations shortly after they are due.
 - Presentations shall be **no more than 10 minutes**.
+- If your presentation includes slides (it probably should!), you must submit a PDF version of your slides named `slides.pdf`
 - Each student is required to submit three (3) peer evaluations of other student projects/presentations.
 
 > **NOTE:** I will announce the scheme for matching individuals to projects they should evaluate soon.
@@ -136,7 +137,6 @@ Some other useful details:
 {:.titletext}
 Due: {{ site.data.settings.project.due-final }}
 {:.subtitletext}
-
 
 All teams must submit a final technical report detailing your project.
 
