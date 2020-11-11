@@ -91,32 +91,34 @@ Your team will need to:
 Each member of the team will also submit a _division of labor evaluation_.
 This evaluation is intended to be a summary of the contributions you and each of your team members made to the project.
  -->
-### Project Proposal
+### Proposal
 {:.titletext}
 Due: {{ site.data.settings.project.due-proposal }}
-{:.subtitletext}
+{:.subtitletext .text-danger}
 
-Your group must submit a 1-page proposal about your project to get your project "approved".
+Each group must submit a 1-page project proposal to get your project "approved".
 
-The proposal document you submit must be a PDF named `proposal.pdf`.
+The proposal document you submit must be a PDF named `proposal.pdf`{:.text-danger}.
 
-Please ensure that you include the following information:
+This proposal should be well-written and contain appropriately named sections that (briefly) address (at least) the following items:
 
-- A formal project title
-- The first name, last name, and NetID of each of the members of your group
-
-Your proposal should be well-written and contain appropriately named sections that (briefly) address the following items:
-
-- An **overview** of your proposed project and **deliverables** ("Proposed Work")
-- A rough **schedule** for when various aspects of the project will be completed ("Timeline")
-- Your plan for **division of labor** within the group ("Division of Labor")
+- **Title & Author Information**  
+  - A formal project title
+  - The first name, last name, and NetID of each of the members of your group
+- **Proposed Work**  
+_>> An overview of your proposed project and deliverables_{:.text-muted}
+- **Timeline**  
+_>> A rough schedule for when various aspects of the project will be completed. I encourage you to be as specific as possible!_{:.text-muted}
+- **Division of Labor**  
+_>> Your plan for division of labor within the group_{:.text-muted}
 
 ### Final Presentation
 {:.titletext}
 Due: {{ site.data.settings.project.due-presentation }}
-{:.subtitletext}
+{:.subtitletext .text-danger}
 
-All groups will submit a link to a recorded presentation.
+Each group must submit a link to a recorded presentation and a copy of their slides (as a PDF named `slides.pdf`{:.text-danger}).
+
 The emphasis of your presentation depends on your project focus.
 
 - **Research Track** projects will present an overview of their exploration and findings.
@@ -128,36 +130,39 @@ Some other useful details:
 - Regardless of video recording platform, the video must be made to be "viewable by anyone with a link."
 - Project presentations are due at the end of week 13. I will share links to video presentations shortly after they are due.
 - Presentations shall be **no more than 10 minutes**.
-- If your presentation includes slides (it probably should!), you must submit a PDF version of your slides named `slides.pdf`
+- If your presentation includes slides (it probably should!), you _must_ submit a PDF version of your slides.
 - Each student is required to submit three (3) peer evaluations of other student projects/presentations.
 
 > **NOTE:** I will announce the scheme for matching individuals to projects they should evaluate soon.
 
-### Final Submission
+### Final Report & Submission
 {:.titletext}
 Due: {{ site.data.settings.project.due-final }}
-{:.subtitletext}
+{:.subtitletext .text-danger}
 
-All teams must submit a final technical report detailing your project.
+Each group must submit a final technical report detailing their project.
+Along with the final technical report, each group should also submit any other relevant deliverables (e.g., code, documentation).
+_In the final assessment, there is more emphasis on the final technical report if your primary deliverable is a technical report (i.e., Research Track projects)._
 
-_There is more emphasis on the final technical report if your primary deliverable is a technical report (i.e., Research Track projects)._
+The final technical report you submit must be a PDF named `final.pdf`{:.text-danger}.
 
-The final technical report you submit must be a PDF named `final.pdf`
+This report should be well-written and address (at least) the following items:
 
-Please ensure that you include the following information:
-
-- A formal project title
-- The first name, last name, and NetID of each of the members of your group
-
-Your final technical report should be well-written and address (at least) the following items:
-
-- An introduction to the project and what you proposed to do ("Introduction")
-- Any necessary background (concepts, related projects and literature, etc.) that are necessary to understand your project ("Background & Related Work")
-- A description of what you actually accomplished (NOTE: The name for this section(s) will vary depending on your project)
-- A summary of the lessons learned ("Lessons Learned")
-- A formal section listing related projects and literature ("References")
-
-**Along with your final technical report, your group should also submit any other relevant deliverables (e.g., code, documentation).**
+- **Title & Author Information**  
+  - A formal project title
+  - The first name, last name, and NetID of each of the members of your group
+- **Introduction**  
+_>> An introduction to the project and what you proposed to do_{:.text-muted}
+- **Background & Related Work**  
+_>> Any necessary background (concepts, related projects and literature, etc.) that are necessary to understand your project_{:.text-muted}
+- **System / Approach / Methods / Results / Etc.**  
+_>> A description of your work and what you actually accomplished (the name for this section(s) will vary depending on your project)_{:.text-muted}
+- **Discussion / Lessons Learned**  
+_>> A summary of the lessons learned_{:.text-muted}
+- **Conclusion & Future Work**  
+_>> A summary of your work and a discussion of future directions_{:.text-muted}
+- **References**  
+_>> A formal section listing related projects and literature_{:.text-muted}
 
 ### Evaluations
 {:.titletext}
@@ -165,19 +170,18 @@ Due: {{ site.data.settings.project.due-evaluations }}
 {:.subtitletext}
 
 As part of the project experience in this course, you will complete various evaluations.
-- Presentation Evaluations (3) _>> Every individual in the course will evaluate 3 other group projects/presentations._{:.text-muted}
-- Team Member Evaluations (2-3) _>> Every individual will evaluate the members of their team and their respective contributions to the project._{:.text-muted}
-- Self Evaluation (1) _>> Every individual will evaluate themselves and their own contributions to the project._{:.text-muted}
+- **Presentation Evaluations (3)**  
+_>> Every individual in the course will evaluate 3 other group projects/presentations._{:.text-muted}
+- **Team Member Evaluations (1-3)**  
+_>> Every individual will evaluate the members of their team and their respective contributions to the project._{:.text-muted}
+- **Self Evaluation (1)**  
+_>> Every individual will evaluate themselves and their own contributions to the project._{:.text-muted}
 > Regarding the project, all members of a team will receive the same grade for the proposal, presentation, and final submission (80% of the project grade).
 Students will, however, receive individual grades for the completion of their various evaluations (20% of the project grade).
 Based on feedback from the team evaluations (e.g., poor communication, insignificant contributions), we reserve the right to apply penalties to the grades of specific individuals.
 
 ## Project Rubric
 
-_Rubric coming soon..._
+<!-- _Rubric coming soon..._ -->
 
-<!--
-You can view the final project rubric in
-  [Google Sheets]({{site.data.settings.project.rubric}}){:.alert-link}, or as a
-  [PDF]({{site.data.settings.project.rubricpdf}}){:.alert-link}.
--->
+You can view the final project rubric here: [Fall 2020 - Final Project Rubric (PDF)]({{site.baseurl}}/{{site.data.settings.project.rubricpdf}}){:.alert-link}.
