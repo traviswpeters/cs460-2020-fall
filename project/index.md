@@ -167,14 +167,14 @@ _>> A formal section listing related projects and literature_{:.text-muted}
 ### Evaluations
 {:.titletext}
 Due: {{ site.data.settings.project.due-evaluations }}
-{:.subtitletext}
+{:.subtitletext .text-danger}
 
 As part of the project experience in this course, you will complete various evaluations.
-- **Presentation Evaluations (3)**  
+- **Presentation Evaluations (3)** [&#8594; Peer Presentation Evaluation (Google Form)]({{site.data.settings.project.presentation-eval-link}})  
 _>> Every individual in the course will evaluate 3 other group projects/presentations._{:.text-muted}
-- **Team Member Evaluations (1-3)**  
+- **Team Member Evaluations (1-3)** [&#8594; Team Member Evaluation (Google Form)]({{site.data.settings.project.team-eval-link}})  
 _>> Every individual will evaluate the members of their team and their respective contributions to the project._{:.text-muted}
-- **Self Evaluation (1)**  
+- **Self Evaluation (1)** [&#8594; Self Evaluation (Google Form)]({{site.data.settings.project.self-eval-link}})  
 _>> Every individual will evaluate themselves and their own contributions to the project._{:.text-muted}
 > Regarding the project, all members of a team will receive the same grade for the proposal, presentation, and final submission (80% of the project grade).
 Students will, however, receive individual grades for the completion of their various evaluations (20% of the project grade).

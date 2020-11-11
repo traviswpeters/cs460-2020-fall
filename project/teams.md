@@ -84,9 +84,19 @@ teams:
   presentation:
 ---
 
-# Final Project: Teams & Presentations
+# Final Project!
 
 <div markdown="1">
+### Quick Links
+[Fall 2020 - Final Project Rubric (PDF)]({{site.baseurl}}/{{site.data.settings.project.rubricpdf}}){:.alert-link}  
+[Peer Presentation Evaluation (Google Form)]({{site.data.settings.project.presentation-eval-link}})  
+[Team Member Evaluation (Google Form)]({{site.data.settings.project.team-eval-link}})  
+[Self Evaluation (Google Form)]({{site.data.settings.project.self-eval-link}})  
+</div>
+{:.text-center .p-2}
+
+<div markdown="1">
+### Teams & Presentations
 {% assign sorted = page.teams | sort: 'id' %}
 {% for team in sorted %}
 {% capture teamprefix %}{{ site.baseurl }}/project/files/{{team.id}}{% endcapture %}

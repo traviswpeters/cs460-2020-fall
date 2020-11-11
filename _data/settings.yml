@@ -108,6 +108,9 @@ project:
   # signuplink: 'https://docs.google.com/spreadsheets/d/1uMk0pcho_B2v8_7t_E3S-IpsdUfhjBKsT5XdBcfPOBI/edit?usp=sharing'
   # attendance: 'https://docs.google.com/spreadsheets/d/1ViB-YF5SGXbf1jsXAIPJ-kK7-b3QskZJt4G-cYMuH9s/edit?usp=sharing'
   # rubriclink: 'https://docs.google.com/spreadsheets/d/1-i5t_Pu6qY2crSkh_R75qNOcRqQeNVmiTlRtsDGFDd0/edit?usp=sharing'
+  self-eval-link: https://forms.gle/7qJXFSuyrqRpgtCP7
+  team-eval-link: https://forms.gle/FCfyKYXMkXiJLBMj6
+  presentation-eval-link: https://forms.gle/xkrHeJQuvpmAJYFG7
 
 yalnix:
   link: 'yalnix'
