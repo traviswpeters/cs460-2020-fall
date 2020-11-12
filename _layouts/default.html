@@ -85,6 +85,15 @@ $(document).ready(function() {
         });
     });
 
+    // use javascript to detect all external links and add the target='_blank' attribute to them.
+    // -> thanks, https://code.luasoftware.com/tutorials/hugo/how-to-create-link-with-target-blanks-in-hugo-markdown/
+    var links = document.getElementsByTagName("a");
+    for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+        if (links[i].hostname != window.location.hostname) {
+            links[i].target = '_blank';
+        }
+    }
+
 });
 </script>
 

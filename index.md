@@ -1188,10 +1188,10 @@ please let me know as soon as possible so that we can make other arrangements.
 ## Accommodations for Disabilities
 
 If you are a student with a disability and wish to use your approved accommodations for this course,
-I encourage you to reach out to me and the [Office of Disability Services (ODS)](www.montana.edu/disabilityservices) as soon as possible.
+I encourage you to reach out to me and the [Office of Disability Services (ODS)](https://www.montana.edu/disabilityservices/) as soon as possible.
 Please have your Accommodation Notification or Blue Card available for verification of accommodations.
 Accommodations are approved through the Office of Disability Services located in SUB 174.
-For more information, please see: [www.montana.edu/disabilityservices](www.montana.edu/disabilityservices).
+For more information, please see: [www.montana.edu/disabilityservices](https://www.montana.edu/disabilityservices/).
 <!-- If you have a need for accommodations on exams, please see information on the [MSU's Testing Services website](http://www.montana.edu/testing/). -->
 
 ## Academic Honesty

@@ -88,10 +88,10 @@ teams:
 
 <div markdown="1">
 ### Quick Links
-[Fall 2020 - Final Project Rubric (PDF)]({{site.baseurl}}/{{site.data.settings.project.rubricpdf}}){:.alert-link}  
-[Peer Presentation Evaluation (Google Form)]({{site.data.settings.project.presentation-eval-link}})  
-[Team Member Evaluation (Google Form)]({{site.data.settings.project.team-eval-link}})  
-[Self Evaluation (Google Form)]({{site.data.settings.project.self-eval-link}})  
+[Fall 2020 - Final Project Rubric (PDF)]({{site.baseurl}}/{{site.data.settings.project.rubricpdf}}){:.alert-link target="_blank"}  
+[Peer Presentation Evaluation (Google Form)]({{site.data.settings.project.presentation-eval-link}}){:target="_blank"}  
+[Team Member Evaluation (Google Form)]({{site.data.settings.project.team-eval-link}}){:target="_blank"}  
+[Self Evaluation (Google Form)]({{site.data.settings.project.self-eval-link}}){:target="_blank"}  
 </div>
 {:.text-center .p-2}
 
@@ -99,15 +99,15 @@ teams:
 ### Teams & Presentations
 {% assign sorted = page.teams | sort: 'id' %}
 {% for team in sorted %}
-{% capture teamprefix %}{{ site.baseurl }}/project/files/{{team.id}}{% endcapture %}
+{% capture teamprefix %}{{site.baseurl}}/project/files/{{team.id}}{% endcapture %}
 ###### {{team.title}}
 {:.pt-2}
 {{team.members}} <br/>
-[proposal]({{teamprefix}}-proposal.pdf){:.pdf} /
-[final report]({{teamprefix}}-final.pdf){:.pdf} /
-[slides]({{teamprefix}}-slides.pdf){:.pdf} /
-[presentation]({{team.presentation}}){:.video} /
-[github]({{team.github}}){:.code}
+[proposal]({{teamprefix}}-proposal.pdf){:.pdf target="_blank"} /
+[final report]({{teamprefix}}-final.pdf){:.pdf target="_blank"} /
+[slides]({{teamprefix}}-slides.pdf){:.pdf target="_blank"} /
+[presentation]({{team.presentation}}){:.video target="_blank"} /
+[github]({{team.github}}){:.code target="_blank"}
 {% endfor %}
 </div>
 {:.text-center}
