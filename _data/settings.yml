@@ -98,6 +98,7 @@ groupassignments:
 project:
   link: 'project'
   yalnixlink: 'yalnix'
+  yalnixspec: 'yalnix/yalnix2020.pdf'
   teamslink: 'https://docs.google.com/spreadsheets/d/10l4tUyOCdWaOeW11HN7hy0Ps4-jy9oC9iaI3rFyZlgg/edit#gid=0'
   presentationslink: 'project/teams.html'
   rubricpdf:  'project/rubric.pdf'
