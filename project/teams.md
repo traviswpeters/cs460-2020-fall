@@ -56,7 +56,7 @@ teams:
   members: "Rainey Anson, Hongchuan Wang, Skylar Tamke"
   github: https://github.com/rocky1991/CSCI460_final_project.git
   presentation:
-  award: 
+  award:
 - id: team10
   title: "OS Security - Heap Overflow Attacks (Research Track)"
   members: "Tysen Radovich, Allen Simpson, Arash Ajam, Spencer Lawry"
@@ -97,7 +97,7 @@ teams:
   title: "Why Should We Move to Serverless? (Research Track)"
   members: "Saidur Rahman, Jerad Hoy"
   github: https://github.com/jeradhoy/csci-460-Yalnix
-  presentation:
+  presentation: https://montana.techsmithrelay.com/Icn3
   award:
 ---
 
