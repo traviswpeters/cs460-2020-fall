@@ -3,12 +3,12 @@ layout: default
 disableNav: True
 teams:
 - id: team01
-  title: "MalOS: An in-depth study on how malware attacks an OS (Research Track)"
+  title: "Exploiting a Vulnerability to Deepen Our Knowledge of an OS (Research Track)"
   members: "Arnold Smithson, Teyler Halama, Justin Guerrero, Jada Bryant"
   github: https://github.com/Teyler7/csci-460-yalnix
-  presentation:
+  presentation: https://montana.techsmithrelay.com/cUII
   award:
-  verified: false
+  verified: true
 - id: team02
   title: "PRNGs in Linux (Research Track)"
   members: "Zane Goldhahn, Garrett Perkins, Ethan Fison, John Dolph"
@@ -17,7 +17,7 @@ teams:
   award:
   verified: false
 - id: team03
-  title: "Understanding Design Issues in Multiprocessor, Multicore, and Real-Time Scheduling on Linux (Research Track)"
+  title: "Understanding Design Issues in Multiprocessor, Multicore, <br/>and Real-Time Scheduling on Linux (Research Track)"
   members: "Logan Shy, John Hultman, Bridget Wermers, Hannah Cebulla"
   github: https://github.com/Logan-Shy/csci-460-yalnix
   presentation:
@@ -34,10 +34,9 @@ teams:
   title: "Yalnix OS (PoC Track)"
   members: "Austin Hull, Joseph Icopini, Christine Johnson, Wes Robbins"
   github: https://github.com/austin-hull09/csci460_yalnix
-  presentation:
-  award: 'best paper'
+  presentation: https://montana.techsmithrelay.com/Rgrc
   award:
-  verified: false
+  verified: true
 - id: team06
   title: "Containers: From the Ground Up (Research Track)"
   members: "Ryan Cummings, Maddi Tandberg, Ali Khaef, Tyler Ross"
@@ -56,7 +55,7 @@ teams:
   title: "OS Security - Exploit Demos (PoC Track)"
   members: "Micheal (Mic) Wetherbee, Emilia Bourgeois, Michael Utt, Cory Lagor"
   github: https://github.com/micmicmw/yalnixcsci460group8
-  presentation:
+  presentation: https://youtu.be/9xiXgXIFoOc
   award:
   verified: false
 - id: team09
@@ -109,7 +108,7 @@ teams:
   award:
   verified: false
 - id: team16
-  title: "Why Should We Move to Serverless? (Research Track)"
+  title: "Should We Move to Serverless? Advantages and Challenges (Research Track)"
   members: "Saidur Rahman, Jerad Hoy"
   github: https://github.com/jeradhoy/csci-460-Yalnix
   presentation: https://montana.techsmithrelay.com/Icn3
