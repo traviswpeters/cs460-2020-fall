@@ -13,16 +13,16 @@ teams:
   title: "PRNGs in Linux (Research Track)"
   members: "Zane Goldhahn, Garrett Perkins, Ethan Fison, John Dolph"
   github: https://github.com/ZaneGold/csci-460-yalnix
-  presentation:
+  presentation: https://youtu.be/ntLUAiyXJIQ
   award:
   verified: false
 - id: team03
   title: "Understanding Design Issues in Multiprocessor, Multicore, <br/>and Real-Time Scheduling on Linux (Research Track)"
   members: "Logan Shy, John Hultman, Bridget Wermers, Hannah Cebulla"
   github: https://github.com/Logan-Shy/csci-460-yalnix
-  presentation:
+  presentation: https://montana.techsmithrelay.com/LpWb
   award:
-  verified: false
+  verified: true
 - id: team04
   title: "Deep Dive into Scheduler Algorithms (PoC Track)"
   members: "Anthony Nardiello, Alex Sutherland, Dave Miller, Greg Martin"
@@ -80,19 +80,19 @@ teams:
   award:
   verified: false
 - id: team12
-  title: "OS Device Interactions (Research Track)"
+  title: "Interactions Between Devices and the Operating System (Research Track)"
   members: "Brady Cornett, Mason Dinardi, Chris Tompkins, Samuel Forbes"
   github: https://github.com/b-cornett/csci-460-group-project.git
-  presentation:
+  presentation: https://montana.techsmithrelay.com/G2yv
   award:
   verified: false
 - id: team13
   title: "Deep Dive into Linux Kernels and Performance Analysis (Research Track)"
   members: "Christian Marquardt, Michael Ressler, Khbindar Arumugam, Eric Kempf"
   github: https://github.com/mressler97/yalnix-team13
-  presentation:
+  presentation: https://montana.techsmithrelay.com/c4H2
   award:
-  verified: false
+  verified: true
 - id: team14
   title: "Making Scheduling Algorithms Interactive and Understandable (PoC Track)"
   members: "Kade Pitsch, Robert Jenko, Alex Ekstrom"
