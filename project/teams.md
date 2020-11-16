@@ -15,7 +15,7 @@ teams:
   github: https://github.com/ZaneGold/csci-460-yalnix
   presentation: https://youtu.be/ntLUAiyXJIQ
   award:
-  verified: false
+  verified: true
 - id: team03
   title: "Understanding Design Issues in Multiprocessor, Multicore, <br/>and Real-Time Scheduling on Linux (Research Track)"
   members: "Logan Shy, John Hultman, Bridget Wermers, Hannah Cebulla"
@@ -27,9 +27,9 @@ teams:
   title: "Deep Dive into Scheduler Algorithms (PoC Track)"
   members: "Anthony Nardiello, Alex Sutherland, Dave Miller, Greg Martin"
   github: https://github.com/nardielloam7451/csci-460-FinalProject
-  presentation:
+  presentation: https://youtu.be/iLbbbT2RVcY
   award:
-  verified: false
+  verified: true
 - id: team05
   title: "Yalnix OS (PoC Track)"
   members: "Austin Hull, Joseph Icopini, Christine Johnson, Wes Robbins"
@@ -52,40 +52,40 @@ teams:
   award:
   verified: true
 - id: team08
-  title: "OS Security - Exploit Demos (PoC Track)"
+  title: "Exploitations in Linux (PoC Track)"
   members: "Micheal (Mic) Wetherbee, Emilia Bourgeois, Michael Utt, Cory Lagor"
   github: https://github.com/micmicmw/yalnixcsci460group8
   presentation: https://youtu.be/9xiXgXIFoOc
   award:
-  verified: false
+  verified: true
 - id: team09
-  title: "Linux & FPGAs (PoC Track)"
+  title: "Performance Analysis of C/C++ on FPGA vs Microcontroller (PoC Track)"
   members: "Rainey Anson, Hongchuan Wang, Skylar Tamke"
   github: https://github.com/rocky1991/CSCI460_final_project.git
-  presentation:
+  presentation: https://montana.techsmithrelay.com/MbKr
   award:
-  verified: false
+  verified: true
 - id: team10
   title: "OS Security - Heap Overflow Attacks (Research Track)"
   members: "Tysen Radovich, Allen Simpson, Arash Ajam, Spencer Lawry"
   github: https://github.com/tyrado/yalmixteam10
-  presentation:
+  presentation: https://youtu.be/G_U8WKifJeM
   award:
-  verified: false
+  verified: true
 - id: team11
   title: "TempleOS: A Case Study (Research Track)"
   members: "Kevin Kleiman, Alexis Tingey, Ben Barnett, Jesse Arstein"
   github: https://github.com/kevinkleiman/csci-460-yalnix
-  presentation:
+  presentation: https://montana.techsmithrelay.com/bNDj
   award:
-  verified: false
+  verified: true
 - id: team12
   title: "Interactions Between Devices and the Operating System (Research Track)"
   members: "Brady Cornett, Mason Dinardi, Chris Tompkins, Samuel Forbes"
   github: https://github.com/b-cornett/csci-460-group-project.git
   presentation: https://montana.techsmithrelay.com/G2yv
   award:
-  verified: false
+  verified: true
 - id: team13
   title: "Deep Dive into Linux Kernels and Performance Analysis (Research Track)"
   members: "Christian Marquardt, Michael Ressler, Khbindar Arumugam, Eric Kempf"
@@ -94,19 +94,19 @@ teams:
   award:
   verified: true
 - id: team14
-  title: "Making Scheduling Algorithms Interactive and Understandable (PoC Track)"
+  title: "High Level CPU Scheduler: <br/>Making Scheduling Algorithms Interactive and Understandable (PoC Track)"
   members: "Kade Pitsch, Robert Jenko, Alex Ekstrom"
   github: https://github.com/KadeR-jpg/csci460-FinalProject
-  presentation:
+  presentation: https://montana.techsmithrelay.com/rD6L
   award:
-  verified: false
+  verified: true
 - id: team15
   title: "A History of Linux (Research Track)"
   members: "James Jacobs, Philip Gales, Brady Hatton"
   github: https://github.com/philipgales/csci-460-yalnix
-  presentation:
+  presentation: https://montana.techsmithrelay.com/pV8U
   award:
-  verified: false
+  verified: true
 - id: team16
   title: "Should We Move to Serverless? Advantages and Challenges (Research Track)"
   members: "Saidur Rahman, Jerad Hoy"
@@ -130,12 +130,12 @@ teams:
 
 <div markdown="1">
 ### Teams & Presentations
-{:.pb-4}
+{:.pb-2}
 {% assign sorted = page.teams | sort: 'id' %}
 {% for team in sorted %}
 {% capture teamprefix %}{{site.baseurl}}/project/files/{{team.id}}{% endcapture %}
 
-###### {{team.title}} {% if team.award -%}**>> {{team.award}}!**{: .pl-1 .text-success .font-italic .lead}{% endif %}
+##### {{team.title}} {% if team.award -%}**>> {{team.award}}!**{: .pl-1 .text-success .font-italic .lead}{% endif %}
 {:.pt-2}
 {{team.members}} _#{{team.id}}_{:.text-muted}<br/>
 [proposal]({{teamprefix}}-proposal.pdf){:.pdf target="_blank"} /
