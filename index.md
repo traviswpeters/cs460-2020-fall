@@ -930,9 +930,6 @@ Recent Developments in OS,
 <td markdown="span">11/23/2020 (M)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-<!-- - _Exam #2_ -->
-<!-- _>> Released by 8am. Due by 11:59pm._{:.text-muted} -->
-<!-- - [coversheet](files/exam2-coversheet.pdf){:.pdf} << _Read me **before** the exam starts!_ -->
 - Course Wrap-Up (Summary & Next Steps)
 </td>
 <!-- Assignments & Reading Here -->
