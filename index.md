@@ -931,6 +931,9 @@ Recent Developments in OS,
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
 - Course Wrap-Up (Summary & Next Steps)
+- [video](https://zoom.us/rec/share/BL84x2OTB2WfA81LZMTezRfgSJhaJMgE3PwRjmVCSc1FnmLMEDp_SUlQ6pKDmJU.v45C_-_WUQLiD3vw){:.video}
+[slides](files/cs460-11-course-wrap-up.pdf){:.slides}
+- _>> Have you completed the [course evaluation](https://montana.campuslabs.com/eval-home/cei/csci/460/801)? If not, please do! :)_{:.text-muted}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1">
@@ -942,7 +945,9 @@ Recent Developments in OS,
 <td markdown="span">11/25/2020 (W)</td>
 <!-- Topics & Lecture Details Here -->
 <td markdown="span" markdown="1">
-- _Exam #2 - Returned & Postmortem_
+- _No Class. No Office Hours._
+- ~~_Exam #2 - Returned & Postmortem_~~
+- _>> Have you completed the [course evaluation](https://montana.campuslabs.com/eval-home/cei/csci/460/801)? If not, please do! :)_{:.text-muted}
 </td>
 <!-- Assignments & Reading Here -->
 <td markdown="span" markdown="1"></td>
