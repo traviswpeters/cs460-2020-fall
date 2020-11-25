@@ -42,7 +42,7 @@ teams:
   members: "Ryan Cummings, Maddi Tandberg, Ali Khaef, Tyler Ross"
   github: https://github.com/RyanJCummings/Yalnix
   presentation: https://montana.techsmithrelay.com/lKoM
-  award:
+  award: Best Undergraduate Paper Award
   verified: true
 - id: team07
   title: "The VM Hypervisor (Research Track)"
@@ -98,7 +98,7 @@ teams:
   members: "Kade Pitsch, Robert Jenko, Alex Ekstrom"
   github: https://github.com/KadeR-jpg/csci460-FinalProject
   presentation: https://montana.techsmithrelay.com/rD6L
-  award:
+  award: Best Demo Award
   verified: true
 - id: team15
   title: "A History of Linux (Research Track)"
@@ -112,7 +112,7 @@ teams:
   members: "Saidur Rahman, Jerad Hoy"
   github: https://github.com/jeradhoy/csci-460-Yalnix
   presentation: https://montana.techsmithrelay.com/Icn3
-  award:
+  award: Best Graduate Paper Award
   verified: true
 ---
 
@@ -120,6 +120,7 @@ teams:
 
 <div markdown="1">
 ### Quick Links
+<!-- Most of these links have been disabled or made private following the conclusion of the course. -->
 [Team Info (Google Sheet)]({{site.data.settings.project.teamslink}}){:target="_blank"}  
 [Fall 2020 - Final Project Rubric (PDF)]({{site.baseurl}}/{{site.data.settings.project.rubricpdf}}){:.alert-link target="_blank"}  
 [Peer Presentation Evaluation (Google Form)]({{site.data.settings.project.presentation-eval-link}}){:target="_blank"}  
@@ -135,8 +136,9 @@ teams:
 {% for team in sorted %}
 {% capture teamprefix %}{{site.baseurl}}/project/files/{{team.id}}{% endcapture %}
 
-##### {{team.title}} {% if team.award -%}**>> {{team.award}}!**{: .pl-1 .text-success .font-italic .lead}{% endif %}
+##### {{team.title}}
 {:.pt-2}
+{% if team.award -%}**<i class="far fa-award"></i> {{team.award}}!**{: .pl-1 .text-success .font-weight-bolder .font-italic .lead}<br/>{% endif %}
 {{team.members}} _#{{team.id}}_{:.text-muted}<br/>
 [proposal]({{teamprefix}}-proposal.pdf){:.pdf target="_blank"} /
 [final report]({{teamprefix}}-final.pdf){:.pdf target="_blank"} /
@@ -145,11 +147,13 @@ teams:
 [github]({{team.github}}){:.code target="_blank"}
 {:.p-0 .m-0}
 
+{%comment%}
 {% if team.verified -%}
 _Final Submission Verified!_{:.text-success}
 {% else %}
 _Final Submission Not Verified_{:.text-danger}
 {% endif %}
+{%endcomment%}
 
 {% endfor %}
 </div>
